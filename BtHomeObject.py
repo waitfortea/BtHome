@@ -185,6 +185,8 @@ class Torrent:
                     print(e)
                     count+=1
                     print(f'重新获取{count}')
+                    if count>=5:
+                        self.domain=await DomainCheck()
                     asyncio.sleep(1)
             await session.close()
             await asyncio.sleep(3)
