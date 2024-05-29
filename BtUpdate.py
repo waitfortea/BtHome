@@ -41,7 +41,7 @@ class BtUpdate:
     async def update(self):
         print('------UPDATE START------')
         print('【清空未下载种子】')
-        path = PathProcessor.init(r'H:\app\bt-video\2024.1\动漫')
+        path = PathProcessor.init(r'H:\app\bt-video\2024.4\动漫')
         print(f'检测目录{path}')
         for dir in path.directDirs:
             torrent_List = dir.getFileListBySuffix(['.torrent'])

@@ -11,8 +11,8 @@ from Event import postEvent
 import aiohttp
 import re
 import DomainCheck
+from DomainCheck import proxy_aiohttp,proxy_request
 from ToolKits.GeneralStrategy import AsyncStrategy
-
 
 @dataclass
 class TorrentPage:
@@ -49,7 +49,7 @@ class TorrentPage:
         async with aiohttp.ClientSession() as session:
             while True and count<10:
                 try:
-                    htmlText = await RP.AsyncRequestsProcessor(self.url,session=session).text()
+                    htmlText = await RP.AsyncRequestsProcessor(self.url,session=session,proxy=proxy_aiohttp).text()
                     return htmlText
                 except Exception as e:
                     print(e)
@@ -88,7 +88,7 @@ class TorrentPage:
         while True:
             try:
                 self.url = re.sub('.*\.com', domain, self.url)
-                htmlText = RP.RequestsProcessor(self.url).text
+                htmlText = RP.RequestsProcessor(self.url,proxies=proxy_request).text()
                 return htmlText
             except:
                 domain = AsyncStrategy().execute(DomainCheck.domain_check())
@@ -167,7 +167,7 @@ class Torrent:
 
     @property
     def torrentContent(self):
-        torrentContent_Raw = RP.RequestsProcessor(self.domain + '/' + self.url).content
+        torrentContent_Raw = RP.RequestsProcessor(self.domain + '/' + self.url,proxies=proxy_request).content
         torrentContent = bencodepy.decode(torrentContent_Raw)
         return torrentContent
 
@@ -177,7 +177,7 @@ class Torrent:
         async with aiohttp.ClientSession() as session:
             while True and count<10:
                 try:
-                    async with session.get(self.domain + '/' + self.url) as res:
+                    async with session.get(self.domain + '/' + self.url,proxy=proxy_aiohttp) as res:
                         torrentContent_Raw = await res.content.read()
                         torrentContent = bencodepy.decode(torrentContent_Raw)
                         break

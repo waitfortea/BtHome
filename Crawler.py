@@ -14,6 +14,7 @@ from ToolKits.GeneralObject import StrProcessor
 import asyncio
 from ToolKits.GeneralStrategy import AsyncStrategy
 import DomainCheck
+from DomainCheck import proxy_aiohttp,proxy_request
 
 
 class Crawler(ABC):
@@ -44,7 +45,7 @@ class IndexCrawler(Crawler):
         while True:
            try:
                 url = domain + "/" + f"search-index-keyword-{quote(self.pather['keyWords'])}.htm"
-                htmlText = RP.RequestsProcessor(url).text
+                htmlText = RP.RequestsProcessor(url,proxies=proxy_request).text()
                 break
            except:
                domain=AsyncStrategy().execute(DomainCheck.domain_check())
@@ -120,12 +121,14 @@ class seasonalComicCrawl(AsyncCrawler):
 
         while True:
             try:
-                indexText_Pather = P.TextPather(htmlText=RP.RequestsProcessor(domain).text,
+                htmlText = RP.RequestsProcessor(domain, proxies=proxy_request).text()
+                indexText_Pather = P.TextPather(htmlText=htmlText,
                                                 xpath='//a[contains(@class,"subject_link") and contains(text(),"动漫")]')
                 JapanComicDom = P.DomParser(indexText_Pather).parse(P.ListElementStrategyByText())[0]
                 print(JapanComicDom.text)
                 break
-            except:
+            except Exception as e:
+                print(e)
                 domain = await DomainCheck.domain_check()
                 continue
         JapanComicUrl = JapanComicDom.attrib('href')
@@ -133,12 +136,13 @@ class seasonalComicCrawl(AsyncCrawler):
         while True:
             try:
                 seasonnalComicText_Pather = P.TextPather(
-                    htmlText=RP.RequestsProcessor(domain + '/' + JapanComicUrl).text,
+                    htmlText=RP.RequestsProcessor(domain + '/' + JapanComicUrl,proxies=proxy_request).text(),
                     xpath= \
                         "//strong[contains(text(),'番组放映表')]/../..")
                 break
-            except:
-                domain = await DomainCheck.domain_check(JapanComicUrl)
+            except Exception as e:
+                print(e)
+                domain = await DomainCheck.domain_check()
         seasonnalComicDom = P.DomParser(seasonnalComicText_Pather).parse(P.ListElementStrategyByText())[0]
         singalSeasonalDom_List = seasonnalComicDom.xpath(".//a")
 
@@ -163,7 +167,7 @@ class seasonalComicCrawl(AsyncCrawler):
             try:
                 singalSeasonalUrl = re.sub('http.*.com', domain, singalSeasonalDom.attrib('href'))
                 print(singalSeasonalDom.text + ':' + singalSeasonalUrl)
-                singalSeasonalText = await RP.AsyncRequestsProcessor(singalSeasonalUrl,session=session).text()
+                singalSeasonalText = await RP.AsyncRequestsProcessor(singalSeasonalUrl,session=session,proxy=proxy_aiohttp).text()
                 break
             except Exception as e:
                 print(e)
