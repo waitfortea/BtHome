@@ -1,31 +1,25 @@
 import asyncio
 from dataclasses import dataclass
+import aiohttp
 import ToolKits.RequestsProcess as RP
-import ToolKits.GeneralStrategy as GS
 import ToolKits.Parser as P
 import ToolKits.GeneralObject as GO
-import numpy as np
-import pandas as pd
-import bencodepy
-import aiohttp
-import re
 from ToolKits.GeneralStrategy import AsyncStrategy
-from typing import *
-from ToolKits.Proxy import ProxyProcessor
 from ToolKits.DataStructure import ListProcessor
 
 @dataclass
 class CGTorrentPage:
     keyWord: str
 
-    async def asyncHtmlText(self,page):
+    async def asyncHtmlText(self,page,session):
         headers = {
             'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.200',
         }
         params = {
             'keyword': self.keyWord,
         }
-        htmlText = await RP.AsyncRequestsProcessor(f'https://dmhy.org/topics/list/page/{page}', params=params, headers=headers,proxy=ProxyProcessor().asyncProxy).text()
+
+        htmlText = await RP.AsyncRequestsProcessor(f'https://dmhy.org/topics/list/page/{page}', session=session,params=params, headers=headers,proxy="http://127.0.0.1:10809").text()
         if '服务器遇到错误' in htmlText:
             return None
         else:
@@ -46,9 +40,10 @@ class CGTorrentPage:
 
 
     async def asyncSubTitleGroups(self):
-        async def getSubtitleGroupsByOnePage(self,page):
-            htmlText=await self.asyncHtmlText(page)
+        async def getSubtitleGroupsByOnePage(self,page,session):
+            htmlText=await self.asyncHtmlText(page,session)
             if not htmlText:
+                print("获取失败")
                 return
             else:
                 dom=P.DomParser(P.TextPather(htmlText=htmlText)).dom
@@ -63,9 +58,9 @@ class CGTorrentPage:
                                           subtitleGroup in subtileGroupElement_List]
                 magnet_List=[ element.xpath("./../..//a[contains( @ href, 'magnet')]")[0].attrib('href') for element in titleElement_List]
                 return title_List,subtitleGroupName_List,magnet_List
-
-        tasks = [asyncio.create_task(getSubtitleGroupsByOnePage(self,page+1)) for page in range(20)]
-        result_List=await asyncio.gather(*tasks)
+        async with aiohttp.ClientSession() as session:
+            tasks = [asyncio.create_task(getSubtitleGroupsByOnePage(self,page+1,session)) for page in range(20)]
+            result_List=await asyncio.gather(*tasks)
         title_List=[]
         subtitleGroupName_List=[]
         magnet_List =[]
