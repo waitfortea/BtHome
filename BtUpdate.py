@@ -1,6 +1,6 @@
 
 import re
-from ToolKits.Serialize import SerializeByPickle
+from ToolKits.SerializeProcessor import PickleProcessor
 from dataclasses import dataclass
 from ToolKits.FileProcess import PathProcessor
 import BtDownload
@@ -23,7 +23,7 @@ class BtSave:
     def save(self):
         serializationSavePath=rf'H:\app\bt-video\updateLog\{self.comicName}.txt'
 
-        SerializeByPickle(savePath=serializationSavePath,obj=self).save()
+        PickleProcessor(savePath=serializationSavePath,obj=self).save()
 
 
 class BtUpdate:
@@ -66,7 +66,7 @@ class BtUpdate:
         filePath_List = [rf'{parentDir}/{file}' for file in os.listdir(parentDir)]
         btSave_List=[]
         for file in [file for file in filePath_List if PP.isFile(file)]:
-            btSave = SerializeByPickle(savePath=PP.init(file).absolutePath).resotre()
+            btSave = PickleProcessor(savePath=PP.init(file).absolutePath).resotre()
             btSave_List.append(btSave)
         updataTasks=[asyncio.create_task(self.updateTask(btSave)) for btSave in btSave_List]
         results=await asyncio.gather(*updataTasks)

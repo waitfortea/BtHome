@@ -3,15 +3,13 @@ import ToolKits.RequestsProcess as RP
 import aiohttp
 import asyncio
 from ToolKits.GeneralStrategy import AsyncStrategy
-
+from ToolKits.SerializeProcessor import YamlProcessor
 proxy_aiohttp=None
 proxy_request=None
 
 async def domain_check(path=None):
 
-    with open('H:/app/bt-video/bt_domain.txt', 'r') as f:
-        domain_list = f.read().strip().split('\n')
-        f.close()
+    domain_list=YamlProcessor("./config/config.yaml").contentDict['domain_List']
 
     async with aiohttp.ClientSession() as session:
         # 根据条件循环注册任务
