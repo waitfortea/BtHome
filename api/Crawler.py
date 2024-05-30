@@ -12,7 +12,7 @@ from Event import postEvent
 import Listen
 from ToolKits.GeneralObject import StrProcessor
 import asyncio
-from ToolKits.GeneralStrategy import AsyncStrategy
+from ToolKits.Strategy.GeneralStrategy import AsyncStrategy
 import DomainCheck
 from DomainCheck import proxy_aiohttp,proxy_request
 

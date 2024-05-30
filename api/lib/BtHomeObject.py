@@ -1,7 +1,7 @@
 import asyncio
 from dataclasses import dataclass
 import ToolKits.RequestsProcess as RP
-import ToolKits.GeneralStrategy as GS
+import ToolKits.Strategy.GeneralStrategy as GS
 import ToolKits.Parser as P
 import ToolKits.GeneralObject as GO
 import numpy as np
@@ -12,7 +12,7 @@ import aiohttp
 import re
 import DomainCheck
 from DomainCheck import proxy_aiohttp,proxy_request
-from ToolKits.GeneralStrategy import AsyncStrategy
+from ToolKits.Strategy.GeneralStrategy import AsyncStrategy
 
 @dataclass
 class TorrentPage:

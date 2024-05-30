@@ -8,7 +8,7 @@ import ToolKits.Filter as FL
 import BtDownload as DL
 import Listen
 from Event import postEvent
-from ToolKits.GeneralStrategy import AsyncStrategy
+from ToolKits.Strategy.GeneralStrategy import AsyncStrategy
 
 import sys
 from PyQt5 import QtWidgets,uic,Qt,sip,QtCore

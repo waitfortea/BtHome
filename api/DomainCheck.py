@@ -2,7 +2,7 @@
 import ToolKits.RequestsProcess as RP
 import aiohttp
 import asyncio
-from ToolKits.GeneralStrategy import AsyncStrategy
+from ToolKits.Strategy.GeneralStrategy import AsyncStrategy
 from ToolKits.SerializeProcessor import YamlProcessor
 proxy_aiohttp=None
 proxy_request=None

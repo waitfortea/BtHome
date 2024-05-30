@@ -1,4 +1,4 @@
 [submodule "ToolKits"]
-	path = ToolKits
+	path = api/lib/ToolKits
 	url = git@github.com:waitfortea/ToolKits
 	branch = general

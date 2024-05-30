@@ -9,7 +9,7 @@ from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 from PyQt5 import QtWidgets,uic,Qt,sip,QtCore
-from  ToolKits.GeneralStrategy import AsyncStrategy
+from ToolKits.Strategy.GeneralStrategy import AsyncStrategy
 import random
 
 class SeasonalCrawlWorker(QObject):

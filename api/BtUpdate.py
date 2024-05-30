@@ -5,7 +5,7 @@ from dataclasses import dataclass
 from ToolKits.FileProcess import PathProcessor
 import BtDownload
 import BtHomeObject as BTO
-from ToolKits.GeneralStrategy import AsyncStrategy
+from ToolKits.Strategy.GeneralStrategy import AsyncStrategy
 import os
 from ToolKits.FileProcess import PathProcessor as PP
 import Listen
