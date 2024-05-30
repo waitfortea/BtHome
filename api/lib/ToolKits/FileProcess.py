@@ -2,8 +2,8 @@ import os
 import re
 import shutil
 from dataclasses import dataclass
-from ToolKits.GeneralObject import StrProcessor
-from ToolKits.CustomException import *
+from .GeneralObject.StrProcess import StrProcessor
+from .CustomException import *
 @dataclass()
 class FileProcessor:
     def __init__(self,filePath,valid=False):
@@ -185,14 +185,3 @@ class UrlProcessor:
     def setPath(self,path):
         self.url.replace(self.path,path)
 
-
-if __name__=='__main__':
-    # file='这游戏也太真实了这游戏也太真实了 精彩片花~（爆笑废土霸榜神作！ | 冒泡功能上线！冒泡有奖！）.m4a'
-    # print(FileProcessor(file).validFilename)
-    # print(os.pardir)
-
-    # file_List=PathProcessor.init(r'H:/app/bt-video/2023.10').allFiles
-    # for file in file_List:
-    #     print(file.baseName)
-    print(PathProcessor.init(r'H:\\app\\bt-video\\2024.1\\剧集\\繁花').dirName)
-    

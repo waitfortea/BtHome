@@ -4,7 +4,7 @@ import aiohttp
 import ToolKits.RequestsProcess as RP
 import ToolKits.Parser as P
 import ToolKits.GeneralObject as GO
-from ToolKits.Strategy.GeneralStrategy import AsyncStrategy
+from ToolKits.Strategy.AsyncStrategy import AsyncStrategy
 from ToolKits.DataStructure import ListProcessor
 
 @dataclass

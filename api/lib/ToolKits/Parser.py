@@ -1,5 +1,5 @@
 from abc import ABC,abstractmethod
-from Strategy import GeneralStrategy as GS
+from Strategy import AsyncStrategy as GS
 from lxml import etree
 from dataclasses import dataclass
 from lxml import etree

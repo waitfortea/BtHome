@@ -2,7 +2,7 @@ import asyncio
 import requests
 from dataclasses import dataclass
 import aiohttp
-from Strategy.GeneralStrategy import asyncStrategy
+from .Strategy.AsyncStrategy import asyncStrategy
 
 #data对应请求体，如果请求体是json,也可以用json表示
 #params对应post\get请求参数

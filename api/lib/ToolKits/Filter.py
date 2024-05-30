@@ -2,7 +2,7 @@ from dataclasses import dataclass
 import numpy
 import pandas
 from abc import ABC,abstractmethod
-from .Strategy import GeneralStrategy as GS
+from .Strategy import AsyncStrategy as GS
 from dataclasses import dataclass
 
 # @dataclass

@@ -1,9 +1,9 @@
 import pickle
 import os
-from ToolKits.FileProcess import PathProcessor
-from ToolKits.CustomException import *
+from .FileProcess import PathProcessor
+from .CustomException import *
 import yaml
-import xml.etree.ElementTree
+
 class PickleProcessor:
     def __init__(self,savePath,obj=None):
         self.obj=obj
