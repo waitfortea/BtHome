@@ -5,7 +5,7 @@ import requests
 from dataclasses import dataclass
 import aiohttp
 from .Strategy.AsyncStrategy import asyncStrategy
-
+from .Event import *
 #data对应请求体，如果请求体是json,也可以用json表示
 #params对应post\get请求参数]
 async def createSession():
@@ -63,6 +63,7 @@ class AsyncRequestsProcessor:
             response = await  self.session.get(self.url, **self.kwargs)
         else:
             response = await  self.session.post(self.url, **self.kwargs)
+        callEvent("logNetWork",{"type":type,"requestURL":self.url,"responseURL":response.url})
         return response
 
     async def content(self,type='get'):

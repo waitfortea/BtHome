@@ -10,5 +10,5 @@ def callEvent(eventName: str, data):
     if not eventName in evnet_Dict:
         return
     for eventFn in evnet_Dict[eventName]:
-        return eventFn(data)
+        eventFn(data)
 
