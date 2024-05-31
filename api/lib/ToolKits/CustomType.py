@@ -1,4 +1,4 @@
-from CustomException import *
+from .CustomException import *
 import pandas as pd
 import numpy as np
 class Type:

@@ -1,18 +1,11 @@
 import asyncio
 from dataclasses import dataclass
-import ToolKits.RequestsProcess as RP
-import ToolKits.Strategy.AsyncStrategy as GS
-import ToolKits.Parser as P
-import ToolKits.GeneralObject as GO
+from  api.lib.ToolKits.RequestsProcess import *
 import numpy as np
 import pandas as pd
 import bencodepy
-from Event import postEvent
 import aiohttp
 import re
-import DomainCheck
-from DomainCheck import proxy_aiohttp,proxy_request
-from ToolKits.Strategy.AsyncStrategy import AsyncStrategy
 
 @dataclass
 class TorrentPage:

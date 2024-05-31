@@ -5,7 +5,16 @@ import aiohttp
 from .Strategy.AsyncStrategy import asyncStrategy
 
 #data对应请求体，如果请求体是json,也可以用json表示
-#params对应post\get请求参数
+#params对应post\get请求参数]
+async def createSession():
+    return aiohttp.ClientSession()
+
+async def closeSession(session):
+    await session.close()
+
+requestSession=requests.session()
+aiohttpSession=asyncStrategy(createSession())
+
 @dataclass
 class RequestsProcessor:
     def __init__(self, url,**kwargs):

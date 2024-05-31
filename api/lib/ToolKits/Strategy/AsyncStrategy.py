@@ -1,11 +1,15 @@
 import asyncio
+import time
+
+loop=asyncio.get_event_loop()
+loopCount=0
 
 def asyncStrategy(tasks):
-        loop=asyncio.new_event_loop()
-        asyncio.set_event_loop(loop)
-        result=loop.run_until_complete(tasks)
-        return result
-
+    global loopCount
+    time.sleep(2)
+    result = loop.run_until_complete(tasks)
+    loopCount+=1
+    return result
 
 async def firstComplete(tasks):
         result=""
@@ -21,3 +25,6 @@ async def firstComplete(tasks):
                     break
             tasks=pending
         return result
+
+if __name__=="__main__":
+    pass

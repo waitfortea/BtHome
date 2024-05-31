@@ -9,3 +9,9 @@ class TypeAlignError(Exception):
 class GeneratedError(Exception):
     def __init__(self):
         self.message='不可迭代'
+
+
+class InitFailedError(Exception):
+    def __init__(self):
+        self.message = '初始化失败'
+
