@@ -7,6 +7,7 @@ import bencodepy
 import aiohttp
 import re
 
+
 @dataclass
 class TorrentPage:
     url: str
@@ -15,7 +16,7 @@ class TorrentPage:
     @property
     async def asyncSubtitleGroups(self):
         htmlText = await self.asyncHtmlText
-        text_Pather = P.TextPather(htmlText=htmlText, xpath="//td[@class='post_td']//div[@class='message']")
+        text_Pather = P.T extPather(htmlText=htmlText, xpath="//td[@class='post_td']//div[@class='message']")
         elements_List = [element for element in P.DomParser(text_Pather).parse(P.ListElementStrategyByText()) if
                          element.xpath('..//a')][1:]
         subtitleGroupName_List = [element.text.replace("\t", "").replace("\n", "").strip() for element in elements_List]
@@ -36,13 +37,13 @@ class TorrentPage:
                 subtitleGroup_List.append(subtitle_group)
         return subtitleGroup_List
 
-    @property
-    async def asyncHtmlText(self):
+    async def asyncHtmlText(self,strategy):
+        strategy(self)
         count=0
         async with aiohttp.ClientSession() as session:
             while True and count<10:
                 try:
-                    htmlText = await RP.AsyncRequestsProcessor(self.url,session=session,proxy=proxy_aiohttp).text()
+                    htmlText = await AsyncRequestsProcessor(self.url,session=session,proxy=proxy_aiohttp).text()
                     return htmlText
                 except Exception as e:
                     print(e)
@@ -53,56 +54,18 @@ class TorrentPage:
 
 
     @property
-    def subtitleGroups(self) -> list:
-        text_Pather = P.TextPather(htmlText=self.htmlText, xpath="//td[@class='post_td']//div[@class='message']")
-        elements_List = [element for element in P.DomParser(text_Pather).parse(P.ListElementStrategyByText()) if
-                         element.xpath('..//a')][1:]
-        subtitleGroupName_List = [element.text.replace("\t", "").replace("\n", "").strip() for element in elements_List]
-        subtitleGroupDom_List = [element.xpath('..')[0] for element in elements_List]
-
-        extraText_Pather = P.TextPather(htmlText=self.htmlText, xpath='(//div[@class="attachlist"])[1]')
-        extraElement_List = P.DomParser(extraText_Pather).parse(P.ListElementStrategyByText())
-        if extraElement_List[0].element.xpath("./preceding-sibling::*[@class='message']") == []:
-            extraElement = extraElement_List[0]
-            subtitleGroupName_List.insert(0, '主页')
-            subtitleGroupDom_List.insert(0, extraElement)
-
-        subtitleGroup_List = []
-        if len(subtitleGroupDom_List) == len(subtitleGroupName_List):
-            for i in range(len(subtitleGroupDom_List)):
-                subtitle_group = SubtitleGroup(name=subtitleGroupName_List[i], dom=subtitleGroupDom_List[i],
-                                               superior_Obj=self, order=i)
-                subtitleGroup_List.append(subtitle_group)
-        return subtitleGroup_List
-
-    @property
     def htmlText(self):
         domain = postEvent('getDomain')
         while True:
             try:
                 self.url = re.sub('.*\.com', domain, self.url)
-                htmlText = RP.RequestsProcessor(self.url,proxies=proxy_request).text()
+                htmlText = RequestsProcessor(self.url,proxies=proxy_request).text()
                 return htmlText
             except:
                 domain = AsyncStrategy().execute(DomainCheck.domain_check())
                 continue
 
-    @property
-    def torrentPage_Np(self):
-        return np.array([self.title, self.url])
 
-    @property
-    def domain(self):
-        return postEvent('getDomain')
-
-    def show(self):
-        print(self.title)
-        for group in self.subtitleGroups:
-            print('\t', end="")
-            group.show()
-
-    def roughly_show(self):
-        print(pd.DataFrame(self.torrentPage_np).transpose())
 
 
 @dataclass
@@ -128,14 +91,6 @@ class SubtitleGroup:
                 torrent_List.append(torrent)
         return TorrentGroup(torrent_List=torrent_List, superior_Obj=self)
 
-    def show(self):
-        print(self.name)
-        self.torrentsGroup.show()
-
-    def roughly_show(self):
-        print('\t', end='')
-        print(GO.StrProcessor(self.name).ljust(100), end="")
-        print(f"种子数{len(self.torrents_group.torrent_list)}")
 
 
 @dataclass
@@ -160,7 +115,7 @@ class Torrent:
 
     @property
     def torrentContent(self):
-        torrentContent_Raw = RP.RequestsProcessor(self.domain + '/' + self.url,proxies=proxy_request).content
+        torrentContent_Raw = RequestsProcessor(self.domain + '/' + self.url,proxies=proxy_request).content
         torrentContent = bencodepy.decode(torrentContent_Raw)
         return torrentContent
 
@@ -190,11 +145,3 @@ class Torrent:
     def url(self):
         return self.rawUrl.replace('dialog', 'download')
 
-    @property
-    def domain(self):
-        return postEvent('getDomain')
-
-    def show(self):
-        print('\t', end="")
-        print('\t', end="")
-        print(self.name)

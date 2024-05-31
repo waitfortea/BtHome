@@ -1,42 +1,13 @@
 import asyncio
 from dataclasses import dataclass
 import aiohttp
-import ToolKits.RequestsProcess as RP
-import ToolKits.Parser as P
-import ToolKits.GeneralObject as GO
-from ToolKits.Strategy.AsyncStrategy import AsyncStrategy
-from ToolKits.DataStructure import ListProcessor
+
 
 @dataclass
 class CGTorrentPage:
     keyWord: str
 
     async def asyncHtmlText(self,page,session):
-        headers = {
-            'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.200',
-        }
-        params = {
-            'keyword': self.keyWord,
-        }
-
-        htmlText = await RP.AsyncRequestsProcessor(f'https://dmhy.org/topics/list/page/{page}', session=session,params=params, headers=headers,proxy="http://127.0.0.1:10809").text()
-        if '服务器遇到错误' in htmlText:
-            return None
-        else:
-            return htmlText
-
-    def htmlText(self,page):
-        headers = {
-            'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.200',
-        }
-        params = {
-            'keyword': self.keyWord,
-        }
-        htmlText = RP.RequestsProcessor(f'https://dmhy.org/topics/list/page/{page}', params=params, headers=headers).text
-        if '服务器遇到错误' in htmlText:
-            return None
-        else:
-            return htmlText
 
 
     async def asyncSubTitleGroups(self):
@@ -58,6 +29,7 @@ class CGTorrentPage:
                                           subtitleGroup in subtileGroupElement_List]
                 magnet_List=[ element.xpath("./../..//a[contains( @ href, 'magnet')]")[0].attrib('href') for element in titleElement_List]
                 return title_List,subtitleGroupName_List,magnet_List
+
         async with aiohttp.ClientSession() as session:
             tasks = [asyncio.create_task(getSubtitleGroupsByOnePage(self,page+1,session)) for page in range(20)]
             result_List=await asyncio.gather(*tasks)

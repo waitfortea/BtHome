@@ -13,5 +13,7 @@ class GeneratedError(Exception):
 
 class InitFailedError(Exception):
     def __init__(self):
-        self.message = '初始化失败'
+        pass
 
+    def __str__(self):
+        print("InitFailedError 初始化失败")

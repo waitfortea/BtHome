@@ -1,4 +1,6 @@
 import asyncio
+import time
+
 import requests
 from dataclasses import dataclass
 import aiohttp
@@ -9,8 +11,10 @@ from .Strategy.AsyncStrategy import asyncStrategy
 async def createSession():
     return aiohttp.ClientSession()
 
-async def closeSession(session):
-    await session.close()
+def closeSession(session):
+    async def close():
+        await session.close()
+    asyncStrategy(close())
 
 requestSession=requests.session()
 aiohttpSession=asyncStrategy(createSession())
@@ -30,32 +34,19 @@ class RequestsProcessor:
 
 
     def content(self,type='get'):
-        if type == 'get':
-            return self.session.get(self.url, **self.kwargs).content
-        else:
-            return self.session.post(self.url, **self.kwargs).content
 
+        return self.response(type).content
 
     def text(self,type='get'):
-        if type == 'get':
-            return self.session.get(self.url, **self.kwargs).text
-        else:
-            return self.session.post(self.url, **self.kwargs).text
+        return self.response(type).text
 
 
     def status(self,type='get'):
-        if type == 'get':
-            return self.session.get(self.url, **self.kwargs).status_code
-        else:
-            return self.session.post(self.url, **self.kwargs).status_code
+        return self.response(type).status_code
 
 
     def requestHeaders(self,type='get'):
-        if type == 'get':
-            return self.session.get(self.url, **self.kwargs).headers
-
-        else:
-            return self.session.post(self.url, **self.kwargs).headers
+        return self.response(type).headers
 
 
 
@@ -67,35 +58,29 @@ class AsyncRequestsProcessor:
         self.url = url
         self.kwargs = kwargs
 
-    async def response(self):
-        response=await  self.session.get(self.url,**self.kwargs)
-        return response
-
-    async def content(self,type='get'):
+    async def response(self,type='get'):
         if type=='get':
             response = await  self.session.get(self.url, **self.kwargs)
         else:
             response = await  self.session.post(self.url, **self.kwargs)
-        content =await response.content.read()
-        return content
+        return response
+
+    async def content(self,type='get'):
+        response = await self.response(type)
+        text = await response.contet.read()
+        return text
     
-    async def text(self):
-        if type == 'get':
-            response = await  self.session.get(self.url, **self.kwargs)
-        else:
-            response = await  self.session.post(self.url, **self.kwargs)
+    async def text(self,type='get'):
+        response=await self.response(type)
         text= await response.text()
         return text
     
-    async def status(self):
-        if type == 'get':
-            response = await  self.session.get(self.url, **self.kwargs)
-        else:
-            response = await  self.session.post(self.url, **self.kwargs)
-        status =await response.status
-        return status
+    async def status(self,type='get'):
+        response = await self.response(type)
+        text = await response.status
+        return text
 
-    async def headers(self):
+    async def headers(self,type='get'):
         if type == 'get':
             response = await  self.session.get(self.url, **self.kwargs)
         else:
@@ -103,9 +88,4 @@ class AsyncRequestsProcessor:
         headers = await response.headers
         return headers
 
-async def test():
-    async with aiohttp.ClientSession() as session:
-        text=await AsyncRequestsProcessor('https://www.btbtt15.com',session=session).text()
-        print(text)
-if __name__=='__main__':
-    asyncStrategy(test())
+

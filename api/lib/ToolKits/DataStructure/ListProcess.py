@@ -1,32 +1,68 @@
 import pandas as pd
 import numpy as np
 from dataclasses import dataclass
-from FileProcess import PathProcessor
-from CustomException import *
-from CustomType import Type
+from ..FileProcess import PathProcessor
+from ..CustomException import *
+from ..CustomType import Type
+
+def isLenAlign(self, compareList):
+    if self.len == len(compareList):
+        return True
+
+def isInerTypeAlign(self):
+    if all(Type(i).isList for i in self.list):
+        return True
+    else:
+        return False
+
+def listMatchByDict(list1,list2):
+    if isLenAlign(list1,list2):
+        match_Dict = {key: [] for key in set(list1)}
+        match_List = list(zip(list1,list2))
+        for match in match_List:
+            match_Dict[match[0]].append(match[1])
+        return match_Dict
 
 class ListProcessor:
-    def __init__(self,list):
-        if Type(list).isList:
-            self.list=list
+    def __init__(self,data):
+        self.init(data)
+        self.nextIndex=0
+    def init(self,data):
+        if "__len__" not in dir(data):
+            self.list=[data]
+            return
         else:
-            raise TypeError
+            if Type(data).type==list:
+                self.list=data
+                return
+            elif Type(data).type in (tuple,set):
+                self.list = [data for i in data]
+                return
+        raise InitFailedError
+
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        if self.nextIndex<self.len:
+            result=self.list[self.nextIndex]
+            self.nextIndex+=1
+            return result
+        else:
+            self.nextIndex=0
+            raise StopIteration
+
+    def __getitem__(self, item):
+        return self.list[item]
 
     @property
     def len(self):
         return len(self.list)
 
-    def isLenAlign(self,compareList):
-        if self.len==len(compareList):
-            return True
-
-
     @property
-    def isInerTypeAlign(self):
-        if all(Type(i).isList for i in self.list):
-            return True
-        else:
-            return False
+    def shape(self):
+        pass
 
     @property
     def isLenInnerAlign(self):
@@ -42,19 +78,12 @@ class ListProcessor:
         else:
             raise LenAlignError
 
-
-    @property
-    def str_List(self):
+    def toStr(self):
         return [str(i) for i in self.list]
 
     @property
     def strip_List(self):
         return
 
-    def converToMatchDict(self,value_List):
-        if self.isLenAlign(value_List):
-            match_Dict = {key: [] for key in set(self.list)}
-            match_List = list(zip(self.list, value_List))
-            for match in match_List:
-                match_Dict[match[0]].append(match[1])
-            return match_Dict
+
+

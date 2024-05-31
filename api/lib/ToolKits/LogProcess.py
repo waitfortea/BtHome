@@ -3,11 +3,14 @@ class LogProcessor:
     def __init__(self,logPath):
         self.init(logPath)
 
-    def init(self):
-        if PathProcessor().isFile(self.logPath):
-            self.logPath=PathProcessor.init(self.logPath).absolutePath
+    def init(self,logPath):
+        if PathProcessor().isFile(logPath):
+            self.logPath=PathProcessor.init(logPath).absolutePath
+            return
+        raise InitFailedError
 
     def append(self,message):
         with open(self.logPath,"a") as f:
             f.write(message)
+
 

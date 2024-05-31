@@ -26,5 +26,6 @@ async def firstComplete(tasks):
             tasks=pending
         return result
 
-if __name__=="__main__":
-    pass
+async def allComplete(tasks):
+    result_List=await asyncio.gather(*tasks)
+    return result_List
