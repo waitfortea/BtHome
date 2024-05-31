@@ -68,7 +68,7 @@ async def getTorrentPageFromComicGarden(index):
         print(result)
 
 if __name__=="__main__":
-    setProxy()
+    # setProxy()
     # print(globalProxy.proxy_aiohttp)
     asyncStrategy(getTorrentPageFromBtHome(Index("迷宫饭")))
     closeSession(aiohttpSession)

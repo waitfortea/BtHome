@@ -22,27 +22,26 @@ async def domainCheck(path=None):
 
     async def check(url):
         res=await AsyncRequestsProcessor(url=url, session=aiohttpSession, proxy=globalProxy.proxy_aiohttp).response()
+        if "btbtt" not in str(res.url):
+            domain_list.pop(url)
+            return None
+        return str(res.url)
 
     if not path:
         tasks = [asyncio.create_task(check(i)) for i in domain_list]
     else:
-        tasks = [asyncio.create_task(AsyncRequestsProcessor(url=i+'/'+path, session=aiohttpSession,proxy=globalProxy.proxy_aiohttp).response()) for i in domain_list]
+        tasks = [asyncio.create_task(check(url=i+'/'+path)) for i in domain_list]
     res=await firstComplete(tasks)
 
-    domain.address = str(res.url)
+    domain.address = res
 
 
 def doEvent_domainCheck(path=None):
-    round=0
-    while "btbtt" not in domain.address:
-        round += 1
-        print(f'round{round}')
-        try:
-            asyncStrategy(domainCheck(path))
-        except Exception as e:
-            setProxy()
-            asyncStrategy(domainCheck(path))
-        print(f"返回域名为:{domain.address}")
+    try:
+        asyncStrategy(domainCheck(path))
+    except Exception as e:
+        setProxy()
+        asyncStrategy(domainCheck(path))
     print(f'可用域名:{domain.address}')
 
 def setup_domainCheck():

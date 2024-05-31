@@ -28,10 +28,11 @@ class RequestsProcessor:
 
     def response(self,type='get'):
         if type=='get':
-            return self.session.get(self.url, **self.kwargs)
+            response= self.session.get(self.url, **self.kwargs)
         else:
-            return self.session.post(self.url, **self.kwargs)
-
+            response=  self.session.post(self.url, **self.kwargs)
+        callEvent("logNetWork", {"type": type, "requestURL": self.url, "responseURL": response.url})
+        return response
 
     def content(self,type='get'):
 
