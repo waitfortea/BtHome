@@ -39,6 +39,7 @@ class Torrent:
     downloadURL:str
 
     def addDownloadingQueue(self):
+        pass
 
 
 

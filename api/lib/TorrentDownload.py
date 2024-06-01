@@ -4,6 +4,7 @@ from dataclasses import  dataclass
 
 @dataclass
 class TorrentDownloader:
+    pass
 
 
 def torrenFilterByKeyword(keyWord,torrentGroup):
@@ -15,7 +16,7 @@ def torrenFilterByKeyword(keyWord,torrentGroup):
     return TorrentGroup(torrent_List=torrent_List,superObj=torrentGroup.superObj)
 
 def torrentDownload():
-
+    pass
 
 def torrentGroupDownload():
-
+    pass

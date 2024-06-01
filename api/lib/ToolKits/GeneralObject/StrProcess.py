@@ -25,7 +25,7 @@ class StrProcessor:
             return any(word in self.text for word in word_List)
         if mode== 'exclude':
             return all(word not in self.text for word in word_List)
-
+    def strp(self):
 
     # 这里j对应非检验字符的索引，但是切片对数字来说不包含结尾，所以要+1
 
