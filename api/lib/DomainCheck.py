@@ -2,12 +2,11 @@
 from api.lib.ToolKits.Strategy.AsyncStrategy import asyncStrategy,firstComplete
 from api.lib.ToolKits.SerializeProcessor import YamlProcessor
 from api.lib.ToolKits.RequestsProcess import *
-import aiohttp
 import asyncio
-import time
 from api.lib.ToolKits.Event import *
 from api.lib.ToolKits.Proxy import *
 from api.lib.Log import *
+import os
 @dataclass
 class Domain:
     address:str
@@ -18,7 +17,7 @@ async def domainCheck(path=None):
 
     global domain
 
-    domain_list=YamlProcessor("../../config/config.yaml").contentDict['domain_List']
+    domain_list=YamlProcessor(f"{os.path.dirname(__file__)}/../../config/config.yaml").contentDict['domain_List']
 
     async def check(url):
         res=await AsyncRequestsProcessor(url=url, session=aiohttpSession, proxy=globalProxy.proxy_aiohttp).response()

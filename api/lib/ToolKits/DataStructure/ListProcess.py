@@ -5,16 +5,16 @@ from ..FileProcess import PathProcessor
 from ..CustomException import *
 from ..CustomType import Type
 
-def isLenAlign(self, compareList):
-    if self.len == len(compareList):
+def isLenAlign(list1,list2):
+    if len(list1) == len(list2):
         return True
+    return False
 
-def isInerTypeAlign(self):
-    if all(Type(i).isList for i in self.list):
-        return True
-    else:
-        return False
-
+def concatList(list1):
+    result=[]
+    for list in list1:
+        result+=list
+    return result
 def listMatchByDict(list1,list2):
     if isLenAlign(list1,list2):
         match_Dict = {key: [] for key in set(list1)}
@@ -40,7 +40,11 @@ class ListProcessor:
                 return
         raise InitFailedError
 
-
+    def isInerTypeAlign(self):
+        if all(Type(i).isList for i in self.list):
+            return True
+        else:
+            return False
     def __iter__(self):
         return self
 

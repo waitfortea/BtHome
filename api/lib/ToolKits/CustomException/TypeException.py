@@ -12,8 +12,8 @@ class GeneratedError(Exception):
 
 
 class InitFailedError(Exception):
-    def __init__(self):
-        pass
+    def __init__(self,data=None):
+        self.data=data
 
     def __str__(self):
-        print("InitFailedError 初始化失败")
+        print(f"InitFailedError 初始化失败 {self.data}")

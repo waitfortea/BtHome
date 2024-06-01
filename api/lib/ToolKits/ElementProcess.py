@@ -10,10 +10,11 @@ class ElementProcessor:
         self.element=""
         if Type(data).isStr:
             self.element=etree.HTML(data)
+            return
         if Type(data).type==etree._Element:
             self.element=data
-        if self.element is None:
-            raise InitFailedError
+            return
+        raise InitFailedError((Type(data).type,data))
 
     def text(self):
         text_List=self.element.xpath(".//text()")

@@ -1,56 +1,37 @@
 from dataclasses import dataclass
 import re
+from ..CustomType import *
+
+def PercentageToDecimal(data):
+    return float(data.split("%")[0]) / 100
+
 
 @dataclass
 class StrProcessor:
-    text: str
+    def __init__(self,text):
+        self.init(text)
 
-    @property
-    def toDict(self):
-        try:
-            return {i.split(':')[0].strip():i.split(':')[-1].strip() for i in self.text.split('\n')}
-        except:
-            print('格式不符')
+    def init(self,text):
+        if Type(text).isStr:
+            self.text=text
+            return
 
-    @property
-    def toStrip(self):
-        return self.toStripByList(['\n',' ','\t'])
+        raise InitFailedError(text)
 
-    def replaceByList(self,filter_List):
-        return
+    def contains(self,word_List,mode="all"):
+        if mode == 'all':
+            return all(word in self.text for word in word_List)
+        if mode== "any":
+            return any(word in self.text for word in word_List)
+        if mode== 'exclude':
+            return all(word not in self.text for word in word_List)
 
-    @property
-    def PercentageToDecimal(self):
-        return float(self.text.split("%")[0])/100
 
-    def toStripByList(self,filter_List):
-        order=None
-        orderReverse=None
-        for i in sorted(range(0, len(self.text)), reverse=True):
-            if self.text[i] in filter_List:
-                continue
-            else:
-                orderReverse=i
-                break
-        for i in range(0, len(self.text)):
-            if self.text[i] in filter_List:
-                continue
-            else:
-                order=i
-                break
-        result=self.text[order:orderReverse+1]
-        return result
     # 这里j对应非检验字符的索引，但是切片对数字来说不包含结尾，所以要+1
-
 
     @property
     def toStr(self):
         return str(self.text)
-
-    def clearByList(self,clear_List):
-        for separator in clear_List:
-            self.text=self.text.replace(separator,"")
-        return self.text
 
     @property
     def quotation(self):

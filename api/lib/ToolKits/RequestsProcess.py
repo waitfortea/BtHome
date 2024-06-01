@@ -14,6 +14,7 @@ async def createSession():
 def closeSession(session):
     async def close():
         await session.close()
+        time.sleep(1)
     asyncStrategy(close())
 
 requestSession=requests.session()

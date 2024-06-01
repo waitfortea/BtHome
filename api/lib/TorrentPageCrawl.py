@@ -6,7 +6,6 @@ import re
 import pandas as pd
 import asyncio
 from urllib.parse import quote, unquote
-
 from api.lib.ToolKits.ElementProcess import *
 from api.lib.ToolKits.Event import *
 from api.lib.ToolKits.RequestsProcess import *
@@ -60,12 +59,13 @@ async def getTorrentPageFromComicGarden(index):
         if res.status == 500:
             return None
         htmlText = await res.text()
-        return TorrentPage(index=index, title=index.keyword, url=f'https://dmhy.org/topics/list/page/{index.page}',
-                           htmlText=htmlText)
+        return htmlText
+
     tasks=[asyncio.create_task(getPageHtmlFromComicGarden(Index(keyword=index.keyword,page=page),aiohttpSession)) for page in page_List]
     result_List=await allComplete(tasks)
-    for result in result_List:
-        print(result)
+    TorrentPage_List=[TorrentPage(index=index, title=index.keyword, url=f'https://dmhy.org/topics/list/page',
+                       htmlText=result_List)]
+    return TorrentPage_List
 
 if __name__=="__main__":
     # setProxy()
