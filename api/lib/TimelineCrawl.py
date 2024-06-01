@@ -1,12 +1,3 @@
-import time
-from abc import ABC, abstractmethod
-import aiohttp
-import requests
-import re
-import pandas as pd
-import asyncio
-from urllib.parse import quote, unquote
-
 from api.lib.ToolKits.ElementProcess import *
 from api.lib.ToolKits.Event import *
 from api.lib.ToolKits.RequestsProcess import *
@@ -19,7 +10,7 @@ async def comicTimelineCrawl():
     seasonalComic_DF = pd.DataFrame(columns=['season', 'seasonComic_DF'])
     while True:
         try:
-            htmlText = RequestsProcessor(domain, proxies=proxy_request).text()
+            htmlText = RequestsProcessor(domain, proxies=globalProxy.proxy_request).text()
             JapanComicDom = ElementProcessor(htmlText).xpath('//a[contains(@class,"subject_link") and contains(text(),"动漫")]')[0]
             print(JapanComicDom.text())
             break
@@ -32,7 +23,7 @@ async def comicTimelineCrawl():
     while True:
         try:
             seasonnalComicDom = ElementProcessor(
-                RequestsProcessor(domain + '/' + JapanComicUrl,proxies=proxy_request).text()).xpath("//strong[contains(text(),'番组放映表')]/../..")[0]
+                RequestsProcessor(domain + '/' + JapanComicUrl,proxies=globalProxy.proxy_request).text()).xpath("//strong[contains(text(),'番组放映表')]/../..")[0]
             break
         except Exception as e:
             print(e)

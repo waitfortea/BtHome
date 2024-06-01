@@ -25,7 +25,23 @@ class StrProcessor:
             return any(word in self.text for word in word_List)
         if mode== 'exclude':
             return all(word not in self.text for word in word_List)
-    def strp(self):
+    @property
+    def toStrip(self):
+
+        def getPreIndex(index):
+            if self.text[index] not in ['\t','\n',' ']:
+                return index
+            index+=1
+            return getPreIndex(index)
+        def getSuffixIndex(index):
+            if self.text[index] not in ['\t','\n',' ']:
+                return index
+            index-=1
+            return getSuffixIndex(index)
+        preIndex=getPreIndex(0)
+        suffixIndex=getSuffixIndex(len(self.text)-1)
+        return self.text[preIndex:suffixIndex+1]
+
 
     # 这里j对应非检验字符的索引，但是切片对数字来说不包含结尾，所以要+1
 

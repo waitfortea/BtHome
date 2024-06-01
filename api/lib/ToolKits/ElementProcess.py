@@ -1,8 +1,8 @@
-from dataclasses import dataclass
+
 from lxml import etree
 from .CustomType import *
 from .CustomException import *
-@dataclass
+
 class ElementProcessor:
     def __init__(self,data):
         self.init(data)

@@ -1,8 +1,6 @@
 from dataclasses import dataclass
 from io import BytesIO
-from api.lib.ToolKits.Strategy.AsyncStrategy import *
-from api.lib.ToolKits.Proxy import *
-from api.lib import *
+from api.lib  import *
 
 @dataclass
 class Index():
@@ -22,7 +20,7 @@ class TorrentPage:
     htmlText: str=None
 
     def getSubTitleGroups(self,stragety):
-        return  asyncStrategy(stragety(self))
+        return asyncStrategy(stragety(self))
 
 @dataclass
 class SubtitleGroup:
@@ -45,20 +43,11 @@ class Torrent:
 
 @dataclass
 class TorrentGroup:
-    torrent_List:list
-    superObj:object
+    def __init__(self,torrent_List,superObj):
+        self.torrent_List=torrent_List
+        self.superObj=superObj
 
-    def filter(self,keyWord):
-        return torrenFilterByKeyword(keyWord,self)
+    def filter(self,keyword):
+        result_List=torrentFilterByKeyword(self.torrent_List,keyword)
+        return TorrentGroup(torrent_List=result_List,superObj=self.superObj)
 
-
-if __name__=='__main__':
-    setProxy()
-    index=Index(keyword="迷宫饭 幻樱字幕组",page=[1,2])
-    torrentPage_List=index.getTorrentPage(getTorrentPageFromComicGarden)
-    subtitleGroup_List=torrentPage_List[0].getSubTitleGroups(getSubTitleGroupsFromComicGarden)
-    torrentGroup=subtitleGroup_List[0].getTorrentGroup(getTorrentFromComicGarden)
-
-    torrentGroup_GB=torrentGroup.filter('GB')
-    print(torrentGroup.torrent_List)
-    closeSession(aiohttpSession)

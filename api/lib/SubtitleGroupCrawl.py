@@ -1,15 +1,14 @@
-from api.lib.ToolKits.ElementProcess import *
-from api.CrawlObject import *
-from api.lib.ToolKits.DataStructure.ListProcess import *
-import asyncio
 
-async def getSubTitleGroupsFromBtHome(torrentPage:TorrentPage):
+import asyncio
+from api.lib.ToolKits import *
+
+async def getSubTitleGroupsFromBtHome(torrentPage):
     subtitleGroup_List=[]
     htmlText = torrentPage.htmlText
     subtitleGroupElement_List = ElementProcessor(data=htmlText).xpath("//td[@class='post_td']//div[@class='message']")
 
     for subtitleGroupElement in subtitleGroupElement_List:
-        torrentElement_List= subtitleGroupElement.xpath('..//a[contains(text(),".torrent")]')
+        torrentElement_List= subtitleGroupElement.xpath('.          .//a[contains(text(),".torrent")]')
         subtitleGroupName = subtitleGroupElement.text().replace("\t", "").replace("\n", "").strip()
         subtitleGroup_List.append(SubtitleGroup(name=subtitleGroupName,torrentElement_List=torrentElement_List,superObj=torrentPage))
 
@@ -21,7 +20,7 @@ async def getSubTitleGroupsFromBtHome(torrentPage:TorrentPage):
         subtitleGroup_List.insert(0,extraGroup)
     return subtitleGroup_List
 
-async def getSubTitleGroupsFromComicGarden(TorrentPage):
+async def getSubTitleGroupsFromComicGarden(torrentPage):
     async def getSubtitleGroupsByOnePage(htmlText):
         pageElement = ElementProcessor(data=htmlText)
         torrentLink__List = pageElement.xpath("//td[@class='title']/a")
@@ -33,7 +32,7 @@ async def getSubTitleGroupsFromComicGarden(TorrentPage):
             result_List.append((subtitleGroupName,torrentURL))
         return result_List
 
-    tasks = [asyncio.create_task(getSubtitleGroupsByOnePage(htmlText)) for htmlText in TorrentPage.htmlText]
+    tasks = [asyncio.create_task(getSubtitleGroupsByOnePage(htmlText)) for htmlText in torrentPage.htmlText]
     result_List = await allComplete(tasks)
     torrentInfo_List=concatList(result_List)
 
@@ -48,7 +47,7 @@ async def getSubTitleGroupsFromComicGarden(TorrentPage):
     subtitleGroup_Dict = listMatchByDict(subtitleGroupName_List,torrentURL_List)
     subtitleGroup_List = []
     for subtitleGroupName, torrentPageURL_List in subtitleGroup_Dict.items():
-        subTitleGroup =SubtitleGroup(name=subtitleGroupName,torrentURL_List=torrentPageURL_List, superObj=TorrentPage)
+        subTitleGroup =SubtitleGroup(name=subtitleGroupName,torrentURL_List=torrentPageURL_List, superObj=torrentPage)
         subtitleGroup_List.append(subTitleGroup)
     return subtitleGroup_List
 

@@ -1,8 +1,7 @@
 
-from api.CrawlObject import *
-from api.lib.ToolKits.DataStructure.ListProcess import *
+from api.lib.ToolKits.DataStructure import *
 from api.lib import *
-async def getTorrentFromBtHome(subtileGroup:SubtitleGroup):
+async def getTorrentFromBtHome(subtileGroup):
     torrent_List=[]
     for torrentElement in subtileGroup.torrentElement_List:
         torrentName = torrentElement.text()

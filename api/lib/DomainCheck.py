@@ -1,12 +1,13 @@
 
-from api.lib.ToolKits.Strategy.AsyncStrategy import asyncStrategy,firstComplete
-from api.lib.ToolKits.SerializeProcessor import YamlProcessor
-from api.lib.ToolKits.RequestsProcess import *
-import asyncio
-from api.lib.ToolKits.Event import *
-from api.lib.ToolKits.Proxy import *
-from api.lib.Log import *
-import os
+# __all__='domain','domainCheck','doEvent_domainCheck','setup_domainCheck'
+
+
+# from api.lib.ToolKits.Strategy.AsyncStrategy import *
+# from api.lib.ToolKits.SerializeProcessor import *
+# from api.lib.ToolKits.RequestsProcess import *
+
+# from api.lib.ToolKits.Proxy import *
+from dataclasses import dataclass
 @dataclass
 class Domain:
     address:str
@@ -46,9 +47,7 @@ def doEvent_domainCheck(path=None):
 def setup_domainCheck():
     addEvent("domainCheck",doEvent_domainCheck)
 
-setProxy()
-setup_domainCheck()
-callEvent("domainCheck",data="")
+
 
 
 

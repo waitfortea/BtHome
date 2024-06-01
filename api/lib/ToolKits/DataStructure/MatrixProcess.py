@@ -1,4 +1,4 @@
-
+from dataclasses import dataclass
 @dataclass
 class Matrix:
     data:object=None

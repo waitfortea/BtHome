@@ -1,10 +1,7 @@
-import time
-from abc import ABC, abstractmethod
-import aiohttp
-import requests
-import re
-import pandas as pd
-import asyncio
+
+__all__='getTorrentPageFromBtHome','getTorrentPageFromComicGarden'
+
+from api.lib.DomainCheck import *
 from urllib.parse import quote, unquote
 from api.lib.ToolKits.ElementProcess import *
 from api.lib.ToolKits.Event import *
@@ -14,7 +11,7 @@ from api.lib.ToolKits.DataStructure.ListProcess import *
 from api.lib.ToolKits.Strategy.AsyncStrategy import *
 from api.lib.ToolKits.Proxy import *
 from api.CrawlObject import *
-from api.lib.DomainCheck import *
+
 
 async def getTorrentPageFromBtHome(index):
     while True:
