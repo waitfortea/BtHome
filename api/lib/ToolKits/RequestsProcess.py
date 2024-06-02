@@ -1,24 +1,30 @@
-import asyncio
-import time
-
-import requests
 from dataclasses import dataclass
+import requests
 import aiohttp
+import time
+import atexit
 from .Strategy.AsyncStrategy import asyncStrategy
 from .Event import *
+
+
 #data对应请求体，如果请求体是json,也可以用json表示
 #params对应post\get请求参数]
+
+
 async def createSession():
     return aiohttp.ClientSession()
 
-def closeSession(session):
+def closeSession():
     async def close():
-        await session.close()
+        await aiohttpSession.close()
         time.sleep(1)
     asyncStrategy(close())
 
 requestSession=requests.session()
 aiohttpSession=asyncStrategy(createSession())
+atexit.register(closeSession)
+
+
 
 @dataclass
 class RequestsProcessor:

@@ -1,23 +1,18 @@
-import asyncio
-
-import aiohttp
-from PyQt5.QtCore import QTimer
-import Crawler as CL
-import pandas as pd
-import ToolKits.Filter as FL
-import BtDownload as DL
-import Listen
-from Event import postEvent
-from ToolKits.Strategy.GeneralStrategy import AsyncStrategy
-
 import sys
+from PyQt5.QtCore import QTimer
 from PyQt5 import QtWidgets,uic,Qt,sip,QtCore
 from PyQt5.QtWidgets import QApplication,QWidget,QLabel,QLineEdit,QCheckBox,QHBoxLayout,QPushButton,QSpacerItem,QScrollArea,QSizePolicy
-import BtUpdate as BU
 from PyQt5.QtCore import QThread,pyqtSignal,QObject,pyqtSlot
 from qfluentwidgets import FlowLayout
-from ToolKits.FileProcess import PathProcessor
+import BtDownload as DL
+
+
+
 class SearchWorker(QObject):
+    """
+    
+    """
+
     search = pyqtSignal(str)
     result = pyqtSignal(pd.DataFrame)
 

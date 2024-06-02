@@ -1,6 +1,10 @@
-
-from api.lib.ToolKits.DataStructure import *
-from api.lib import *
+from api.CrawlObject import *
+from api.lib.ToolKits.RequestsProcess import *
+from api.lib.ToolKits.ElementProcess import *
+from api.lib.ToolKits.DataStructure.ListProcess import *
+from api.lib.ToolKits.Strategy.AsyncStrategy import *
+from api.lib.ToolKits.Proxy import *
+import asyncio
 async def getTorrentFromBtHome(subtileGroup):
     torrent_List=[]
     for torrentElement in subtileGroup.torrentElement_List:

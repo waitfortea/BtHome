@@ -2,9 +2,9 @@ from api.lib.ToolKits.ElementProcess import *
 from api.lib.ToolKits.Event import *
 from api.lib.ToolKits.RequestsProcess import *
 from api.lib.ToolKits.GeneralObject.StrProcess import *
-
 import api.BtHomeObject as BTO
 from api.lib.DomainCheck import *
+from api.lib.ToolKits.Proxy import *
 
 async def comicTimelineCrawl():
     seasonalComic_DF = pd.DataFrame(columns=['season', 'seasonComic_DF'])

@@ -10,26 +10,27 @@
 # stackedWidget.show()
 # sys.exit(app.exec_())
 #
-from dataclasses import dataclass
-from api.lib.DomainCheck import *
-from api.lib.ToolKits.Strategy.AsyncStrategy import *
-from api.lib.ToolKits.SerializeProcessor import *
-from api.lib.ToolKits.RequestsProcess import *
+from api.BtProcess import *
 from api.lib.ToolKits.Proxy import *
-from api.lib.ToolKits.Event import *
+from api.lib.Log import *
 if __name__=='__main__':
+
+    #设置代理
     setProxy()
-    setup_domainCheck()
-    callEvent("domainCheck","")
-    closeSession(aiohttpSession)
-    # callEvent('domainCheck',"")
-    # setProxy()
-    # index=Index(keyword="迷宫饭 幻樱字幕组",page=[1,2])
-    # torrentPage_List=index.getTorrentPage(getTorrentPageFromComicGarden)
-    # subtitleGroup_List=torrentPage_List[0].getSubTitleGroups(getSubTitleGroupsFromComicGarden)
-    # torrentGroup=subtitleGroup_List[0].getTorrentGroup(getTorrentFromComicGarden)
-    #
-    # torrentGroup_GB=torrentGroup.filter('GB')
-    #
-    # print(torrentGroup_GB.torrent_List)
-    # closeSession(aiohttpSession)
+
+    #开启日志
+    setup_logNetWork()
+
+    #设置爬虫索引
+    index=Index(keyword="迷宫饭 幻樱字幕组",page=[1,2])
+
+    #获取
+    torrentPage_List=getTorrentPage(index,getTorrentPageFromComicGarden)
+
+    subtitleGroup_List=getSubTitleGroups(torrentPage_List[0],getSubTitleGroupsFromComicGarden)
+
+    torrentGroup=getTorrentGroup(subtitleGroup_List[0],getTorrentFromComicGarden)
+
+    torrentGroup_GB=torrentFilterByKeyword(torrentGroup,"GB")
+
+    print(torrentGroup_GB.torrent_List)

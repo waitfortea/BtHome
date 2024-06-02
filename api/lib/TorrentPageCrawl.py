@@ -10,7 +10,9 @@ from api.lib.ToolKits.GeneralObject.StrProcess import *
 from api.lib.ToolKits.DataStructure.ListProcess import *
 from api.lib.ToolKits.Strategy.AsyncStrategy import *
 from api.lib.ToolKits.Proxy import *
+from api.lib.ToolKits.Proxy import *
 from api.CrawlObject import *
+import asyncio
 
 
 async def getTorrentPageFromBtHome(index):

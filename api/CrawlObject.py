@@ -1,6 +1,4 @@
 from dataclasses import dataclass
-from io import BytesIO
-from api.lib  import *
 
 @dataclass
 class Index():
@@ -9,8 +7,6 @@ class Index():
     url:str=None
     title:str=None
 
-    def getTorrentPage(self,stragety):
-        return asyncStrategy(stragety(self))
 
 @dataclass
 class TorrentPage:
@@ -19,8 +15,7 @@ class TorrentPage:
     url: str=None
     htmlText: str=None
 
-    def getSubTitleGroups(self,stragety):
-        return asyncStrategy(stragety(self))
+
 
 @dataclass
 class SubtitleGroup:
@@ -29,17 +24,11 @@ class SubtitleGroup:
     torrentURL_List:list=None
     torrentElement_List:list=None
 
-    def getTorrentGroup(self, stragety):
-        return asyncStrategy(stragety(self))
+
 @dataclass
 class Torrent:
     name:str
     downloadURL:str
-
-    def addDownloadingQueue(self):
-        pass
-
-
 
 @dataclass
 class TorrentGroup:
@@ -47,7 +36,4 @@ class TorrentGroup:
         self.torrent_List=torrent_List
         self.superObj=superObj
 
-    def filter(self,keyword):
-        result_List=torrentFilterByKeyword(self.torrent_List,keyword)
-        return TorrentGroup(torrent_List=result_List,superObj=self.superObj)
 

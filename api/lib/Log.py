@@ -13,5 +13,4 @@ def doEvent_logNetWork(message):
 def setup_logNetWork():
     addEvent('logNetWork',doEvent_logNetWork)
 
-setup_logNetWork()
 # callEvent('logNetWork',{"1":1})

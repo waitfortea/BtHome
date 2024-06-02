@@ -1,4 +1,7 @@
+__all__='globalProxy','setProxy','unsetProxy'
+
 from dataclasses import dataclass
+
 @dataclass()
 class ProxyProcessor:
     proxy_aiohttp=None
@@ -7,9 +10,6 @@ class ProxyProcessor:
 
 globalProxy=ProxyProcessor()
 
-def set():
-    global proxy_aiohttp
-    proxy_aiohttp="111"
 def setProxy():
     global globalProxy
     globalProxy.proxy_aiohttp = "http://127.0.0.1:10809"

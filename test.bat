@@ -1,2 +1,0 @@
-echo "%date% %time%"
-pause

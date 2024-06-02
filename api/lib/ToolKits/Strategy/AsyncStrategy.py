@@ -1,3 +1,5 @@
+__all__='asyncStrategy','firstComplete','allComplete'
+
 import asyncio
 import time
 
