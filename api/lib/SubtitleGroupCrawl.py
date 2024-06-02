@@ -8,13 +8,13 @@ from api.lib.ToolKits.GeneralObject.StrProcess import *
 from api.lib.ToolKits.Proxy import *
 import asyncio
 
-async def getSubTitleGroupsFromBtHome(torrentPage):
+async def getSubtitleGroupFromBtHome(torrentPage):
     subtitleGroup_List=[]
     htmlText = torrentPage.htmlText
-    subtitleGroupElement_List = ElementProcessor(data=htmlText).xpath("//td[@class='post_td']//div[@class='message']")
+    subtitleGroupElement_List = ElementProcessor(data=htmlText).xpath("//td[@class='post_td']//div[@class='message']")[1:]
 
     for subtitleGroupElement in subtitleGroupElement_List:
-        torrentElement_List= subtitleGroupElement.xpath('.          .//a[contains(text(),".torrent")]')
+        torrentElement_List= subtitleGroupElement.xpath('..//a[contains(text(),".torrent")]')
         subtitleGroupName = subtitleGroupElement.text().replace("\t", "").replace("\n", "").strip()
         subtitleGroup_List.append(SubtitleGroup(name=subtitleGroupName,torrentElement_List=torrentElement_List,superObj=torrentPage))
 
@@ -26,8 +26,8 @@ async def getSubTitleGroupsFromBtHome(torrentPage):
         subtitleGroup_List.insert(0,extraGroup)
     return subtitleGroup_List
 
-async def getSubTitleGroupsFromComicGarden(torrentPage):
-    async def getSubtitleGroupsByOnePage(htmlText):
+async def getSubtitleGroupFromComicGarden(torrentPage):
+    async def getSubtitleGroupByOnePage(htmlText):
         pageElement = ElementProcessor(data=htmlText)
         torrentLink__List = pageElement.xpath("//td[@class='title']/a")
         result_List=[]
@@ -38,7 +38,7 @@ async def getSubTitleGroupsFromComicGarden(torrentPage):
             result_List.append((subtitleGroupName,torrentURL))
         return result_List
 
-    tasks = [asyncio.create_task(getSubtitleGroupsByOnePage(htmlText)) for htmlText in torrentPage.htmlText]
+    tasks = [asyncio.create_task(getSubtitleGroupByOnePage(htmlText)) for htmlText in torrentPage.htmlText]
     result_List = await allComplete(tasks)
     torrentInfo_List=concatList(result_List)
 

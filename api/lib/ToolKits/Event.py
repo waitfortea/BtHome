@@ -1,4 +1,4 @@
-__all__='addEvent','callEvent'
+__all__='evnet_Dict','addEvent','callEvent'
 
 evnet_Dict = dict()
 

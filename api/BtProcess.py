@@ -9,8 +9,8 @@ from api.lib.TorrentDownload import *
 def getTorrentPage(index:Index, stragety=getTorrentPageFromBtHome):
     return asyncStrategy(stragety(index))
 
-def getSubTitleGroups(torrentPage:TorrentPage, stragety=getSubTitleGroupsFromBtHome):
+def getSubTitleGroups(torrentPage:TorrentPage, stragety=getSubtitleGroupFromBtHome):
     return asyncStrategy(stragety(torrentPage))
 
-def getTorrentGroup(subtitleGroup:SubtitleGroup, stragety=getTorrentFromBtHome):
+def getTorrentGroup(subtitleGroup:SubtitleGroup, stragety=getTorrentGroupFromBtHome):
     return asyncStrategy(stragety(subtitleGroup))

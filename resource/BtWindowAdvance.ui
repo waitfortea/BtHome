@@ -72,13 +72,25 @@
       </property>
       <layout class="QVBoxLayout" name="verticalLayout">
        <item>
-        <layout class="QVBoxLayout" name="torrentPageverticalLayout"/>
+        <layout class="QVBoxLayout" name="torrentPageverticalLayout">
+         <property name="sizeConstraint">
+          <enum>QLayout::SetMinimumSize</enum>
+         </property>
+        </layout>
        </item>
        <item>
-        <layout class="QVBoxLayout" name="subtitleGroupverticalLayout"/>
+        <layout class="QVBoxLayout" name="subtitleGroupverticalLayout">
+         <property name="sizeConstraint">
+          <enum>QLayout::SetMinimumSize</enum>
+         </property>
+        </layout>
        </item>
        <item>
-        <layout class="QVBoxLayout" name="torrentverticalLayout"/>
+        <layout class="QVBoxLayout" name="torrentverticalLayout">
+         <property name="sizeConstraint">
+          <enum>QLayout::SetMinimumSize</enum>
+         </property>
+        </layout>
        </item>
        <item>
         <spacer name="verticalSpacer">

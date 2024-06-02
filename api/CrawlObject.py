@@ -1,3 +1,4 @@
+__all__='Index','TorrentPage','SubtitleGroup','TorrentGroup','Torrent'
 from dataclasses import dataclass
 
 @dataclass

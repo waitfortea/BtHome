@@ -5,7 +5,7 @@ from api.lib.ToolKits.DataStructure.ListProcess import *
 from api.lib.ToolKits.Strategy.AsyncStrategy import *
 from api.lib.ToolKits.Proxy import *
 import asyncio
-async def getTorrentFromBtHome(subtileGroup):
+async def getTorrentGroupFromBtHome(subtileGroup):
     torrent_List=[]
     for torrentElement in subtileGroup.torrentElement_List:
         torrentName = torrentElement.text()
