@@ -13,7 +13,7 @@ if __name__=='__main__':
     # setProxy()
 
     #开启日志
-    setup_logNetWork()
+    setup_log()
     setup_domainCheck()
     callEvent('domainCheck',"")
 

@@ -7,6 +7,7 @@ from api.lib.ToolKits.SerializeProcessor import *
 from api.lib.ToolKits.RequestsProcess import *
 from api.lib.ToolKits.Proxy import *
 from dataclasses import dataclass
+from api.lib.Config import *
 @dataclass
 class Domain:
     address:str
@@ -17,7 +18,7 @@ async def domainCheck(path=None):
 
     global domain
 
-    domain_list=YamlProcessor(f"{os.path.dirname(__file__)}/../../config/config.yaml").contentDict['domain_List']
+    domain_list=configProcessor.contentDict['domain_List']
 
     async def check(url):
         res=await AsyncRequestsProcessor(url=url, session=aiohttpSession, proxy=globalProxy.proxy_aiohttp).response()

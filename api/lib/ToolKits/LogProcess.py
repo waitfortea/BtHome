@@ -17,7 +17,7 @@ class LogMessage:
         data_text=""
         for key, value in self.data.items():
             data_text+=f"{key} :{value}\n"
-        text=f"""======================================
+        text=f"""\n======================================
 {self.datetime}\n{data_text}======================================\n"""
         return text
 class LogProcessor:

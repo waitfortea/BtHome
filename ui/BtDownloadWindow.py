@@ -6,8 +6,9 @@ from PyQt5.QtCore import QThread,pyqtSignal,QObject,pyqtSlot
 from qfluentwidgets import FlowLayout
 from api.CrawlObject import *
 from api.BtProcess import *
+from api.lib.Config import *
+from api.lib.TorrentDownload import *
 import os
-import pdb
 
 class SearchWorker(QObject):
 
@@ -62,36 +63,35 @@ class UpdateWorker(QObject):
         """
         pass
 
-# class StartWorker(QObject):
-#
-#     @pyqtSlot(object)
-#     def startBtnFn(self,obj):
-#         constrainStr_List = []
-#         if obj.filterlineEdit.text():
-#             constrainStr_List = obj.filterlineEdit.text().strip().split(" ")
-#             torrentFilter_Pather = FL.FilterPather(dataFrame=obj.torrent_DF, constrainStr_List=constrainStr_List,
-#                                                    field='torrentName')
-#             obj.torrentFilterDF = FL.DataFrameFilter(torrentFilter_Pather).filter(FL.StrFilterStrategyByAllInclude())
-#             print(obj.torrentFilterDF)
-#         else:
-#             obj.torrentFilterDF = obj.torrent_DF
-#             print(obj.torrentFilterDF)
-#         if obj.downloadcheckBox.isChecked():
-#             savePath = fr'H:\app\bt-video\{obj.savePathlineEdit.text()}'
-#             print(savePath)
-#             if obj.keepUpdatecheckBox.isChecked():
-#                 BU.BtSave(torrentSavePath=savePath, torrentPageUrl=obj.subtitleGroupDom.superior_Obj.url, \
-#                           subtitleGroupOrder=obj.subtitleGroupDom.order,
-#                           comicName=savePath.split('\\')[-1], constrainStr_List=constrainStr_List,\
-#                           subtitleGroupName=obj.subtitleGroupDom.name).save()
-#             torrentDownload_Pather = DL.DownloadPather(
-#                 torrentDom_List=obj.torrentFilterDF['torrentDom'].to_list()
-#                 , savePath=savePath)
-#             torrent_Pather = AsyncStrategy().execute(DL.TorrentDowloader().asyncDonwload(torrentDownload_Pather))
-#             print(torrent_Pather)
-#
-#         if obj.addTorrentcheckBox.isChecked():
-#             qBClient = DL.QbClient().addTorrent(torrent_Pather)
+class StartWorker(QObject):
+
+    @pyqtSlot(object)
+    def startBtnFn(self,window):
+
+
+
+        if window.torrentGroup is None:
+            return
+
+        torrentGroup=window.torrentGroup
+
+        if window.filterlineEdit.text() is not None:
+            word_List = window.filterlineEdit.text().strip().split(" ")
+            torrentGroup = torrentFilterByKeyword(torrentGroup,word_List)
+
+        if window.downloadcheckBox.isChecked():
+            download_dir = config['download_dir'] if config['download_dir'] is not None else f"{os.path.dirname(__file__)}/../download"
+            download_dir = f"{download_dir}/{window.savePathlineEdit.text().strip()}"
+            waitDownload(torrentGroup,download_dir)
+            # breakpoint()
+            try:
+                asyncStrategy(queueDownload())
+            except Exception as e:
+                print(e)
+                raise e
+
+
+
 
 class BtWindow(QWidget):
 
@@ -117,8 +117,8 @@ class BtWindow(QWidget):
         self.subtitleGroupSignal.connect(self.subtitleGroupWorker.subtitleGroupBtn)
         self.subtitleGroupWorker.result.connect(self.getTorrentGroupInfo)
 
-        # self.StartWorker = StartWorker()
-        # self.startSignal.connect(self.StartWorker.startBtnFn)
+        self.StartWorker = StartWorker()
+        self.startSignal.connect(self.StartWorker.startBtnFn)
 
         # self.UpdateWorker = UpdateWorker()
         # self.updateSignal.connect(self.UpdateWorker.updateBtnFn)
@@ -136,7 +136,7 @@ class BtWindow(QWidget):
         self.startBtn.clicked.connect(self.startBtnFn)
         self.updateBtn.clicked.connect(self.UpdateBtnFn)
         #设置默认保存位置
-        self.savePathlineEdit.setText('2024.1\\')
+        self.savePathlineEdit.setText(config['sub_download_dir'])
         #设置复选框
         self.downloadcheckBox.setChecked(True)
         self.addTorrentcheckBox.setChecked(True)
@@ -204,7 +204,7 @@ class BtWindow(QWidget):
             self.torrentverticalLayout.addLayout(HLayout)
         self.torrentverticalLayout.addStretch()
         print('------END------')
-        self.torrent_List = torrent_List
+        self.torrentGroup = torrentGroup
 
     def torrentBtnFn(self,torrentDom):
         pass

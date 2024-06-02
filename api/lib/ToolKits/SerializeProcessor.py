@@ -1,3 +1,6 @@
+
+__all__='PickleProcessor','YamlProcessor'
+
 import pickle
 import os
 from .FileProcess import *
@@ -28,9 +31,12 @@ class YamlProcessor:
             raise FileFormatNotAlign
     @property
     def contentDict(self):
-        with open(self.file.absolutePath,'r') as f:
+        with open(self.file.absolutePath,'r',encoding='utf-8') as f:
             content=yaml.safe_load(f)
         return content
+
+
+
 
 if __name__=="__main__":
     yamlLoader=YamlProcessor("../config/config.yaml")

@@ -151,7 +151,8 @@ def pathInit(path,make=False,flag=None):
         return FileProcessor(path)
     else:
         if make:
-            _makePath(path,flag)
+            pathObj=_makePath(path,flag)
+            return pathObj
     raise PathNotFound
 
 
