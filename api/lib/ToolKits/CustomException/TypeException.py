@@ -1,19 +1,24 @@
-class TypeError(Exception):
-    def __init__(self):
-        self.message='数据类型不符'
+from ._CustomException import _CustomeException
 
-class TypeAlignError(Exception):
-    def __init__(self):
-        self.message='对象类型不一致'
+class TypeError(_CustomeException):
+    def __init__(self, erro_data=None):
+        super().__init__()
+        self.erro_data = erro_data
+        self.error_name = "类型不一致"
 
-class GeneratedError(Exception):
-    def __init__(self):
-        self.message='不可迭代'
+class GeneratedError(_CustomeException):
+    def __init__(self, erro_data=None):
+        super().__init__()
+        self.erro_data = erro_data
+        self.error_name = "非迭代对象"
+
+class InitFailedError(_CustomeException):
+    def __init__(self,erro_data=None):
+        super().__init__()
+        self.erro_data=erro_data
+        self.error_name = "初始化失败"
+
+if __name__=="__main__":
+    raise InitFailedError("s")
 
 
-class InitFailedError(Exception):
-    def __init__(self,data=None):
-        self.data=data
-
-    def __str__(self):
-        print(f"InitFailedError 初始化失败 {self.data}")

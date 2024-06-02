@@ -1,6 +1,9 @@
+__all__='Type'
+
 from .CustomException import *
 import pandas as pd
 import numpy as np
+from collections import Iterable
 class Type:
     def __init__(self,obj):
         self.obj=obj
@@ -9,13 +12,13 @@ class Type:
     def type(self):
         return type(self.obj)
 
-    @property
-    def innerType_Set(self):
+    def isInnerType(self,data):
         if self.isGenerated:
-            print(list(set([Type(i).type for i in self.obj])))
-            return list(set([Type(i).type for i in self.obj]))
-        else:
-            raise GeneratedError
+            if all(type(i)==data for i in self.obj):
+                return True
+            else:
+                return False
+        raise GeneratedError
 
     @property
     def isBool(self):
@@ -35,10 +38,9 @@ class Type:
 
     @property
     def isGenerated(self):
-        if any(self.type==i for i in [list, set, tuple]):
+        if isinstance(self,Iterable):
             return True
-        else:
-            return False
+        return False
 
     @property
     def isInnerTypeAlign(self):
@@ -47,16 +49,7 @@ class Type:
                 return True
             else:
                 return False
-        else :
-            return False
-
-    @property
-    def uniqueInnerType(self):
-        if self.isGenerated:
-            if self.isInnerTypeAlign:
-                return set([type(i) for i in self.obj])[0]
-        else:
-            raise GeneratedError
+        raise GeneratedError
 
     @property
     def isDict(self):
@@ -65,22 +58,9 @@ class Type:
     @property
     def isTuple(self):
         return self.type == tuple
+
     @property
     def isFloat(self):
         return self.type == float
 
-    @property
-    def isNumerical(self):
-        return self.isInt or self.isFloat
 
-    @property
-    def isDataFrame(self):
-        return self.type==pd.DataFrame
-
-    @property
-    def isSeries(self):
-        return self.type==pd.Series
-
-    @property
-    def isNumpyArray(self):
-        return self.type==np.array

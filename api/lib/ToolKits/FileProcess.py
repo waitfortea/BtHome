@@ -1,9 +1,12 @@
+__all__='FileProcessor','DirProcessor','pathInit','makeDir',''
+
 import os
 import re
 import shutil
 from dataclasses import dataclass
 from .GeneralObject.StrProcess import StrProcessor
 from .CustomException import *
+
 @dataclass()
 class FileProcessor:
     def __init__(self,filePath,valid=False):
@@ -119,46 +122,43 @@ class DirProcessor:
     def cut(self, dir):
         shutil.move(self.absolutePath, dir.absoluPath)
 
-class PathProcessor:
-    @classmethod
-    def init(cls,path,make=False):
-        # 这里会判断文件和目录是否存在
-        if os.path.isdir(path):
-            return DirProcessor(path)
-        elif os.path.isfile(path):
-            return FileProcessor(path)
-        else:
-            if make:
-                if '.' in os.path.basename(path):
-                    with open(path,'w',encoding='utf-8') as f:
-                        f.write("")
-                    return PathProcessor.init(path)
-                else:
-                    os.makedirs(path,exist_ok=True)
-                    return PathProcessor.init(path)
-            else:
-                raise PathNotFound
+def isDir(path):
+    return os.path.isdir(path)
 
-    @classmethod
-    def makeDir(cls,path):
-        if cls.isDir:
-            return DirProcessor(path)
-        else:
-            os.makedirs(path)
-            return DirProcessor(path)
+def isFile(path):
+    return os.path.isfile(path)
 
-    @classmethod
-    def isDir(cls,path):
-        return os.path.isdir(path)
+def _makePath(path,flag=None):
+    """
+    创建路径，返回自定义的文件对象
+    :param path:
+    :return:
+    """
+    if '.' in os.path.basename(path) and any(flag=="file" ,flag is None):
+        with open(path, 'w', encoding='utf-8') as f:
+            f.write("")
+        return FileProcessor(path)
+    elif any(flag=="dir",flag is None) :
+        os.makedirs(path, exist_ok=True)
+        return DirProcessor(path)
+    raise TypeError
 
-    @classmethod
-    def isFile(cls, path):
-        return os.path.isfile(path)
+def pathInit(path,make=False,flag=None):
+    # 这里会判断文件和目录是否存在
+    if os.path.isdir(path) and any(flag=="dir" ,flag is None):
+        return DirProcessor(path)
+    elif os.path.isfile(path) and any(flag=="file" ,flag is None):
+        return FileProcessor(path)
+    else:
+        if make:
+            _makePath(path,flag)
+    raise PathNotFound
 
-    # os.path.isdir不仅会判断格式，同时也会判断目录是否存在
-    @classmethod
-    def validFilename(cls,fileName):
-        return StrProcessor(fileName).clearByList([':', '\\', '/', '*', '?', '<', '>', '|'])
+
+def validFilename(fileName):
+    return StrProcessor(fileName).clearByList([':', '\\', '/', '*', '?', '<', '>', '|'])
+
+
 @dataclass
 class UrlProcessor:
     url: str

@@ -19,6 +19,9 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">font-family:微软雅黑</string>
+  </property>
   <layout class="QVBoxLayout" name="verticalLayout_2">
    <item>
     <layout class="QHBoxLayout" name="horizontalLayout">
@@ -67,12 +70,15 @@
         <x>0</x>
         <y>0</y>
         <width>1095</width>
-        <height>612</height>
+        <height>597</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout">
        <item>
         <layout class="QVBoxLayout" name="torrentPageverticalLayout">
+         <property name="spacing">
+          <number>1</number>
+         </property>
          <property name="sizeConstraint">
           <enum>QLayout::SetMinimumSize</enum>
          </property>
@@ -80,6 +86,9 @@
        </item>
        <item>
         <layout class="QVBoxLayout" name="subtitleGroupverticalLayout">
+         <property name="spacing">
+          <number>1</number>
+         </property>
          <property name="sizeConstraint">
           <enum>QLayout::SetMinimumSize</enum>
          </property>
@@ -87,6 +96,9 @@
        </item>
        <item>
         <layout class="QVBoxLayout" name="torrentverticalLayout">
+         <property name="spacing">
+          <number>1</number>
+         </property>
          <property name="sizeConstraint">
           <enum>QLayout::SetMinimumSize</enum>
          </property>
