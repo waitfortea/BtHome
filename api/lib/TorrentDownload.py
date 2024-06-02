@@ -1,14 +1,17 @@
 __all__="torrentFilterByKeyword",'getTorrentContent','torrentDownload'
 
+import asyncio
 from dataclasses import  dataclass
 from api.lib.ToolKits.GeneralObject.StrProcess import *
 from api.lib.ToolKits.RequestsProcess import *
 from api.lib.ToolKits.CustomException import *
 from api.lib.ToolKits.CustomType import *
+from api.lib.ToolKits.Strategy.AsyncStrategy import *
 from api.lib.ToolKits.Proxy import *
 from api.lib.ToolKits.FileProcess import *
 from api.CrawlObject import *
 from api.lib.DomainCheck import *
+import aiofiles
 import bencodepy
 
 torrentDownloadingQueue=[]
@@ -17,6 +20,11 @@ def torrentFilterByKeyword(torrentGroup:TorrentGroup,keyWord):
     word_List=keyWord.split(" ")
     result_List=[torrent for torrent in torrentGroup.torrent_List if StrProcessor(torrent.name).contains(word_List,mode='all')]
     return TorrentGroup(torrent_List=result_List,superObj=torrentGroup.superObj)
+
+def doEvent_waitDownload(torrentGourp,downloadPath):
+    global torrentDownloadingQueue
+    downloadPath = pathInit(downloadPath,type="dir").absolutePath
+    torrentDownloadingQueue.append({'torrentGroup':torrentGourp,'downloadPath':downloadPath})
 
 async def getTorrentContent(torrent:Torrent):
         count=0
@@ -33,22 +41,25 @@ async def getTorrentContent(torrent:Torrent):
                 if count >= 5:
                     callEvent('domainCheck',"")
         return torrentContent
+def check(self,DownloadPather):
+    if os.path.isdir(DownloadPather.savePath):
+        pass
+    else:
+        os.makedirs(DownloadPather.savePath,exist_ok=True)
+    torrentName_List=[file.fileName for file in PathProcessor.init(DownloadPather.savePath).getFileListBySuffix(['.torrent'])]
+    return [torrent for torrent in DownloadPather.torrentDom_List if torrent.name not in torrentName_List]
+async def torrentDownload(torrent,downloadPath):
+    downloadPath=pathInit(downloadPath,flag="dir",make=True).absolutePath
+    torrentContent = await getTorrentContent(torrent)
+    async with aiofiles.open(rf'{downloadPath}\{torrent.name}', mode='wb') as file:
+        await file.write(bencodepy.encode(torrentContent))
 
-def doEvent_download(torrentGourp):
-    global torrentDownloadingQueue
-    torrentDownloadingQueue.append(torrentGourp)
+async def torrentGroupDownload(task):
+    torrentGroup=getTorrentContent(task['torrentGroup'])
+    downloadPath=task['downloadPath']
+    tasks=[asyncio.create_task(torrentDownload(torrent,downloadPath)) for torrent in torrentGroup.torrent_List]
+    await allComplete(tasks)
 
-
-
-class torrentDownloader:
-    def __init__(self,downloadPath):
-        self.init(downloadPath)
-    def init(self,downloadPath):
-        self.downloadPath=pathInit(downloadPath).absolutePath
-async def torrentDownload():
-    async def
-        for torrentGroup in torrentDownloadingQueue:
-
-
-def torrentGroupDownload():
-    pass
+async def queueDownload():
+    tasks=[asyncio.create_task(torrentGroupDownload(task)) for task in torrentDownloadingQueue]
+    await allComplete(tasks)

@@ -1,4 +1,4 @@
-__all__='FileProcessor','DirProcessor','pathInit','makeDir',''
+__all__='FileProcessor','DirProcessor','pathInit','_makePath','isFile','isDir'
 
 import os
 import re

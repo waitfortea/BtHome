@@ -4,5 +4,5 @@ class _CustomeException(Exception):
         self.error_name = ""
         self.error_data = ""
 
-    def __str__(self,):
+    def __str__(self):
         print(f"{self.error_name} {self.error_data}")
