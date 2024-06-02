@@ -41,15 +41,17 @@ async def getTorrentContent(torrent:Torrent):
                 if count >= 5:
                     callEvent('domainCheck',"")
         return torrentContent
-def check(self,DownloadPather):
-    if os.path.isdir(DownloadPather.savePath):
-        pass
-    else:
-        os.makedirs(DownloadPather.savePath,exist_ok=True)
-    torrentName_List=[file.fileName for file in PathProcessor.init(DownloadPather.savePath).getFileListBySuffix(['.torrent'])]
-    return [torrent for torrent in DownloadPather.torrentDom_List if torrent.name not in torrentName_List]
+
 async def torrentDownload(torrent,downloadPath):
-    downloadPath=pathInit(downloadPath,flag="dir",make=True).absolutePath
+
+    file=pathInit(downloadPath,flag="dir",make=True)
+    downloadPath=file.absolutePath
+    torrentName_List = [file.fileName for file in
+                        file.parDir.getFileListBySuffix(['.torrent'])]
+
+    if torrent.name in torrentName_List:
+        return
+
     torrentContent = await getTorrentContent(torrent)
     async with aiofiles.open(rf'{downloadPath}\{torrent.name}', mode='wb') as file:
         await file.write(bencodepy.encode(torrentContent))

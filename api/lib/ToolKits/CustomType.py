@@ -1,9 +1,7 @@
-__all__='Type'
 
 from .CustomException import *
-import pandas as pd
-import numpy as np
 from collections import Iterable
+
 class Type:
     def __init__(self,obj):
         self.obj=obj

@@ -5,7 +5,7 @@ import time
 import atexit
 from .Strategy.AsyncStrategy import asyncStrategy
 from .Event import *
-
+from .CustomException import *
 
 #data对应请求体，如果请求体是json,也可以用json表示
 #params对应post\get请求参数]
@@ -13,18 +13,17 @@ from .Event import *
 
 async def createSession():
     return aiohttp.ClientSession()
+async def close():
+    await aiohttpSession.close()
+    time.sleep(1)
 
 def closeSession():
-    async def close():
-        await aiohttpSession.close()
-        time.sleep(1)
+
     asyncStrategy(close())
 
 requestSession=requests.session()
 aiohttpSession=asyncStrategy(createSession())
 atexit.register(closeSession)
-
-
 
 @dataclass
 class RequestsProcessor:
@@ -34,12 +33,16 @@ class RequestsProcessor:
         self.kwargs = kwargs
 
     def response(self,type='get'):
-        if type=='get':
-            response= self.session.get(self.url, **self.kwargs)
-        else:
-            response=  self.session.post(self.url, **self.kwargs)
-        callEvent("logNetWork", {"type": type, "requestURL": self.url, "responseURL": response.url})
-        return response
+        try:
+            if type=='get':
+                response= self.session.get(self.url, **self.kwargs)
+            else:
+                response=  self.session.post(self.url, **self.kwargs)
+            callEvent("logNetWork", {"type": type, "requestURL": self.url, "responseURL": response.url})
+            return response
+        except Exception as e:
+            print(e)
+        raise NotFoundResponse(self.url)
 
     def content(self,type='get'):
 

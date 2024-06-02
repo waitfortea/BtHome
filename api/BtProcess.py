@@ -14,3 +14,6 @@ def getSubTitleGroups(torrentPage:TorrentPage, stragety=getSubtitleGroupFromBtHo
 
 def getTorrentGroup(subtitleGroup:SubtitleGroup, stragety=getTorrentGroupFromBtHome):
     return asyncStrategy(stragety(subtitleGroup))
+
+def updateSubcribe():
+    pass

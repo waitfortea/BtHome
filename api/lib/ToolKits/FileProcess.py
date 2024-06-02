@@ -40,7 +40,7 @@ class FileProcessor:
 
     @property
     def parDir(self):
-        return os.path.dirname(self.absolutePath)
+        return DirProcessor(os.path.dirname(self.absolutePath))
 
     @property
     def validFilename(self):
@@ -82,13 +82,13 @@ class DirProcessor:
 
     @property
     def directFiles(self):
-        file_List = [PathProcessor.init(rf'{self.absolutePath}/{path}') for path in os.listdir(self.absolutePath) if
-                     os.path.isfile(rf'{self.absolutePath}/{path}')]
+        file_List = [pathInit(rf'{self.absolutePath}/{path}',flag="file") for path in os.listdir(self.absolutePath) if
+                     isFile(rf'{self.absolutePath}/{path}')]
         return file_List
 
     @property
     def directDirs(self):
-        dir_List = [PathProcessor.init(rf'{self.absolutePath}/{path}') for path in os.listdir(self.absolutePath) if
+        dir_List = [pathInit(rf'{self.absolutePath}/{path}',flag="dir") for path in os.listdir(self.absolutePath) if
                     os.path.isdir(rf'{self.absolutePath}/{path}')]
         return dir_List
 
@@ -134,20 +134,20 @@ def _makePath(path,flag=None):
     :param path:
     :return:
     """
-    if '.' in os.path.basename(path) and any(flag=="file" ,flag is None):
+    if '.' in os.path.basename(path) and (flag=="file" or flag is None):
         with open(path, 'w', encoding='utf-8') as f:
             f.write("")
         return FileProcessor(path)
-    elif any(flag=="dir",flag is None) :
+    elif flag=="dir" or flag is None :
         os.makedirs(path, exist_ok=True)
         return DirProcessor(path)
     raise TypeError
 
 def pathInit(path,make=False,flag=None):
     # 这里会判断文件和目录是否存在
-    if os.path.isdir(path) and any(flag=="dir" ,flag is None):
+    if os.path.isdir(path) and (flag=="dir" or flag is None):
         return DirProcessor(path)
-    elif os.path.isfile(path) and any(flag=="file" ,flag is None):
+    elif os.path.isfile(path) and (flag=="file" or flag is None):
         return FileProcessor(path)
     else:
         if make:

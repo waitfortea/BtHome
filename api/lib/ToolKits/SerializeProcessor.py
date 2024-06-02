@@ -1,6 +1,6 @@
 import pickle
 import os
-from .FileProcess import PathProcessor
+from .FileProcess import *
 from .CustomException import *
 import yaml
 
@@ -23,7 +23,7 @@ class YamlProcessor:
     def __init__(self,filePath):
         self.init(filePath)
     def init(self,filePath):
-        self.file=PathProcessor().init(filePath)
+        self.file=pathInit(filePath)
         if ".yaml" not in self.file.suffix:
             raise FileFormatNotAlign
     @property

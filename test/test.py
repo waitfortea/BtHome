@@ -1,2 +1,2 @@
 
-from api.lib.ToolKits.CustomException import *
+from api.lib.ToolKits.CustomType import *

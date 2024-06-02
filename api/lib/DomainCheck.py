@@ -47,6 +47,12 @@ def setup_domainCheck():
     addEvent("domainCheck",doEvent_domainCheck)
 
 
+if __name__=="__main__":
+    setup_domainCheck()
+    callEvent("domainCheck","")
+
+
+
 
 
 

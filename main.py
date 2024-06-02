@@ -2,15 +2,15 @@ from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 from ui.BtDownloadWindow import *
-
 from api.BtProcess import *
 from api.lib.ToolKits.Proxy import *
 from api.lib.Log import *
 from api.lib.DomainCheck import *
+
 if __name__=='__main__':
 
     #设置代理
-    setProxy()
+    # setProxy()
 
     #开启日志
     setup_logNetWork()
