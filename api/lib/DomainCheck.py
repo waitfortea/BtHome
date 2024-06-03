@@ -22,6 +22,7 @@ async def domainCheck(path=None):
 
     async def check(url):
         res=await AsyncRequestsProcessor(url=url, session=aiohttpSession, proxy=globalProxy.proxy_aiohttp).response()
+
         if "btbtt" not in str(res.url):
             domain_list.pop(url)
             return None
@@ -34,23 +35,22 @@ async def domainCheck(path=None):
     res=await firstComplete(tasks)
 
     domain.address = res
-
+    print(f'可用域名:{domain.address}')
 
 def doEvent_domainCheck(path=None):
     try:
         asyncStrategy(domainCheck(path))
     except Exception as e:
+        print(e)
         setProxy()
-        asyncStrategy(domainCheck(path))
-    print(f'可用域名:{domain.address}')
 
 def setup_domainCheck():
     addEvent("domainCheck",doEvent_domainCheck)
 
 
 if __name__=="__main__":
-    setup_domainCheck()
-    callEvent("domainCheck","")
+    pass
+
 
 
 

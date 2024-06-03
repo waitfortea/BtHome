@@ -14,7 +14,7 @@ async def getSubtitleGroupFromBtHome(torrentPage):
     subtitleGroupElement_List = ElementProcessor(data=htmlText).xpath("//td[@class='post_td']//div[@class='message'][..//child::a]")[1:]
 
     for subtitleGroupElement in subtitleGroupElement_List:
-        torrentElement_List= subtitleGroupElement.xpath('..//a[contains(text(),".torrent")]')
+        torrentElement_List= subtitleGroupElement.xpath('..//a[contains(text(),".torrent") or text(),".rar")]')
         subtitleGroupName = subtitleGroupElement.text().replace("\t", "").replace("\n", "").strip()
         subtitleGroup_List.append(SubtitleGroup(name=subtitleGroupName,torrentElement_List=torrentElement_List,superObj=torrentPage))
 

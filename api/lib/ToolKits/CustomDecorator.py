@@ -3,7 +3,7 @@
 def asyncTenthRepetition(func):
     async def wrapper(*args,**kwargs):
         count=0
-        while True and count<10:
+        while True and count<5:
             try:
                 result=await func(*args,**kwargs)
                 return result

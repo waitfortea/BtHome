@@ -23,20 +23,20 @@ async def getTorrentPageFromBtHome(index):
             break
         except Exception as e:
             print(e)
-            callEvent("domainCheck", data="")
+            callEvent("domainCheck", data=f"search-index-keyword-{quote(index.keyword)}.htm")
             continue
     doc = ElementProcessor(htmlText)
     element_List = doc.xpath('//td[@class="subject"]//a[contains(text(),"BT")]')
     if element_List is None:
         print('搜索结果为空')
         return []
-    async def getPageHtmlFromBtHome(index,session):
+    async def getPageHtmlFromBtHome(index):
 
-        htmlText = await AsyncRequestsProcessor(index.url, session=session, proxy=globalProxy.proxy_aiohttp).text()
+        htmlText = await AsyncRequestsProcessor(index.url, session=aiohttpSession, proxy=globalProxy.proxy_aiohttp).text()
         return TorrentPage(index=index, title=index.title, url=index.url,
                            htmlText=htmlText)
 
-    tasks = [asyncio.create_task(getPageHtmlFromBtHome(Index(keyword=index.keyword,url=domain.address+"/"+element.attrib('href'),title=element.text()), session=aiohttpSession))
+    tasks = [asyncio.create_task(getPageHtmlFromBtHome(Index(keyword=index.keyword,url=domain.address+"/"+element.attrib('href'),title=element.text())))
              for element in element_List]
     result_List = await allComplete(tasks)
     return result_List
@@ -53,8 +53,16 @@ async def getTorrentPageFromComicGarden(index):
             'keyword': index.keyword,
         }
 
-        res = await AsyncRequestsProcessor(f'https://dmhy.org/topics/list/page/{index.page}', session=session,
-                                           params=params, headers=headers, proxy=globalProxy.proxy_aiohttp).response()
+        while True:
+            try:
+                res = await AsyncRequestsProcessor(f'https://dmhy.org/topics/list/page/{index.page}', session=session,
+                                                   params=params, headers=headers, proxy=globalProxy.proxy_aiohttp).response()
+                break
+            except Exception as e:
+                print(e)
+                setProxy()
+                continue
+
         if res.status == 500:
             return None
         htmlText = await res.text()
@@ -67,7 +75,6 @@ async def getTorrentPageFromComicGarden(index):
     return TorrentPage_List
 
 if __name__=="__main__":
-    # setProxy()
+    setProxy()
     # print(globalProxy.proxy_aiohttp)
     asyncStrategy(getTorrentPageFromBtHome(Index("迷宫饭")))
-    closeSession(aiohttpSession)

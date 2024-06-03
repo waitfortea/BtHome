@@ -4,12 +4,11 @@ import asyncio
 import time
 
 loop=asyncio.get_event_loop()
-
 def asyncStrategy(tasks):
-    global loopCount
     time.sleep(2)
-    result = loop.run_until_complete(tasks)
+    result=loop.run_until_complete(tasks)
     return result
+
 
 async def firstComplete(tasks):
         result=""

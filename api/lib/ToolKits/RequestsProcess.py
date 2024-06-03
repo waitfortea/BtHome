@@ -6,13 +6,13 @@ import atexit
 from .Strategy.AsyncStrategy import asyncStrategy
 from .Event import *
 from .CustomException import *
-
+from .CustomDecorator import *
 #data对应请求体，如果请求体是json,也可以用json表示
 #params对应post\get请求参数]
 
 
 async def createSession():
-    return aiohttp.ClientSession()
+    return aiohttp.ClientSession(timeout=aiohttp.ClientTimeout(connect=1,total=3))
 async def close():
     await aiohttpSession.close()
     time.sleep(1)
@@ -32,17 +32,19 @@ class RequestsProcessor:
         self.session =requests.session()
         self.kwargs = kwargs
 
+    @tenthRepetition
     def response(self,type='get'):
         try:
             if type=='get':
                 response= self.session.get(self.url, **self.kwargs)
             else:
                 response=  self.session.post(self.url, **self.kwargs)
-            callEvent("logNetWork", {"type": type, "requestURL": self.url, "responseURL": response.url})
+            callEvent("logNetWork", {"type": type, "requestURL": self.url, "responseURL": response.url,"proxy":self.kwargs['proxies']})
             return response
         except Exception as e:
             print(e)
-        raise NotFoundResponse(self.url)
+            raise NotFoundResponse(self.url)
+
 
     def content(self,type='get'):
 
@@ -69,13 +71,20 @@ class AsyncRequestsProcessor:
         self.url = url
         self.kwargs = kwargs
 
+
     async def response(self,type='get'):
-        if type=='get':
-            response = await  self.session.get(self.url, **self.kwargs)
-        else:
-            response = await  self.session.post(self.url, **self.kwargs)
-        callEvent("logNetWork",{"type":type,"requestURL":self.url,"responseURL":response.url})
-        return response
+        try:
+            if type=='get':
+                response = await  self.session.get(self.url, **self.kwargs)
+            else:
+                response = await  self.session.post(self.url, **self.kwargs)
+
+            callEvent("logNetWork",{"type":type,"requestURL":self.url,"responseURL":response.url,"proxy":self.kwargs['proxy']})
+
+            return response
+        except Exception as e:
+            print(e)
+            raise NotFoundResponse(self.url)
 
     async def content(self,type='get'):
         response = await self.response(type)

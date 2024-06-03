@@ -7,9 +7,7 @@ from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 from PyQt5 import QtWidgets,uic,Qt,sip,QtCore
 from SeasonalComicWindow import SeasonalComincWindow
-import Listen
-import BtML
-from ToolKits.FileProcess import PathProcessor
+
 class BtHomeStackedWindow(QWidget):
 
     def __init__(self):
@@ -68,7 +66,7 @@ class BtHomeStackedWindow(QWidget):
 
 
 if __name__ == '__main__':
-    Listen.setDomainListener()
+    pass
     app = QApplication(sys.argv)
     stackedWidget = BtHomeStackedWindow()
     stackedWidget.show()
