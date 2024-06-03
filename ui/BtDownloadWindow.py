@@ -9,7 +9,7 @@ from api.BtProcess import *
 from api.lib.Config import *
 from api.lib.TorrentDownload import *
 import os
-
+import sys
 class SearchWorker(QObject):
 
     search = pyqtSignal(object)
@@ -68,8 +68,6 @@ class StartWorker(QObject):
     @pyqtSlot(object)
     def startBtnFn(self,window):
 
-
-
         if window.torrentGroup is None:
             return
 
@@ -80,7 +78,7 @@ class StartWorker(QObject):
             torrentGroup = torrentFilterByKeyword(torrentGroup,word_List)
 
         if window.downloadcheckBox.isChecked():
-            download_dir = config['download_dir'] if config['download_dir'] is not None else f"{os.path.dirname(__file__)}/../download"
+            download_dir = config['download_dir'] if config['download_dir'] is not None else f"{os.path.dirname(sys.argv[0])}/download"
             download_dir = f"{download_dir}/{window.savePathlineEdit.text().strip()}"
             waitDownload(torrentGroup,download_dir)
             # breakpoint()
@@ -89,9 +87,6 @@ class StartWorker(QObject):
             except Exception as e:
                 print(e)
                 raise e
-
-
-
 
 class BtWindow(QWidget):
 
@@ -129,7 +124,8 @@ class BtWindow(QWidget):
 
     def initUI(self):
 
-        uic.loadUi(rf"{os.path.dirname(__file__)}\..\resource\BtWindowAdvance.ui",self)
+        uic.loadUi(rf"{os.path.dirname(sys.argv[0])}\resource\BtWindowAdvance.ui",self)
+
         # self.setWindowTitle(f"BTHOME 当前域名为{domain}")
         #绑定按钮
         self.searchBtn.clicked.connect(self.searchBtnFn)

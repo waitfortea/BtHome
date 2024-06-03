@@ -18,7 +18,7 @@ async def domainCheck(path=None):
 
     global domain
 
-    domain_list=configProcessor.contentDict['domain_List']
+    domain_list=config['domain_List']
 
     async def check(url):
         res=await AsyncRequestsProcessor(url=url, session=aiohttpSession, proxy=globalProxy.proxy_aiohttp).response()

@@ -153,7 +153,7 @@ def pathInit(path,make=False,flag=None):
         if make:
             pathObj=_makePath(path,flag)
             return pathObj
-    raise PathNotFound
+    raise PathNotFound(path)
 
 
 def validFilename(fileName):

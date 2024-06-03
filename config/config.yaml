@@ -12,6 +12,6 @@ domain_List:
  - https://www.btbtt19.com
 download_dir: "D:\\文档\\BtHome下载"
 sub_download_dir: '2024.4/'
-log_ath:
+log_path:
  network_log_name: networkLog.txt
  download_log_name: downloadLog.txt

@@ -1,9 +1,10 @@
 from api.lib.ToolKits.LogProcess import *
 from api.lib.ToolKits.Event import *
 import os
+import sys
+netWorkLogger=LogProcessor(f"{os.path.dirname(sys.argv[0])}/log/networkLog.txt")
+downloadLogger=LogProcessor(f"{os.path.dirname(sys.argv[0])}/log/downloadLog.txt")
 
-netWorkLogger=LogProcessor(f"{os.path.dirname(__file__)}/../../log/networkLog.txt")
-downloadLogger=LogProcessor(f"{os.path.dirname(__file__)}/../../log/downloadLog.txt")
 
 def doEvent_logDownloadWork(data):
     downloadLogger.append(LogMessage(data).message)
