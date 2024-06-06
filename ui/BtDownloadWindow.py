@@ -15,40 +15,40 @@ class SearchWorker(QObject):
     search = pyqtSignal(object)
     result = pyqtSignal(object)
 
-    @pyqtSlot(object)
-    def searchTorrentPage(self,keyword):
+    @pyqtSlot(object,object)
+    def searchTorrentPage(self,keyword,torrengePageStrategy):
         """
             搜索按钮执行的函数，接收索引对象，返回种子页列表对象
         """
         index=Index(keyword=keyword)
         # 获取种子页列表
-        torrentPage_List=getTorrentPage(index,getTorrentPageFromBtHome)
+        torrentPage_List=getTorrentPage(index,torrengePageStrategy)
 
         self.result.emit(torrentPage_List)
 
 
 class TorrentPageWorker(QObject):
-    result = pyqtSignal(object )
+    result = pyqtSignal(object)
 
-    @pyqtSlot(object)
-    def torrentPageBtnFn(self,torrentPage):
+    @pyqtSlot(object,object)
+    def torrentPageBtnFn(self,torrentPage,subtitleGroupStrategy):
         """
             点击种子页对应按钮执行的函数，接收种子页对象，返回字幕组列表对象
         """
 
-        subtitleGroup_List = getSubTitleGroups(torrentPage,getSubtitleGroupFromBtHome)
+        subtitleGroup_List = getSubTitleGroups(torrentPage,subtitleGroupStrategy)
         self.result.emit(subtitleGroup_List)
 
 class SubtitleGroupWorker(QObject):
-    result = pyqtSignal(object )
+    result = pyqtSignal(object)
 
-    @pyqtSlot(object)
-    def subtitleGroupBtn(self,subtitleGroup):
+    @pyqtSlot(object,object)
+    def subtitleGroupBtn(self,subtitleGroup,torrentGroupStrategy):
         """
             点击种子页对应按钮执行的函数，接收种子页对象，返回字幕组列表对象
         """
 
-        torrentGroup = getTorrentGroup(subtitleGroup,getTorrentGroupFromBtHome)
+        torrentGroup = getTorrentGroup(subtitleGroup,torrentGroupStrategy)
         self.result.emit(torrentGroup)
 
 
@@ -90,9 +90,9 @@ class StartWorker(QObject):
 
 class BtWindow(QWidget):
 
-    searchSignal = pyqtSignal(object)
-    torrentPageSignal = pyqtSignal(object)
-    subtitleGroupSignal = pyqtSignal(object)
+    searchSignal = pyqtSignal(object,object)
+    torrentPageSignal = pyqtSignal(object,object)
+    subtitleGroupSignal = pyqtSignal(object,object)
     startSignal = pyqtSignal(object)
     updateSignal = pyqtSignal()
 
@@ -115,12 +115,17 @@ class BtWindow(QWidget):
         self.StartWorker = StartWorker()
         self.startSignal.connect(self.StartWorker.startBtnFn)
 
+
+
+
         # self.UpdateWorker = UpdateWorker()
         # self.updateSignal.connect(self.UpdateWorker.updateBtnFn)
 
         self.thread = QThread()
         self.thread.start()
         self.initUI()
+
+
 
     def initUI(self):
 
@@ -138,12 +143,52 @@ class BtWindow(QWidget):
         self.addTorrentcheckBox.setChecked(True)
         self.keepUpdatecheckBox.setChecked(True)
 
+        self.crawlSourceComboBox.currentIndex = 0
+        self.crawlSourceComboBox.currentIndexChanged.connect(self.changeCrawlSource)
+
+        self.strategy_Dict = {
+            0: {
+                'torrentPageStrategy': getTorrentPageFromBtHome
+                , 'subtitleGroupStrategy': getSubtitleGroupFromBtHome
+                , 'torrentGroupStrategy': getTorrentGroupFromBtHome
+            }
+            , 1: {
+                'torrentPageStrategy': getTorrentPageFromComicGarden
+                , 'subtitleGroupStrategy': getSubtitleGroupFromComicGarden
+                , 'torrentGroupStrategy': getTorrentGroupFromComicGarden
+            }
+
+        }
+
+        self.torrentPageStrategy = self.strategy_Dict[self.crawlSourceComboBox.currentIndex]['torrentPageStrategy']
+        self.subtitleGroupStrategy = self.strategy_Dict[self.crawlSourceComboBox.currentIndex]['subtitleGroupStrategy']
+        self.torrentGroupStrategy = self.strategy_Dict[self.crawlSourceComboBox.currentIndex]['torrentGroupStrategy']
+
+        self.proxyCheckBox.checked = False
+        self.proxyCheckBox.toggled.connect(self.proxCheck)
+
+    def changeCrawlSource(self,index):
+        self.crawlSourceComboBox.currentIndex=index
+        self.torrentPageStrategy = self.strategy_Dict[self.crawlSourceComboBox.currentIndex]['torrentPageStrategy']
+        self.subtitleGroupStrategy = self.strategy_Dict[self.crawlSourceComboBox.currentIndex]['subtitleGroupStrategy']
+        self.torrentGroupStrategy = self.strategy_Dict[self.crawlSourceComboBox.currentIndex]['torrentGroupStrategy']
+        print(f"更改爬虫源为{self.crawlSourceComboBox.currentIndex}")
+
+    def proxCheck(self,checked):
+        if checked:
+            print("开启代理")
+            setProxy()
+        else:
+            unsetProxy()
+            print("关闭代理")
+
+
     def searchBtnFn(self):
 
         self.searchWorker.moveToThread(self.thread)
         self.removeItem(self.torrentPageverticalLayout)
         keyWords = self.searchKeyWordslineEdit.text()
-        self.searchSignal.emit(keyWords)
+        self.searchSignal.emit(keyWords,self.torrentPageStrategy)
 
     def getSearchInfo(self,torrentPage_List):
         if torrentPage_List is not None:
@@ -165,7 +210,7 @@ class BtWindow(QWidget):
         print(torrentPage.title)
         print(torrentPage.url)
         self.removeItem(self.subtitleGroupverticalLayout)
-        self.torrentPageSignal.emit(torrentPage)
+        self.torrentPageSignal.emit(torrentPage,self.subtitleGroupStrategy)
 
     def getSubtitleGroupInfo(self,subtitleGroup_List):
         for i in range(len(subtitleGroup_List)):
@@ -185,7 +230,7 @@ class BtWindow(QWidget):
         print('------SUBTITLEGROUP------')
         print(subtitleGroup.name)
         self.removeItem(self.torrentverticalLayout)
-        self.subtitleGroupSignal.emit(subtitleGroup)
+        self.subtitleGroupSignal.emit(subtitleGroup,self.torrentGroupStrategy)
 
     def getTorrentGroupInfo(self,torrentGroup):
         torrent_List = torrentGroup.torrent_List

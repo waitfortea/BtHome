@@ -38,11 +38,8 @@ async def domainCheck(path=None):
     print(f'可用域名:{domain.address}')
 
 def doEvent_domainCheck(path=None):
-    try:
-        asyncStrategy(domainCheck(path))
-    except Exception as e:
-        print(e)
-        setProxy()
+    asyncStrategy(domainCheck(path))
+
 
 def setup_domainCheck():
     addEvent("domainCheck",doEvent_domainCheck)

@@ -42,6 +42,36 @@
       <widget class="LineEdit" name="searchKeyWordslineEdit"/>
      </item>
      <item>
+      <widget class="QCheckBox" name="proxyCheckBox">
+       <property name="text">
+        <string>开启代理</string>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+       <property name="tristate">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="crawlSourceComboBox">
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <item>
+        <property name="text">
+         <string>BtHome</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ComicGarden</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
       <widget class="PushButton" name="searchBtn">
        <property name="text">
         <string>开始</string>

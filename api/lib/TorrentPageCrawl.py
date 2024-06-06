@@ -16,15 +16,20 @@ import asyncio
 
 
 async def getTorrentPageFromBtHome(index):
-    while True:
+    count=0
+    while count<10:
         try:
             url = domain.address + "/" + f"search-index-keyword-{quote(index.keyword)}.htm"
             htmlText = RequestsProcessor(url, proxies=globalProxy.proxy_request).text()
             break
         except Exception as e:
             print(e)
-            callEvent("domainCheck", data=f"search-index-keyword-{quote(index.keyword)}.htm")
+            count+=1
+            print(f"重新连接{count}")
+            if count>=10:
+                raise NotFoundResponse(url)
             continue
+
     doc = ElementProcessor(htmlText)
     element_List = doc.xpath('//td[@class="subject"]//a[contains(text(),"BT")]')
     if element_List is None:

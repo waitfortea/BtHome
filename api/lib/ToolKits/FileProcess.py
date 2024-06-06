@@ -1,4 +1,4 @@
-__all__='FileProcessor','DirProcessor','pathInit','_makePath','isFile','isDir'
+__all__='FileProcessor','DirProcessor','pathInit','_makePath','isFile','isDir','verifyFileName'
 
 import os
 import re
@@ -156,8 +156,8 @@ def pathInit(path,make=False,flag=None):
     raise PathNotFound(path)
 
 
-def validFilename(fileName):
-    return StrProcessor(fileName).clearByList([':', '\\', '/', '*', '?', '<', '>', '|'])
+def verifyFileName(fileName):
+    return StrProcessor(fileName).clear([':', '\\', '/', '*', '?', '<', '>', '|'])
 
 
 @dataclass

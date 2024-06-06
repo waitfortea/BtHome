@@ -1,3 +1,4 @@
+import re
 from dataclasses import dataclass
 import requests
 import aiohttp
@@ -12,7 +13,7 @@ from .CustomDecorator import *
 
 
 async def createSession():
-    return aiohttp.ClientSession(timeout=aiohttp.ClientTimeout(connect=1,total=3))
+    return aiohttp.ClientSession(timeout=aiohttp.ClientTimeout(connect=5,total=10))
 async def close():
     await aiohttpSession.close()
     time.sleep(1)
@@ -102,11 +103,20 @@ class AsyncRequestsProcessor:
         return text
 
     async def headers(self,type='get'):
-        if type == 'get':
-            response = await  self.session.get(self.url, **self.kwargs)
-        else:
-            response = await  self.session.post(self.url, **self.kwargs)
+        response = await self.response(type)
         headers = await response.headers
         return headers
+
+def getResFileSuffix(res):
+    content_disposition= res.headers.get('content-disposition')
+    # breakpoint()
+    if content_disposition is None:
+        suffix=re.search("\.[^.]*$",str(res.url)).group()
+        return suffix
+    else:
+        fileName=content_disposition.split('filename=')[1].strip('"')
+        suffix = re.search("\.[^.]*$", fileName).group()
+        return suffix
+
 
 

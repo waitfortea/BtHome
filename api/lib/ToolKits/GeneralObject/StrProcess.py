@@ -45,6 +45,15 @@ class StrProcessor:
 
     # 这里j对应非检验字符的索引，但是切片对数字来说不包含结尾，所以要+1
 
+    def clear(self,word_List):
+        result=""
+        for char in self. text:
+            if char in word_List:
+                result +=" "
+                continue
+            result += char
+        return result
+
     @property
     def toStr(self):
         return str(self.text)

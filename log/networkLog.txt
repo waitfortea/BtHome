@@ -1599,3 +1599,2451 @@ requestURL :https://www.btbtt15.com
 responseURL :https://www.btbtt15.com
 proxy :None
 ======================================
+
+======================================
+2024/06/06-11:45:24
+type :get
+requestURL :https://btbtt15.com
+responseURL :https://btbtt15.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-11:47:17
+type :get
+requestURL :https://btbtt18.com
+responseURL :https://btbtt18.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-11:51:12
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-11:51:21
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-11:53:00
+type :get
+requestURL :https://www.btbtt13.com
+responseURL :https://www.btbtt13.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-11:54:43
+type :get
+requestURL :https://btbtt13.com
+responseURL :https://btbtt13.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-11:56:37
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-11:57:10
+type :get
+requestURL :https://www.btbtt13.com
+responseURL :https://www.btbtt13.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-11:59:10
+type :get
+requestURL :https://www.btbtt17.com
+responseURL :https://www.btbtt17.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-12:02:40
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-12:03:25
+type :get
+requestURL :https://www.btbtt13.com
+responseURL :https://www.btbtt13.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-12:06:36
+type :get
+requestURL :https://www.btbtt13.com
+responseURL :https://www.btbtt13.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-12:06:47
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E8%BF%B7%E5%AE%AB%E9%A5%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:09:40
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-12:09:56
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E8%BF%B7%E5%AE%AB%E9%A5%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:10:42
+type :get
+requestURL :https://btbtt18.com
+responseURL :https://btbtt18.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-12:11:02
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=+%E8%BF%B7%E5%AE%AB%E9%A5%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:11:09
+type :get
+requestURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:15:03
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-12:15:15
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E8%BF%B7%E5%AE%AB%E9%A5%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:15:22
+type :get
+requestURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:19:00
+type :get
+requestURL :https://www.btbtt12.com
+responseURL :https://www.btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-12:19:52
+type :get
+requestURL :https://www.btbtt12.com
+responseURL :https://www.btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-12:20:31
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-12:20:47
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E8%BF%B7%E5%AE%AB%E9%A5%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:20:58
+type :get
+requestURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:20:59
+type :get
+requestURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:20:59
+type :get
+requestURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:21:00
+type :get
+requestURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:21:00
+type :get
+requestURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:21:00
+type :get
+requestURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:21:00
+type :get
+requestURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:21:01
+type :get
+requestURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:21:01
+type :get
+requestURL :https://dmhy.org/topics/view/668722_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+responseURL :https://dmhy.org/topics/view/668722_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:21:01
+type :get
+requestURL :https://dmhy.org/topics/view/668721_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+responseURL :https://dmhy.org/topics/view/668721_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:21:02
+type :get
+requestURL :https://dmhy.org/topics/view/668279_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+responseURL :https://dmhy.org/topics/view/668279_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:21:02
+type :get
+requestURL :https://dmhy.org/topics/view/668278_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+responseURL :https://dmhy.org/topics/view/668278_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:21:34
+type :get
+requestURL :https://www.btbtt18.com
+responseURL :https://www.btbtt18.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-12:21:46
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E8%BF%B7%E5%AE%AB%E9%A5%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:21:56
+type :get
+requestURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:21:56
+type :get
+requestURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:21:57
+type :get
+requestURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:21:57
+type :get
+requestURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:21:57
+type :get
+requestURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:21:58
+type :get
+requestURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:21:58
+type :get
+requestURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:21:58
+type :get
+requestURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:21:58
+type :get
+requestURL :https://dmhy.org/topics/view/668722_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+responseURL :https://dmhy.org/topics/view/668722_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:21:59
+type :get
+requestURL :https://dmhy.org/topics/view/668721_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+responseURL :https://dmhy.org/topics/view/668721_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:21:59
+type :get
+requestURL :https://dmhy.org/topics/view/668279_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+responseURL :https://dmhy.org/topics/view/668279_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:22:00
+type :get
+requestURL :https://dmhy.org/topics/view/668278_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+responseURL :https://dmhy.org/topics/view/668278_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:22:22
+type :get
+requestURL :https://www.btbtt18.com///dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+responseURL :https://www.btbtt18.com///dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:22:23
+type :get
+requestURL :https://www.btbtt18.com///dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+responseURL :https://www.btbtt18.com///dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:22:23
+type :get
+requestURL :https://www.btbtt18.com///dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+responseURL :https://www.btbtt18.com///dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:22:23
+type :get
+requestURL :https://www.btbtt18.com///dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+responseURL :https://www.btbtt18.com///dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:22:23
+type :get
+requestURL :https://www.btbtt18.com///dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+responseURL :https://www.btbtt18.com///dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:22:23
+type :get
+requestURL :https://www.btbtt18.com///dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+responseURL :https://www.btbtt18.com///dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:22:23
+type :get
+requestURL :https://www.btbtt18.com///dl.dmhy.org/2024/05/11/caae3b805a06362ccb0c589967c62d2aa466c981.torrent
+responseURL :https://www.btbtt18.com///dl.dmhy.org/2024/05/11/caae3b805a06362ccb0c589967c62d2aa466c981.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:22:23
+type :get
+requestURL :https://www.btbtt18.com///dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+responseURL :https://www.btbtt18.com///dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:22:23
+type :get
+requestURL :https://www.btbtt18.com///dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+responseURL :https://www.btbtt18.com///dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:22:23
+type :get
+requestURL :https://www.btbtt18.com///dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+responseURL :https://www.btbtt18.com///dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:22:24
+type :get
+requestURL :https://www.btbtt18.com///dl.dmhy.org/2024/05/11/caae3b805a06362ccb0c589967c62d2aa466c981.torrent
+responseURL :https://www.btbtt18.com///dl.dmhy.org/2024/05/11/caae3b805a06362ccb0c589967c62d2aa466c981.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:22:24
+type :get
+requestURL :https://www.btbtt18.com///dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+responseURL :https://www.btbtt18.com///dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:22:26
+type :get
+requestURL :https://www.btbtt18.com///dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+responseURL :https://www.btbtt18.com///dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:22:26
+type :get
+requestURL :https://www.btbtt18.com///dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+responseURL :https://www.btbtt18.com///dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:22:26
+type :get
+requestURL :https://www.btbtt18.com///dl.dmhy.org/2024/05/03/7de253b1680452d338ea46db27cbe56d4f76bc5f.torrent
+responseURL :https://www.btbtt18.com///dl.dmhy.org/2024/05/03/7de253b1680452d338ea46db27cbe56d4f76bc5f.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:22:26
+type :get
+requestURL :https://www.btbtt18.com///dl.dmhy.org/2024/05/11/caae3b805a06362ccb0c589967c62d2aa466c981.torrent
+responseURL :https://www.btbtt18.com///dl.dmhy.org/2024/05/11/caae3b805a06362ccb0c589967c62d2aa466c981.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:22:26
+type :get
+requestURL :https://www.btbtt18.com///dl.dmhy.org/2024/04/27/c8b46988fc06dc1a800964d10a5b57022d35fbf6.torrent
+responseURL :https://www.btbtt18.com///dl.dmhy.org/2024/04/27/c8b46988fc06dc1a800964d10a5b57022d35fbf6.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:27:28
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-12:27:40
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E8%BF%B7%E5%AE%AB%E9%A5%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:27:55
+type :get
+requestURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:27:56
+type :get
+requestURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:27:56
+type :get
+requestURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:27:57
+type :get
+requestURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:27:57
+type :get
+requestURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:27:57
+type :get
+requestURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:27:58
+type :get
+requestURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:27:58
+type :get
+requestURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:27:58
+type :get
+requestURL :https://dmhy.org/topics/view/668722_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+responseURL :https://dmhy.org/topics/view/668722_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:27:58
+type :get
+requestURL :https://dmhy.org/topics/view/668721_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+responseURL :https://dmhy.org/topics/view/668721_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:27:59
+type :get
+requestURL :https://dmhy.org/topics/view/668279_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+responseURL :https://dmhy.org/topics/view/668279_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:27:59
+type :get
+requestURL :https://dmhy.org/topics/view/668278_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+responseURL :https://dmhy.org/topics/view/668278_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:28:09
+type :get
+requestURL ://dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+responseURL ://dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:28:09
+type :get
+requestURL ://dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+responseURL ://dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:28:09
+type :get
+requestURL ://dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+responseURL ://dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:28:09
+type :get
+requestURL ://dl.dmhy.org/2024/05/11/caae3b805a06362ccb0c589967c62d2aa466c981.torrent
+responseURL ://dl.dmhy.org/2024/05/11/caae3b805a06362ccb0c589967c62d2aa466c981.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:28:09
+type :get
+requestURL ://dl.dmhy.org/2024/05/03/7de253b1680452d338ea46db27cbe56d4f76bc5f.torrent
+responseURL ://dl.dmhy.org/2024/05/03/7de253b1680452d338ea46db27cbe56d4f76bc5f.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:28:09
+type :get
+requestURL ://dl.dmhy.org/2024/04/27/c8b46988fc06dc1a800964d10a5b57022d35fbf6.torrent
+responseURL ://dl.dmhy.org/2024/04/27/c8b46988fc06dc1a800964d10a5b57022d35fbf6.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:37:48
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-12:38:15
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E8%BF%B7%E5%AE%AB%E9%A5%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:38:32
+type :get
+requestURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:38:33
+type :get
+requestURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:38:33
+type :get
+requestURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:38:33
+type :get
+requestURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:38:34
+type :get
+requestURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:38:34
+type :get
+requestURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:38:34
+type :get
+requestURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:38:34
+type :get
+requestURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:38:35
+type :get
+requestURL :https://dmhy.org/topics/view/668721_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+responseURL :https://dmhy.org/topics/view/668721_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:38:35
+type :get
+requestURL :https://dmhy.org/topics/view/668722_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+responseURL :https://dmhy.org/topics/view/668722_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:38:36
+type :get
+requestURL :https://dmhy.org/topics/view/668279_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+responseURL :https://dmhy.org/topics/view/668279_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:38:36
+type :get
+requestURL :https://dmhy.org/topics/view/668278_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+responseURL :https://dmhy.org/topics/view/668278_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:38:55
+type :get
+requestURL ://dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+responseURL ://dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:38:55
+type :get
+requestURL ://dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+responseURL ://dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:38:55
+type :get
+requestURL ://dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+responseURL ://dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:38:55
+type :get
+requestURL ://dl.dmhy.org/2024/05/11/caae3b805a06362ccb0c589967c62d2aa466c981.torrent
+responseURL ://dl.dmhy.org/2024/05/11/caae3b805a06362ccb0c589967c62d2aa466c981.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:38:55
+type :get
+requestURL ://dl.dmhy.org/2024/05/03/7de253b1680452d338ea46db27cbe56d4f76bc5f.torrent
+responseURL ://dl.dmhy.org/2024/05/03/7de253b1680452d338ea46db27cbe56d4f76bc5f.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-12:38:55
+type :get
+requestURL ://dl.dmhy.org/2024/04/27/c8b46988fc06dc1a800964d10a5b57022d35fbf6.torrent
+responseURL ://dl.dmhy.org/2024/04/27/c8b46988fc06dc1a800964d10a5b57022d35fbf6.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:16:26
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-14:16:53
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E8%BF%B7%E5%AE%AB%E9%A5%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:00
+type :get
+requestURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:01
+type :get
+requestURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:01
+type :get
+requestURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:02
+type :get
+requestURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:02
+type :get
+requestURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:02
+type :get
+requestURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:03
+type :get
+requestURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:03
+type :get
+requestURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:03
+type :get
+requestURL :https://dmhy.org/topics/view/668722_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+responseURL :https://dmhy.org/topics/view/668722_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:03
+type :get
+requestURL :https://dmhy.org/topics/view/668721_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+responseURL :https://dmhy.org/topics/view/668721_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:04
+type :get
+requestURL :https://dmhy.org/topics/view/668279_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+responseURL :https://dmhy.org/topics/view/668279_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:04
+type :get
+requestURL :https://dmhy.org/topics/view/668278_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+responseURL :https://dmhy.org/topics/view/668278_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:21
+type :get
+requestURL ://dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+responseURL ://dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:21
+type :get
+requestURL ://dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+responseURL ://dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:21
+type :get
+requestURL ://dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+responseURL ://dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:21
+type :get
+requestURL ://dl.dmhy.org/2024/05/11/caae3b805a06362ccb0c589967c62d2aa466c981.torrent
+responseURL ://dl.dmhy.org/2024/05/11/caae3b805a06362ccb0c589967c62d2aa466c981.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:21
+type :get
+requestURL ://dl.dmhy.org/2024/05/03/7de253b1680452d338ea46db27cbe56d4f76bc5f.torrent
+responseURL ://dl.dmhy.org/2024/05/03/7de253b1680452d338ea46db27cbe56d4f76bc5f.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:21
+type :get
+requestURL ://dl.dmhy.org/2024/04/27/c8b46988fc06dc1a800964d10a5b57022d35fbf6.torrent
+responseURL ://dl.dmhy.org/2024/04/27/c8b46988fc06dc1a800964d10a5b57022d35fbf6.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:21
+type :get
+requestURL ://dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+responseURL ://dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:21
+type :get
+requestURL ://dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+responseURL ://dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:21
+type :get
+requestURL ://dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+responseURL ://dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:21
+type :get
+requestURL ://dl.dmhy.org/2024/05/11/caae3b805a06362ccb0c589967c62d2aa466c981.torrent
+responseURL ://dl.dmhy.org/2024/05/11/caae3b805a06362ccb0c589967c62d2aa466c981.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:21
+type :get
+requestURL ://dl.dmhy.org/2024/05/03/7de253b1680452d338ea46db27cbe56d4f76bc5f.torrent
+responseURL ://dl.dmhy.org/2024/05/03/7de253b1680452d338ea46db27cbe56d4f76bc5f.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:21
+type :get
+requestURL ://dl.dmhy.org/2024/04/27/c8b46988fc06dc1a800964d10a5b57022d35fbf6.torrent
+responseURL ://dl.dmhy.org/2024/04/27/c8b46988fc06dc1a800964d10a5b57022d35fbf6.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:21
+type :get
+requestURL ://dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+responseURL ://dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:21
+type :get
+requestURL ://dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+responseURL ://dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:21
+type :get
+requestURL ://dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+responseURL ://dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:21
+type :get
+requestURL ://dl.dmhy.org/2024/05/11/caae3b805a06362ccb0c589967c62d2aa466c981.torrent
+responseURL ://dl.dmhy.org/2024/05/11/caae3b805a06362ccb0c589967c62d2aa466c981.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:21
+type :get
+requestURL ://dl.dmhy.org/2024/05/03/7de253b1680452d338ea46db27cbe56d4f76bc5f.torrent
+responseURL ://dl.dmhy.org/2024/05/03/7de253b1680452d338ea46db27cbe56d4f76bc5f.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:21
+type :get
+requestURL ://dl.dmhy.org/2024/04/27/c8b46988fc06dc1a800964d10a5b57022d35fbf6.torrent
+responseURL ://dl.dmhy.org/2024/04/27/c8b46988fc06dc1a800964d10a5b57022d35fbf6.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:21
+type :get
+requestURL ://dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+responseURL ://dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:21
+type :get
+requestURL ://dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+responseURL ://dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:21
+type :get
+requestURL ://dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+responseURL ://dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:21
+type :get
+requestURL ://dl.dmhy.org/2024/05/11/caae3b805a06362ccb0c589967c62d2aa466c981.torrent
+responseURL ://dl.dmhy.org/2024/05/11/caae3b805a06362ccb0c589967c62d2aa466c981.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:21
+type :get
+requestURL ://dl.dmhy.org/2024/05/03/7de253b1680452d338ea46db27cbe56d4f76bc5f.torrent
+responseURL ://dl.dmhy.org/2024/05/03/7de253b1680452d338ea46db27cbe56d4f76bc5f.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:21
+type :get
+requestURL ://dl.dmhy.org/2024/04/27/c8b46988fc06dc1a800964d10a5b57022d35fbf6.torrent
+responseURL ://dl.dmhy.org/2024/04/27/c8b46988fc06dc1a800964d10a5b57022d35fbf6.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:21
+type :get
+requestURL ://dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+responseURL ://dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:23
+type :get
+requestURL ://dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+responseURL ://dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:17:25
+type :get
+requestURL ://dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+responseURL ://dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:18:24
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-14:18:36
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E8%BF%B7%E5%AE%AB%E9%A5%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:18:43
+type :get
+requestURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:18:44
+type :get
+requestURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:18:44
+type :get
+requestURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:18:45
+type :get
+requestURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:18:45
+type :get
+requestURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:18:45
+type :get
+requestURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:18:46
+type :get
+requestURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:18:46
+type :get
+requestURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:18:46
+type :get
+requestURL :https://dmhy.org/topics/view/668722_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+responseURL :https://dmhy.org/topics/view/668722_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:18:46
+type :get
+requestURL :https://dmhy.org/topics/view/668721_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+responseURL :https://dmhy.org/topics/view/668721_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:18:47
+type :get
+requestURL :https://dmhy.org/topics/view/668279_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+responseURL :https://dmhy.org/topics/view/668279_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:18:47
+type :get
+requestURL :https://dmhy.org/topics/view/668278_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+responseURL :https://dmhy.org/topics/view/668278_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:19:01
+type :get
+requestURL ://dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+responseURL ://dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:19:01
+type :get
+requestURL ://dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+responseURL ://dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:19:01
+type :get
+requestURL ://dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+responseURL ://dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:19:01
+type :get
+requestURL ://dl.dmhy.org/2024/05/11/caae3b805a06362ccb0c589967c62d2aa466c981.torrent
+responseURL ://dl.dmhy.org/2024/05/11/caae3b805a06362ccb0c589967c62d2aa466c981.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:19:01
+type :get
+requestURL ://dl.dmhy.org/2024/05/03/7de253b1680452d338ea46db27cbe56d4f76bc5f.torrent
+responseURL ://dl.dmhy.org/2024/05/03/7de253b1680452d338ea46db27cbe56d4f76bc5f.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:19:01
+type :get
+requestURL ://dl.dmhy.org/2024/04/27/c8b46988fc06dc1a800964d10a5b57022d35fbf6.torrent
+responseURL ://dl.dmhy.org/2024/04/27/c8b46988fc06dc1a800964d10a5b57022d35fbf6.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:19:01
+type :get
+requestURL ://dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+responseURL ://dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:19:01
+type :get
+requestURL ://dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+responseURL ://dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:19:01
+type :get
+requestURL ://dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+responseURL ://dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:19:01
+type :get
+requestURL ://dl.dmhy.org/2024/05/11/caae3b805a06362ccb0c589967c62d2aa466c981.torrent
+responseURL ://dl.dmhy.org/2024/05/11/caae3b805a06362ccb0c589967c62d2aa466c981.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:19:01
+type :get
+requestURL ://dl.dmhy.org/2024/05/03/7de253b1680452d338ea46db27cbe56d4f76bc5f.torrent
+responseURL ://dl.dmhy.org/2024/05/03/7de253b1680452d338ea46db27cbe56d4f76bc5f.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:19:01
+type :get
+requestURL ://dl.dmhy.org/2024/04/27/c8b46988fc06dc1a800964d10a5b57022d35fbf6.torrent
+responseURL ://dl.dmhy.org/2024/04/27/c8b46988fc06dc1a800964d10a5b57022d35fbf6.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:19:01
+type :get
+requestURL ://dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+responseURL ://dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:19:01
+type :get
+requestURL ://dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+responseURL ://dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:19:01
+type :get
+requestURL ://dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+responseURL ://dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:19:01
+type :get
+requestURL ://dl.dmhy.org/2024/05/11/caae3b805a06362ccb0c589967c62d2aa466c981.torrent
+responseURL ://dl.dmhy.org/2024/05/11/caae3b805a06362ccb0c589967c62d2aa466c981.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:19:01
+type :get
+requestURL ://dl.dmhy.org/2024/05/03/7de253b1680452d338ea46db27cbe56d4f76bc5f.torrent
+responseURL ://dl.dmhy.org/2024/05/03/7de253b1680452d338ea46db27cbe56d4f76bc5f.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:19:01
+type :get
+requestURL ://dl.dmhy.org/2024/04/27/c8b46988fc06dc1a800964d10a5b57022d35fbf6.torrent
+responseURL ://dl.dmhy.org/2024/04/27/c8b46988fc06dc1a800964d10a5b57022d35fbf6.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:19:01
+type :get
+requestURL ://dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+responseURL ://dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:19:01
+type :get
+requestURL ://dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+responseURL ://dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:19:01
+type :get
+requestURL ://dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+responseURL ://dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:19:01
+type :get
+requestURL ://dl.dmhy.org/2024/05/11/caae3b805a06362ccb0c589967c62d2aa466c981.torrent
+responseURL ://dl.dmhy.org/2024/05/11/caae3b805a06362ccb0c589967c62d2aa466c981.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:19:01
+type :get
+requestURL ://dl.dmhy.org/2024/05/03/7de253b1680452d338ea46db27cbe56d4f76bc5f.torrent
+responseURL ://dl.dmhy.org/2024/05/03/7de253b1680452d338ea46db27cbe56d4f76bc5f.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:19:01
+type :get
+requestURL ://dl.dmhy.org/2024/04/27/c8b46988fc06dc1a800964d10a5b57022d35fbf6.torrent
+responseURL ://dl.dmhy.org/2024/04/27/c8b46988fc06dc1a800964d10a5b57022d35fbf6.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:19:01
+type :get
+requestURL ://dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+responseURL ://dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:19:03
+type :get
+requestURL ://dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+responseURL ://dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:19:05
+type :get
+requestURL ://dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+responseURL ://dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:20:05
+type :get
+requestURL :https://www.btbtt12.com
+responseURL :https://www.btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-14:20:19
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E8%BF%B7%E5%AE%AB%E9%A5%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:20:27
+type :get
+requestURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:20:28
+type :get
+requestURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:20:28
+type :get
+requestURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:20:28
+type :get
+requestURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:20:28
+type :get
+requestURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:20:29
+type :get
+requestURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:20:29
+type :get
+requestURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:20:29
+type :get
+requestURL :https://dmhy.org/topics/view/668722_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+responseURL :https://dmhy.org/topics/view/668722_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:20:30
+type :get
+requestURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:20:30
+type :get
+requestURL :https://dmhy.org/topics/view/668721_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+responseURL :https://dmhy.org/topics/view/668721_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:20:30
+type :get
+requestURL :https://dmhy.org/topics/view/668279_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+responseURL :https://dmhy.org/topics/view/668279_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:20:31
+type :get
+requestURL :https://dmhy.org/topics/view/668278_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+responseURL :https://dmhy.org/topics/view/668278_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:20:34
+type :get
+requestURL ://dl.dmhy.org/2024/06/01/a4829443650031e21047cdaa4577de24e1e6e4a5.torrent
+responseURL ://dl.dmhy.org/2024/06/01/a4829443650031e21047cdaa4577de24e1e6e4a5.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:21:37
+type :get
+requestURL ://dl.dmhy.org/2024/05/25/1acf9921c75f94579b35e275c32c680904abeb5c.torrent
+responseURL ://dl.dmhy.org/2024/05/25/1acf9921c75f94579b35e275c32c680904abeb5c.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:22:24
+type :get
+requestURL ://dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+responseURL ://dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:23:22
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-14:23:40
+type :get
+requestURL :https://www.btbtt13.com
+responseURL :https://www.btbtt13.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-14:23:54
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E8%BF%B7%E5%AE%AB%E9%A5%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:24:01
+type :get
+requestURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:24:02
+type :get
+requestURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:24:02
+type :get
+requestURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:24:03
+type :get
+requestURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:24:03
+type :get
+requestURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:24:03
+type :get
+requestURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:24:04
+type :get
+requestURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:24:04
+type :get
+requestURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:24:04
+type :get
+requestURL :https://dmhy.org/topics/view/668722_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+responseURL :https://dmhy.org/topics/view/668722_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:24:05
+type :get
+requestURL :https://dmhy.org/topics/view/668721_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+responseURL :https://dmhy.org/topics/view/668721_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:24:05
+type :get
+requestURL :https://dmhy.org/topics/view/668278_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+responseURL :https://dmhy.org/topics/view/668278_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:24:05
+type :get
+requestURL :https://dmhy.org/topics/view/668279_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+responseURL :https://dmhy.org/topics/view/668279_01_Dungeon_Meshi_Delicious_in_Dungeon_17_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:24:09
+type :get
+requestURL ://dl.dmhy.org/2024/06/01/a4829443650031e21047cdaa4577de24e1e6e4a5.torrent
+responseURL ://dl.dmhy.org/2024/06/01/a4829443650031e21047cdaa4577de24e1e6e4a5.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:24:13
+type :get
+requestURL ://dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+responseURL ://dl.dmhy.org/2024/06/01/e79bd1218104961de250ddb647707d619d6a53a6.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:24:13
+type :get
+requestURL ://dl.dmhy.org/2024/05/25/1acf9921c75f94579b35e275c32c680904abeb5c.torrent
+responseURL ://dl.dmhy.org/2024/05/25/1acf9921c75f94579b35e275c32c680904abeb5c.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:24:13
+type :get
+requestURL ://dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+responseURL ://dl.dmhy.org/2024/05/25/8f60cba6cbb834b4f3028db20f2343eb1f215e64.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:24:13
+type :get
+requestURL ://dl.dmhy.org/2024/05/19/ab1624d82d8b0f44572226feed6bc4609e78b66e.torrent
+responseURL ://dl.dmhy.org/2024/05/19/ab1624d82d8b0f44572226feed6bc4609e78b66e.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:24:13
+type :get
+requestURL ://dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+responseURL ://dl.dmhy.org/2024/05/19/d778fc6e192ed18549b28d742678c256b4119ce3.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:24:13
+type :get
+requestURL ://dl.dmhy.org/2024/05/11/3b392b5e4e99721a8e41d7f622ae660cfb765035.torrent
+responseURL ://dl.dmhy.org/2024/05/11/3b392b5e4e99721a8e41d7f622ae660cfb765035.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:24:13
+type :get
+requestURL ://dl.dmhy.org/2024/05/11/caae3b805a06362ccb0c589967c62d2aa466c981.torrent
+responseURL ://dl.dmhy.org/2024/05/11/caae3b805a06362ccb0c589967c62d2aa466c981.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:24:13
+type :get
+requestURL ://dl.dmhy.org/2024/05/03/cfafa5eec49caea10badad5b61a3b8076c66cd5a.torrent
+responseURL ://dl.dmhy.org/2024/05/03/cfafa5eec49caea10badad5b61a3b8076c66cd5a.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:24:13
+type :get
+requestURL ://dl.dmhy.org/2024/05/03/7de253b1680452d338ea46db27cbe56d4f76bc5f.torrent
+responseURL ://dl.dmhy.org/2024/05/03/7de253b1680452d338ea46db27cbe56d4f76bc5f.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:24:13
+type :get
+requestURL ://dl.dmhy.org/2024/04/27/81c422b6fa660c4398ccc23407dfeb62ee438345.torrent
+responseURL ://dl.dmhy.org/2024/04/27/81c422b6fa660c4398ccc23407dfeb62ee438345.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:24:13
+type :get
+requestURL ://dl.dmhy.org/2024/04/27/c8b46988fc06dc1a800964d10a5b57022d35fbf6.torrent
+responseURL ://dl.dmhy.org/2024/04/27/c8b46988fc06dc1a800964d10a5b57022d35fbf6.torrent
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:27:20
+type :get
+requestURL :https://btbtt15.com
+responseURL :https://btbtt15.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-14:27:32
+type :get
+requestURL :https://btbtt15.com/search-index-keyword-%E8%BF%B7%E5%AE%AB%E9%A5%AD.htm
+responseURL :https://btbtt15.com/search-index-keyword-%E8%BF%B7%E5%AE%AB%E9%A5%AD.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/06-14:27:33
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4977680.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4977680.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:27:33
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4978733.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4978733.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:27:34
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4977678.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4977678.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:27:34
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4979016.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4979016.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:27:34
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4980217.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4980217.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:27:43
+type :get
+requestURL :https://btbtt15.com/search-index-keyword-%E8%BF%B7%E5%AE%AB%E9%A5%AD%20%E6%9B%B4%E6%96%B0.htm
+responseURL :https://btbtt15.com/search-index-keyword-%E8%BF%B7%E5%AE%AB%E9%A5%AD%20%E6%9B%B4%E6%96%B0.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/06-14:27:44
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-981-tid-4874083.htm
+responseURL :https://btbtt15.com/thread-index-fid-981-tid-4874083.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:27:59
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-14:28:10
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E8%BF%B7%E5%AE%AB%E9%A5%AD.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E8%BF%B7%E5%AE%AB%E9%A5%AD.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/06-14:28:11
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4979016.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4979016.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:28:11
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4977678.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4977678.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:28:11
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4978733.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4978733.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:28:11
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4980217.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4980217.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:28:11
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4977680.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4977680.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:28:24
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E8%BF%B7%E5%AE%AB%E9%A5%AD%20%E6%9B%B4%E6%96%B0.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E8%BF%B7%E5%AE%AB%E9%A5%AD%20%E6%9B%B4%E6%96%B0.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/06-14:28:25
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4874083.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4874083.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:30:57
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-14:31:12
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E8%BF%B7%E5%AE%AB%E9%A5%AD.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E8%BF%B7%E5%AE%AB%E9%A5%AD.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/06-14:31:13
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4977678.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4977678.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:31:13
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4980217.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4980217.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:31:13
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4977680.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4977680.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:31:13
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4978733.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4978733.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:31:13
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4979016.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4979016.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:31:21
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E8%BF%B7%E5%AE%AB%E9%A5%AD%20%E6%9B%B4%E6%96%B0.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E8%BF%B7%E5%AE%AB%E9%A5%AD%20%E6%9B%B4%E6%96%B0.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/06-14:31:21
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4874083.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4874083.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:31:57
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6494643.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6494643.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:33:11
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-14:33:26
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E8%BF%B7%E5%AE%AB%E9%A5%AD.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E8%BF%B7%E5%AE%AB%E9%A5%AD.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/06-14:33:26
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4979016.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4979016.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:33:26
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4978733.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4978733.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:33:26
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4977680.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4977680.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:33:26
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4977678.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4977678.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:33:27
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4980217.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4980217.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:33:34
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E8%BF%B7%E5%AE%AB%E9%A5%AD%20%E6%9B%B4%E6%96%B0.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E8%BF%B7%E5%AE%AB%E9%A5%AD%20%E6%9B%B4%E6%96%B0.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/06-14:33:34
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4874083.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4874083.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:34:05
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6443775.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6443775.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:35:56
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-14:36:07
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E8%BF%B7%E5%AE%AB%E9%A5%AD%20%E6%9B%B4%E6%96%B0.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E8%BF%B7%E5%AE%AB%E9%A5%AD%20%E6%9B%B4%E6%96%B0.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/06-14:36:08
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4874083.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4874083.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:36:28
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6483258.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6483258.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:39:17
+type :get
+requestURL :https://btbtt18.com
+responseURL :https://btbtt18.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-14:39:39
+type :get
+requestURL :https://btbtt18.com/search-index-keyword-%E8%BF%B7%E5%AE%AB%E9%A5%AD%20%E6%9B%B4%E6%96%B0.htm
+responseURL :https://btbtt18.com/search-index-keyword-%E8%BF%B7%E5%AE%AB%E9%A5%AD%20%E6%9B%B4%E6%96%B0.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/06-14:39:40
+type :get
+requestURL :https://btbtt18.com/thread-index-fid-981-tid-4874083.htm
+responseURL :https://btbtt18.com/thread-index-fid-981-tid-4874083.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:40:02
+type :get
+requestURL :https://btbtt18.com/attach-download-fid-981-aid-6456931.htm
+responseURL :https://btbtt18.com/attach-download-fid-981-aid-6456931.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:40:06
+type :get
+requestURL :https://btbtt18.com/attach-download-fid-981-aid-6523394.htm
+responseURL :https://btbtt18.com/attach-download-fid-981-aid-6523394.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:40:06
+type :get
+requestURL :https://btbtt18.com/attach-download-fid-981-aid-6443775.htm
+responseURL :https://btbtt18.com/attach-download-fid-981-aid-6443775.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:40:06
+type :get
+requestURL :https://btbtt18.com/attach-download-fid-981-aid-6545115.htm
+responseURL :https://btbtt18.com/attach-download-fid-981-aid-6545115.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:40:06
+type :get
+requestURL :https://btbtt18.com/attach-download-fid-981-aid-6533777.htm
+responseURL :https://btbtt18.com/attach-download-fid-981-aid-6533777.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:40:06
+type :get
+requestURL :https://btbtt18.com/attach-download-fid-981-aid-6470873.htm
+responseURL :https://btbtt18.com/attach-download-fid-981-aid-6470873.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:40:06
+type :get
+requestURL :https://btbtt18.com/attach-download-fid-981-aid-6508754.htm
+responseURL :https://btbtt18.com/attach-download-fid-981-aid-6508754.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:40:06
+type :get
+requestURL :https://btbtt18.com/attach-download-fid-981-aid-6443773.htm
+responseURL :https://btbtt18.com/attach-download-fid-981-aid-6443773.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:40:06
+type :get
+requestURL :https://btbtt18.com/attach-download-fid-981-aid-6483258.htm
+responseURL :https://btbtt18.com/attach-download-fid-981-aid-6483258.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:40:06
+type :get
+requestURL :https://btbtt18.com/attach-download-fid-981-aid-6494643.htm
+responseURL :https://btbtt18.com/attach-download-fid-981-aid-6494643.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:40:07
+type :get
+requestURL :https://btbtt18.com/attach-download-fid-981-aid-6443773.htm
+responseURL :https://btbtt18.com/attach-download-fid-981-aid-6443773.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:40:08
+type :get
+requestURL :https://btbtt18.com/attach-download-fid-981-aid-6443773.htm
+responseURL :https://btbtt18.com/attach-download-fid-981-aid-6443773.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:40:08
+type :get
+requestURL :https://btbtt18.com/attach-download-fid-981-aid-6443773.htm
+responseURL :https://btbtt18.com/attach-download-fid-981-aid-6443773.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:40:09
+type :get
+requestURL :https://btbtt18.com/attach-download-fid-981-aid-6443773.htm
+responseURL :https://btbtt18.com/attach-download-fid-981-aid-6443773.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:51:58
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/06-14:52:13
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E8%BF%B7%E5%AE%AB%E9%A5%AD%20%E6%9B%B4%E6%96%B0.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E8%BF%B7%E5%AE%AB%E9%A5%AD%20%E6%9B%B4%E6%96%B0.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/06-14:52:13
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4874083.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4874083.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:52:28
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6443773.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6443773.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:52:29
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6545115.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6545115.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:52:29
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6523394.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6523394.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:52:29
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6470873.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6470873.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:52:29
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6533777.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6533777.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:52:29
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6443775.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6443775.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:52:29
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6508754.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6508754.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:52:29
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6483258.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6483258.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:52:29
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6456931.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6456931.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/06-14:52:29
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6494643.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6494643.htm
+proxy :http://127.0.0.1:10809
+======================================
