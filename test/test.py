@@ -1,1 +1,0 @@
-path=r"D:\文档\BtHome下载\2024.4\动漫花园\迷宫饭\【喵萌奶茶屋】★01月新番★[迷宫饭   Dungeon Meshi   Delicious in Dungeon][19][1080p][简日双语][招募翻译时轴].torrent"

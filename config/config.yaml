@@ -22,3 +22,6 @@ qbittorrent:
  is_sequential_download: True
  is_first_last_piece_priority: True
  is_paused: False
+proxy:
+ proxy_aiohttp: "http://127.0.0.1:10809"
+ proxy_request: "http://127.0.0.1:10809"
