@@ -1,16 +1,21 @@
+from .CustomException import *
 
-
-def asyncTenthRepetition(func):
+def asyncRetry(func):
     async def wrapper(*args,**kwargs):
+
+        repeat=1 if "retry" not in kwargs.keys() else kwargs["retry"]
+        kwargs.pop("retry",None)
         count=0
-        while True and count<5:
+        while True :
             try:
                 result=await func(*args,**kwargs)
                 return result
-            except:
+            except Exception as e:
+                print(e)
                 count+=1
                 print(f'重新连接{count}')
-        raise Exception
+                if count>repeat-1:
+                    raise NotFoundResponse
     return wrapper
 
 def tenthRepetition(func):

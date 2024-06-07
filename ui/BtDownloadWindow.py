@@ -10,6 +10,9 @@ from api.lib.Config import *
 from api.lib.TorrentDownload import *
 import os
 import sys
+from threading import Thread
+from api.lib.ToolKits.Download.QbittorrentProcess import *
+from api.lib.ToolKits.Parser.GeneralParser import *
 class SearchWorker(QObject):
 
     search = pyqtSignal(object)
@@ -19,8 +22,12 @@ class SearchWorker(QObject):
     def searchTorrentPage(self,keyword,torrengePageStrategy):
         """
             搜索按钮执行的函数，接收索引对象，返回种子页列表对象
+
         """
-        index=Index(keyword=keyword)
+        word=keyword.split(" ")[0]
+        page=re.search("\d+-\d+", keyword)
+        page_List=pageParser(page.group()) if page is not None else 1
+        index=Index(keyword=word,page=page_List)
         # 获取种子页列表
         torrentPage_List=getTorrentPage(index,torrengePageStrategy)
 
@@ -82,11 +89,18 @@ class StartWorker(QObject):
             download_dir = f"{download_dir}/{window.savePathlineEdit.text().strip()}"
             waitDownload(torrentGroup,download_dir)
             # breakpoint()
+
             try:
-                asyncStrategy(queueDownload())
+                torrentAddition_List=asyncStrategy(queueDownload())
+                if window.addTorrentcheckBox.isChecked():
+                    qbClient=QbClient(f"{os.path.dirname(sys.argv[0])}/config/config.yaml")
+                    addThread=Thread(target=addTorrentInBatch,args=(qbClient,torrentAddition_List))
+                    addThread.start()
+                    addThread.join()
             except Exception as e:
                 print(e)
                 raise e
+
 
 class BtWindow(QWidget):
 
@@ -115,9 +129,6 @@ class BtWindow(QWidget):
         self.StartWorker = StartWorker()
         self.startSignal.connect(self.StartWorker.startBtnFn)
 
-
-
-
         # self.UpdateWorker = UpdateWorker()
         # self.updateSignal.connect(self.UpdateWorker.updateBtnFn)
 
@@ -141,7 +152,7 @@ class BtWindow(QWidget):
         #设置复选框
         self.downloadcheckBox.setChecked(True)
         self.addTorrentcheckBox.setChecked(True)
-        self.keepUpdatecheckBox.setChecked(True)
+        self.keepUpdatecheckBox.setChecked(False)
 
         self.crawlSourceComboBox.currentIndex = 0
         self.crawlSourceComboBox.currentIndexChanged.connect(self.changeCrawlSource)
@@ -184,7 +195,7 @@ class BtWindow(QWidget):
 
 
     def searchBtnFn(self):
-
+        print("===========开始搜索==============")
         self.searchWorker.moveToThread(self.thread)
         self.removeItem(self.torrentPageverticalLayout)
         keyWords = self.searchKeyWordslineEdit.text()
@@ -211,7 +222,7 @@ class BtWindow(QWidget):
         print(torrentPage.url)
         self.removeItem(self.subtitleGroupverticalLayout)
         self.torrentPageSignal.emit(torrentPage,self.subtitleGroupStrategy)
-
+        print("===========搜索结束==============")
     def getSubtitleGroupInfo(self,subtitleGroup_List):
         for i in range(len(subtitleGroup_List)):
             subtitleGroupBtn = QPushButton(subtitleGroup_List[i].name)

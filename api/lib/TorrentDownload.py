@@ -41,10 +41,11 @@ async def getDownloadContent(torrent:Torrent):
                 res=await AsyncRequestsProcessor(torrent.downloadURL, session=aiohttpSession,proxy=globalProxy.proxy_aiohttp).response()
                 suffix=getResFileSuffix(res)
                 Content_IO = await res.content.read()
+                print(Content_IO)
                 # if suffix==".torrent":
-                #     downloadContent = bencodepy.decode(Content_IO)
+                #     downloadContent = bencodepy.encode(bencodepy.decode(Content_IO))
                 # else:
-                #     pass
+                #     downloadContent = Content_IO
                 break
             except Exception as e:
                 print(e)
@@ -64,9 +65,10 @@ async def torrentDownload(torrent,downloadPath):
     if torrent.name in torrentName_List:
         return
 
-    content_IO,suffix = await getDownloadContent(torrent)
-    async with aiofiles.open(rf'{downloadPath}\{torrent.name}{suffix}', mode='wb') as file:
-        await file.write(content_IO)
+    content,suffix = await getDownloadContent(torrent)
+    async with aiofiles.open(rf'{downloadPath}\{torrent.name}{suffix}', 'wb') as file:
+        await file.write(content)
+    return rf'{downloadPath}\{torrent.name}{suffix}'
 
 async def torrentGroupDownload(task):
 
@@ -83,13 +85,16 @@ async def torrentGroupDownload(task):
     callEvent("logDownloadWork", message)
 
     tasks=[asyncio.create_task(torrentDownload(torrent,downloadPath)) for torrent in torrentGroup.torrent_List]
-    await allComplete(tasks)
-
+    torrentGroupPath_List=await allComplete(tasks)
+    return torrentGroupPath_List
 
 async def queueDownload():
     print("------Download------")
     print("开始下载")
     tasks=[asyncio.create_task(torrentGroupDownload(task)) for task in torrentDownloadingQueue]
-    await allComplete(tasks)
+    torrentAdditionQueue=await allComplete(tasks)
     torrentDownloadingQueue.clear()
     print("下载完成")
+    return torrentAdditionQueue
+
+

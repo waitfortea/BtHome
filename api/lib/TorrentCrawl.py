@@ -27,7 +27,7 @@ async def getTorrentGroupFromBtHome(subtileGroup):
 async def getTorrentGroupFromComicGarden(subtitleGroup:SubtitleGroup):
     torrent_List = []
     async def getTorrent(url):
-        htmlText=await AsyncRequestsProcessor("https://dmhy.org"+url,session=aiohttpSession,proxy=globalProxy.proxy_aiohttp).text()
+        htmlText=await AsyncRequestsProcessor("https://dmhy.org"+url,session=aiohttpSession,proxy=globalProxy.proxy_aiohttp,retry=3).text()
         torrent_List=ElementProcessor(htmlText).xpath("//a[contains(@href,'.torrent')]")
         return torrent_List
 
@@ -36,6 +36,6 @@ async def getTorrentGroupFromComicGarden(subtitleGroup:SubtitleGroup):
     torrentElement_List=concatList(result_List)
     for torrentElement in torrentElement_List:
         torrentName=verifyFileName(torrentElement.text())
-        downloadURL=torrentElement.attrib('href')
+        downloadURL="https:"+torrentElement.attrib('href')
         torrent_List.append(Torrent(name=torrentName,downloadURL=downloadURL))
     return TorrentGroup(torrent_List=torrent_List,superObj=subtitleGroup)

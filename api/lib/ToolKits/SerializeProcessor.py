@@ -13,9 +13,11 @@ class PickleProcessor:
         self.savePath=savePath
         os.makedirs(os.path.dirname(self.savePath),exist_ok=True)
 
+
     def save(self):
         with open(self.savePath,'wb') as f:
             f.write(pickle.dumps(self.obj))
+
 
     def resotre(self):
         with open(self.savePath,'rb') as f:
@@ -25,17 +27,17 @@ class PickleProcessor:
 class YamlProcessor:
     def __init__(self,filePath):
         self.init(filePath)
+
     def init(self,filePath):
         self.file=pathInit(filePath)
         if ".yaml" not in self.file.suffix:
             raise FileFormatNotAlign
+
     @property
     def contentDict(self):
         with open(self.file.absolutePath,'r',encoding='utf-8') as f:
             content=yaml.safe_load(f)
         return content
-
-
 
 
 if __name__=="__main__":

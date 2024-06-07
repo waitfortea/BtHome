@@ -123,10 +123,18 @@ class DirProcessor:
         shutil.move(self.absolutePath, dir.absoluPath)
 
 def isDir(path):
-    return os.path.isdir(path)
+    try:
+        return os.path.isdir(path)
+    except Exception as e:
+        print(e)
+        return False
 
 def isFile(path):
-    return os.path.isfile(path)
+    try:
+        return os.path.isfile(path)
+    except Exception as e:
+        print(e)
+        return False
 
 def _makePath(path,flag=None):
     """

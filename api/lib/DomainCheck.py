@@ -21,11 +21,14 @@ async def domainCheck(path=None):
     domain_list=config['domain_List']
 
     async def check(url):
-        res=await AsyncRequestsProcessor(url=url, session=aiohttpSession, proxy=globalProxy.proxy_aiohttp).response()
-
+        try:
+            res=await AsyncRequestsProcessor(url=url, session=aiohttpSession, proxy=globalProxy.proxy_aiohttp).response()
+        except Exception as e:
+            print(e)
+            raise Exception
         if "btbtt" not in str(res.url):
             domain_list.pop(url)
-            return None
+            raise Exception
         return str(res.url)
 
     if not path:

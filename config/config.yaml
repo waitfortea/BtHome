@@ -15,3 +15,10 @@ sub_download_dir: '2024.4/'
 log_path:
  network_log_name: networkLog.txt
  download_log_name: downloadLog.txt
+qbittorrent:
+ host: "localhost:8087"
+ username: "admin"
+ password: 'a259878'
+ is_sequential_download: True
+ is_first_last_piece_priority: True
+ is_paused: False

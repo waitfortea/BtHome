@@ -213,7 +213,7 @@
      <item>
       <widget class="CheckBox" name="keepUpdatecheckBox">
        <property name="text">
-        <string>保持更新</string>
+        <string>订阅字幕组</string>
        </property>
       </widget>
      </item>

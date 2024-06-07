@@ -75,6 +75,7 @@ async def getTorrentPageFromComicGarden(index):
 
     tasks=[asyncio.create_task(getPageHtmlFromComicGarden(Index(keyword=index.keyword,page=page),aiohttpSession)) for page in page_List]
     result_List=await allComplete(tasks)
+    result_List=[result for result in result_List if result is not None]
     TorrentPage_List=[TorrentPage(index=index, title=index.keyword, url=f'https://dmhy.org/topics/list/page',
                        htmlText=result_List)]
     return TorrentPage_List

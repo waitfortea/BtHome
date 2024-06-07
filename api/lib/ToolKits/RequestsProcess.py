@@ -13,13 +13,12 @@ from .CustomDecorator import *
 
 
 async def createSession():
-    return aiohttp.ClientSession(timeout=aiohttp.ClientTimeout(connect=5,total=10))
+    return aiohttp.ClientSession()
 async def close():
     await aiohttpSession.close()
     time.sleep(1)
 
 def closeSession():
-
     asyncStrategy(close())
 
 requestSession=requests.session()
@@ -72,13 +71,15 @@ class AsyncRequestsProcessor:
         self.url = url
         self.kwargs = kwargs
 
-
-    async def response(self,type='get'):
+    @asyncRetry
+    async def response(self,type='get',**kwargs):
+        if kwargs =={}:
+            kwargs=self.kwargs
         try:
             if type=='get':
-                response = await  self.session.get(self.url, **self.kwargs)
+                response = await  self.session.get(self.url, **kwargs)
             else:
-                response = await  self.session.post(self.url, **self.kwargs)
+                response = await  self.session.post(self.url, **kwargs)
 
             callEvent("logNetWork",{"type":type,"requestURL":self.url,"responseURL":response.url,"proxy":self.kwargs['proxy']})
 
@@ -88,22 +89,22 @@ class AsyncRequestsProcessor:
             raise NotFoundResponse(self.url)
 
     async def content(self,type='get'):
-        response = await self.response(type)
-        text = await response.contet.read()
+        response = await self.response(type,**self.kwargs)
+        text = await response.content.read()
         return text
     
     async def text(self,type='get'):
-        response=await self.response(type)
+        response = await self.response(type,**self.kwargs)
         text= await response.text()
         return text
     
     async def status(self,type='get'):
-        response = await self.response(type)
+        response = await self.response(type,**self.kwargs)
         text = await response.status
         return text
 
     async def headers(self,type='get'):
-        response = await self.response(type)
+        response = await self.response(type,**self.kwargs)
         headers = await response.headers
         return headers
 
