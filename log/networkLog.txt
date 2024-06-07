@@ -9623,3 +9623,19 @@ requestURL :https://dmhy.org/topics/view/670385_Sentai_Daishikkaku_S01E06_-_1080
 responseURL :https://dmhy.org/topics/view/670385_Sentai_Daishikkaku_S01E06_-_1080P_24.html
 proxy :http://127.0.0.1:10809
 ======================================
+
+======================================
+2024/06/07-14:52:12
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/07-14:56:49
+type :get
+requestURL :https://btbtt13.com
+responseURL :https://btbtt13.com
+proxy :None
+======================================
