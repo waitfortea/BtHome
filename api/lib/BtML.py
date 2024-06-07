@@ -1,7 +1,4 @@
 import jieba
-import Crawler as CL
-import Listen
-from ToolKits.Strategy.GeneralStrategy import AsyncStrategy
 import numpy as np
 import pandas as pd
 def jieba_List(text):
