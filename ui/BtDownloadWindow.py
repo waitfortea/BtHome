@@ -101,6 +101,8 @@ class StartWorker(QObject):
                 print(e)
                 raise e
 
+        if window.keepUpdatecheckBox.isChecked():
+            
 
 class BtWindow(QWidget):
 
@@ -202,8 +204,9 @@ class BtWindow(QWidget):
         self.searchSignal.emit(keyWords,self.torrentPageStrategy)
 
     def getSearchInfo(self,torrentPage_List):
-        if torrentPage_List is not None:
+        if torrentPage_List !=[]:
             title_List = [torrentPage.title for torrentPage in torrentPage_List]
+            print("\n".join(title_List))
             for i in range(len(title_List)):
                 HLayout = QHBoxLayout()
                 HLayout.addWidget(QCheckBox(f"{i + 1}"))
@@ -214,7 +217,9 @@ class BtWindow(QWidget):
                 HLayout.addStretch()
                 self.torrentPageverticalLayout.addLayout(HLayout)
             self.torrentPageverticalLayout.addStretch()
-
+        else:
+            print("搜索结果为空")
+        print("===========结束搜索==============")
     def torentPageBtnFn(self,torrentPage):
         self.torrentPageWorker.moveToThread(self.thread)
         print('------TORRENTPAGE--------')

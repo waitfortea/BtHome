@@ -9639,3 +9639,2811 @@ requestURL :https://btbtt13.com
 responseURL :https://btbtt13.com
 proxy :None
 ======================================
+
+======================================
+2024/06/07-15:20:58
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/07-15:21:14
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E9%AD%94%E6%B3%95%E9%AB%98%E6%A0%A1%E5%8A%A3%E7%AD%89%E7%94%9F3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:21:40
+type :get
+requestURL :https://dmhy.org/topics/list/page/18
+responseURL :https://dmhy.org/topics/list/page/18?keyword=%E9%AD%94%E6%B3%95%E9%AB%98%E6%A0%A1%E5%8A%A3%E7%AD%89%E7%94%9F3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:21:40
+type :get
+requestURL :https://dmhy.org/topics/list/page/16
+responseURL :https://dmhy.org/topics/list/page/16?keyword=%E9%AD%94%E6%B3%95%E9%AB%98%E6%A0%A1%E5%8A%A3%E7%AD%89%E7%94%9F3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:21:41
+type :get
+requestURL :https://dmhy.org/topics/list/page/6
+responseURL :https://dmhy.org/topics/list/page/6?keyword=%E9%AD%94%E6%B3%95%E9%AB%98%E6%A0%A1%E5%8A%A3%E7%AD%89%E7%94%9F3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:21:41
+type :get
+requestURL :https://dmhy.org/topics/list/page/19
+responseURL :https://dmhy.org/topics/list/page/19?keyword=%E9%AD%94%E6%B3%95%E9%AB%98%E6%A0%A1%E5%8A%A3%E7%AD%89%E7%94%9F3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:21:41
+type :get
+requestURL :https://dmhy.org/topics/list/page/14
+responseURL :https://dmhy.org/topics/list/page/14?keyword=%E9%AD%94%E6%B3%95%E9%AB%98%E6%A0%A1%E5%8A%A3%E7%AD%89%E7%94%9F3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:21:41
+type :get
+requestURL :https://dmhy.org/topics/list/page/20
+responseURL :https://dmhy.org/topics/list/page/20?keyword=%E9%AD%94%E6%B3%95%E9%AB%98%E6%A0%A1%E5%8A%A3%E7%AD%89%E7%94%9F3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:21:41
+type :get
+requestURL :https://dmhy.org/topics/list/page/17
+responseURL :https://dmhy.org/topics/list/page/17?keyword=%E9%AD%94%E6%B3%95%E9%AB%98%E6%A0%A1%E5%8A%A3%E7%AD%89%E7%94%9F3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:21:41
+type :get
+requestURL :https://dmhy.org/topics/list/page/15
+responseURL :https://dmhy.org/topics/list/page/15?keyword=%E9%AD%94%E6%B3%95%E9%AB%98%E6%A0%A1%E5%8A%A3%E7%AD%89%E7%94%9F3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:21:41
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E9%AD%94%E6%B3%95%E9%AB%98%E6%A0%A1%E5%8A%A3%E7%AD%89%E7%94%9F3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:21:41
+type :get
+requestURL :https://dmhy.org/topics/list/page/5
+responseURL :https://dmhy.org/topics/list/page/5?keyword=%E9%AD%94%E6%B3%95%E9%AB%98%E6%A0%A1%E5%8A%A3%E7%AD%89%E7%94%9F3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:21:41
+type :get
+requestURL :https://dmhy.org/topics/list/page/11
+responseURL :https://dmhy.org/topics/list/page/11?keyword=%E9%AD%94%E6%B3%95%E9%AB%98%E6%A0%A1%E5%8A%A3%E7%AD%89%E7%94%9F3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:21:41
+type :get
+requestURL :https://dmhy.org/topics/list/page/8
+responseURL :https://dmhy.org/topics/list/page/8?keyword=%E9%AD%94%E6%B3%95%E9%AB%98%E6%A0%A1%E5%8A%A3%E7%AD%89%E7%94%9F3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:21:41
+type :get
+requestURL :https://dmhy.org/topics/list/page/3
+responseURL :https://dmhy.org/topics/list/page/3?keyword=%E9%AD%94%E6%B3%95%E9%AB%98%E6%A0%A1%E5%8A%A3%E7%AD%89%E7%94%9F3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:21:41
+type :get
+requestURL :https://dmhy.org/topics/list/page/9
+responseURL :https://dmhy.org/topics/list/page/9?keyword=%E9%AD%94%E6%B3%95%E9%AB%98%E6%A0%A1%E5%8A%A3%E7%AD%89%E7%94%9F3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:21:41
+type :get
+requestURL :https://dmhy.org/topics/list/page/7
+responseURL :https://dmhy.org/topics/list/page/7?keyword=%E9%AD%94%E6%B3%95%E9%AB%98%E6%A0%A1%E5%8A%A3%E7%AD%89%E7%94%9F3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:21:41
+type :get
+requestURL :https://dmhy.org/topics/list/page/12
+responseURL :https://dmhy.org/topics/list/page/12?keyword=%E9%AD%94%E6%B3%95%E9%AB%98%E6%A0%A1%E5%8A%A3%E7%AD%89%E7%94%9F3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:21:41
+type :get
+requestURL :https://dmhy.org/topics/list/page/4
+responseURL :https://dmhy.org/topics/list/page/4?keyword=%E9%AD%94%E6%B3%95%E9%AB%98%E6%A0%A1%E5%8A%A3%E7%AD%89%E7%94%9F3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:21:41
+type :get
+requestURL :https://dmhy.org/topics/list/page/13
+responseURL :https://dmhy.org/topics/list/page/13?keyword=%E9%AD%94%E6%B3%95%E9%AB%98%E6%A0%A1%E5%8A%A3%E7%AD%89%E7%94%9F3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:21:41
+type :get
+requestURL :https://dmhy.org/topics/list/page/10
+responseURL :https://dmhy.org/topics/list/page/10?keyword=%E9%AD%94%E6%B3%95%E9%AB%98%E6%A0%A1%E5%8A%A3%E7%AD%89%E7%94%9F3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:21:41
+type :get
+requestURL :https://dmhy.org/topics/list/page/2
+responseURL :https://dmhy.org/topics/list/page/2?keyword=%E9%AD%94%E6%B3%95%E9%AB%98%E6%A0%A1%E5%8A%A3%E7%AD%89%E7%94%9F3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:22:35
+type :get
+requestURL :https://dmhy.org/topics/list/page/15
+responseURL :https://dmhy.org/topics/list/page/15?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:22:35
+type :get
+requestURL :https://dmhy.org/topics/list/page/17
+responseURL :https://dmhy.org/topics/list/page/17?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:22:35
+type :get
+requestURL :https://dmhy.org/topics/list/page/18
+responseURL :https://dmhy.org/topics/list/page/18?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:22:35
+type :get
+requestURL :https://dmhy.org/topics/list/page/19
+responseURL :https://dmhy.org/topics/list/page/19?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:22:36
+type :get
+requestURL :https://dmhy.org/topics/list/page/3
+responseURL :https://dmhy.org/topics/list/page/3?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:22:36
+type :get
+requestURL :https://dmhy.org/topics/list/page/5
+responseURL :https://dmhy.org/topics/list/page/5?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:22:36
+type :get
+requestURL :https://dmhy.org/topics/list/page/13
+responseURL :https://dmhy.org/topics/list/page/13?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:22:36
+type :get
+requestURL :https://dmhy.org/topics/list/page/6
+responseURL :https://dmhy.org/topics/list/page/6?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:22:36
+type :get
+requestURL :https://dmhy.org/topics/list/page/2
+responseURL :https://dmhy.org/topics/list/page/2?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:22:36
+type :get
+requestURL :https://dmhy.org/topics/list/page/20
+responseURL :https://dmhy.org/topics/list/page/20?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:22:36
+type :get
+requestURL :https://dmhy.org/topics/list/page/14
+responseURL :https://dmhy.org/topics/list/page/14?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:22:36
+type :get
+requestURL :https://dmhy.org/topics/list/page/16
+responseURL :https://dmhy.org/topics/list/page/16?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:22:36
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:22:36
+type :get
+requestURL :https://dmhy.org/topics/list/page/7
+responseURL :https://dmhy.org/topics/list/page/7?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:22:36
+type :get
+requestURL :https://dmhy.org/topics/list/page/9
+responseURL :https://dmhy.org/topics/list/page/9?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:22:36
+type :get
+requestURL :https://dmhy.org/topics/list/page/11
+responseURL :https://dmhy.org/topics/list/page/11?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:22:36
+type :get
+requestURL :https://dmhy.org/topics/list/page/4
+responseURL :https://dmhy.org/topics/list/page/4?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:22:36
+type :get
+requestURL :https://dmhy.org/topics/list/page/8
+responseURL :https://dmhy.org/topics/list/page/8?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:22:36
+type :get
+requestURL :https://dmhy.org/topics/list/page/12
+responseURL :https://dmhy.org/topics/list/page/12?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:22:36
+type :get
+requestURL :https://dmhy.org/topics/list/page/10
+responseURL :https://dmhy.org/topics/list/page/10?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:23:20
+type :get
+requestURL :https://dmhy.org/topics/list/page/20
+responseURL :https://dmhy.org/topics/list/page/20?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:23:20
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:23:20
+type :get
+requestURL :https://dmhy.org/topics/list/page/2
+responseURL :https://dmhy.org/topics/list/page/2?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:23:20
+type :get
+requestURL :https://dmhy.org/topics/list/page/11
+responseURL :https://dmhy.org/topics/list/page/11?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:23:20
+type :get
+requestURL :https://dmhy.org/topics/list/page/4
+responseURL :https://dmhy.org/topics/list/page/4?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:23:20
+type :get
+requestURL :https://dmhy.org/topics/list/page/7
+responseURL :https://dmhy.org/topics/list/page/7?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:23:20
+type :get
+requestURL :https://dmhy.org/topics/list/page/10
+responseURL :https://dmhy.org/topics/list/page/10?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:23:20
+type :get
+requestURL :https://dmhy.org/topics/list/page/8
+responseURL :https://dmhy.org/topics/list/page/8?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:23:20
+type :get
+requestURL :https://dmhy.org/topics/list/page/13
+responseURL :https://dmhy.org/topics/list/page/13?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:23:21
+type :get
+requestURL :https://dmhy.org/topics/list/page/15
+responseURL :https://dmhy.org/topics/list/page/15?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:23:21
+type :get
+requestURL :https://dmhy.org/topics/list/page/14
+responseURL :https://dmhy.org/topics/list/page/14?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:23:21
+type :get
+requestURL :https://dmhy.org/topics/list/page/19
+responseURL :https://dmhy.org/topics/list/page/19?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:23:21
+type :get
+requestURL :https://dmhy.org/topics/list/page/17
+responseURL :https://dmhy.org/topics/list/page/17?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:23:21
+type :get
+requestURL :https://dmhy.org/topics/list/page/18
+responseURL :https://dmhy.org/topics/list/page/18?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:23:21
+type :get
+requestURL :https://dmhy.org/topics/list/page/16
+responseURL :https://dmhy.org/topics/list/page/16?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:23:21
+type :get
+requestURL :https://dmhy.org/topics/list/page/3
+responseURL :https://dmhy.org/topics/list/page/3?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:23:21
+type :get
+requestURL :https://dmhy.org/topics/list/page/12
+responseURL :https://dmhy.org/topics/list/page/12?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:23:21
+type :get
+requestURL :https://dmhy.org/topics/list/page/9
+responseURL :https://dmhy.org/topics/list/page/9?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:23:21
+type :get
+requestURL :https://dmhy.org/topics/list/page/5
+responseURL :https://dmhy.org/topics/list/page/5?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:23:21
+type :get
+requestURL :https://dmhy.org/topics/list/page/6
+responseURL :https://dmhy.org/topics/list/page/6?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:09
+type :get
+requestURL :https://dmhy.org/topics/list/page/15
+responseURL :https://dmhy.org/topics/list/page/15?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:09
+type :get
+requestURL :https://dmhy.org/topics/list/page/19
+responseURL :https://dmhy.org/topics/list/page/19?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:09
+type :get
+requestURL :https://dmhy.org/topics/list/page/20
+responseURL :https://dmhy.org/topics/list/page/20?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:09
+type :get
+requestURL :https://dmhy.org/topics/list/page/14
+responseURL :https://dmhy.org/topics/list/page/14?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:09
+type :get
+requestURL :https://dmhy.org/topics/list/page/17
+responseURL :https://dmhy.org/topics/list/page/17?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:09
+type :get
+requestURL :https://dmhy.org/topics/list/page/16
+responseURL :https://dmhy.org/topics/list/page/16?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:09
+type :get
+requestURL :https://dmhy.org/topics/list/page/11
+responseURL :https://dmhy.org/topics/list/page/11?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:09
+type :get
+requestURL :https://dmhy.org/topics/list/page/12
+responseURL :https://dmhy.org/topics/list/page/12?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:09
+type :get
+requestURL :https://dmhy.org/topics/list/page/18
+responseURL :https://dmhy.org/topics/list/page/18?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:09
+type :get
+requestURL :https://dmhy.org/topics/list/page/13
+responseURL :https://dmhy.org/topics/list/page/13?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:10
+type :get
+requestURL :https://dmhy.org/topics/list/page/7
+responseURL :https://dmhy.org/topics/list/page/7?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:10
+type :get
+requestURL :https://dmhy.org/topics/list/page/10
+responseURL :https://dmhy.org/topics/list/page/10?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:10
+type :get
+requestURL :https://dmhy.org/topics/list/page/5
+responseURL :https://dmhy.org/topics/list/page/5?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:10
+type :get
+requestURL :https://dmhy.org/topics/list/page/4
+responseURL :https://dmhy.org/topics/list/page/4?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:10
+type :get
+requestURL :https://dmhy.org/topics/list/page/6
+responseURL :https://dmhy.org/topics/list/page/6?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:10
+type :get
+requestURL :https://dmhy.org/topics/list/page/8
+responseURL :https://dmhy.org/topics/list/page/8?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:10
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:10
+type :get
+requestURL :https://dmhy.org/topics/list/page/3
+responseURL :https://dmhy.org/topics/list/page/3?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:10
+type :get
+requestURL :https://dmhy.org/topics/list/page/2
+responseURL :https://dmhy.org/topics/list/page/2?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:10
+type :get
+requestURL :https://dmhy.org/topics/list/page/9
+responseURL :https://dmhy.org/topics/list/page/9?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:21
+type :get
+requestURL :https://dmhy.org/topics/view/554934_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_11_720p.html
+responseURL :https://dmhy.org/topics/view/554934_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_11_720p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:21
+type :get
+requestURL :https://dmhy.org/topics/view/554265_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_10_1080p.html
+responseURL :https://dmhy.org/topics/view/554265_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_10_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:21
+type :get
+requestURL :https://dmhy.org/topics/view/555531_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_12_720p.html
+responseURL :https://dmhy.org/topics/view/555531_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_12_720p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:21
+type :get
+requestURL :https://dmhy.org/topics/view/555309_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_12_720p.html
+responseURL :https://dmhy.org/topics/view/555309_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_12_720p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:21
+type :get
+requestURL :https://dmhy.org/topics/view/554837_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_11_720p.html
+responseURL :https://dmhy.org/topics/view/554837_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_11_720p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:21
+type :get
+requestURL :https://dmhy.org/topics/view/555318_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_12_1080p.html
+responseURL :https://dmhy.org/topics/view/555318_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_12_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:21
+type :get
+requestURL :https://dmhy.org/topics/view/554264_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_10_720p.html
+responseURL :https://dmhy.org/topics/view/554264_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_10_720p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:21
+type :get
+requestURL :https://dmhy.org/topics/view/555914_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_13END_720p.html
+responseURL :https://dmhy.org/topics/view/555914_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_13END_720p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:21
+type :get
+requestURL :https://dmhy.org/topics/view/554854_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_11_1080p.html
+responseURL :https://dmhy.org/topics/view/554854_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_11_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:21
+type :get
+requestURL :https://dmhy.org/topics/view/554098_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_09_720p.html
+responseURL :https://dmhy.org/topics/view/554098_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_09_720p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:21
+type :get
+requestURL :https://dmhy.org/topics/view/554262_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_10_720p.html
+responseURL :https://dmhy.org/topics/view/554262_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_10_720p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:21
+type :get
+requestURL :https://dmhy.org/topics/view/554099_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_09_1080p.html
+responseURL :https://dmhy.org/topics/view/554099_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_09_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:21
+type :get
+requestURL :https://dmhy.org/topics/view/554885_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_11v2_720p.html
+responseURL :https://dmhy.org/topics/view/554885_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_11v2_720p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:21
+type :get
+requestURL :https://dmhy.org/topics/view/554095_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_09_720p.html
+responseURL :https://dmhy.org/topics/view/554095_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_09_720p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:21
+type :get
+requestURL :https://dmhy.org/topics/view/555915_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_13END_1080p.html
+responseURL :https://dmhy.org/topics/view/555915_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_13END_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:21
+type :get
+requestURL :https://dmhy.org/topics/view/555532_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_12_1080p.html
+responseURL :https://dmhy.org/topics/view/555532_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_12_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:21
+type :get
+requestURL :https://dmhy.org/topics/view/554935_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_11_1080p.html
+responseURL :https://dmhy.org/topics/view/554935_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_11_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:21
+type :get
+requestURL :https://dmhy.org/topics/view/554263_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_10_1080p.html
+responseURL :https://dmhy.org/topics/view/554263_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_10_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:21
+type :get
+requestURL :https://dmhy.org/topics/view/552637_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_07_1080p.html
+responseURL :https://dmhy.org/topics/view/552637_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_07_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:21
+type :get
+requestURL :https://dmhy.org/topics/view/554096_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_09_1080p.html
+responseURL :https://dmhy.org/topics/view/554096_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_09_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:21
+type :get
+requestURL :https://dmhy.org/topics/view/554886_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_11v2_1080p.html
+responseURL :https://dmhy.org/topics/view/554886_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_11v2_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:21
+type :get
+requestURL :https://dmhy.org/topics/view/550421_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_03_720p.html
+responseURL :https://dmhy.org/topics/view/550421_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_03_720p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:21
+type :get
+requestURL :https://dmhy.org/topics/view/550406_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_03_1080p.html
+responseURL :https://dmhy.org/topics/view/550406_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_03_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/550422_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_03_1080p.html
+responseURL :https://dmhy.org/topics/view/550422_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_03_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/550774_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_02_WebRip_1080p_HEVC-10bit_AAC.html
+responseURL :https://dmhy.org/topics/view/550774_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_02_WebRip_1080p_HEVC-10bit_AAC.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/553077_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_06_WebRip_1080p_HEVC-10bit_AAC.html
+responseURL :https://dmhy.org/topics/view/553077_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_06_WebRip_1080p_HEVC-10bit_AAC.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/549280_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_01_720p.html
+responseURL :https://dmhy.org/topics/view/549280_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_01_720p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/549825_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_02_720p.html
+responseURL :https://dmhy.org/topics/view/549825_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_02_720p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/553394_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_08_1080p.html
+responseURL :https://dmhy.org/topics/view/553394_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_08_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/551022_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_04_1080p.html
+responseURL :https://dmhy.org/topics/view/551022_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_04_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/549911_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_01_WebRip_1080p_HEVC-10bit_AAC.html
+responseURL :https://dmhy.org/topics/view/549911_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_01_WebRip_1080p_HEVC-10bit_AAC.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/551021_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_04_720p.html
+responseURL :https://dmhy.org/topics/view/551021_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_04_720p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/551066_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_04_720p.html
+responseURL :https://dmhy.org/topics/view/551066_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_04_720p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/553286_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_08_1080p.html
+responseURL :https://dmhy.org/topics/view/553286_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_08_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/553484_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_08_WebRip_1080p_HEVC-10bit_AAC.html
+responseURL :https://dmhy.org/topics/view/553484_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_08_WebRip_1080p_HEVC-10bit_AAC.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/549279_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_01_1080p.html
+responseURL :https://dmhy.org/topics/view/549279_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_01_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/552552_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_07_1080p.html
+responseURL :https://dmhy.org/topics/view/552552_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_07_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/549786_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_02_1080p.html
+responseURL :https://dmhy.org/topics/view/549786_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_02_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/549588_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_01_WebRip_1080p_HEVC-10bit_AAC.html
+responseURL :https://dmhy.org/topics/view/549588_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_01_WebRip_1080p_HEVC-10bit_AAC.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/549784_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_02_720p.html
+responseURL :https://dmhy.org/topics/view/549784_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_02_720p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/552174_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_06_1080p.html
+responseURL :https://dmhy.org/topics/view/552174_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_06_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/549281_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_01_1080p.html
+responseURL :https://dmhy.org/topics/view/549281_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_01_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/553285_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_08_720p.html
+responseURL :https://dmhy.org/topics/view/553285_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_08_720p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/551060_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_04_WebRip_1080p_HEVC-10bit_AAC.html
+responseURL :https://dmhy.org/topics/view/551060_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_04_WebRip_1080p_HEVC-10bit_AAC.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/549278_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_01_720p.html
+responseURL :https://dmhy.org/topics/view/549278_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_01_720p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/551649_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_05_720p.html
+responseURL :https://dmhy.org/topics/view/551649_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_05_720p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/552633_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_07_720p.html
+responseURL :https://dmhy.org/topics/view/552633_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_07_720p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/552550_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_07_720p.html
+responseURL :https://dmhy.org/topics/view/552550_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_07_720p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/549826_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_02_1080p.html
+responseURL :https://dmhy.org/topics/view/549826_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_02_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/550405_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_03_720p.html
+responseURL :https://dmhy.org/topics/view/550405_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_03_720p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/553393_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_08_720p.html
+responseURL :https://dmhy.org/topics/view/553393_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_08_720p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/553078_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_07_WebRip_1080p_HEVC-10bit_AAC.html
+responseURL :https://dmhy.org/topics/view/553078_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_07_WebRip_1080p_HEVC-10bit_AAC.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/551067_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_04_1080p.html
+responseURL :https://dmhy.org/topics/view/551067_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_04_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/551654_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_05_1080p.html
+responseURL :https://dmhy.org/topics/view/551654_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_05_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/551816_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_05_WebRip_1080p_HEVC-10bit_AAC.html
+responseURL :https://dmhy.org/topics/view/551816_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_05_WebRip_1080p_HEVC-10bit_AAC.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:24:22
+type :get
+requestURL :https://dmhy.org/topics/view/552173_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_06_720p.html
+responseURL :https://dmhy.org/topics/view/552173_10_Mahouka_Koukou_no_Rettousei_-_Raihousha_Hen_06_720p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:41
+type :get
+requestURL :https://dmhy.org/topics/list/page/14
+responseURL :https://dmhy.org/topics/list/page/14?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%9A%84%E5%8A%A3%E7%AD%89%E7%94%9F%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:41
+type :get
+requestURL :https://dmhy.org/topics/list/page/17
+responseURL :https://dmhy.org/topics/list/page/17?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%9A%84%E5%8A%A3%E7%AD%89%E7%94%9F%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:41
+type :get
+requestURL :https://dmhy.org/topics/list/page/5
+responseURL :https://dmhy.org/topics/list/page/5?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%9A%84%E5%8A%A3%E7%AD%89%E7%94%9F%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:41
+type :get
+requestURL :https://dmhy.org/topics/list/page/11
+responseURL :https://dmhy.org/topics/list/page/11?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%9A%84%E5%8A%A3%E7%AD%89%E7%94%9F%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:41
+type :get
+requestURL :https://dmhy.org/topics/list/page/12
+responseURL :https://dmhy.org/topics/list/page/12?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%9A%84%E5%8A%A3%E7%AD%89%E7%94%9F%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:41
+type :get
+requestURL :https://dmhy.org/topics/list/page/9
+responseURL :https://dmhy.org/topics/list/page/9?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%9A%84%E5%8A%A3%E7%AD%89%E7%94%9F%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:41
+type :get
+requestURL :https://dmhy.org/topics/list/page/2
+responseURL :https://dmhy.org/topics/list/page/2?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%9A%84%E5%8A%A3%E7%AD%89%E7%94%9F%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:41
+type :get
+requestURL :https://dmhy.org/topics/list/page/4
+responseURL :https://dmhy.org/topics/list/page/4?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%9A%84%E5%8A%A3%E7%AD%89%E7%94%9F%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:41
+type :get
+requestURL :https://dmhy.org/topics/list/page/13
+responseURL :https://dmhy.org/topics/list/page/13?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%9A%84%E5%8A%A3%E7%AD%89%E7%94%9F%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:41
+type :get
+requestURL :https://dmhy.org/topics/list/page/6
+responseURL :https://dmhy.org/topics/list/page/6?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%9A%84%E5%8A%A3%E7%AD%89%E7%94%9F%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:41
+type :get
+requestURL :https://dmhy.org/topics/list/page/10
+responseURL :https://dmhy.org/topics/list/page/10?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%9A%84%E5%8A%A3%E7%AD%89%E7%94%9F%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:42
+type :get
+requestURL :https://dmhy.org/topics/list/page/15
+responseURL :https://dmhy.org/topics/list/page/15?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%9A%84%E5%8A%A3%E7%AD%89%E7%94%9F%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:42
+type :get
+requestURL :https://dmhy.org/topics/list/page/18
+responseURL :https://dmhy.org/topics/list/page/18?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%9A%84%E5%8A%A3%E7%AD%89%E7%94%9F%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:42
+type :get
+requestURL :https://dmhy.org/topics/list/page/16
+responseURL :https://dmhy.org/topics/list/page/16?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%9A%84%E5%8A%A3%E7%AD%89%E7%94%9F%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:42
+type :get
+requestURL :https://dmhy.org/topics/list/page/19
+responseURL :https://dmhy.org/topics/list/page/19?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%9A%84%E5%8A%A3%E7%AD%89%E7%94%9F%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:42
+type :get
+requestURL :https://dmhy.org/topics/list/page/20
+responseURL :https://dmhy.org/topics/list/page/20?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%9A%84%E5%8A%A3%E7%AD%89%E7%94%9F%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:42
+type :get
+requestURL :https://dmhy.org/topics/list/page/7
+responseURL :https://dmhy.org/topics/list/page/7?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%9A%84%E5%8A%A3%E7%AD%89%E7%94%9F%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:42
+type :get
+requestURL :https://dmhy.org/topics/list/page/3
+responseURL :https://dmhy.org/topics/list/page/3?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%9A%84%E5%8A%A3%E7%AD%89%E7%94%9F%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:42
+type :get
+requestURL :https://dmhy.org/topics/list/page/8
+responseURL :https://dmhy.org/topics/list/page/8?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%9A%84%E5%8A%A3%E7%AD%89%E7%94%9F%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:42
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%9A%84%E5%8A%A3%E7%AD%89%E7%94%9F%E7%AC%AC%E4%B8%89%E5%AD%A3
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:53
+type :get
+requestURL :https://dmhy.org/topics/view/666332_04_01_1080P_MP4.html
+responseURL :https://dmhy.org/topics/view/666332_04_01_1080P_MP4.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:53
+type :get
+requestURL :https://dmhy.org/topics/view/669220_04_02-05_1080P_MP4.html
+responseURL :https://dmhy.org/topics/view/669220_04_02-05_1080P_MP4.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:53
+type :get
+requestURL :https://dmhy.org/topics/view/666331_04_01_720P_MP4.html
+responseURL :https://dmhy.org/topics/view/666331_04_01_720P_MP4.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:53
+type :get
+requestURL :https://dmhy.org/topics/view/670765_04_06-08_720P_MP4.html
+responseURL :https://dmhy.org/topics/view/670765_04_06-08_720P_MP4.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:53
+type :get
+requestURL :https://dmhy.org/topics/view/670764_04_06-08_720P_MP4.html
+responseURL :https://dmhy.org/topics/view/670764_04_06-08_720P_MP4.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:53
+type :get
+requestURL :https://dmhy.org/topics/view/669218_04_02-05_720P_MP4.html
+responseURL :https://dmhy.org/topics/view/669218_04_02-05_720P_MP4.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:53
+type :get
+requestURL :https://dmhy.org/topics/view/670767_04_06-08_1080P_MP4.html
+responseURL :https://dmhy.org/topics/view/670767_04_06-08_1080P_MP4.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:53
+type :get
+requestURL :https://dmhy.org/topics/view/666330_04_01_720P_MP4.html
+responseURL :https://dmhy.org/topics/view/666330_04_01_720P_MP4.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:53
+type :get
+requestURL :https://dmhy.org/topics/view/669217_04_02-05_720P_MP4.html
+responseURL :https://dmhy.org/topics/view/669217_04_02-05_720P_MP4.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:53
+type :get
+requestURL :https://dmhy.org/topics/view/669219_04_02-05_1080P_MP4.html
+responseURL :https://dmhy.org/topics/view/669219_04_02-05_1080P_MP4.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:53
+type :get
+requestURL :https://dmhy.org/topics/view/666333_04_01_1080P_MP4.html
+responseURL :https://dmhy.org/topics/view/666333_04_01_1080P_MP4.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:25:53
+type :get
+requestURL :https://dmhy.org/topics/view/670766_04_06-08_1080P_MP4.html
+responseURL :https://dmhy.org/topics/view/670766_04_06-08_1080P_MP4.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:26:32
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%9A%84%E5%8A%A3%E7%AD%89%E7%94%9F3.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%9A%84%E5%8A%A3%E7%AD%89%E7%94%9F3.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/07-15:26:46
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%9A%84%E5%8A%A3%E7%AD%89%E7%94%9F3%E6%9B%B4%E6%96%B0.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E7%9A%84%E5%8A%A3%E7%AD%89%E7%94%9F3%E6%9B%B4%E6%96%B0.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/07-15:27:02
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E9%AD%94%E6%B3%95%E9%AB%98%E6%A0%A1%E5%8A%A3%E7%AD%893.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E9%AD%94%E6%B3%95%E9%AB%98%E6%A0%A1%E5%8A%A3%E7%AD%893.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/07-15:27:03
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4937500.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4937500.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:27:59
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6483391.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6483391.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:27:59
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6536018.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6536018.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:27:59
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6499355.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6499355.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:27:59
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6460332.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6460332.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:27:59
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6460331.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6460331.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:27:59
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6471004.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6471004.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:27:59
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6522042.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6522042.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/07-15:27:59
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6508706.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6508706.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:49:03
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/08-07:49:32
+type :get
+requestURL :https://dmhy.org/topics/list/page/7
+responseURL :https://dmhy.org/topics/list/page/7?keyword=%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:49:32
+type :get
+requestURL :https://dmhy.org/topics/list/page/8
+responseURL :https://dmhy.org/topics/list/page/8?keyword=%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:49:32
+type :get
+requestURL :https://dmhy.org/topics/list/page/16
+responseURL :https://dmhy.org/topics/list/page/16?keyword=%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:49:32
+type :get
+requestURL :https://dmhy.org/topics/list/page/15
+responseURL :https://dmhy.org/topics/list/page/15?keyword=%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:49:32
+type :get
+requestURL :https://dmhy.org/topics/list/page/9
+responseURL :https://dmhy.org/topics/list/page/9?keyword=%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:49:32
+type :get
+requestURL :https://dmhy.org/topics/list/page/14
+responseURL :https://dmhy.org/topics/list/page/14?keyword=%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:49:32
+type :get
+requestURL :https://dmhy.org/topics/list/page/19
+responseURL :https://dmhy.org/topics/list/page/19?keyword=%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:49:32
+type :get
+requestURL :https://dmhy.org/topics/list/page/13
+responseURL :https://dmhy.org/topics/list/page/13?keyword=%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:49:32
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:49:32
+type :get
+requestURL :https://dmhy.org/topics/list/page/11
+responseURL :https://dmhy.org/topics/list/page/11?keyword=%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:49:32
+type :get
+requestURL :https://dmhy.org/topics/list/page/12
+responseURL :https://dmhy.org/topics/list/page/12?keyword=%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:49:32
+type :get
+requestURL :https://dmhy.org/topics/list/page/10
+responseURL :https://dmhy.org/topics/list/page/10?keyword=%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:49:33
+type :get
+requestURL :https://dmhy.org/topics/list/page/4
+responseURL :https://dmhy.org/topics/list/page/4?keyword=%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:49:33
+type :get
+requestURL :https://dmhy.org/topics/list/page/18
+responseURL :https://dmhy.org/topics/list/page/18?keyword=%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:49:33
+type :get
+requestURL :https://dmhy.org/topics/list/page/17
+responseURL :https://dmhy.org/topics/list/page/17?keyword=%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:49:33
+type :get
+requestURL :https://dmhy.org/topics/list/page/20
+responseURL :https://dmhy.org/topics/list/page/20?keyword=%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:49:33
+type :get
+requestURL :https://dmhy.org/topics/list/page/5
+responseURL :https://dmhy.org/topics/list/page/5?keyword=%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:49:33
+type :get
+requestURL :https://dmhy.org/topics/list/page/2
+responseURL :https://dmhy.org/topics/list/page/2?keyword=%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:49:33
+type :get
+requestURL :https://dmhy.org/topics/list/page/3
+responseURL :https://dmhy.org/topics/list/page/3?keyword=%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:49:33
+type :get
+requestURL :https://dmhy.org/topics/list/page/6
+responseURL :https://dmhy.org/topics/list/page/6?keyword=%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:49:40
+type :get
+requestURL :https://dmhy.org/topics/view/669086_Hi-Res_240507_TV_6_ED_CV_96kHz_24bit_FLAC.html
+responseURL :https://dmhy.org/topics/view/669086_Hi-Res_240507_TV_6_ED_CV_96kHz_24bit_FLAC.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:49:56
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/08-07:49:57
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4980350.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4980350.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:49:57
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4980356.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4980356.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:49:57
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4980354.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4980354.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:49:57
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4980770.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4980770.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:50:09
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F%E6%9B%B4%E6%96%B0.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F%E6%9B%B4%E6%96%B0.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/08-07:50:10
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:50:44
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6499323.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6499323.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:50:44
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6525602.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6525602.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:50:44
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6452724.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6452724.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:50:44
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6462112.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6462112.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:50:44
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6538647.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6538647.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:50:44
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6452723.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6452723.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:50:44
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6474581.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6474581.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:50:44
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6512302.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6512302.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:50:44
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6487948.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6487948.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-07:50:44
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6548188.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6548188.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:08:40
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/08-14:09:05
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E5%A4%9C%E6%A8%B1%E5%AE%B6%E7%9A%84%E5%A4%A7%E4%BD%9C%E6%88%98%E6%9B%B4%E6%96%B0.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E5%A4%9C%E6%A8%B1%E5%AE%B6%E7%9A%84%E5%A4%A7%E4%BD%9C%E6%88%98%E6%9B%B4%E6%96%B0.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/08-14:09:06
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4938996.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4938996.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:09:46
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6510504.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6510504.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:09:46
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6472724.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6472724.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:09:46
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6522988.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6522988.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:09:46
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6460293.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6460293.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:09:46
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6472725.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6472725.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:09:47
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6497656.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6497656.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:09:47
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6546627.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6546627.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:09:47
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6485511.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6485511.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:09:47
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6535926.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6535926.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:15:54
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E8%80%81%E5%A4%AB%E8%80%81%E5%A6%BB.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E8%80%81%E5%A4%AB%E8%80%81%E5%A6%BB.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/08-14:15:57
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E8%80%81%E5%A4%AB%E8%80%81%E5%A6%BB.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E8%80%81%E5%A4%AB%E8%80%81%E5%A6%BB.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/08-14:15:59
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4980346.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4980346.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:15:59
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4980344.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4980344.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:15:59
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4979804.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4979804.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:15:59
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4979722.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4979722.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:15:59
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4980342.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4980342.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:16:17
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E8%80%81%E5%A4%AB%E8%80%81%E5%A6%BB.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E8%80%81%E5%A4%AB%E8%80%81%E5%A6%BB.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/08-14:16:18
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4980344.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4980344.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:16:18
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4979804.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4979804.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:16:18
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4980342.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4980342.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:16:18
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4980346.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4980346.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:16:19
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4979722.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4979722.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:16:23
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E8%80%81%E5%A4%AB%E8%80%81%E5%A6%BB%E6%9B%B4%E6%96%B0.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E8%80%81%E5%A4%AB%E8%80%81%E5%A6%BB%E6%9B%B4%E6%96%B0.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/08-14:16:23
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4938998.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4938998.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:17:14
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6548155.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6548155.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:17:14
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6489244.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6489244.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:17:15
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6452603.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6452603.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:17:15
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6513899.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6513899.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:17:15
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6476110.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6476110.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:17:15
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6528981.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6528981.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:17:15
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6500985.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6500985.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:17:16
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6476111.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6476111.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:17:18
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6540846.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6540846.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:35:04
+type :get
+requestURL :https://btbtt15.com
+responseURL :https://btbtt15.com
+proxy :None
+======================================
+
+======================================
+2024/06/08-14:35:15
+type :get
+requestURL :https://btbtt15.com/search-index-keyword-%E7%BB%88%E6%9C%AB%E5%88%97%E8%BD%A6.htm
+responseURL :https://btbtt15.com/search-index-keyword-%E7%BB%88%E6%9C%AB%E5%88%97%E8%BD%A6.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/08-14:37:50
+type :get
+requestURL :https://btbtt15.com
+responseURL :https://btbtt15.com
+proxy :None
+======================================
+
+======================================
+2024/06/08-14:38:02
+type :get
+requestURL :https://btbtt15.com/search-index-keyword-%E7%BB%88%E6%9C%AB%E5%88%97%E8%BD%A6%E6%9B%B4%E6%96%B0.htm
+responseURL :https://btbtt15.com/search-index-keyword-%E7%BB%88%E6%9C%AB%E5%88%97%E8%BD%A6%E6%9B%B4%E6%96%B0.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/08-14:38:42
+type :get
+requestURL :https://www.btbtt17.com
+responseURL :https://www.btbtt17.com
+proxy :None
+======================================
+
+======================================
+2024/06/08-14:39:05
+type :get
+requestURL :https://www.btbtt17.com/search-index-keyword-%E7%BB%88%E6%9C%AB%E5%88%97%E8%BD%A6%E5%8E%BB%E5%BE%80%E4%BD%95%E6%96%B9%E6%9B%B4%E6%96%B0.htm
+responseURL :https://www.btbtt17.com/search-index-keyword-%E7%BB%88%E6%9C%AB%E5%88%97%E8%BD%A6%E5%8E%BB%E5%BE%80%E4%BD%95%E6%96%B9%E6%9B%B4%E6%96%B0.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/08-14:39:25
+type :get
+requestURL :https://www.btbtt17.com/search-index-keyword-%E7%BB%88%E6%9C%AB%E7%9A%84%E7%81%AB%E8%BD%A6%E5%8E%BB%E5%BE%80%E4%BD%95%E6%96%B9%E6%9B%B4%E6%96%B0.htm
+responseURL :https://www.btbtt17.com/search-index-keyword-%E7%BB%88%E6%9C%AB%E7%9A%84%E7%81%AB%E8%BD%A6%E5%8E%BB%E5%BE%80%E4%BD%95%E6%96%B9%E6%9B%B4%E6%96%B0.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/08-14:39:35
+type :get
+requestURL :https://www.btbtt17.com/search-index-keyword-%E7%BB%88%E6%9C%AB%E7%9A%84%E7%81%AB%E8%BD%A6.htm
+responseURL :https://www.btbtt17.com/search-index-keyword-%E7%BB%88%E6%9C%AB%E7%9A%84%E7%81%AB%E8%BD%A6.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/08-14:39:36
+type :get
+requestURL :https://www.btbtt17.com/thread-index-fid-950-tid-4960796.htm
+responseURL :https://www.btbtt17.com/thread-index-fid-950-tid-4960796.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:39:36
+type :get
+requestURL :https://www.btbtt17.com/thread-index-fid-950-tid-4957220.htm
+responseURL :https://www.btbtt17.com/thread-index-fid-950-tid-4957220.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:39:37
+type :get
+requestURL :https://www.btbtt17.com/thread-index-fid-950-tid-4950492.htm
+responseURL :https://www.btbtt17.com/thread-index-fid-950-tid-4950492.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:39:37
+type :get
+requestURL :https://www.btbtt17.com/thread-index-fid-950-tid-4944892.htm
+responseURL :https://www.btbtt17.com/thread-index-fid-950-tid-4944892.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:39:37
+type :get
+requestURL :https://www.btbtt17.com/thread-index-fid-950-tid-4939989.htm
+responseURL :https://www.btbtt17.com/thread-index-fid-950-tid-4939989.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:39:47
+type :get
+requestURL :https://www.btbtt17.com/search-index-keyword-%E7%BB%88%E6%9C%AB%E7%9A%84%E7%81%AB%E8%BD%A6%E6%9B%B4%E6%96%B0.htm
+responseURL :https://www.btbtt17.com/search-index-keyword-%E7%BB%88%E6%9C%AB%E7%9A%84%E7%81%AB%E8%BD%A6%E6%9B%B4%E6%96%B0.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/08-14:39:48
+type :get
+requestURL :https://www.btbtt17.com/thread-index-fid-981-tid-4933699.htm
+responseURL :https://www.btbtt17.com/thread-index-fid-981-tid-4933699.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:41:10
+type :get
+requestURL :https://www.btbtt17.com/attach-download-fid-981-aid-6443818.htm
+responseURL :https://www.btbtt17.com/attach-download-fid-981-aid-6443818.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:41:10
+type :get
+requestURL :https://www.btbtt17.com/attach-download-fid-981-aid-6463573.htm
+responseURL :https://www.btbtt17.com/attach-download-fid-981-aid-6463573.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:41:11
+type :get
+requestURL :https://www.btbtt17.com/attach-download-fid-981-aid-6450879.htm
+responseURL :https://www.btbtt17.com/attach-download-fid-981-aid-6450879.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:41:11
+type :get
+requestURL :https://www.btbtt17.com/attach-download-fid-981-aid-6476094.htm
+responseURL :https://www.btbtt17.com/attach-download-fid-981-aid-6476094.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:41:11
+type :get
+requestURL :https://www.btbtt17.com/attach-download-fid-981-aid-6490987.htm
+responseURL :https://www.btbtt17.com/attach-download-fid-981-aid-6490987.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:41:11
+type :get
+requestURL :https://www.btbtt17.com/attach-download-fid-981-aid-6502809.htm
+responseURL :https://www.btbtt17.com/attach-download-fid-981-aid-6502809.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:41:12
+type :get
+requestURL :https://www.btbtt17.com/attach-download-fid-981-aid-6515575.htm
+responseURL :https://www.btbtt17.com/attach-download-fid-981-aid-6515575.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:41:12
+type :get
+requestURL :https://www.btbtt17.com/attach-download-fid-981-aid-6528965.htm
+responseURL :https://www.btbtt17.com/attach-download-fid-981-aid-6528965.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:41:12
+type :get
+requestURL :https://www.btbtt17.com/attach-download-fid-981-aid-6542286.htm
+responseURL :https://www.btbtt17.com/attach-download-fid-981-aid-6542286.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-14:41:13
+type :get
+requestURL :https://www.btbtt17.com/attach-download-fid-981-aid-6550729.htm
+responseURL :https://www.btbtt17.com/attach-download-fid-981-aid-6550729.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-20:52:44
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/08-20:53:03
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E6%88%91%E5%BF%83%E9%87%8C%E5%8D%B1%E9%99%A9%E7%9A%84%E4%B8%9C%E8%A5%BF%E6%9B%B4%E6%96%B0.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E6%88%91%E5%BF%83%E9%87%8C%E5%8D%B1%E9%99%A9%E7%9A%84%E4%B8%9C%E8%A5%BF%E6%9B%B4%E6%96%B0.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/08-20:53:17
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E6%88%91%E5%BF%83%E9%87%8C%E5%8D%B1%E9%99%A9%E6%9B%B4%E6%96%B0.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E6%88%91%E5%BF%83%E9%87%8C%E5%8D%B1%E9%99%A9%E6%9B%B4%E6%96%B0.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/08-20:53:27
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E6%88%91%E5%BF%83%E9%87%8C%E5%8D%B1%E9%99%A9%E7%9A%84%E4%B8%9C%E8%A5%BF.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E6%88%91%E5%BF%83%E9%87%8C%E5%8D%B1%E9%99%A9%E7%9A%84%E4%B8%9C%E8%A5%BF.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/08-20:53:28
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4963410.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4963410.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-20:53:28
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4962172.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4962172.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-20:53:28
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4962174.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4962174.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-20:53:29
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4963412.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4963412.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-20:53:29
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4963290.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4963290.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-20:53:29
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4963409.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4963409.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-20:53:43
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E6%88%91%E5%BF%83%E9%87%8C%E5%8D%B1%E9%99%A9%E7%9A%84%E4%B8%9C%E8%A5%BF%E5%A4%9A%E7%89%88.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E6%88%91%E5%BF%83%E9%87%8C%E5%8D%B1%E9%99%A9%E7%9A%84%E4%B8%9C%E8%A5%BF%E5%A4%9A%E7%89%88.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/08-20:53:43
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4738598.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4738598.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-20:53:43
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4860597.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4860597.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-20:53:43
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4875126.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4875126.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-20:55:03
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6375167.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6375167.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-20:55:03
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6278684.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6278684.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-20:55:03
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6370997.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6370997.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-20:55:03
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6320446.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6320446.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-20:55:03
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6286932.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6286932.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-20:55:03
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6407551.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6407551.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-20:55:03
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6314135.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6314135.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-20:55:04
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6418222.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6418222.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-20:55:04
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6297877.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6297877.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-20:55:04
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6370998.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6370998.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-20:55:04
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6435170.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6435170.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-20:55:04
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6389248.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6389248.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/08-20:55:04
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6334543.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6334543.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/09-16:47:34
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/09-16:47:47
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-seedFreedom.htm
+responseURL :https://btbtt12.com/search-index-keyword-seedFreedom.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/09-16:47:57
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E9%AB%98%E8%BE%BEseed.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E9%AB%98%E8%BE%BEseed.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/09-16:48:03
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-seed.htm
+responseURL :https://btbtt12.com/search-index-keyword-seed.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/09-16:48:04
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-951-tid-4557687.htm
+responseURL :https://btbtt12.com/thread-index-fid-951-tid-4557687.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/09-16:48:04
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-951-tid-4557688.htm
+responseURL :https://btbtt12.com/thread-index-fid-951-tid-4557688.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/09-16:48:04
+type :get
+requestURL :https://btbtt12.com/forum-index-fid-955-typeid3-1681.htm
+responseURL :https://btbtt12.com/forum-index-fid-955-typeid3-1681.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/09-16:48:04
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-951-tid-4599137.htm
+responseURL :https://btbtt12.com/thread-index-fid-951-tid-4599137.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/09-16:48:17
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E6%9C%BA%E5%8A%A8%E6%88%98%E5%A3%ABseed.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E6%9C%BA%E5%8A%A8%E6%88%98%E5%A3%ABseed.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/09-16:48:18
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4270819.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4270819.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/09-16:48:18
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4461764.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4461764.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/09-16:48:18
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-951-tid-4491522.htm
+responseURL :https://btbtt12.com/thread-index-fid-951-tid-4491522.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/09-16:48:18
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4485150.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4485150.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/09-16:49:01
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E6%9C%BA%E5%8A%A8%E6%88%98%E5%A3%ABseedFreedom.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E6%9C%BA%E5%8A%A8%E6%88%98%E5%A3%ABseedFreedom.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/09-16:49:14
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E6%9C%BA%E5%8A%A8%E6%88%98%E5%A3%ABseedFreedom
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/09-16:49:26
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E6%9C%BA%E5%8A%A8%E6%88%98%E5%A3%ABseed
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/09-16:49:35
+type :get
+requestURL :https://dmhy.org/topics/view/137531_SEED_DVD_BOX_SET_Disc_17-18.html
+responseURL :https://dmhy.org/topics/view/137531_SEED_DVD_BOX_SET_Disc_17-18.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/09-16:49:36
+type :get
+requestURL :https://dmhy.org/topics/view/137530_SEED_DVD_BOX_SET_Disc_13-16.html
+responseURL :https://dmhy.org/topics/view/137530_SEED_DVD_BOX_SET_Disc_13-16.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/09-16:49:36
+type :get
+requestURL :https://dmhy.org/topics/view/137529_SEED_DVD_BOX_SET_Disc_09-12.html
+responseURL :https://dmhy.org/topics/view/137529_SEED_DVD_BOX_SET_Disc_09-12.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/09-16:49:37
+type :get
+requestURL :https://dmhy.org/topics/view/137528_SEED_DVD_BOX_SET_Disc_05-08.html
+responseURL :https://dmhy.org/topics/view/137528_SEED_DVD_BOX_SET_Disc_05-08.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/09-16:49:37
+type :get
+requestURL :https://dmhy.org/topics/view/137527_SEED_DVD_BOX_SET_Disc_01-04.html
+responseURL :https://dmhy.org/topics/view/137527_SEED_DVD_BOX_SET_Disc_01-04.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/09-16:50:02
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E9%AB%98%E8%BE%BEseed
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/09-16:50:13
+type :get
+requestURL :https://dmhy.org/topics/view/418552_Dymy_PV_SEED_OP_INVOKE_T_M_Revolution_BIG5_848X480_MP4.html
+responseURL :https://dmhy.org/topics/view/418552_Dymy_PV_SEED_OP_INVOKE_T_M_Revolution_BIG5_848X480_MP4.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/09-16:50:20
+type :get
+requestURL :https://dmhy.org/topics/view/351745_-11_SEED_Gundam_SEED_CE_Collection_BDRIP_X264-10bit_AAC_720P.html
+responseURL :https://dmhy.org/topics/view/351745_-11_SEED_Gundam_SEED_CE_Collection_BDRIP_X264-10bit_AAC_720P.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/09-16:50:31
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E9%AB%98%E8%BE%BEseedfreedom
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/09-16:50:42
+type :get
+requestURL :https://dmhy.org/topics/view/664392_240126_SEED_FREEDOM_SEED_FREEDOM_66P_JPG.html
+responseURL :https://dmhy.org/topics/view/664392_240126_SEED_FREEDOM_SEED_FREEDOM_66P_JPG.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/09-16:50:52
+type :get
+requestURL :https://dmhy.org/topics/view/661931_MCE_SEED_FREEDOM_Girls_und_Panzer_Saishuushou_Movie_Trial_Version_1080P_x264_AAC.html
+responseURL :https://dmhy.org/topics/view/661931_MCE_SEED_FREEDOM_Girls_und_Panzer_Saishuushou_Movie_Trial_Version_1080P_x264_AAC.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/09-16:51:11
+type :get
+requestURL :https://dmhy.org/topics/view/671619_seed_freedom_AMZN.html
+responseURL :https://dmhy.org/topics/view/671619_seed_freedom_AMZN.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/12-05:50:36
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/12-05:50:49
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-seedfreedom.htm
+responseURL :https://btbtt12.com/search-index-keyword-seedfreedom.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/12-05:51:01
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E9%AB%98%E8%BE%BEfreedom.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E9%AB%98%E8%BE%BEfreedom.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/12-05:51:08
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-freedom.htm
+responseURL :https://btbtt12.com/search-index-keyword-freedom.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/12-05:51:09
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-951-tid-4985502.htm
+responseURL :https://btbtt12.com/thread-index-fid-951-tid-4985502.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/12-05:51:47
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-951-aid-6559186.htm
+responseURL :https://btbtt12.com/attach-download-fid-951-aid-6559186.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/12-21:37:17
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/12-21:37:42
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E8%99%BD%E7%84%B6%E4%B8%8D%E6%98%AF%E8%8B%B1%E9%9B%84.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E8%99%BD%E7%84%B6%E4%B8%8D%E6%98%AF%E8%8B%B1%E9%9B%84.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-21:37:42
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4986560.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4986560.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-21:37:43
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4985457.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4985457.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-21:37:43
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4984694.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4984694.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-21:37:43
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4984889.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4984889.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-21:37:44
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4985691.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4985691.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-21:38:24
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-950-aid-6561852.htm
+responseURL :https://btbtt12.com/attach-download-fid-950-aid-6561852.htm
+proxy :None
+======================================

@@ -25,6 +25,11 @@ class SubtitleGroup:
     torrentURL_List:list=None
     torrentElement_List:list=None
 
+@dataclass
+class SubtitleSubscription:
+
+
+
 
 @dataclass
 class Torrent:
@@ -33,8 +38,7 @@ class Torrent:
 
 @dataclass
 class TorrentGroup:
-    def __init__(self,torrent_List,superObj):
-        self.torrent_List=torrent_List
-        self.superObj=superObj
+    torrent_List=list
+    superObj=object
 
 
