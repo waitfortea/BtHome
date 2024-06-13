@@ -13191,3 +13191,651 @@ requestURL :https://www.btbtt12.com/thread-index-fid-981-tid-4940384.htm
 responseURL :https://www.btbtt12.com/thread-index-fid-981-tid-4940384.htm
 proxy :None
 ======================================
+
+======================================
+2024/06/13-08:22:07
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:22:29
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F%E6%9B%B4%E6%96%B0.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F%E6%9B%B4%E6%96%B0.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:22:29
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:23:06
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6487948.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6487948.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:23:06
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6452723.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6452723.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:23:06
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6474581.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6474581.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:23:06
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6452724.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6452724.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:23:06
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6548188.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6548188.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:23:06
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6559303.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6559303.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:23:06
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6538647.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6538647.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:23:06
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6512302.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6512302.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:23:06
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6462112.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6462112.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:23:06
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6525602.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6525602.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:23:06
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6499323.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6499323.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:36:37
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:36:56
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E5%8A%A3%E7%AD%89%E7%94%9F3.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E4%B8%AD%E5%8A%A3%E7%AD%89%E7%94%9F3.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:37:06
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E9%AD%94%E6%B3%95%E5%8A%A3%E7%AD%89%E7%94%9F3.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E9%AD%94%E6%B3%95%E5%8A%A3%E7%AD%89%E7%94%9F3.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:37:06
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4937500.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4937500.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:46:03
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:46:44
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E9%AD%94%E6%B3%95%E5%8A%A3%E7%AD%89%E7%94%9F3.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E9%AD%94%E6%B3%95%E5%8A%A3%E7%AD%89%E7%94%9F3.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:46:45
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4937500.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4937500.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:47:48
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6508706.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6508706.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:47:48
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6522042.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6522042.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:47:48
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6536018.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6536018.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:47:48
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6471004.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6471004.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:47:48
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6460331.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6460331.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:47:48
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6460332.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6460332.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:47:48
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6483391.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6483391.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:47:48
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6555410.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6555410.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:47:48
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6499355.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6499355.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:47:48
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6554006.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6554006.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:51:49
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:52:18
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:52:19
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4985375.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4985375.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:52:19
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4985455.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4985455.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:52:19
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4985422.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4985422.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:52:19
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4985420.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4985420.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:52:19
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4985418.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4985418.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:52:29
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F%E6%9B%B4%E6%96%B0.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F%E6%9B%B4%E6%96%B0.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-08:52:29
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:01:29
+type :get
+requestURL :https://btbtt15.com
+responseURL :https://btbtt15.com
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:01:41
+type :get
+requestURL :https://btbtt15.com/search-index-keyword-%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F.htm
+responseURL :https://btbtt15.com/search-index-keyword-%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:01:42
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4985375.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4985375.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:01:42
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4985455.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4985455.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:01:42
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4985420.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4985420.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:01:42
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4985422.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4985422.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:01:42
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4985418.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4985418.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:01:50
+type :get
+requestURL :https://btbtt15.com/search-index-keyword-%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F%E6%9B%B4%E6%96%B0.htm
+responseURL :https://btbtt15.com/search-index-keyword-%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F%E6%9B%B4%E6%96%B0.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:01:50
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-981-tid-4933704.htm
+responseURL :https://btbtt15.com/thread-index-fid-981-tid-4933704.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:02:28
+type :get
+requestURL :https://btbtt15.com/attach-download-fid-981-aid-6512302.htm
+responseURL :https://btbtt15.com/attach-download-fid-981-aid-6512302.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:02:28
+type :get
+requestURL :https://btbtt15.com/attach-download-fid-981-aid-6559303.htm
+responseURL :https://btbtt15.com/attach-download-fid-981-aid-6559303.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:02:28
+type :get
+requestURL :https://btbtt15.com/attach-download-fid-981-aid-6452723.htm
+responseURL :https://btbtt15.com/attach-download-fid-981-aid-6452723.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:02:28
+type :get
+requestURL :https://btbtt15.com/attach-download-fid-981-aid-6499323.htm
+responseURL :https://btbtt15.com/attach-download-fid-981-aid-6499323.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:02:28
+type :get
+requestURL :https://btbtt15.com/attach-download-fid-981-aid-6538647.htm
+responseURL :https://btbtt15.com/attach-download-fid-981-aid-6538647.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:02:28
+type :get
+requestURL :https://btbtt15.com/attach-download-fid-981-aid-6474581.htm
+responseURL :https://btbtt15.com/attach-download-fid-981-aid-6474581.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:02:28
+type :get
+requestURL :https://btbtt15.com/attach-download-fid-981-aid-6525602.htm
+responseURL :https://btbtt15.com/attach-download-fid-981-aid-6525602.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:02:28
+type :get
+requestURL :https://btbtt15.com/attach-download-fid-981-aid-6462112.htm
+responseURL :https://btbtt15.com/attach-download-fid-981-aid-6462112.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:02:28
+type :get
+requestURL :https://btbtt15.com/attach-download-fid-981-aid-6548188.htm
+responseURL :https://btbtt15.com/attach-download-fid-981-aid-6548188.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:02:28
+type :get
+requestURL :https://btbtt15.com/attach-download-fid-981-aid-6487948.htm
+responseURL :https://btbtt15.com/attach-download-fid-981-aid-6487948.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:02:28
+type :get
+requestURL :https://btbtt15.com/attach-download-fid-981-aid-6452724.htm
+responseURL :https://btbtt15.com/attach-download-fid-981-aid-6452724.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:20:19
+type :get
+requestURL :https://www.btbtt12.com
+responseURL :https://www.btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:20:20
+type :get
+requestURL :https://www.btbtt12.com/search-index-keyword-%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F%E6%9B%B4%E6%96%B0.htm
+responseURL :https://www.btbtt12.com/search-index-keyword-%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F%E6%9B%B4%E6%96%B0.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:20:21
+type :get
+requestURL :https://www.btbtt12.com/search-index-keyword-%E9%AD%94%E6%B3%95%E5%8A%A3%E7%AD%89%E7%94%9F3.htm
+responseURL :https://www.btbtt12.com/search-index-keyword-%E9%AD%94%E6%B3%95%E5%8A%A3%E7%AD%89%E7%94%9F3.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:20:21
+type :get
+requestURL :https://www.btbtt12.com/thread-index-fid-981-tid-4937500.htm
+responseURL :https://www.btbtt12.com/thread-index-fid-981-tid-4937500.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:20:22
+type :get
+requestURL :https://www.btbtt12.com/thread-index-fid-981-tid-4933704.htm
+responseURL :https://www.btbtt12.com/thread-index-fid-981-tid-4933704.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:20:24
+type :get
+requestURL :https://www.btbtt12.com/attach-download-fid-981-aid-6452723.htm
+responseURL :https://www.btbtt12.com/attach-download-fid-981-aid-6452723.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:20:24
+type :get
+requestURL :https://www.btbtt12.com/attach-download-fid-981-aid-6462112.htm
+responseURL :https://www.btbtt12.com/attach-download-fid-981-aid-6462112.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:20:25
+type :get
+requestURL :https://www.btbtt12.com/attach-download-fid-981-aid-6452724.htm
+responseURL :https://www.btbtt12.com/attach-download-fid-981-aid-6452724.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:20:25
+type :get
+requestURL :https://www.btbtt12.com/attach-download-fid-981-aid-6559303.htm
+responseURL :https://www.btbtt12.com/attach-download-fid-981-aid-6559303.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:20:25
+type :get
+requestURL :https://www.btbtt12.com/attach-download-fid-981-aid-6525602.htm
+responseURL :https://www.btbtt12.com/attach-download-fid-981-aid-6525602.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:20:25
+type :get
+requestURL :https://www.btbtt12.com/attach-download-fid-981-aid-6474581.htm
+responseURL :https://www.btbtt12.com/attach-download-fid-981-aid-6474581.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:20:25
+type :get
+requestURL :https://www.btbtt12.com/attach-download-fid-981-aid-6548188.htm
+responseURL :https://www.btbtt12.com/attach-download-fid-981-aid-6548188.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:20:25
+type :get
+requestURL :https://www.btbtt12.com/attach-download-fid-981-aid-6512302.htm
+responseURL :https://www.btbtt12.com/attach-download-fid-981-aid-6512302.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:20:25
+type :get
+requestURL :https://www.btbtt12.com/attach-download-fid-981-aid-6487948.htm
+responseURL :https://www.btbtt12.com/attach-download-fid-981-aid-6487948.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:20:25
+type :get
+requestURL :https://www.btbtt12.com/attach-download-fid-981-aid-6538647.htm
+responseURL :https://www.btbtt12.com/attach-download-fid-981-aid-6538647.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:20:25
+type :get
+requestURL :https://www.btbtt12.com/attach-download-fid-981-aid-6499323.htm
+responseURL :https://www.btbtt12.com/attach-download-fid-981-aid-6499323.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:29:19
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:29:21
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F%E6%9B%B4%E6%96%B0.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E7%A5%9E%E6%98%8E%E6%B8%B4%E6%9C%9B%E6%B8%B8%E6%88%8F%E6%9B%B4%E6%96%B0.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:29:22
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E9%AD%94%E6%B3%95%E5%8A%A3%E7%AD%89%E7%94%9F3.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E9%AD%94%E6%B3%95%E5%8A%A3%E7%AD%89%E7%94%9F3.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:29:23
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-09:29:23
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4937500.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4937500.htm
+proxy :None
+======================================
