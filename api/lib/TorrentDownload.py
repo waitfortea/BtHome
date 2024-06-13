@@ -57,12 +57,6 @@ async def getDownloadContent(torrent:Torrent):
 async def torrentDownload(torrent,downloadPath):
 
     download_dir=pathInit(downloadPath,flag="dir",make=True)
-    downloadPath=download_dir.absolutePath
-    torrentName_List = [file.fileName for file in
-                        download_dir.getFileListBySuffix(['.torrent'])]
-
-    if torrent.name in torrentName_List:
-        return
 
     content,suffix = await getDownloadContent(torrent)
     async with aiofiles.open(rf'{downloadPath}\{torrent.name}{suffix}', 'wb') as file:
@@ -74,16 +68,22 @@ async def torrentGroupDownload(task):
     torrentGroup=task['torrentGroup']
     downloadPath=task['downloadPath']
 
+    download_dir = pathInit(downloadPath, flag="dir", make=True)
+    torrentName_List = [file.fileName for file in
+                        download_dir.getFileListBySuffix(['.torrent'])]
+
+    torrent_List= [torrent for torrent in torrentGroup.torrent_List if torrent.name not in torrentName_List]
+
     message = {
         '任务类型': '开始下载'
         , '字幕组名称': torrentGroup.superObj.name
         , '下载源': torrentGroup.superObj.superObj.url
-        , '下载目录': downloadPath
-        , '种子列表':"\n".join([torrent.name for torrent in torrentGroup.torrent_List])
+        , '下载目录': download_dir.absolutePath
+        , '种子列表': "\n".join([torrent.name for torrent in torrent_List])
     }
     callEvent("logDownloadWork", message)
 
-    tasks=[asyncio.create_task(torrentDownload(torrent,downloadPath)) for torrent in torrentGroup.torrent_List]
+    tasks=[asyncio.create_task(torrentDownload(torrent,download_dir.absolutePath)) for torrent in torrent_List]
     torrentGroupPath_List=await allComplete(tasks)
     return torrentGroupPath_List
 

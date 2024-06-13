@@ -39,7 +39,7 @@ async def getTorrentPageFromBtHome(index):
 
         htmlText = await AsyncRequestsProcessor(index.url, session=aiohttpSession, proxy=globalProxy.proxy_aiohttp).text()
         return TorrentPage(index=index, title=index.title, url=index.url,
-                           htmlText=htmlText)
+                           htmlText=htmlText,source= "BtHome")
 
     tasks = [asyncio.create_task(getPageHtmlFromBtHome(Index(keyword=index.keyword,url=domain.address+"/"+element.attrib('href'),title=element.text())))
              for element in element_List]
@@ -77,7 +77,7 @@ async def getTorrentPageFromComicGarden(index):
     result_List=await allComplete(tasks)
     result_List=[result for result in result_List if result is not None]
     TorrentPage_List=[TorrentPage(index=index, title=index.keyword, url=f'https://dmhy.org/topics/list/page',
-                       htmlText=result_List)]
+                       htmlText=result_List, source= "ComicGarden")]
     return TorrentPage_List
 
 if __name__=="__main__":

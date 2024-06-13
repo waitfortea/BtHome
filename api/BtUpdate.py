@@ -106,7 +106,4 @@ class BtUpdate:
             """ )
 
 
-if __name__=='__main__':
-   Listen.setDomainListener()
-   AsyncStrategy().execute(BtUpdate().update())
 

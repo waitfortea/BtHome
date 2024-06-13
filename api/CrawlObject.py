@@ -1,4 +1,4 @@
-__all__='Index','TorrentPage','SubtitleGroup','TorrentGroup','Torrent'
+__all__='Index','TorrentPage','SubtitleGroup','TorrentGroup','Torrent','SubtitleSubscription'
 from dataclasses import dataclass
 
 @dataclass
@@ -12,11 +12,10 @@ class Index():
 @dataclass
 class TorrentPage:
     index: Index
+    source: str
     title: str="TorrentPage"
     url: str=None
     htmlText: str=None
-
-
 
 @dataclass
 class SubtitleGroup:
@@ -27,9 +26,12 @@ class SubtitleGroup:
 
 @dataclass
 class SubtitleSubscription:
-
-
-
+    index:object
+    torrent_page_name:str
+    subtitle_group_name:str
+    word_List:list
+    download_dir: str
+    source:str
 
 @dataclass
 class Torrent:
@@ -38,7 +40,7 @@ class Torrent:
 
 @dataclass
 class TorrentGroup:
-    torrent_List=list
-    superObj=object
+    torrent_List : list
+    superObj : object
 
 

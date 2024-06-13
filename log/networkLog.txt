@@ -12447,3 +12447,747 @@ requestURL :https://btbtt12.com/attach-download-fid-950-aid-6561852.htm
 responseURL :https://btbtt12.com/attach-download-fid-950-aid-6561852.htm
 proxy :None
 ======================================
+
+======================================
+2024/06/12-22:07:48
+type :get
+requestURL :https://btbtt15.com
+responseURL :https://btbtt15.com
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:31:46
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:33:37
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95%E6%9B%B4%E6%96%B0.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95%E6%9B%B4%E6%96%B0.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:33:38
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4940384.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4940384.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:33:58
+type :get
+requestURL :https://btbtt15.com
+responseURL :https://btbtt15.com
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:38:47
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:39:06
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95%E6%9B%B4%E6%96%B0%E5%91%A2.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95%E6%9B%B4%E6%96%B0%E5%91%A2.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:39:15
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95%E6%9B%B4%E6%96%B0.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95%E6%9B%B4%E6%96%B0.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:39:16
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4940384.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4940384.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:39:45
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:44:31
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95%E6%9B%B4%E6%96%B0.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95%E6%9B%B4%E6%96%B0.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:44:32
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4940384.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4940384.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:48:10
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:48:53
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:48:53
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4986075.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4986075.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:48:54
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4981089.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4981089.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:48:54
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4981091.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4981091.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:48:54
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4986071.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4986071.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:48:55
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4986073.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4986073.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:50:03
+type :get
+requestURL :https://btbtt15.com
+responseURL :https://btbtt15.com
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:50:14
+type :get
+requestURL :https://btbtt15.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95.htm
+responseURL :https://btbtt15.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:50:16
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4986075.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4986075.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:50:16
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4981089.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4981089.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:50:16
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4986073.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4986073.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:50:16
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4986071.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4986071.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:50:17
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4981091.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4981091.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:51:24
+type :get
+requestURL :https://btbtt15.com
+responseURL :https://btbtt15.com
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:52:25
+type :get
+requestURL :https://btbtt15.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95.htm
+responseURL :https://btbtt15.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:52:26
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4986075.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4986075.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:52:26
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4981091.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4981091.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:52:26
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4981089.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4981089.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:52:26
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4986071.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4986071.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:52:26
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4986073.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4986073.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:57:42
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:58:23
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:58:32
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:58:33
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4986075.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4986075.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:58:33
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4981089.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4981089.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:58:33
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4986071.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4986071.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:58:33
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4981091.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4981091.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-22:58:34
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4986073.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4986073.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-23:00:09
+type :get
+requestURL :https://btbtt13.com
+responseURL :https://btbtt13.com
+proxy :None
+======================================
+
+======================================
+2024/06/12-23:00:30
+type :get
+requestURL :https://btbtt13.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95.htm
+responseURL :https://btbtt13.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-23:00:31
+type :get
+requestURL :https://btbtt13.com/thread-index-fid-950-tid-4981089.htm
+responseURL :https://btbtt13.com/thread-index-fid-950-tid-4981089.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-23:00:31
+type :get
+requestURL :https://btbtt13.com/thread-index-fid-950-tid-4986075.htm
+responseURL :https://btbtt13.com/thread-index-fid-950-tid-4986075.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-23:00:31
+type :get
+requestURL :https://btbtt13.com/thread-index-fid-950-tid-4986073.htm
+responseURL :https://btbtt13.com/thread-index-fid-950-tid-4986073.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-23:00:31
+type :get
+requestURL :https://btbtt13.com/thread-index-fid-950-tid-4986071.htm
+responseURL :https://btbtt13.com/thread-index-fid-950-tid-4986071.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-23:00:52
+type :get
+requestURL :https://btbtt13.com/thread-index-fid-950-tid-4981091.htm
+responseURL :https://btbtt13.com/thread-index-fid-950-tid-4981091.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-23:04:51
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/12-23:05:02
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-23:05:02
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4981089.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4981089.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-23:05:02
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4986071.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4986071.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-23:05:03
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4986075.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4986075.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-23:05:03
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4981091.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4981091.htm
+proxy :None
+======================================
+
+======================================
+2024/06/12-23:05:03
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-950-tid-4986073.htm
+responseURL :https://btbtt12.com/thread-index-fid-950-tid-4986073.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-00:59:02
+type :get
+requestURL :https://btbtt15.com
+responseURL :https://btbtt15.com
+proxy :None
+======================================
+
+======================================
+2024/06/13-00:59:22
+type :get
+requestURL :https://btbtt15.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95.htm
+responseURL :https://btbtt15.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-00:59:23
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4986071.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4986071.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-00:59:23
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4986075.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4986075.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-00:59:23
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4986073.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4986073.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-00:59:23
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4981089.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4981089.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-00:59:24
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4981091.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4981091.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-00:59:27
+type :get
+requestURL :https://btbtt15.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95.htm
+responseURL :https://btbtt15.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-00:59:27
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4981089.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4981089.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-00:59:27
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4986071.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4986071.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-00:59:27
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4981091.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4981091.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-00:59:27
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4986073.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4986073.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-00:59:28
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4986075.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4986075.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-00:59:37
+type :get
+requestURL :https://btbtt15.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95%E6%9B%B4%E6%96%B0.htm
+responseURL :https://btbtt15.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95%E6%9B%B4%E6%96%B0.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-00:59:38
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-981-tid-4940384.htm
+responseURL :https://btbtt15.com/thread-index-fid-981-tid-4940384.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-01:00:34
+type :get
+requestURL :https://btbtt15.com/attach-download-fid-981-aid-6483290.htm
+responseURL :https://btbtt15.com/attach-download-fid-981-aid-6483290.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-01:00:34
+type :get
+requestURL :https://btbtt15.com/attach-download-fid-981-aid-6521981.htm
+responseURL :https://btbtt15.com/attach-download-fid-981-aid-6521981.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-01:00:34
+type :get
+requestURL :https://btbtt15.com/attach-download-fid-981-aid-6508756.htm
+responseURL :https://btbtt15.com/attach-download-fid-981-aid-6508756.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-01:00:34
+type :get
+requestURL :https://btbtt15.com/attach-download-fid-981-aid-6533804.htm
+responseURL :https://btbtt15.com/attach-download-fid-981-aid-6533804.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-01:00:34
+type :get
+requestURL :https://btbtt15.com/attach-download-fid-981-aid-6452634.htm
+responseURL :https://btbtt15.com/attach-download-fid-981-aid-6452634.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-01:00:34
+type :get
+requestURL :https://btbtt15.com/attach-download-fid-981-aid-6470902.htm
+responseURL :https://btbtt15.com/attach-download-fid-981-aid-6470902.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-01:00:34
+type :get
+requestURL :https://btbtt15.com/attach-download-fid-981-aid-6557629.htm
+responseURL :https://btbtt15.com/attach-download-fid-981-aid-6557629.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-01:00:34
+type :get
+requestURL :https://btbtt15.com/attach-download-fid-981-aid-6496158.htm
+responseURL :https://btbtt15.com/attach-download-fid-981-aid-6496158.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-01:01:12
+type :get
+requestURL :https://btbtt13.com
+responseURL :https://btbtt13.com
+proxy :None
+======================================
+
+======================================
+2024/06/13-01:03:37
+type :get
+requestURL :https://btbtt13.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95.htm
+responseURL :https://btbtt13.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-01:03:38
+type :get
+requestURL :https://btbtt13.com/thread-index-fid-950-tid-4986075.htm
+responseURL :https://btbtt13.com/thread-index-fid-950-tid-4986075.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-01:03:38
+type :get
+requestURL :https://btbtt13.com/thread-index-fid-950-tid-4981089.htm
+responseURL :https://btbtt13.com/thread-index-fid-950-tid-4981089.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-01:03:38
+type :get
+requestURL :https://btbtt13.com/thread-index-fid-950-tid-4986073.htm
+responseURL :https://btbtt13.com/thread-index-fid-950-tid-4986073.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-01:03:38
+type :get
+requestURL :https://btbtt13.com/thread-index-fid-950-tid-4986071.htm
+responseURL :https://btbtt13.com/thread-index-fid-950-tid-4986071.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-01:03:59
+type :get
+requestURL :https://btbtt13.com/thread-index-fid-950-tid-4981091.htm
+responseURL :https://btbtt13.com/thread-index-fid-950-tid-4981091.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-01:04:06
+type :get
+requestURL :https://btbtt13.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95%E6%9B%B4%E6%96%B0.htm
+responseURL :https://btbtt13.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95%E6%9B%B4%E6%96%B0.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-01:04:06
+type :get
+requestURL :https://btbtt13.com/thread-index-fid-981-tid-4940384.htm
+responseURL :https://btbtt13.com/thread-index-fid-981-tid-4940384.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-01:12:34
+type :get
+requestURL :https://btbtt15.com
+responseURL :https://btbtt15.com
+proxy :None
+======================================
+
+======================================
+2024/06/13-01:12:54
+type :get
+requestURL :https://btbtt15.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95%E6%9B%B4%E6%96%B0.htm
+responseURL :https://btbtt15.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95%E6%9B%B4%E6%96%B0.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-01:12:55
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-981-tid-4940384.htm
+responseURL :https://btbtt15.com/thread-index-fid-981-tid-4940384.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-01:14:31
+type :get
+requestURL :https://www.btbtt12.com
+responseURL :https://www.btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/13-01:17:07
+type :get
+requestURL :https://www.btbtt12.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95%E6%9B%B4%E6%96%B0.htm
+responseURL :https://www.btbtt12.com/search-index-keyword-%E5%A4%B1%E5%BF%86%E6%8A%95%E6%8D%95%E6%9B%B4%E6%96%B0.htm
+proxy :None
+======================================
+
+======================================
+2024/06/13-01:17:08
+type :get
+requestURL :https://www.btbtt12.com/thread-index-fid-981-tid-4940384.htm
+responseURL :https://www.btbtt12.com/thread-index-fid-981-tid-4940384.htm
+proxy :None
+======================================

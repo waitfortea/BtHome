@@ -5,6 +5,9 @@ from api.lib.TorrentCrawl import *
 from api.lib.TorrentPageCrawl import *
 from api.lib.SubtitleGroupCrawl import *
 from api.lib.TorrentDownload import *
+from api.lib.ToolKits.Download.QbittorrentProcess import *
+
+qbClient=QbClient(f"{os.path.dirname(sys.argv[0])}/config/config.yaml")
 
 def getTorrentPage(index:Index, stragety=getTorrentPageFromBtHome):
     return asyncStrategy(stragety(index))
@@ -14,6 +17,3 @@ def getSubTitleGroups(torrentPage:TorrentPage, stragety=getSubtitleGroupFromBtHo
 
 def getTorrentGroup(subtitleGroup:SubtitleGroup, stragety=getTorrentGroupFromBtHome):
     return asyncStrategy(stragety(subtitleGroup))
-
-def updateSubcribe():
-    pass

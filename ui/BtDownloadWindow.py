@@ -9,10 +9,12 @@ from api.BtProcess import *
 from api.lib.Config import *
 from api.lib.TorrentDownload import *
 import os
-import sys
 from threading import Thread
 from api.lib.ToolKits.Download.QbittorrentProcess import *
 from api.lib.ToolKits.Parser.GeneralParser import *
+from api.lib.ToolKits.SerializeProcessor import *
+from api.lib.SubtitleGroupSubcribe import *
+
 class SearchWorker(QObject):
 
     search = pyqtSignal(object)
@@ -68,7 +70,8 @@ class UpdateWorker(QObject):
         更新追踪种子的函数
         :return:
         """
-        pass
+        updateThread=asyncTreadStrategy(update())
+        updateThread.join()
 
 class StartWorker(QObject):
 
@@ -83,17 +86,21 @@ class StartWorker(QObject):
         if window.filterlineEdit.text() is not None:
             word_List = window.filterlineEdit.text().strip().split(" ")
             torrentGroup = torrentFilterByKeyword(torrentGroup,word_List)
+        else:
+            word_List = None
+
+        download_dir = config['download_dir'] if config[
+                                                     'download_dir'] is not None else f"{os.path.dirname(sys.argv[0])}/download"
+        download_dir = f"{download_dir}/{window.savePathlineEdit.text().strip()}"
 
         if window.downloadcheckBox.isChecked():
-            download_dir = config['download_dir'] if config['download_dir'] is not None else f"{os.path.dirname(sys.argv[0])}/download"
-            download_dir = f"{download_dir}/{window.savePathlineEdit.text().strip()}"
+
             waitDownload(torrentGroup,download_dir)
             # breakpoint()
 
             try:
                 torrentAddition_List=asyncStrategy(queueDownload())
                 if window.addTorrentcheckBox.isChecked():
-                    qbClient=QbClient(f"{os.path.dirname(sys.argv[0])}/config/config.yaml")
                     addThread=Thread(target=addTorrentInBatch,args=(qbClient,torrentAddition_List))
                     addThread.start()
                     addThread.join()
@@ -102,7 +109,7 @@ class StartWorker(QObject):
                 raise e
 
         if window.keepUpdatecheckBox.isChecked():
-            
+            subscribe(torrentGroup,word_List,download_dir)
 
 class BtWindow(QWidget):
 
@@ -131,8 +138,8 @@ class BtWindow(QWidget):
         self.StartWorker = StartWorker()
         self.startSignal.connect(self.StartWorker.startBtnFn)
 
-        # self.UpdateWorker = UpdateWorker()
-        # self.updateSignal.connect(self.UpdateWorker.updateBtnFn)
+        self.UpdateWorker = UpdateWorker()
+        self.updateSignal.connect(self.UpdateWorker.updateBtnFn)
 
         self.thread = QThread()
         self.thread.start()
