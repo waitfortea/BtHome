@@ -73,9 +73,8 @@ async def torrentGroupDownload(task):
 
     download_dir = pathInit(downloadPath, flag="dir", make=True)
     torrentName_List = [file.baseName for file in
-                        download_dir.getFileListBySuffix(['.torrent'])]
+                        download_dir.get_direct_file_bySuffix(['.torrent'])]
 
-    breakpoint()
     ignore_torrentname_List = []
     download_torrent_List = []
     for torrent in torrentGroup.torrent_List:

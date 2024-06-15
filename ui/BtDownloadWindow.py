@@ -26,7 +26,7 @@ class SearchWorker(QObject):
             搜索按钮执行的函数，接收索引对象，返回种子页列表对象
 
         """
-        word=keyword.split(" ")[0]
+        word=keyword.split(";")[0]
         page=re.search("\d+-\d+", keyword)
         page_List=pageParser(page.group()) if page is not None else 1
         index=Index(keyword=word,page=page_List)
@@ -70,8 +70,7 @@ class UpdateWorker(QObject):
         更新追踪种子的函数
         :return:
         """
-        updateThread=asyncTreadStrategy(update())
-        updateThread.join()
+        asyncStrategy(update())
 
 class StartWorker(QObject):
 

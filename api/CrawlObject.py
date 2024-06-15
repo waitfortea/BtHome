@@ -2,7 +2,7 @@ __all__='Index','TorrentPage','SubtitleGroup','TorrentGroup','Torrent','Subtitle
 from dataclasses import dataclass
 
 @dataclass
-class Index():
+class Index:
     keyword:str
     page:str=1
     url:str=None
@@ -27,7 +27,7 @@ class SubtitleGroup:
 @dataclass
 class SubtitleSubscription:
     index:object
-    torrent_page_name:str
+    torrent_page_url:str
     subtitle_group_name:str
     word_List:list
     download_dir: str
