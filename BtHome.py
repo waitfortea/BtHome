@@ -14,7 +14,7 @@ if __name__=='__main__':
 
     #开启日志
     setup_log()
-    setup_domainCheck()
+    # setup_domainCheck()
     callEvent('domainCheck',"")
 
     app = QApplication(sys.argv)

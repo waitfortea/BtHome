@@ -61,10 +61,10 @@ async def getTorrentPageFromComicGarden(index):
         while True:
             try:
                 res = await AsyncRequestsProcessor(f'https://dmhy.org/topics/list/page/{index.page}', session=session,
-                                                   params=params, headers=headers, proxy=globalProxy.proxy_aiohttp).response()
+                                                   params=params, headers=headers, proxy=globalProxy.proxy_aiohttp,retry=3).response()
                 break
             except Exception as e:
-                print(e)
+                raise e
                 setProxy()
                 continue
 
@@ -83,4 +83,4 @@ async def getTorrentPageFromComicGarden(index):
 if __name__=="__main__":
     setProxy()
     # print(globalProxy.proxy_aiohttp)
-    asyncStrategy(getTorrentPageFromBtHome(Index("迷宫饭")))
+    asyncStrategy(getTorrentPageFromBtHome(Index("迷宫饭",page=[i+1 for i in range(20)])))

@@ -18351,3 +18351,27 @@ requestURL :https://btbtt15.com/thread-index-fid-981-tid-4937488.htm
 responseURL :https://btbtt15.com/thread-index-fid-981-tid-4937488.htm
 proxy :http://127.0.0.1:10809
 ======================================
+
+======================================
+2024/07/07-01:31:51
+type :get
+requestURL :https://dmhy.org/topics/list/page/18
+responseURL :https://dmhy.org/topics/list/page/18?keyword=%E7%96%91%E4%BC%BC%E5%90%8E%E5%AE%AB
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/07-01:35:53
+type :get
+requestURL :https://dmhy.org/topics/list/page/15
+responseURL :https://dmhy.org/topics/list/page/15?keyword=%E7%96%91%E4%BC%BC%E5%90%8E%E5%AE%AB
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/07-01:37:01
+type :get
+requestURL :https://dmhy.org/topics/list/page/15
+responseURL :https://dmhy.org/topics/list/page/15?keyword=%E7%96%91%E4%BC%BC%E5%90%8E%E5%AE%AB
+proxy :http://127.0.0.1:10809
+======================================
