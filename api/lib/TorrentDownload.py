@@ -45,6 +45,10 @@ async def getDownloadContent(torrent: Torrent):
             res = await AsyncRequestsProcessor(torrent.downloadURL, session=aiohttpSession,
                                                proxy=globalProxy.proxy_aiohttp).response()
             suffix = getResFileSuffix(res)
+
+            if suffix not in [".torrent",'.rar']:
+                suffix = ".torrent"
+
             Content_IO = await res.content.read()
             # if suffix==".torrent":
             #     downloadContent = bencodepy.encode(bencodepy.decode(Content_IO))

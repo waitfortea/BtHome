@@ -14519,3 +14519,3835 @@ requestURL :https://dmhy.org/topics/view/668721_01_Dungeon_Meshi_Delicious_in_Du
 responseURL :https://dmhy.org/topics/view/668721_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
 proxy :http://127.0.0.1:10809
 ======================================
+
+======================================
+2024/06/15-12:01:14
+type :get
+requestURL :https://btbtt19.com
+responseURL :https://btbtt19.com
+proxy :None
+======================================
+
+======================================
+2024/06/15-12:01:32
+type :get
+requestURL :https://btbtt19.com/search-index-keyword-%E9%AD%94%E6%B3%95%E7%A7%91%E5%8A%A3%E7%AD%89%E7%94%9F3.htm
+responseURL :https://btbtt19.com/search-index-keyword-%E9%AD%94%E6%B3%95%E7%A7%91%E5%8A%A3%E7%AD%89%E7%94%9F3.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/15-12:01:33
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/15-12:02:45
+type :get
+requestURL :https://btbtt19.com/search-index-keyword-%E5%A4%9C%E6%A8%B1%E5%AE%B6%E5%A4%A7%E4%BD%9C%E6%88%98.htm
+responseURL :https://btbtt19.com/search-index-keyword-%E5%A4%9C%E6%A8%B1%E5%AE%B6%E5%A4%A7%E4%BD%9C%E6%88%98.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/15-12:02:46
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-950-tid-4988652.htm
+responseURL :https://btbtt19.com/thread-index-fid-950-tid-4988652.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/15-12:02:47
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-950-tid-4984389.htm
+responseURL :https://btbtt19.com/thread-index-fid-950-tid-4984389.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/15-12:02:47
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-950-tid-4988650.htm
+responseURL :https://btbtt19.com/thread-index-fid-950-tid-4988650.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/15-12:02:47
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-950-tid-4985830.htm
+responseURL :https://btbtt19.com/thread-index-fid-950-tid-4985830.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/15-12:02:47
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-950-tid-4984391.htm
+responseURL :https://btbtt19.com/thread-index-fid-950-tid-4984391.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/15-12:02:56
+type :get
+requestURL :https://btbtt19.com/search-index-keyword-%E5%A4%9C%E6%A8%B1%E5%AE%B6%E5%A4%A7%E4%BD%9C%E6%88%98%E6%9B%B4%E6%96%B0.htm
+responseURL :https://btbtt19.com/search-index-keyword-%E5%A4%9C%E6%A8%B1%E5%AE%B6%E5%A4%A7%E4%BD%9C%E6%88%98%E6%9B%B4%E6%96%B0.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/15-12:02:56
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/15-12:03:45
+type :get
+requestURL :https://btbtt19.com/attach-download-fid-981-aid-6522988.htm
+responseURL :https://btbtt19.com/attach-download-fid-981-aid-6522988.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/15-12:03:45
+type :get
+requestURL :https://btbtt19.com/attach-download-fid-981-aid-6557670.htm
+responseURL :https://btbtt19.com/attach-download-fid-981-aid-6557670.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/15-12:03:45
+type :get
+requestURL :https://btbtt19.com/attach-download-fid-981-aid-6472724.htm
+responseURL :https://btbtt19.com/attach-download-fid-981-aid-6472724.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/15-12:03:45
+type :get
+requestURL :https://btbtt19.com/attach-download-fid-981-aid-6497656.htm
+responseURL :https://btbtt19.com/attach-download-fid-981-aid-6497656.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/15-12:03:45
+type :get
+requestURL :https://btbtt19.com/attach-download-fid-981-aid-6485511.htm
+responseURL :https://btbtt19.com/attach-download-fid-981-aid-6485511.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/15-12:03:45
+type :get
+requestURL :https://btbtt19.com/attach-download-fid-981-aid-6472725.htm
+responseURL :https://btbtt19.com/attach-download-fid-981-aid-6472725.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/15-12:03:45
+type :get
+requestURL :https://btbtt19.com/attach-download-fid-981-aid-6510504.htm
+responseURL :https://btbtt19.com/attach-download-fid-981-aid-6510504.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/15-12:03:45
+type :get
+requestURL :https://btbtt19.com/attach-download-fid-981-aid-6535926.htm
+responseURL :https://btbtt19.com/attach-download-fid-981-aid-6535926.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/15-12:03:45
+type :get
+requestURL :https://btbtt19.com/attach-download-fid-981-aid-6546627.htm
+responseURL :https://btbtt19.com/attach-download-fid-981-aid-6546627.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/15-12:03:45
+type :get
+requestURL :https://btbtt19.com/attach-download-fid-981-aid-6460293.htm
+responseURL :https://btbtt19.com/attach-download-fid-981-aid-6460293.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/15-12:04:32
+type :get
+requestURL :https://btbtt19.com/attach-download-fid-981-aid-6557670.htm
+responseURL :https://btbtt19.com/attach-download-fid-981-aid-6557670.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/15-13:07:34
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/15-20:35:39
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/15-20:35:53
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E5%93%AD%E6%B3%A3%E5%B0%91%E5%A5%B3%E4%B9%90%E9%98%9F%E6%9B%B4%E6%96%B0.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E5%93%AD%E6%B3%A3%E5%B0%91%E5%A5%B3%E4%B9%90%E9%98%9F%E6%9B%B4%E6%96%B0.htm
+proxy :None
+======================================
+
+======================================
+2024/06/15-20:35:54
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+proxy :None
+======================================
+
+======================================
+2024/06/15-20:36:32
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6533783.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6533783.htm
+proxy :None
+======================================
+
+======================================
+2024/06/15-20:36:32
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6489238.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6489238.htm
+proxy :None
+======================================
+
+======================================
+2024/06/15-20:36:32
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6523398.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6523398.htm
+proxy :None
+======================================
+
+======================================
+2024/06/15-20:36:32
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6458420.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6458420.htm
+proxy :None
+======================================
+
+======================================
+2024/06/15-20:36:32
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6497566.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6497566.htm
+proxy :None
+======================================
+
+======================================
+2024/06/15-20:36:32
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6470886.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6470886.htm
+proxy :None
+======================================
+
+======================================
+2024/06/15-20:36:32
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6515520.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6515520.htm
+proxy :None
+======================================
+
+======================================
+2024/06/15-20:36:32
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6557612.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6557612.htm
+proxy :None
+======================================
+
+======================================
+2024/06/15-20:36:32
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6447144.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6447144.htm
+proxy :None
+======================================
+
+======================================
+2024/06/15-20:36:32
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6545130.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6545130.htm
+proxy :None
+======================================
+
+======================================
+2024/06/16-16:52:23
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/16-16:52:24
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/16-16:52:24
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/16-16:52:24
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/16-16:52:25
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/16-16:52:58
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E8%BF%B7%E5%AE%AB%E9%A5%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/16-16:52:58
+type :get
+requestURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/16-16:52:59
+type :get
+requestURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/16-16:52:59
+type :get
+requestURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/16-16:52:59
+type :get
+requestURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/16-16:52:59
+type :get
+requestURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/16-16:52:59
+type :get
+requestURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/16-16:52:59
+type :get
+requestURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/16-16:52:59
+type :get
+requestURL :https://dmhy.org/topics/view/668721_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+responseURL :https://dmhy.org/topics/view/668721_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/16-16:52:59
+type :get
+requestURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/16-16:52:59
+type :get
+requestURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/16-16:52:59
+type :get
+requestURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/16-16:52:59
+type :get
+requestURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/16-16:52:59
+type :get
+requestURL :https://dmhy.org/topics/view/668722_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+responseURL :https://dmhy.org/topics/view/668722_01_Dungeon_Meshi_Delicious_in_Dungeon_18_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/16-16:52:59
+type :get
+requestURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/16-16:53:00
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-981-aid-6568179.htm
+responseURL :https://btbtt12.com/attach-download-fid-981-aid-6568179.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/16-19:59:38
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/17-14:28:39
+type :get
+requestURL :https://btbtt18.com
+responseURL :https://btbtt18.com
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/17-14:28:40
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/17-14:28:40
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/17-14:28:40
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/17-14:28:40
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/17-14:28:41
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E8%BF%B7%E5%AE%AB%E9%A5%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/17-14:28:42
+type :get
+requestURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/17-14:28:42
+type :get
+requestURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/17-14:28:43
+type :get
+requestURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/17-14:28:43
+type :get
+requestURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/17-14:28:43
+type :get
+requestURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/17-14:28:44
+type :get
+requestURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/17-14:28:44
+type :get
+requestURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/17-14:28:44
+type :get
+requestURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/17-14:28:45
+type :get
+requestURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/17-14:28:45
+type :get
+requestURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/17-14:28:45
+type :get
+requestURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/17-14:28:45
+type :get
+requestURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/17-14:28:46
+type :get
+requestURL :https://btbtt18.com/attach-download-fid-981-aid-6569901.htm
+responseURL :https://btbtt18.com/attach-download-fid-981-aid-6569901.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/17-15:05:59
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:06:28
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E5%A4%BA%E8%BF%98%E7%9A%84%E7%BD%97%E8%B5%9B.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E5%A4%BA%E8%BF%98%E7%9A%84%E7%BD%97%E8%B5%9B.htm
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:06:42
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-CODE%20GEASS.htm
+responseURL :https://btbtt12.com/search-index-keyword-CODE%20GEASS.htm
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:07:01
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E5%8F%9B%E9%80%86%E7%9A%84%E9%B2%81%E9%B2%81%E4%BF%AE.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E5%8F%9B%E9%80%86%E7%9A%84%E9%B2%81%E9%B2%81%E4%BF%AE.htm
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:07:09
+type :get
+requestURL :https://btbtt12.com/search-index-keyword-%E9%B2%81%E9%B2%81%E4%BF%AE.htm
+responseURL :https://btbtt12.com/search-index-keyword-%E9%B2%81%E9%B2%81%E4%BF%AE.htm
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:07:10
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-951-tid-4557811.htm
+responseURL :https://btbtt12.com/thread-index-fid-951-tid-4557811.htm
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:07:10
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-951-tid-4477965.htm
+responseURL :https://btbtt12.com/thread-index-fid-951-tid-4477965.htm
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:07:10
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-951-tid-4278575.htm
+responseURL :https://btbtt12.com/thread-index-fid-951-tid-4278575.htm
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:07:10
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-951-tid-4418379.htm
+responseURL :https://btbtt12.com/thread-index-fid-951-tid-4418379.htm
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:07:10
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4278594.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4278594.htm
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:07:10
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-951-tid-4278571.htm
+responseURL :https://btbtt12.com/thread-index-fid-951-tid-4278571.htm
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:07:10
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-951-tid-4518660.htm
+responseURL :https://btbtt12.com/thread-index-fid-951-tid-4518660.htm
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:07:10
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-951-tid-4516123.htm
+responseURL :https://btbtt12.com/thread-index-fid-951-tid-4516123.htm
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:07:10
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-951-tid-4477241.htm
+responseURL :https://btbtt12.com/thread-index-fid-951-tid-4477241.htm
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:07:10
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-951-tid-4278581.htm
+responseURL :https://btbtt12.com/thread-index-fid-951-tid-4278581.htm
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:07:10
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-951-tid-4278577.htm
+responseURL :https://btbtt12.com/thread-index-fid-951-tid-4278577.htm
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:07:10
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-951-tid-4484698.htm
+responseURL :https://btbtt12.com/thread-index-fid-951-tid-4484698.htm
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:07:10
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4278604.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4278604.htm
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:07:10
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-951-tid-4477445.htm
+responseURL :https://btbtt12.com/thread-index-fid-951-tid-4477445.htm
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:07:10
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-951-tid-4278573.htm
+responseURL :https://btbtt12.com/thread-index-fid-951-tid-4278573.htm
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:07:10
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-951-tid-4418378.htm
+responseURL :https://btbtt12.com/thread-index-fid-951-tid-4418378.htm
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:07:10
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-951-tid-4429388.htm
+responseURL :https://btbtt12.com/thread-index-fid-951-tid-4429388.htm
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:07:10
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-951-tid-4409360.htm
+responseURL :https://btbtt12.com/thread-index-fid-951-tid-4409360.htm
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:07:10
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-951-tid-4593565.htm
+responseURL :https://btbtt12.com/thread-index-fid-951-tid-4593565.htm
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:07:12
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-951-tid-4451818.htm
+responseURL :https://btbtt12.com/thread-index-fid-951-tid-4451818.htm
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:08:19
+type :get
+requestURL :https://btbtt12.com/attach-download-fid-951-aid-5380405.htm
+responseURL :https://btbtt12.com/attach-download-fid-951-aid-5380405.htm
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:14:34
+type :get
+requestURL :https://btbtt13.com
+responseURL :https://btbtt13.com
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:14:40
+type :get
+requestURL :https://btbtt13.com/search-index-keyword-%E4%B8%8D%E5%90%88%E9%80%82%E4%B9%9F%E8%A6%81%E6%9C%89%E4%B8%AA%E9%99%90%E5%BA%A6.htm
+responseURL :https://btbtt13.com/search-index-keyword-%E4%B8%8D%E5%90%88%E9%80%82%E4%B9%9F%E8%A6%81%E6%9C%89%E4%B8%AA%E9%99%90%E5%BA%A6.htm
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:14:41
+type :get
+requestURL :https://btbtt13.com/thread-index-fid-950-tid-4935104.htm
+responseURL :https://btbtt13.com/thread-index-fid-950-tid-4935104.htm
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:14:41
+type :get
+requestURL :https://btbtt13.com/thread-index-fid-950-tid-4934485.htm
+responseURL :https://btbtt13.com/thread-index-fid-950-tid-4934485.htm
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:14:41
+type :get
+requestURL :https://btbtt13.com/thread-index-fid-950-tid-4967149.htm
+responseURL :https://btbtt13.com/thread-index-fid-950-tid-4967149.htm
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:14:42
+type :get
+requestURL :https://btbtt13.com/thread-index-fid-950-tid-4970591.htm
+responseURL :https://btbtt13.com/thread-index-fid-950-tid-4970591.htm
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:14:43
+type :get
+requestURL :https://btbtt13.com/thread-index-fid-950-tid-4931731.htm
+responseURL :https://btbtt13.com/thread-index-fid-950-tid-4931731.htm
+proxy :None
+======================================
+
+======================================
+2024/06/17-15:15:17
+type :get
+requestURL :https://btbtt13.com/attach-download-fid-950-aid-6524525.htm
+responseURL :https://btbtt13.com/attach-download-fid-950-aid-6524525.htm
+proxy :None
+======================================
+
+======================================
+2024/06/18-11:16:20
+type :get
+requestURL :https://www.btbtt17.com
+responseURL :https://www.btbtt17.com
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:16:33
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:16:33
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:16:34
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E8%BF%B7%E5%AE%AB%E9%A5%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:16:34
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:16:34
+type :get
+requestURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:16:34
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:16:34
+type :get
+requestURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:16:34
+type :get
+requestURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:16:35
+type :get
+requestURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:16:35
+type :get
+requestURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:16:35
+type :get
+requestURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:16:35
+type :get
+requestURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:16:35
+type :get
+requestURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:16:35
+type :get
+requestURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:16:35
+type :get
+requestURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:16:35
+type :get
+requestURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:16:35
+type :get
+requestURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:16:35
+type :get
+requestURL :https://www.btbtt17.com/attach-download-fid-981-aid-6572700.htm
+responseURL :https://www.btbtt17.com/attach-download-fid-981-aid-6572700.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:18:35
+type :get
+requestURL :https://www.btbtt18.com
+responseURL :https://www.btbtt18.com
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:18:36
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:18:36
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:18:36
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:18:36
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E8%BF%B7%E5%AE%AB%E9%A5%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:18:36
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:18:37
+type :get
+requestURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:18:37
+type :get
+requestURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:18:37
+type :get
+requestURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:18:37
+type :get
+requestURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:18:38
+type :get
+requestURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:18:38
+type :get
+requestURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:18:38
+type :get
+requestURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:18:38
+type :get
+requestURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:18:38
+type :get
+requestURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:18:38
+type :get
+requestURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:18:38
+type :get
+requestURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:18:38
+type :get
+requestURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-11:18:38
+type :get
+requestURL :https://www.btbtt18.com/attach-download-fid-981-aid-6572700.htm
+responseURL :https://www.btbtt18.com/attach-download-fid-981-aid-6572700.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-18:36:45
+type :get
+requestURL :https://www.btbtt15.com
+responseURL :https://www.btbtt15.com
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-18:36:46
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-18:36:46
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-18:36:46
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-18:36:46
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-18:36:47
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E8%BF%B7%E5%AE%AB%E9%A5%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-18:36:48
+type :get
+requestURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-18:36:49
+type :get
+requestURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-18:36:49
+type :get
+requestURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-18:36:49
+type :get
+requestURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-18:36:49
+type :get
+requestURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-18:36:49
+type :get
+requestURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-18:36:49
+type :get
+requestURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-18:36:49
+type :get
+requestURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-18:36:49
+type :get
+requestURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-18:36:49
+type :get
+requestURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-18:36:49
+type :get
+requestURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/18-18:36:49
+type :get
+requestURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/19-13:00:58
+type :get
+requestURL :https://www.btbtt13.com
+responseURL :https://www.btbtt13.com
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/19-13:00:59
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E8%BF%B7%E5%AE%AB%E9%A5%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/19-13:00:59
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/19-13:01:00
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/19-13:01:00
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/19-13:01:00
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/19-13:01:00
+type :get
+requestURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/19-13:01:00
+type :get
+requestURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/19-13:01:00
+type :get
+requestURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/19-13:01:00
+type :get
+requestURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/19-13:01:00
+type :get
+requestURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/19-13:01:01
+type :get
+requestURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/19-13:01:01
+type :get
+requestURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/19-13:01:01
+type :get
+requestURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/19-13:01:01
+type :get
+requestURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/19-13:01:01
+type :get
+requestURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/19-13:01:01
+type :get
+requestURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/19-13:01:02
+type :get
+requestURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/19-21:50:23
+type :get
+requestURL :https://btbtt15.com
+responseURL :https://btbtt15.com
+proxy :None
+======================================
+
+======================================
+2024/06/19-21:50:30
+type :get
+requestURL :https://btbtt15.com/search-index-keyword-%E5%AF%84%E7%94%9F%E5%85%BD%EF%BC%9A%E7%81%B0%E8%89%B2%E9%83%A8%E9%98%9F.htm
+responseURL :https://btbtt15.com/search-index-keyword-%E5%AF%84%E7%94%9F%E5%85%BD%EF%BC%9A%E7%81%B0%E8%89%B2%E9%83%A8%E9%98%9F.htm
+proxy :None
+======================================
+
+======================================
+2024/06/19-21:50:31
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4951556.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4951556.htm
+proxy :None
+======================================
+
+======================================
+2024/06/19-21:50:31
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4978754.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4978754.htm
+proxy :None
+======================================
+
+======================================
+2024/06/19-21:50:55
+type :get
+requestURL :https://btbtt15.com/attach-download-fid-950-aid-6544444.htm
+responseURL :https://btbtt15.com/attach-download-fid-950-aid-6544444.htm
+proxy :None
+======================================
+
+======================================
+2024/06/20-20:44:41
+type :get
+requestURL :https://www.btbtt17.com
+responseURL :https://www.btbtt17.com
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/20-20:44:41
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/20-20:44:42
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E8%BF%B7%E5%AE%AB%E9%A5%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/20-20:44:42
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/20-20:44:42
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/20-20:44:42
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/20-20:44:42
+type :get
+requestURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/20-20:44:42
+type :get
+requestURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/20-20:44:42
+type :get
+requestURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/20-20:44:42
+type :get
+requestURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/20-20:44:43
+type :get
+requestURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/20-20:44:43
+type :get
+requestURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/20-20:44:43
+type :get
+requestURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/20-20:44:43
+type :get
+requestURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/20-20:44:43
+type :get
+requestURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/20-20:44:43
+type :get
+requestURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/20-20:44:43
+type :get
+requestURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/20-20:44:43
+type :get
+requestURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/20-20:44:44
+type :get
+requestURL :https://www.btbtt17.com/attach-download-fid-981-aid-6575034.htm
+responseURL :https://www.btbtt17.com/attach-download-fid-981-aid-6575034.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/21-11:20:36
+type :get
+requestURL :https://www.btbtt19.com
+responseURL :https://www.btbtt19.com
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/21-11:20:37
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E8%BF%B7%E5%AE%AB%E9%A5%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/21-11:20:37
+type :get
+requestURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/21-11:20:37
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/21-11:20:37
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/21-11:20:37
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/21-11:20:37
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/21-11:20:38
+type :get
+requestURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/21-11:20:38
+type :get
+requestURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/21-11:20:38
+type :get
+requestURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/21-11:20:38
+type :get
+requestURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/21-11:20:38
+type :get
+requestURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/21-11:20:38
+type :get
+requestURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/21-11:20:38
+type :get
+requestURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/21-11:20:38
+type :get
+requestURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/21-11:20:38
+type :get
+requestURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/21-11:20:38
+type :get
+requestURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/21-11:20:38
+type :get
+requestURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:27:16
+type :get
+requestURL :https://www.btbtt12.com
+responseURL :https://www.btbtt12.com
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:27:18
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E8%BF%B7%E5%AE%AB%E9%A5%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:27:19
+type :get
+requestURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:27:19
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:27:19
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:27:20
+type :get
+requestURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:27:20
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:27:20
+type :get
+requestURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:27:20
+type :get
+requestURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:27:20
+type :get
+requestURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:27:21
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:27:21
+type :get
+requestURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:27:21
+type :get
+requestURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:27:21
+type :get
+requestURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:27:22
+type :get
+requestURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:27:22
+type :get
+requestURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:27:22
+type :get
+requestURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:27:22
+type :get
+requestURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:27:24
+type :get
+requestURL :https://www.btbtt12.com/attach-download-fid-981-aid-6580355.htm
+responseURL :https://www.btbtt12.com/attach-download-fid-981-aid-6580355.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:27:24
+type :get
+requestURL :https://www.btbtt12.com/attach-download-fid-981-aid-6583733.htm
+responseURL :https://www.btbtt12.com/attach-download-fid-981-aid-6583733.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:27:25
+type :get
+requestURL :https://www.btbtt12.com/attach-download-fid-981-aid-6582242.htm
+responseURL :https://www.btbtt12.com/attach-download-fid-981-aid-6582242.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:27:25
+type :get
+requestURL :https://www.btbtt12.com/attach-download-fid-981-aid-6582243.htm
+responseURL :https://www.btbtt12.com/attach-download-fid-981-aid-6582243.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:28:18
+type :get
+requestURL :https://btbtt18.com
+responseURL :https://btbtt18.com
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:28:20
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E8%BF%B7%E5%AE%AB%E9%A5%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:28:20
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:28:20
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:28:20
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:28:20
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:28:20
+type :get
+requestURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:28:21
+type :get
+requestURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:28:21
+type :get
+requestURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:28:21
+type :get
+requestURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:28:22
+type :get
+requestURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:28:22
+type :get
+requestURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:28:22
+type :get
+requestURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:28:23
+type :get
+requestURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:28:23
+type :get
+requestURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:28:23
+type :get
+requestURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:28:23
+type :get
+requestURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:28:24
+type :get
+requestURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-11:28:24
+type :get
+requestURL :https://btbtt18.com/attach-download-fid-981-aid-6583733.htm
+responseURL :https://btbtt18.com/attach-download-fid-981-aid-6583733.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-15:26:25
+type :get
+requestURL :https://btbtt18.com
+responseURL :https://btbtt18.com
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-15:26:26
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-15:26:26
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-15:26:26
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-15:26:26
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-15:26:27
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E8%BF%B7%E5%AE%AB%E9%A5%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-15:26:27
+type :get
+requestURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-15:26:28
+type :get
+requestURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-15:26:28
+type :get
+requestURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-15:26:29
+type :get
+requestURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-15:26:29
+type :get
+requestURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-15:26:29
+type :get
+requestURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-15:26:29
+type :get
+requestURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-15:26:30
+type :get
+requestURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-15:26:30
+type :get
+requestURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-15:26:30
+type :get
+requestURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-15:26:31
+type :get
+requestURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-15:26:31
+type :get
+requestURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-20:28:02
+type :get
+requestURL :https://btbtt15.com
+responseURL :https://btbtt15.com
+proxy :None
+======================================
+
+======================================
+2024/06/26-20:32:14
+type :get
+requestURL :https://btbtt15.com/search-index-keyword-%E4%BA%BA%E7%94%9F%E5%A4%8D%E6%9C%AC.htm
+responseURL :https://btbtt15.com/search-index-keyword-%E4%BA%BA%E7%94%9F%E5%A4%8D%E6%9C%AC.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/26-20:32:15
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-5000459.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-5000459.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-20:32:15
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-5000188.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-5000188.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-20:32:15
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-5000186.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-5000186.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-20:32:15
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-5000184.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-5000184.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-20:32:15
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-5000182.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-5000182.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-20:32:42
+type :get
+requestURL :https://btbtt15.com/search-index-keyword-%E4%BA%BA%E7%94%9F%E5%A4%8D%E6%9C%AC4k.htm
+responseURL :https://btbtt15.com/search-index-keyword-%E4%BA%BA%E7%94%9F%E5%A4%8D%E6%9C%AC4k.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/26-20:32:43
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4996304.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4996304.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-20:32:43
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4993844.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4993844.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-20:32:43
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-5000184.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-5000184.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-20:32:43
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-5000186.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-5000186.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-20:32:43
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-5000188.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-5000188.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-20:32:43
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4994216.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4994216.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-20:32:43
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4994369.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4994369.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-20:32:43
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4993846.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4993846.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-20:32:43
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4994218.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4994218.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-20:32:43
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4993996.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4993996.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-20:32:56
+type :get
+requestURL :https://btbtt15.com/search-index-keyword-%E4%BA%BA%E7%94%9F%E5%A4%8D%E6%9C%AC%E5%85%A8.htm
+responseURL :https://btbtt15.com/search-index-keyword-%E4%BA%BA%E7%94%9F%E5%A4%8D%E6%9C%AC%E5%85%A8.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/26-20:32:56
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-5000459.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-5000459.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/26-20:34:43
+type :get
+requestURL :https://btbtt15.com/attach-download-fid-950-aid-6585803.htm
+responseURL :https://btbtt15.com/attach-download-fid-950-aid-6585803.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:07:51
+type :get
+requestURL :https://www.btbtt13.com
+responseURL :https://www.btbtt13.com
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:07:52
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:07:52
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:07:53
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E8%BF%B7%E5%AE%AB%E9%A5%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:07:53
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:07:53
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:07:53
+type :get
+requestURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:07:54
+type :get
+requestURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:07:54
+type :get
+requestURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:07:55
+type :get
+requestURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:07:55
+type :get
+requestURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:07:55
+type :get
+requestURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:07:55
+type :get
+requestURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:07:55
+type :get
+requestURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:07:56
+type :get
+requestURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:07:56
+type :get
+requestURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:07:56
+type :get
+requestURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:07:57
+type :get
+requestURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:10:31
+type :get
+requestURL :https://btbtt15.com
+responseURL :https://btbtt15.com
+proxy :None
+======================================
+
+======================================
+2024/06/28-01:11:24
+type :get
+requestURL :https://btbtt15.com/search-index-keyword-%E5%8F%8D%E8%8B%B1%E9%9B%84.htm
+responseURL :https://btbtt15.com/search-index-keyword-%E5%8F%8D%E8%8B%B1%E9%9B%84.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/28-01:11:25
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-951-tid-4556090.htm
+responseURL :https://btbtt15.com/thread-index-fid-951-tid-4556090.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:11:25
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4226927.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4226927.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:11:25
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4226656.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4226656.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:11:42
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E5%8F%8D%E8%8B%B1%E9%9B%84
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:11:51
+type :get
+requestURL :https://dmhy.org/topics/view/670232_MagicStar_EP06_WEBDL_1080p.html
+responseURL :https://dmhy.org/topics/view/670232_MagicStar_EP06_WEBDL_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:11:52
+type :get
+requestURL :https://dmhy.org/topics/view/670059_MagicStar_EP05_WEBDL_1080p_Netflix_V0_EP04.html
+responseURL :https://dmhy.org/topics/view/670059_MagicStar_EP05_WEBDL_1080p_Netflix_V0_EP04.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:11:52
+type :get
+requestURL :https://dmhy.org/topics/view/669636_MagicStar_EP05_WEBDL_1080p_U-NEXT.html
+responseURL :https://dmhy.org/topics/view/669636_MagicStar_EP05_WEBDL_1080p_U-NEXT.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:11:52
+type :get
+requestURL :https://dmhy.org/topics/view/669635_MagicStar_EP05_WEBDL_1080p.html
+responseURL :https://dmhy.org/topics/view/669635_MagicStar_EP05_WEBDL_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:11:52
+type :get
+requestURL :https://dmhy.org/topics/view/669616_MagicStar_EP04_WEBDL_1080p_Netflix_V0_EP03.html
+responseURL :https://dmhy.org/topics/view/669616_MagicStar_EP04_WEBDL_1080p_Netflix_V0_EP03.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:11:53
+type :get
+requestURL :https://dmhy.org/topics/view/669580_MagicStar_EP04_WEBDL_1080p_U-NEXT.html
+responseURL :https://dmhy.org/topics/view/669580_MagicStar_EP04_WEBDL_1080p_U-NEXT.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:11:53
+type :get
+requestURL :https://dmhy.org/topics/view/669528_MagicStar_EP03_WEBDL_1080p_Netflix_V0_EP02.html
+responseURL :https://dmhy.org/topics/view/669528_MagicStar_EP03_WEBDL_1080p_Netflix_V0_EP02.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:11:53
+type :get
+requestURL :https://dmhy.org/topics/view/669579_MagicStar_EP04_WEBDL_1080p.html
+responseURL :https://dmhy.org/topics/view/669579_MagicStar_EP04_WEBDL_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:11:54
+type :get
+requestURL :https://dmhy.org/topics/view/669505_MagicStar_EP03_WEBDL_1080p_U-NEXT.html
+responseURL :https://dmhy.org/topics/view/669505_MagicStar_EP03_WEBDL_1080p_U-NEXT.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:11:54
+type :get
+requestURL :https://dmhy.org/topics/view/669501_MagicStar_EP03_WEBDL_1080p.html
+responseURL :https://dmhy.org/topics/view/669501_MagicStar_EP03_WEBDL_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:11:54
+type :get
+requestURL :https://dmhy.org/topics/view/669476_MagicStar_EP02_WEBDL_1080p_Netflix_V0_EP01.html
+responseURL :https://dmhy.org/topics/view/669476_MagicStar_EP02_WEBDL_1080p_Netflix_V0_EP01.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:11:55
+type :get
+requestURL :https://dmhy.org/topics/view/669372_MagicStar_EP02_WEBDL_1080p_U-NEXT.html
+responseURL :https://dmhy.org/topics/view/669372_MagicStar_EP02_WEBDL_1080p_U-NEXT.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:11:55
+type :get
+requestURL :https://dmhy.org/topics/view/669367_MagicStar_EP02_WEBDL_1080p.html
+responseURL :https://dmhy.org/topics/view/669367_MagicStar_EP02_WEBDL_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:11:55
+type :get
+requestURL :https://dmhy.org/topics/view/669347_MagicStar_EP01_WEBDL_1080p_Netflix_V0.html
+responseURL :https://dmhy.org/topics/view/669347_MagicStar_EP01_WEBDL_1080p_Netflix_V0.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:11:55
+type :get
+requestURL :https://dmhy.org/topics/view/667351_MagicStar_EP01_WEBDL_1080p_U-NEXT.html
+responseURL :https://dmhy.org/topics/view/667351_MagicStar_EP01_WEBDL_1080p_U-NEXT.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:11:55
+type :get
+requestURL :https://dmhy.org/topics/view/667349_MagicStar_EP01_WEBDL_1080p.html
+responseURL :https://dmhy.org/topics/view/667349_MagicStar_EP01_WEBDL_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:12:09
+type :get
+requestURL :https://dmhy.org/topics/view/672285_240605_OST_320K.html
+responseURL :https://dmhy.org/topics/view/672285_240605_OST_320K.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:12:26
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E5%8F%8D%E8%8B%B1%E9%9B%84
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:12:26
+type :get
+requestURL :https://dmhy.org/topics/list/page/2
+responseURL :https://dmhy.org/topics/list/page/2?keyword=%E5%8F%8D%E8%8B%B1%E9%9B%84
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:12:26
+type :get
+requestURL :https://dmhy.org/topics/list/page/3
+responseURL :https://dmhy.org/topics/list/page/3?keyword=%E5%8F%8D%E8%8B%B1%E9%9B%84
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:12:27
+type :get
+requestURL :https://dmhy.org/topics/list/page/5
+responseURL :https://dmhy.org/topics/list/page/5?keyword=%E5%8F%8D%E8%8B%B1%E9%9B%84
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:12:27
+type :get
+requestURL :https://dmhy.org/topics/list/page/4
+responseURL :https://dmhy.org/topics/list/page/4?keyword=%E5%8F%8D%E8%8B%B1%E9%9B%84
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:12:27
+type :get
+requestURL :https://dmhy.org/topics/list/page/6
+responseURL :https://dmhy.org/topics/list/page/6?keyword=%E5%8F%8D%E8%8B%B1%E9%9B%84
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:12:27
+type :get
+requestURL :https://dmhy.org/topics/list/page/7
+responseURL :https://dmhy.org/topics/list/page/7?keyword=%E5%8F%8D%E8%8B%B1%E9%9B%84
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:12:28
+type :get
+requestURL :https://dmhy.org/topics/list/page/8
+responseURL :https://dmhy.org/topics/list/page/8?keyword=%E5%8F%8D%E8%8B%B1%E9%9B%84
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:12:28
+type :get
+requestURL :https://dmhy.org/topics/list/page/9
+responseURL :https://dmhy.org/topics/list/page/9?keyword=%E5%8F%8D%E8%8B%B1%E9%9B%84
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:12:28
+type :get
+requestURL :https://dmhy.org/topics/list/page/10
+responseURL :https://dmhy.org/topics/list/page/10?keyword=%E5%8F%8D%E8%8B%B1%E9%9B%84
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:12:28
+type :get
+requestURL :https://dmhy.org/topics/list/page/12
+responseURL :https://dmhy.org/topics/list/page/12?keyword=%E5%8F%8D%E8%8B%B1%E9%9B%84
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:12:29
+type :get
+requestURL :https://dmhy.org/topics/list/page/11
+responseURL :https://dmhy.org/topics/list/page/11?keyword=%E5%8F%8D%E8%8B%B1%E9%9B%84
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:12:29
+type :get
+requestURL :https://dmhy.org/topics/list/page/13
+responseURL :https://dmhy.org/topics/list/page/13?keyword=%E5%8F%8D%E8%8B%B1%E9%9B%84
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:12:29
+type :get
+requestURL :https://dmhy.org/topics/list/page/14
+responseURL :https://dmhy.org/topics/list/page/14?keyword=%E5%8F%8D%E8%8B%B1%E9%9B%84
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:20:23
+type :get
+requestURL :https://btbtt15.com
+responseURL :https://btbtt15.com
+proxy :None
+======================================
+
+======================================
+2024/06/28-01:20:54
+type :get
+requestURL :https://btbtt15.com/search-index-keyword-%E5%8F%8D%E8%8B%B1%E9%9B%84.htm
+responseURL :https://btbtt15.com/search-index-keyword-%E5%8F%8D%E8%8B%B1%E9%9B%84.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/28-01:20:55
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-951-tid-4556090.htm
+responseURL :https://btbtt15.com/thread-index-fid-951-tid-4556090.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:20:55
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4226656.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4226656.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:20:56
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-950-tid-4226927.htm
+responseURL :https://btbtt15.com/thread-index-fid-950-tid-4226927.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:21:07
+type :get
+requestURL :https://btbtt15.com/search-index-keyword-antihero.htm
+responseURL :https://btbtt15.com/search-index-keyword-antihero.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/28-01:22:02
+type :get
+requestURL :https://btbtt15.com/search-index-keyword-%E5%8F%8D%E8%8B%B1%E9%9B%84%E5%89%A7%E9%9B%86.htm
+responseURL :https://btbtt15.com/search-index-keyword-%E5%8F%8D%E8%8B%B1%E9%9B%84%E5%89%A7%E9%9B%86.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/28-01:22:18
+type :get
+requestURL :https://btbtt15.com/search-index-keyword-%E5%8F%8D%E8%8B%B1%E9%9B%84%E5%89%A7%E9%9B%86.htm
+responseURL :https://btbtt15.com/search-index-keyword-%E5%8F%8D%E8%8B%B1%E9%9B%84%E5%89%A7%E9%9B%86.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/28-01:22:29
+type :get
+requestURL :https://btbtt15.com/search-index-keyword-antihero.htm
+responseURL :https://btbtt15.com/search-index-keyword-antihero.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/28-01:22:45
+type :get
+requestURL :https://btbtt15.com/search-index-keyword-antihero.htm
+responseURL :https://btbtt15.com/search-index-keyword-antihero.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/28-01:22:53
+type :get
+requestURL :https://btbtt15.com/search-index-keyword-anti%20hero.htm
+responseURL :https://btbtt15.com/search-index-keyword-anti%20hero.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/28-01:35:03
+type :get
+requestURL :https://btbtt15.com
+responseURL :https://btbtt15.com
+proxy :None
+======================================
+
+======================================
+2024/06/28-01:35:29
+type :get
+requestURL :https://btbtt15.com/search-index-keyword-antihero.htm
+responseURL :https://btbtt15.com/search-index-keyword-antihero.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/06/28-01:35:30
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-1194-tid-4993711.htm
+responseURL :https://btbtt15.com/thread-index-fid-1194-tid-4993711.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:35:31
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-1194-tid-5000574.htm
+responseURL :https://btbtt15.com/thread-index-fid-1194-tid-5000574.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:35:31
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-1194-tid-4986904.htm
+responseURL :https://btbtt15.com/thread-index-fid-1194-tid-4986904.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:35:31
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-1194-tid-4991986.htm
+responseURL :https://btbtt15.com/thread-index-fid-1194-tid-4991986.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:35:31
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-1194-tid-4994835.htm
+responseURL :https://btbtt15.com/thread-index-fid-1194-tid-4994835.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:35:31
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-1194-tid-4986520.htm
+responseURL :https://btbtt15.com/thread-index-fid-1194-tid-4986520.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:35:31
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-1194-tid-4991982.htm
+responseURL :https://btbtt15.com/thread-index-fid-1194-tid-4991982.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:35:31
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-1194-tid-4989954.htm
+responseURL :https://btbtt15.com/thread-index-fid-1194-tid-4989954.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:35:31
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-1194-tid-4992493.htm
+responseURL :https://btbtt15.com/thread-index-fid-1194-tid-4992493.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:35:32
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-1194-tid-4985374.htm
+responseURL :https://btbtt15.com/thread-index-fid-1194-tid-4985374.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:36:07
+type :get
+requestURL :https://btbtt15.com/attach-download-fid-1194-aid-6576239.htm
+responseURL :https://btbtt15.com/attach-download-fid-1194-aid-6576239.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/06/28-01:38:41
+type :get
+requestURL :https://btbtt15.com/attach-download-fid-1194-aid-6574304.htm
+responseURL :https://btbtt15.com/attach-download-fid-1194-aid-6574304.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-10:53:16
+type :get
+requestURL :https://www.btbtt12.com
+responseURL :https://www.btbtt12.com
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-10:53:17
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-10:53:17
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-10:53:19
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E8%BF%B7%E5%AE%AB%E9%A5%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-10:53:19
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-10:53:19
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-10:53:19
+type :get
+requestURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-10:53:20
+type :get
+requestURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-10:53:21
+type :get
+requestURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-10:53:21
+type :get
+requestURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-10:53:21
+type :get
+requestURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-10:53:21
+type :get
+requestURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-10:53:21
+type :get
+requestURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-10:53:22
+type :get
+requestURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-10:53:22
+type :get
+requestURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-10:53:22
+type :get
+requestURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-10:53:23
+type :get
+requestURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-10:53:23
+type :get
+requestURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-10:53:23
+type :get
+requestURL :https://www.btbtt12.com/attach-download-fid-981-aid-6593066.htm
+responseURL :https://www.btbtt12.com/attach-download-fid-981-aid-6593066.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-10:53:24
+type :get
+requestURL :https://www.btbtt12.com/attach-download-fid-981-aid-6591898.htm
+responseURL :https://www.btbtt12.com/attach-download-fid-981-aid-6591898.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-10:53:24
+type :get
+requestURL :https://www.btbtt12.com/attach-download-fid-981-aid-6593102.htm
+responseURL :https://www.btbtt12.com/attach-download-fid-981-aid-6593102.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:50:12
+type :get
+requestURL :https://www.btbtt12.com
+responseURL :https://www.btbtt12.com
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:50:13
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:50:13
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:50:13
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:50:14
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:50:23
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E8%BF%B7%E5%AE%AB%E9%A5%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:50:27
+type :get
+requestURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:50:28
+type :get
+requestURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:50:28
+type :get
+requestURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:50:28
+type :get
+requestURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:50:29
+type :get
+requestURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:50:29
+type :get
+requestURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:50:30
+type :get
+requestURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:50:30
+type :get
+requestURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:50:30
+type :get
+requestURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:50:30
+type :get
+requestURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:50:32
+type :get
+requestURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:50:33
+type :get
+requestURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:57:27
+type :get
+requestURL :https://www.btbtt12.com
+responseURL :https://www.btbtt12.com
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:57:28
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:57:28
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:57:30
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:57:31
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:57:36
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E8%BF%B7%E5%AE%AB%E9%A5%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:57:41
+type :get
+requestURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:57:42
+type :get
+requestURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:57:42
+type :get
+requestURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:57:43
+type :get
+requestURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:57:44
+type :get
+requestURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:57:44
+type :get
+requestURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:57:45
+type :get
+requestURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:57:47
+type :get
+requestURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:57:49
+type :get
+requestURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:57:52
+type :get
+requestURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:57:55
+type :get
+requestURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:57:59
+type :get
+requestURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-22:58:02
+type :get
+requestURL :https://www.btbtt12.com/attach-download-fid-981-aid-6582242.htm
+responseURL :https://www.btbtt12.com/attach-download-fid-981-aid-6582242.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-23:17:50
+type :get
+requestURL :https://www.btbtt12.com
+responseURL :https://www.btbtt12.com
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-23:17:51
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4938996.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-23:17:51
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-23:17:51
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4933704.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-23:17:55
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-23:18:03
+type :get
+requestURL :https://dmhy.org/topics/list/page/1
+responseURL :https://dmhy.org/topics/list/page/1?keyword=%E8%BF%B7%E5%AE%AB%E9%A5%AD
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-23:18:08
+type :get
+requestURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672112_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-23:18:08
+type :get
+requestURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671593_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-23:18:09
+type :get
+requestURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671113_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-23:18:09
+type :get
+requestURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+responseURL :https://dmhy.org/topics/view/671112_01_Dungeon_Meshi_Delicious_in_Dungeon_22_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-23:18:09
+type :get
+requestURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670589_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-23:18:09
+type :get
+requestURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+responseURL :https://dmhy.org/topics/view/670590_01_Dungeon_Meshi_Delicious_in_Dungeon_21_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-23:18:10
+type :get
+requestURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670077_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-23:18:10
+type :get
+requestURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+responseURL :https://dmhy.org/topics/view/670076_01_Dungeon_Meshi_Delicious_in_Dungeon_20_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-23:18:10
+type :get
+requestURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669296_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-23:18:11
+type :get
+requestURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+responseURL :https://dmhy.org/topics/view/671592_01_Dungeon_Meshi_Delicious_in_Dungeon_23_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-23:18:11
+type :get
+requestURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+responseURL :https://dmhy.org/topics/view/669295_01_Dungeon_Meshi_Delicious_in_Dungeon_19_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-23:18:23
+type :get
+requestURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+responseURL :https://dmhy.org/topics/view/672111_01_Dungeon_Meshi_Delicious_in_Dungeon_24_1080p.html
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-23:18:25
+type :get
+requestURL :https://www.btbtt12.com/attach-download-fid-981-aid-6593059.htm
+responseURL :https://www.btbtt12.com/attach-download-fid-981-aid-6593059.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/01-23:18:25
+type :get
+requestURL :https://www.btbtt12.com/attach-download-fid-981-aid-6593060.htm
+responseURL :https://www.btbtt12.com/attach-download-fid-981-aid-6593060.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/06-18:40:25
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/06-18:40:26
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/06-18:49:06
+type :get
+requestURL :https://btbtt12.com
+responseURL :https://btbtt12.com
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/06-18:49:06
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/06-18:49:17
+type :get
+requestURL :https://btbtt18.com
+responseURL :https://btbtt18.com
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/06-18:49:18
+type :get
+requestURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+responseURL :https://btbtt12.com/thread-index-fid-981-tid-4937488.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/06-18:51:33
+type :get
+requestURL :https://btbtt15.com
+responseURL :https://btbtt15.com
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/06-18:51:34
+type :get
+requestURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+responseURL :https://btbtt19.com/thread-index-fid-981-tid-4937500.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/06-22:19:57
+type :get
+requestURL :https://btbtt19.com
+responseURL :https://btbtt19.com
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/06-22:20:42
+type :get
+requestURL :https://btbtt15.com
+responseURL :https://btbtt15.com
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/06-22:31:14
+type :get
+requestURL :https://btbtt13.com
+responseURL :https://btbtt13.com
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/06-22:31:58
+type :get
+requestURL :https://btbtt19.com
+responseURL :https://btbtt19.com
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/06-22:32:43
+type :get
+requestURL :https://btbtt15.com
+responseURL :https://btbtt15.com
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/06-22:32:44
+type :get
+requestURL :https://btbtt15.com/thread-index-fid-981-tid-4937488.htm
+responseURL :https://btbtt15.com/thread-index-fid-981-tid-4937488.htm
+proxy :http://127.0.0.1:10809
+======================================

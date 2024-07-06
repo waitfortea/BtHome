@@ -31,7 +31,7 @@ async def getTorrentPageFromBtHome(index):
             continue
 
     doc = ElementProcessor(htmlText)
-    element_List = doc.xpath('//td[@class="subject"]//a[contains(text(),"BT")]')
+    element_List = doc.xpath('//td[@class="subject"]//a[contains(@href,"thread-index") and @class="subject_link thread-old"]')
     if element_List is None:
         print('搜索结果为空')
         return []

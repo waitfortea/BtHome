@@ -3,6 +3,7 @@ __all__ = "subscribe",'update'
 
 import asyncio
 from threading import Thread
+from api.lib.ToolKits.GeneralObject.urlporcess import *
 from api.lib.ToolKits.Download.QbittorrentProcess import addTorrentInBatch
 from api.lib.ToolKits.SerializeProcessor import *
 from api.lib.ToolKits.FileProcess import *
@@ -27,7 +28,7 @@ def subscribe(torrentGroup,word_List,download_dir):
     serializeByPickle(f'{subscribe_dir.absolutePath}/{torrentGroup.superObj.superObj.index.keyword}.txt', subscription)
 
 async def updateTorrentPageFromBtHome(subscription):
-    htmlText = await AsyncRequestsProcessor(subscription.torrent_page_url,session=aiohttpSession,proxy = globalProxy.proxy_aiohttp).text()
+    htmlText = await AsyncRequestsProcessor(URLProcessor(subscription.torrent_page_url).replace(domain.address).url,session=aiohttpSession,proxy = globalProxy.proxy_aiohttp).text()
     return TorrentPage(index = subscription.index, source = "BtHome", title = "更新" , url = subscription.torrent_page_url, htmlText=htmlText)
 
 
