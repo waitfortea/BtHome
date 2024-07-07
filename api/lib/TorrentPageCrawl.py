@@ -1,6 +1,8 @@
 
 __all__='getTorrentPageFromBtHome','getTorrentPageFromComicGarden'
 
+import time
+
 from api.lib.DomainCheck import *
 from urllib.parse import quote, unquote
 from api.lib.ToolKits.ElementProcess import *
@@ -13,35 +15,65 @@ from api.lib.ToolKits.Proxy import *
 from api.lib.ToolKits.Proxy import *
 from api.CrawlObject import *
 import asyncio
-
+from api.lib.cfcheck import *
+from api.lib.Config import *
 
 async def getTorrentPageFromBtHome(index):
-    count=0
-    while count<10:
+    headers = {
+        'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+        # 'cookie': 'bbs_sid=sjtthn96673b29ig9smvva6jkg; bbs_token=3Faht9eho69M3GqJSqPGUfysE3h3Tg_2BsENgKVx4SV5Pw59epa8lX0CDlQC_2BPlLkcVNp0Smz3kmailf4W4bcQlSa84hY_3D; cookie_test=X9_2FVnSKsHoN5e68Y7a3vRAMEScgzKl5Ny1LAwSWQYwGaBKIz; cf_clearance=Xubk61Q9I4hEG1ScvK2f7yPcyCzlRhzyLDd_bDqzACo-1720304387-1.0.1.1-IjnNNd99mbCbzczgZQKFZ4yYgf6iTgDEW.6agZzt0g5QUVCg.1UaVHW7L_IUDFbuLwJ3nMZ72ZzGmt3ZPP9jmA',
+        'priority': 'u=0, i',
+        'referer': 'https://www.1lou.info/',
+        'sec-ch-ua': '"Not/A)Brand";v="8", "Chromium";v="126", "Microsoft Edge";v="126"',
+        'sec-ch-ua-arch': '"x86"',
+        'sec-ch-ua-bitness': '"64"',
+        'sec-ch-ua-full-version': '"126.0.2592.87"',
+        'sec-ch-ua-full-version-list': '"Not/A)Brand";v="8.0.0.0", "Chromium";v="126.0.6478.127", "Microsoft Edge";v="126.0.2592.87"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-model': '""',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-ch-ua-platform-version': '"14.0.0"',
+        'sec-fetch-dest': 'document',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-user': '?1',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0',
+    }
+    url = config['bthome_domain']+ f"/search-{quote(index.keyword).replace('%', '_')}.htm"
+    print(cf_cookies)
+    count = 0
+    while True:
         try:
-            url = domain.address + "/" + f"search-index-keyword-{quote(index.keyword)}.htm"
-            htmlText = RequestsProcessor(url, proxies=globalProxy.proxy_request).text()
-            break
+            res = RequestsProcessor(url,session=requestSession,proxies=globalProxy.proxy_request, cookies=cf_cookies,headers = headers)
+            time.sleep(2)
+            htmlText = res.text()
+            print(htmlText)
+            if "Just a moment" in htmlText:
+
+                print("重新获取网页")
+                continue
+            else:
+                break
         except Exception as e:
             print(e)
-            count+=1
-            print(f"重新连接{count}")
-            if count>=10:
-                raise NotFoundResponse(url)
-            continue
+            raise NotFoundResponse(url)
+
 
     doc = ElementProcessor(htmlText)
-    element_List = doc.xpath('//td[@class="subject"]//a[contains(@href,"thread-index") and @class="subject_link thread-old"]')
+    # element_List = doc.xpath('//td[@class="subject"]//a[contains(@href,"thread-index") and @class="subject_link thread-old"]')
+    element_List = doc.xpath('//div[@class="media-body"]//a[contains(@href,"thread")]')
     if element_List is None:
         print('搜索结果为空')
         return []
     async def getPageHtmlFromBtHome(index):
 
-        htmlText = await AsyncRequestsProcessor(index.url, session=aiohttpSession, proxy=globalProxy.proxy_aiohttp).text()
+        htmlText = await AsyncRequestsProcessor(index.url, session=aiohttpSession, proxy=globalProxy.proxy_aiohttp,cookies=cf_cookies,headers = headers).text()
         return TorrentPage(index=index, title=index.title, url=index.url,
                            htmlText=htmlText,source= "BtHome")
 
-    tasks = [asyncio.create_task(getPageHtmlFromBtHome(Index(keyword=index.keyword,url=domain.address+"/"+element.attrib('href'),title=element.text())))
+    tasks = [asyncio.create_task(getPageHtmlFromBtHome(Index(keyword=index.keyword,url=config['bthome_domain']+"/"+element.attrib('href'),title=element.text())))
              for element in element_List]
     result_List = await allComplete(tasks)
     return result_List
