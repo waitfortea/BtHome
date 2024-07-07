@@ -25584,3 +25584,99 @@ requestURL :https://www.1lou.info/attach-download-1308970.htm
 responseURL :https://www.1lou.info/attach-download-1308970.htm
 proxy :http://127.0.0.1:10809
 ======================================
+
+======================================
+2024/07/07-17:33:36
+type :get
+requestURL :https://www.1lou.info/search-_E7_96_91_E4_BC_BC_E5_90_8E_E5_AE_AB.htm
+responseURL :https://www.1lou.info/search-_E7_96_91_E4_BC_BC_E5_90_8E_E5_AE_AB.htm
+proxy :{'http': 'http://127.0.0.1:10809', 'https': 'http://127.0.0.1:10809', 'ftp': 'ftp://127.0.0.1:10809'}
+======================================
+
+======================================
+2024/07/07-17:33:37
+type :get
+requestURL :https://www.1lou.info/thread-474180.htm
+responseURL :https://www.1lou.info/thread-474180.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/07-17:33:37
+type :get
+requestURL :https://www.1lou.info/thread-474182.htm
+responseURL :https://www.1lou.info/thread-474182.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/07-17:33:37
+type :get
+requestURL :https://www.1lou.info/thread-474164.htm
+responseURL :https://www.1lou.info/thread-474164.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/07-17:33:37
+type :get
+requestURL :https://www.1lou.info/thread-474196.htm
+responseURL :https://www.1lou.info/thread-474196.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/07-17:33:37
+type :get
+requestURL :https://www.1lou.info/thread-475166.htm
+responseURL :https://www.1lou.info/thread-475166.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/07-17:33:37
+type :get
+requestURL :https://www.1lou.info/thread-474163.htm
+responseURL :https://www.1lou.info/thread-474163.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/07-17:33:37
+type :get
+requestURL :https://www.1lou.info/thread-474181.htm
+responseURL :https://www.1lou.info/thread-474181.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/07-17:33:37
+type :get
+requestURL :https://www.1lou.info/thread-474165.htm
+responseURL :https://www.1lou.info/thread-474165.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/07-17:33:37
+type :get
+requestURL :https://www.1lou.info/thread-474183.htm
+responseURL :https://www.1lou.info/thread-474183.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/07-17:33:38
+type :get
+requestURL :https://www.1lou.info/thread-474166.htm
+responseURL :https://www.1lou.info/thread-474166.htm
+proxy :http://127.0.0.1:10809
+======================================
+
+======================================
+2024/07/07-17:33:38
+type :get
+requestURL :https://www.1lou.info/thread-474195.htm
+responseURL :https://www.1lou.info/thread-474195.htm
+proxy :http://127.0.0.1:10809
+======================================
