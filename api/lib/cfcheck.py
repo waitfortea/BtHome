@@ -2,7 +2,8 @@
 from api.lib.ToolKits.drissionpage_process import *
 from api.lib.ToolKits.Event import *
 from dataclasses import dataclass
-
+from api.lib.ToolKits.CustomException import *
+import atexit
 @dataclass()
 class CfCookie:
     cookies : str
@@ -19,8 +20,13 @@ def get_cf_token(rm_cache=False,**kwargs):
 
 def doEvent_cfcheck(data={}):
     global cf_cookies
-    cf_cookies.cookies = get_cf_token(rm_cache=False,**data)
-    print(cf_cookies.cookies)
+    cookie = get_cf_token(rm_cache=True,check_interval=3,**data)
+    try:
+        cf_cookies.cookies = {"cf_clearance":cookie['cf_clearance'],"bbs_sid":cookie['bbs_sid']}
+        print(cf_cookies.cookies)
+    except Exception as e:
+        DictKeyError()
+
 
 
 def setup_cfcheck():

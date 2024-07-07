@@ -6,7 +6,7 @@ from api.BtProcess import *
 from api.lib.ToolKits.Proxy import *
 from api.lib.Log import *
 from api.lib.DomainCheck import *
-
+from api.lib.cfcheck import *
 if __name__=='__main__':
 
     #设置代理
@@ -15,7 +15,7 @@ if __name__=='__main__':
     #开启日志
     setup_log()
     # setup_domainCheck()
-    callEvent('domainCheck',"")
+    setup_cfcheck()
 
     app = QApplication(sys.argv)
     stackedWidget = BtWindow()

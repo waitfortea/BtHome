@@ -24,17 +24,14 @@ async def getTorrentPageFromBtHome(index):
     }
     url = config['bthome_domain']+ f"/search-{quote(index.keyword).replace('%', '_')}.htm"
     print(url)
-    print(cf_cookies)
-    count = 0
+    callEvent("cf_check", {})
     while True:
         try:
-            res = RequestsProcessor(url,session=requestSession,proxies=globalProxy.proxy_request, cookies=cf_cookies.cookies,headers = headers)
-            time.sleep(2)
-            htmlText = res.text()
-            print(htmlText)
+            htmlText = RequestsProcessor(url,session=requestSession,proxies=globalProxy.proxy_request, cookies=cf_cookies.cookies,headers = headers).text()
+            print("torrentPageHtml获取")
             if "Just a moment" in htmlText:
-
-                print("重新获取网页")
+                print("重新获取cf_cookies")
+                callEvent("cf_check", {})
                 continue
             else:
                 break
@@ -49,6 +46,7 @@ async def getTorrentPageFromBtHome(index):
     if element_List is None:
         print('搜索结果为空')
         return []
+
     async def getPageHtmlFromBtHome(index):
 
         htmlText = await AsyncRequestsProcessor(index.url, session=aiohttpSession, proxy=globalProxy.proxy_aiohttp,cookies=cf_cookies.cookies,headers = headers).text()
