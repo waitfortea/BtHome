@@ -10,6 +10,7 @@ from api.lib.ToolKits.GeneralObject.StrProcess import *
 import asyncio
 from api.lib.DomainCheck import *
 from api.lib.ToolKits.FileProcess import *
+from api.lib.Config import *
 async def getTorrentGroupFromBtHome(subtileGroup):
     torrent_List=[]
     for torrentElement in subtileGroup.torrentElement_List:
@@ -19,7 +20,7 @@ async def getTorrentGroupFromBtHome(subtileGroup):
         else:
             torrentName=os.path.splitext(torrentName)[0]
 
-        torrentURL= domain.address+"/"+torrentElement.attrib('href').replace('dialog', 'download')
+        torrentURL= config['bthome_domain']+"/"+torrentElement.attrib('href')
         torrent = Torrent(name=torrentName, downloadURL=torrentURL)
         torrent_List.append(torrent)
 

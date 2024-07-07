@@ -20,33 +20,15 @@ from api.lib.Config import *
 
 async def getTorrentPageFromBtHome(index):
     headers = {
-        'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
-        # 'cookie': 'bbs_sid=sjtthn96673b29ig9smvva6jkg; bbs_token=3Faht9eho69M3GqJSqPGUfysE3h3Tg_2BsENgKVx4SV5Pw59epa8lX0CDlQC_2BPlLkcVNp0Smz3kmailf4W4bcQlSa84hY_3D; cookie_test=X9_2FVnSKsHoN5e68Y7a3vRAMEScgzKl5Ny1LAwSWQYwGaBKIz; cf_clearance=Xubk61Q9I4hEG1ScvK2f7yPcyCzlRhzyLDd_bDqzACo-1720304387-1.0.1.1-IjnNNd99mbCbzczgZQKFZ4yYgf6iTgDEW.6agZzt0g5QUVCg.1UaVHW7L_IUDFbuLwJ3nMZ72ZzGmt3ZPP9jmA',
-        'priority': 'u=0, i',
-        'referer': 'https://www.1lou.info/',
-        'sec-ch-ua': '"Not/A)Brand";v="8", "Chromium";v="126", "Microsoft Edge";v="126"',
-        'sec-ch-ua-arch': '"x86"',
-        'sec-ch-ua-bitness': '"64"',
-        'sec-ch-ua-full-version': '"126.0.2592.87"',
-        'sec-ch-ua-full-version-list': '"Not/A)Brand";v="8.0.0.0", "Chromium";v="126.0.6478.127", "Microsoft Edge";v="126.0.2592.87"',
-        'sec-ch-ua-mobile': '?0',
-        'sec-ch-ua-model': '""',
-        'sec-ch-ua-platform': '"Windows"',
-        'sec-ch-ua-platform-version': '"14.0.0"',
-        'sec-fetch-dest': 'document',
-        'sec-fetch-mode': 'navigate',
-        'sec-fetch-site': 'same-origin',
-        'sec-fetch-user': '?1',
-        'upgrade-insecure-requests': '1',
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0',
     }
     url = config['bthome_domain']+ f"/search-{quote(index.keyword).replace('%', '_')}.htm"
+    print(url)
     print(cf_cookies)
     count = 0
     while True:
         try:
-            res = RequestsProcessor(url,session=requestSession,proxies=globalProxy.proxy_request, cookies=cf_cookies,headers = headers)
+            res = RequestsProcessor(url,session=requestSession,proxies=globalProxy.proxy_request, cookies=cf_cookies.cookies,headers = headers)
             time.sleep(2)
             htmlText = res.text()
             print(htmlText)
@@ -69,7 +51,7 @@ async def getTorrentPageFromBtHome(index):
         return []
     async def getPageHtmlFromBtHome(index):
 
-        htmlText = await AsyncRequestsProcessor(index.url, session=aiohttpSession, proxy=globalProxy.proxy_aiohttp,cookies=cf_cookies,headers = headers).text()
+        htmlText = await AsyncRequestsProcessor(index.url, session=aiohttpSession, proxy=globalProxy.proxy_aiohttp,cookies=cf_cookies.cookies,headers = headers).text()
         return TorrentPage(index=index, title=index.title, url=index.url,
                            htmlText=htmlText,source= "BtHome")
 

@@ -19,7 +19,7 @@ def get_cf_token(rm_cache=False,**kwargs):
 
 def doEvent_cfcheck(data={}):
     global cf_cookies
-    cf_cookies.cookies = get_cf_token(rm_cache=True,**data)
+    cf_cookies.cookies = get_cf_token(rm_cache=False,**data)
     print(cf_cookies.cookies)
 
 
