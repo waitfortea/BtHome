@@ -13,6 +13,7 @@ from api.CrawlObject import *
 from api.lib.DomainCheck import *
 import aiofiles
 import bencodepy
+from api.lib.cfcheck import *
 
 torrentDownloadingQueue = []
 
@@ -39,32 +40,27 @@ def waitDownload(torrentGroup: TorrentGroup, downloadPath):
 
 
 async def getDownloadContent(torrent: Torrent):
-    count = 0
-    while True and count < 10:
-        try:
-            res = await AsyncRequestsProcessor(torrent.downloadURL, session=aiohttpSession,
-                                               proxy=globalProxy.proxy_aiohttp).response()
-            suffix = getResFileSuffix(res)
+    headers = {
 
-            if suffix not in [".torrent",'.rar']:
-                suffix = ".torrent"
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0',
+    }
+    print(torrent.downloadURL)
+    print(cf_cookies.cookies)
+    res = await AsyncRequestsProcessor(torrent.downloadURL, session=aiohttpSession,
+                                       proxy=globalProxy.proxy_aiohttp,cookies=cf_cookies.cookies,headers=headers).response()
+    suffix = getResFileSuffix(res)
 
-            Content_IO = await res.content.read()
-            # if suffix==".torrent":
-            #     downloadContent = bencodepy.encode(bencodepy.decode(Content_IO))
-            # else:
-            #     downloadContent = Content_IO
-            break
-        except Exception as e:
-            print(e)
-            count += 1
-            print(f'重新获取{count}')
-            if count >= 5:
-                callEvent('domainCheck', "")
-    return Content_IO, suffix
+    if suffix not in [".torrent",'.rar']:
+        suffix = ".torrent"
+
+    Content_IO = await AsyncRequestsProcessor(torrent.downloadURL, session=aiohttpSession,
+                                       proxy=globalProxy.proxy_aiohttp,cookies=cf_cookies.cookies,headers=headers).content()
+    print(Content_IO)
+    return Content_IO, ".torrent"
 
 
 async def torrentDownload(torrent, downloadPath):
+
     content, suffix = await getDownloadContent(torrent)
     async with aiofiles.open(rf'{downloadPath}\{torrent.name}{suffix}', 'wb') as file:
         await file.write(content)
@@ -103,7 +99,7 @@ async def torrentGroupDownload(task):
             , '字幕组名称': torrentGroup.superObj.name
             , '下载源': torrentGroup.superObj.superObj.url
             , '下载目录': download_dir.absolutePath
-            , '种子列表': "\n".join([torrent.name for torrent in download_torrent_List]) if download_torrent_List != [] else  "空"
+            , '种子列表': "\n".join([f'{torrent.name} {torrent.downloadURL}' for torrent in download_torrent_List]) if download_torrent_List != [] else  "空"
         }
         callEvent("logDownloadWork", download_message)
 

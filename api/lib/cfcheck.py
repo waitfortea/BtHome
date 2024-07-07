@@ -20,7 +20,7 @@ def get_cf_token(rm_cache=False,**kwargs):
 
 def doEvent_cfcheck(data={}):
     global cf_cookies
-    cookie = get_cf_token(rm_cache=True,check_interval=3,**data)
+    cookie = get_cf_token(rm_cache=False,check_interval=3,**data)
     try:
         cf_cookies.cookies = {"cf_clearance":cookie['cf_clearance'],"bbs_sid":cookie['bbs_sid']}
         print(cf_cookies.cookies)

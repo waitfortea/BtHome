@@ -1,6 +1,6 @@
 bthome_domain : "https://www.1lou.info"
 download_dir: "D:\\download\\BtHome下载"
-sub_download_dir: '2024.4/'
+sub_download_dir: '2024.7/'
 log_path:
  network_log_name: networkLog.txt
  download_log_name: downloadLog.txt

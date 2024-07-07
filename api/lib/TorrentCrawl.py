@@ -14,7 +14,7 @@ from api.lib.Config import *
 async def getTorrentGroupFromBtHome(subtileGroup):
     torrent_List=[]
     for torrentElement in subtileGroup.torrentElement_List:
-        torrentName = verifyFileName(torrentElement.text())
+        torrentName = verifyFileName(torrentElement.text()).replace("\n","")
         if os.path.splitext(torrentName)[-1] not in [".torrent",'.rar']:
             pass
         else:
