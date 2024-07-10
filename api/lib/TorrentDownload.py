@@ -12,7 +12,6 @@ from api.lib.ToolKits.FileProcess import *
 from api.CrawlObject import *
 from api.lib.DomainCheck import *
 import aiofiles
-import bencodepy
 from api.lib.cfcheck import *
 
 torrentDownloadingQueue = []
