@@ -55,7 +55,7 @@ async def update(word_List=None,mode="all"):
     subscribe_dir = pathInit(f'{os.path.dirname(sys.argv[0])}/subscribe', make=True, flag="dir")
 
     if word_List != []:
-        subscription_List = subscribe_dir.directFiles
+        subscription_List = subscribe_dir.direct_files
     else:
         subscription_List = subscribe_dir.get_direct_file_byContainMode(word_List,mode=mode)
 
