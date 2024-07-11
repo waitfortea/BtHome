@@ -45,28 +45,29 @@ async def getDownloadContent(torrent: Torrent):
     }
     print(torrent.downloadURL)
     print(cf_cookies.cookies)
-    res = await AsyncRequestsProcessor(torrent.downloadURL, session=aiohttpSession,
-                                       proxy=globalProxy.proxy_aiohttp,cookies=cf_cookies.cookies,headers=headers).response()
 
-
-    Content_IO = await AsyncRequestsProcessor(torrent.downloadURL, session=aiohttpSession,
-                                       proxy=globalProxy.proxy_aiohttp,cookies=cf_cookies.cookies,headers=headers).content()
-    print(Content_IO)
-    return Content_IO
+    while True:
+        content  = await AsyncRequestsProcessor(torrent.downloadURL, session=aiohttpSession,
+                                           proxy=globalProxy.proxy_aiohttp,cookies=cf_cookies.cookies,headers=headers).content()
+        file_type = get_application_type(content)
+        if  file_type != "text/html":
+            print(file_type)
+            break
+        else:
+            callEvent("cf_check",{})
+            continue
+    return content
 
 
 async def torrentDownload(torrent, downloadPath):
 
     content =  await getDownloadContent(torrent)
     suffix = ContentProcessor(content).extension_type
-    if suffix == ".torrent":
-        async with aiofiles.open(rf'{downloadPath}\{torrent.name}{suffix}', 'wb') as file:
-            await file.write(content)
-        return rf'{downloadPath}\{torrent.name}{suffix}'
-    if suffix == ".rar":
-        pass
+    async with aiofiles.open(rf'{downloadPath}\{torrent.name}{suffix}', 'wb') as file:
+        await file.write(content)
+    return rf'{downloadPath}\{torrent.name}{suffix}'
 
-    return None
+
 
 
 async def torrentGroupDownload(task):
