@@ -63,9 +63,10 @@ async def torrentDownload(torrent, downloadPath):
 
     content =  await getDownloadContent(torrent)
     suffix = ContentProcessor(content).extension_type
-    async with aiofiles.open(rf'{downloadPath}\{torrent.name}{suffix}', 'wb') as file:
+    file_path = rf'{downloadPath}\{os.path.splitext(torrent.name)[0]}{suffix}'
+    async with aiofiles.open(file_path, 'wb') as file:
         await file.write(content)
-    return rf'{downloadPath}\{torrent.name}{suffix}'
+    return file_path
 
 
 

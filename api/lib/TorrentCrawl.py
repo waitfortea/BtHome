@@ -15,11 +15,6 @@ async def getTorrentGroupFromBtHome(subtileGroup):
     torrent_List=[]
     for torrentElement in subtileGroup.torrentElement_List:
         torrentName = verifyFileName(torrentElement.text()).replace("\n","")
-        if os.path.splitext(torrentName)[-1] not in [".torrent",'.rar']:
-            pass
-        else:
-            torrentName=os.path.splitext(torrentName)[0]
-
         torrentURL= config['bthome_domain']+"/"+torrentElement.attrib('href')
         torrent = Torrent(name=torrentName, downloadURL=torrentURL)
         torrent_List.append(torrent)
