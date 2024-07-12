@@ -117,6 +117,7 @@ async def update(word_List=None,mode="all"):
             waitDownload(torrentGroup,subscription.download_dir)
         except Exception as e:
             print(f"{e}")
+            raise e
             view_subscription(subscription)
             return None
 
@@ -129,5 +130,6 @@ async def update(word_List=None,mode="all"):
         addThread.start()
         addThread.join()
     except Exception as e:
+        raise e
         print(e)
 

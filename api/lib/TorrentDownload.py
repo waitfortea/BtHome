@@ -77,12 +77,12 @@ async def torrentGroupDownload(task):
 
     download_dir = pathInit(downloadPath, flag="dir", make=True)
     torrentName_List = [file.baseName for file in
-                        download_dir.get_direct_file_bySuffix(['.torrent'])]
+                        download_dir.get_contain_files(['.torrent','.rar'],fitler_mode="extension")]
 
     ignore_torrentname_List = []
     download_torrent_List = []
     for torrent in torrentGroup.torrent_List:
-        if torrent.name not in torrentName_List:
+        if os.path.splitext(torrent.name)[0] not in torrentName_List:
             download_torrent_List.append(torrent)
         else:
             ignore_torrentname_List.append(torrent.name)
