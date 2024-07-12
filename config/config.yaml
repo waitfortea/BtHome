@@ -1,7 +1,7 @@
 bthome_domain : "https://www.1lou.info"
 edge_exe_path : 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe'
 download_dir: "D:\\download\\BtHome下载"
-sub_download_dir: '2024.7/'
+sub_download_dir: '2024.7/BtHome/'
 log_path:
  network_log_name: networkLog.txt
  download_log_name: downloadLog.txt

@@ -17,7 +17,7 @@ from api.CrawlObject import *
 import asyncio
 from api.lib.cfcheck import *
 from api.lib.Config import *
-
+from api.lib.ToolKits.utils import *
 async def getTorrentPageFromBtHome(index):
     headers = {
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0',
@@ -25,19 +25,24 @@ async def getTorrentPageFromBtHome(index):
     url = config['bthome_domain']+ f"/search-{quote(index.keyword).replace('%', '_')}.htm"
     print(url)
     callEvent("cf_check", {})
+    count = counter()
     while True:
         try:
             htmlText = RequestsProcessor(url,session=requestSession,proxies=globalProxy.proxy_request, cookies=cf_cookies.cookies,headers = headers).text()
             print("torrentPageHtml获取")
-            if "Just a moment" in htmlText:
+            if "cloudflare" in htmlText:
                 print("重新获取cf_cookies")
                 callEvent("cf_check", {})
                 continue
             else:
                 break
         except Exception as e:
-            print(e)
-            raise NotFoundResponse(url)
+            print(f'{e} like html error')
+            callEvent("cf_check", {})
+            if count()>3:
+                raise NotFoundResponse(url)
+
+
 
 
     doc = ElementProcessor(htmlText)
