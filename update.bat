@@ -1,0 +1,1 @@
+start cmd /k "activate bthome && python D:\文档\program\python\BtHome\BtUpdate.py"

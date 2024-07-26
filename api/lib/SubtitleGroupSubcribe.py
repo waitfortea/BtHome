@@ -76,7 +76,7 @@ async def updateTorrentPageFromComicGarden(subscription):
     torrentPage_List = await getTorrentPageFromComicGarden(subscription.index)
     return torrentPage_List[0]
 
-async def update(word_List=None,mode="all"):
+async def update(word_List=None,contain_mode="any"):
 
     strategy_Dict = {
         "BtHome": {
@@ -94,10 +94,10 @@ async def update(word_List=None,mode="all"):
 
     subscribe_dir = pathInit(f'{os.path.dirname(sys.argv[0])}/subscribe', make=True, flag="dir")
 
-    if word_List != []:
+    if word_List is None:
         subscription_List = subscribe_dir.direct_files
     else:
-        subscription_List = subscribe_dir.get_direct_file_byContainMode(word_List,mode=mode)
+        subscription_List = subscribe_dir.get_contain_files(word_List,contain_mode=contain_mode)
 
     async def updateTask(file):
 
@@ -117,8 +117,8 @@ async def update(word_List=None,mode="all"):
             waitDownload(torrentGroup,subscription.download_dir)
         except Exception as e:
             print(f"{e}")
-            raise e
             view_subscription(subscription)
+            raise e
             return None
 
     tasks = [asyncio.create_task(updateTask(file)) for file in subscription_List]

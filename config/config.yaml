@@ -1,5 +1,13 @@
-bthome_domain : "https://www.1lou.info"
-edge_exe_path : 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe'
+bthome_domain: "https://www.1lou.info"
+edge_exe_path: 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe'
+sqlite3:
+ database_dir: "D:\\文档\\program\\python\\BtHome\\database"
+ database_name: "bthome"
+sql:
+ host: 127.0.0.1
+ user: root
+ password: myAprivilege7
+ port:
 download_dir: "D:\\download\\BtHome下载"
 sub_download_dir: '2024.7/BtHome/'
 log_path:
