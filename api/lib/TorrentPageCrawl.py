@@ -52,7 +52,7 @@ async def getTorrentPageFromBtHome(index):
         print('搜索结果为空')
         return []
 
-    async def getPageHtmlFromBtHome(index):
+    async def getPageHtmlFromBtHome(index) -> List[TorrentPage]:
 
         htmlText = await AsyncRequestsProcessor(index.url, session=aiohttpSession, proxy=globalProxy.proxy_aiohttp,cookies=cf_cookies.cookies,headers = headers).text()
         return TorrentPage(index=index, title=index.title, url=index.url,
@@ -61,6 +61,11 @@ async def getTorrentPageFromBtHome(index):
     tasks = [asyncio.create_task(getPageHtmlFromBtHome(Index(keyword=index.keyword,url=config['bthome_domain']+"/"+element.attrib('href'),title=element.text())))
              for element in element_List]
     result_List = await allComplete(tasks)
+
+    callEvent('bthome_insert_table_torrentpage',{
+                "field_name":['url','title']
+                ,"rows":[[torrent_page.url,torrent_page.title] for torrent_page in result_List]
+                })
     return result_List
 
 
