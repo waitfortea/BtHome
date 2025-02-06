@@ -1,7 +1,8 @@
-# BtHome更新
+# BtHome更新日志
 
 - 2024.7.7 发现原有的bthome网站被宣布网站崩溃，搬迁到`https://www.1lou.info/`,好在上次更新实现了快速添加源的架构,因此添加新的爬虫规则并不困难，难度在于新的网站采用了cloudflare5秒盾的保护。尝试了诸多方案之后，采取了drissionpage库模拟浏览器过cloudflare
 - 在尝试更新的过程中，发现了之前代码的一些bug,解决过程中顺便温故而知新，颇有所得
+- 2025.2.7 1.最近原先使用的异步请求库aiohttp无法访问bthome的网页，被cloudflare拦截，更新为httpx库，目前恢复了下载和添加种子的功能，订阅更新还没有测试2.bthome放弃使用cloudflare进行人机识别，因此cf_chech默认不开启 
 
 # BtHome功能
 
