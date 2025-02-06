@@ -1,4 +1,4 @@
-bthome_domain: "https://www.1lou.info"
+bthome_domain: "https://www.1lou.pro"
 edge_exe_path: 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe'
 sqlite3:
  database_dir: "D:\\文档\\program\\python\\BtHome\\database"
@@ -23,3 +23,4 @@ qbittorrent:
 proxy:
  proxy_aiohttp: "http://127.0.0.1:10809"
  proxy_request: "http://127.0.0.1:10809"
+user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0"

@@ -18,9 +18,10 @@ import asyncio
 from api.lib.cfcheck import *
 from api.lib.Config import *
 from api.lib.ToolKits.utils import *
+import httpx
 async def getTorrentPageFromBtHome(index):
     headers = {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0',
+        'user-agent': config['user_agent'],
     }
     url = config['bthome_domain']+ f"/search-{quote(index.keyword).replace('%', '_')}.htm"
     print(url)
@@ -28,7 +29,9 @@ async def getTorrentPageFromBtHome(index):
     count = counter()
     while True:
         try:
+
             htmlText = RequestsProcessor(url,session=requestSession,proxies=globalProxy.proxy_request, cookies=cf_cookies.cookies,headers = headers).text()
+            # htmlText = RequestsProcessor(url,session=requestSession,proxies=globalProxy.proxy_request, cookies=cf_cookies.cookies,headers = headers).text()
             print("torrentPageHtml获取")
             if "cloudflare" in htmlText:
                 print("重新获取cf_cookies")
@@ -54,7 +57,9 @@ async def getTorrentPageFromBtHome(index):
 
     async def getPageHtmlFromBtHome(index) -> List[TorrentPage]:
 
-        htmlText = await AsyncRequestsProcessor(index.url, session=aiohttpSession, proxy=globalProxy.proxy_aiohttp,cookies=cf_cookies.cookies,headers = headers).text()
+        # res = await AsyncProcessor(index.url, session=aiohttpSession, proxy=globalProxy.proxy_aiohttp,cookies=cf_cookies.cookies,headers = headers).response()
+        res =  await AsyncHttpProcessor(index.url, session=httpxAsyncSession, headers = headers).response()
+        htmlText = res.text
         return TorrentPage(index=index, title=index.title, url=index.url,
                            htmlText=htmlText,source= "BtHome")
 
@@ -75,7 +80,7 @@ async def getTorrentPageFromComicGarden(index):
     async def getPageHtmlFromComicGarden(index, session):
         headers = {
 
-            'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0',
+            'user-agent': config['user_agent'],
         }
         params = {
             'keyword': index.keyword,

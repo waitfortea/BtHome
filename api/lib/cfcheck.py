@@ -7,12 +7,12 @@ from api.lib.Config import *
 import atexit
 @dataclass()
 class CfCookie:
-    cookies : str
+    cookies : str = None
     headers = headers = {
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0',
     }
 
-cf_cookies = CfCookie("")
+cf_cookies = CfCookie()
 
 def get_cf_token(rm_cache=False,**kwargs):
     page = DrissionPageProcessor(path=config["edge_exe_path"])

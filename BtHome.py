@@ -15,7 +15,7 @@ if __name__=='__main__':
     #开启日志
     setup_log()
     # setup_domainCheck()
-    setup_cfcheck()
+    # setup_cfcheck()
 
     app = QApplication(sys.argv)
     stackedWidget = BtWindow()

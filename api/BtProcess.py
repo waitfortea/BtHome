@@ -1,4 +1,4 @@
-
+# 获取异步结果
 from api.CrawlObject import *
 from api.lib.ToolKits.Strategy.AsyncStrategy import *
 from api.lib.TorrentCrawl import *
