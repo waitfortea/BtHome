@@ -41,14 +41,16 @@ def waitDownload(torrentGroup: TorrentGroup, downloadPath):
 async def getDownloadContent(torrent: Torrent):
     headers = {
 
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0',
+        'user-agent': config['user_agent'],
     }
     print(torrent.downloadURL)
     print(cf_cookies.cookies)
 
     while True:
-        content  = await AsyncRequestsProcessor(torrent.downloadURL, session=aiohttpSession,
-                                           proxy=globalProxy.proxy_aiohttp,cookies=cf_cookies.cookies,headers=headers).content()
+        # content  = await AsyncRequestsProcessor(torrent.downloadURL, session=aiohttpSession,
+        #                                    proxy=globalProxy.proxy_aiohttp,cookies=cf_cookies.cookies,headers=headers).content()
+        res  = await AsyncHttpProcessor(torrent.downloadURL, session=httpxAsyncSession,headers=headers).response()
+        content = res.content
         file_type = get_application_type(content)
         if  file_type != "text/html":
             print(file_type)
