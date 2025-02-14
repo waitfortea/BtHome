@@ -41,7 +41,7 @@ async def domainCheck(path=None):
     print(f'可用域名:{domain.address}')
 
 def doEvent_domainCheck(path=None):
-    asyncStrategy(domainCheck(path))
+    async_strategy(domainCheck(path))
 
 
 def setup_domainCheck():

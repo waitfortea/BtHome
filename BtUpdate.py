@@ -14,5 +14,5 @@ callEvent("bthome_sqlite_init")
 callEvent("cf_check",{})
 
 print("========开始更新:注意开启代理========")
-asyncStrategy(update())
+async_strategy(update())
 print("========更新结束:注意开启代理========")

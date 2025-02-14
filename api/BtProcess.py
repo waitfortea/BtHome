@@ -10,10 +10,10 @@ from api.lib.ToolKits.Download.QbittorrentProcess import *
 qbClient=QbClient(f"{os.path.dirname(sys.argv[0])}/config/config.yaml")
 
 def getTorrentPage(index:Index, stragety=getTorrentPageFromBtHome):
-    return asyncStrategy(stragety(index))
+    return async_strategy(stragety(index))
 
 def getSubTitleGroups(torrentPage:TorrentPage, stragety=getSubtitleGroupFromBtHome):
-    return asyncStrategy(stragety(torrentPage))
+    return async_strategy(stragety(torrentPage))
 
 def getTorrentGroup(subtitleGroup:SubtitleGroup, stragety=getTorrentGroupFromBtHome):
-    return asyncStrategy(stragety(subtitleGroup))
+    return async_strategy(stragety(subtitleGroup))

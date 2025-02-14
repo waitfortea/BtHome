@@ -19,32 +19,26 @@ from api.lib.cfcheck import *
 from api.lib.Config import *
 from api.lib.ToolKits.utils import *
 import httpx
-async def getTorrentPageFromBtHome(index):
+from api.lib.brower import *
+from api.http_process import *
+
+def getTorrentPageFromBtHome(index):
+    index.url = config['bthome_domain']
+    index.title = 'BtHome'
+
     headers = {
         'user-agent': config['user_agent'],
     }
     url = config['bthome_domain']+ f"/search-{quote(index.keyword).replace('%', '_')}.htm"
     print(url)
     callEvent("cf_check", {})
-    count = counter()
-    while True:
-        try:
+    exception_count = counter()
+    cfcheck_count = counter()
 
-            htmlText = RequestsProcessor(url,session=requestSession,proxies=globalProxy.proxy_request, cookies=cf_cookies.cookies,headers = headers).text()
-            # htmlText = RequestsProcessor(url,session=requestSession,proxies=globalProxy.proxy_request, cookies=cf_cookies.cookies,headers = headers).text()
-            print("torrentPageHtml获取")
-            if "cloudflare" in htmlText:
-                print("重新获取cf_cookies")
-                callEvent("cf_check", {})
-                continue
-            else:
-                break
-        except Exception as e:
-            print(f'{e} like html error')
-            callEvent("cf_check", {})
-            if count()>3:
-                raise NotFoundResponse(url)
 
+    htmlText = gethtml(url,headers=headers,cookies=None)
+    # htmlText = RequestsProcessor(url,session=requestSession,proxies=globalProxy.proxy_request, cookies=cf_cookies.cookies,headers = headers).text()
+    print("torrentPageHtml获取")
 
 
 
@@ -55,17 +49,7 @@ async def getTorrentPageFromBtHome(index):
         print('搜索结果为空')
         return []
 
-    async def getPageHtmlFromBtHome(index) -> List[TorrentPage]:
-
-        # res = await AsyncProcessor(index.url, session=aiohttpSession, proxy=globalProxy.proxy_aiohttp,cookies=cf_cookies.cookies,headers = headers).response()
-        res =  await AsyncHttpProcessor(index.url, session=httpxAsyncSession, headers = headers).response()
-        htmlText = res.text
-        return TorrentPage(index=index, title=index.title, url=index.url,
-                           htmlText=htmlText,source= "BtHome")
-
-    tasks = [asyncio.create_task(getPageHtmlFromBtHome(Index(keyword=index.keyword,url=config['bthome_domain']+"/"+element.attrib('href'),title=element.text())))
-             for element in element_List]
-    result_List = await allComplete(tasks)
+    result_List = [TorrentPage(index=index,url=config['bthome_domain']+"/"+torrentpage_element.attrib('href'),title=torrentpage_element.text()) for torrentpage_element in element_List]
 
     callEvent('bthome_insert_table_torrentpage',{
                 "field_name":['url','title']
@@ -111,4 +95,4 @@ async def getTorrentPageFromComicGarden(index):
 if __name__=="__main__":
     setProxy()
     # print(globalProxy.proxy_aiohttp)
-    asyncStrategy(getTorrentPageFromBtHome(Index("迷宫饭",page=[i+1 for i in range(20)])))
+    async_strategy(getTorrentPageFromBtHome(Index("迷宫饭",page=[i+1 for i in range(20)])))

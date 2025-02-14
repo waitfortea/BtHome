@@ -70,7 +70,7 @@ class UpdateWorker(QObject):
         更新追踪种子的函数
         :return:
         """
-        asyncStrategy(update())
+        async_strategy(update())
 
 class StartWorker(QObject):
 
@@ -93,14 +93,12 @@ class StartWorker(QObject):
         download_dir = f"{download_dir}/{window.savePathlineEdit.text().strip()}"
 
         if window.downloadcheckBox.isChecked():
-
-            waitDownload(torrentGroup,download_dir)
-            # breakpoint()
+            torrent_group_add(torrentGroup,pathInit(download_dir,flag='dir',make=True).absolutePath)
 
             try:
-                torrentAddition_List=asyncStrategy(queueDownload())
+                torrent_path_list=queueDownload()
                 if window.addTorrentcheckBox.isChecked():
-                    addThread=Thread(target=addTorrentInBatch,args=(qbClient,torrentAddition_List))
+                    addThread=Thread(target=addTorrentInBatch,args=(qbClient,torrent_path_list))
                     addThread.start()
                     addThread.join()
             except Exception as e:
@@ -226,6 +224,7 @@ class BtWindow(QWidget):
         else:
             print("搜索结果为空")
         print("===========结束搜索==============")
+
     def torentPageBtnFn(self,torrentPage):
         self.torrentPageWorker.moveToThread(self.thread)
         print('------TORRENTPAGE--------')
@@ -234,6 +233,7 @@ class BtWindow(QWidget):
         self.removeItem(self.subtitleGroupverticalLayout)
         self.torrentPageSignal.emit(torrentPage,self.subtitleGroupStrategy)
         print("===========搜索结束==============")
+
     def getSubtitleGroupInfo(self,subtitleGroup_List):
         for i in range(len(subtitleGroup_List)):
             subtitleGroupBtn = QPushButton(subtitleGroup_List[i].name)

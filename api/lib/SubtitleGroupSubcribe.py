@@ -122,7 +122,7 @@ async def update(word_List=None,contain_mode="any"):
             return None
 
     tasks = [asyncio.create_task(updateTask(file)) for file in subscription_List]
-    await allComplete(tasks)
+    all_complete(tasks)
 
     try:
         torrentAddition_List = await queueDownload()
