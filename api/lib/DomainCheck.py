@@ -2,10 +2,8 @@
 __all__='domain','domainCheck','doEvent_domainCheck','setup_domainCheck'
 
 import asyncio
-from api.lib.ToolKits.Strategy.AsyncStrategy import *
-from api.lib.ToolKits.SerializeProcessor import *
-from api.lib.ToolKits.RequestsProcess import *
-from api.lib.ToolKits.Proxy import *
+from api.lib.ToolKits.requestplugin.RequestsProcess import *
+from api.lib.ToolKits.proxyplugin.proxyregister import *
 from dataclasses import dataclass
 from api.lib.Config import *
 @dataclass

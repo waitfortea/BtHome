@@ -1,8 +1,7 @@
-from api.lib.ToolKits.RequestsProcess import  *
-from api.lib.ToolKits.Proxy import *
-from api.lib.Config import *
+from api.lib.ToolKits.requestplugin.RequestsProcess import  *
+from api.lib.ToolKits.proxyplugin.proxyregister import *
 from api.lib.brower import *
-import asyncio
+
 globalProxy.proxy_aiohttp = {'http': config['proxy']['proxy_aiohttp']}
 globalProxy.proxy_request = {'http':config['proxy']['proxy_request'],'https':config['proxy']['proxy_request']}
 
@@ -34,7 +33,7 @@ def async_httpx_html_strategy(url,type = 'get',**kwargs):
     else:
         asyncHttpxSession = httpx.AsyncClient(timeout=50)
 
-    return AiohttpProcessor(session=asyncHttpxSession, url = url,**kwargs).text(type)
+    return AsyncHttpxProcessor(session=asyncHttpxSession, url = url,**kwargs).text(type)
 
 def drssionpage_brower_html_strategy(url,**kwargs)->str:
     tab = global_brower.create_tab(url)

@@ -1,7 +1,7 @@
 
 from api.lib.sql.sql_process import *
 from api.lib.Config import *
-from api.lib.ToolKits.Event import *
+from api.lib.ToolKits.eventplugin.eventregister import *
 
 
 def do_event_bthome_sqlite_init(data):

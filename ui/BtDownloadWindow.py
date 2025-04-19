@@ -1,18 +1,13 @@
-import sys
-from PyQt5.QtCore import QTimer
-from PyQt5 import QtWidgets,uic,Qt,sip,QtCore
-from PyQt5.QtWidgets import QApplication,QWidget,QLabel,QLineEdit,QCheckBox,QHBoxLayout,QPushButton,QSpacerItem,QScrollArea,QSizePolicy
+from PyQt5 import uic
+from PyQt5.QtWidgets import QApplication,QWidget, QCheckBox,QHBoxLayout,QPushButton
 from PyQt5.QtCore import QThread,pyqtSignal,QObject,pyqtSlot
-from qfluentwidgets import FlowLayout
-from api.CrawlObject import *
 from api.BtProcess import *
 from api.lib.Config import *
 from api.lib.TorrentDownload import *
 import os
 from threading import Thread
-from api.lib.ToolKits.Download.QbittorrentProcess import *
-from api.lib.ToolKits.Parser.GeneralParser import *
-from api.lib.ToolKits.SerializeProcessor import *
+from api.lib.ToolKits.downloadutils.qbtorrentutils import *
+from api.lib.ToolKits.parseutils.generalutils import *
 from api.lib.SubtitleGroupSubcribe import *
 
 class SearchWorker(QObject):

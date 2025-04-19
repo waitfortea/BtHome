@@ -1,11 +1,5 @@
-from PyQt5.QtCore import *
-from PyQt5.QtGui import *
-from PyQt5.QtWidgets import *
 from ui.BtDownloadWindow import *
-from api.BtProcess import *
-from api.lib.ToolKits.Proxy import *
 from api.lib.Log import *
-from api.lib.DomainCheck import *
 from api.lib.cfcheck import *
 
 

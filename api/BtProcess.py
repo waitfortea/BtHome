@@ -1,11 +1,11 @@
 # 获取异步结果
 from api.CrawlObject import *
-from api.lib.ToolKits.Strategy.AsyncStrategy import *
+from api.lib.ToolKits.strategy.AsyncStrategy import *
 from api.lib.TorrentCrawl import *
 from api.lib.TorrentPageCrawl import *
 from api.lib.SubtitleGroupCrawl import *
 from api.lib.TorrentDownload import *
-from api.lib.ToolKits.Download.QbittorrentProcess import *
+from api.lib.ToolKits.downloadutils.qbtorrentutils import *
 
 qbClient=QbClient(f"{os.path.dirname(sys.argv[0])}/config/config.yaml")
 

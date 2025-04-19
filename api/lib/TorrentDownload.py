@@ -2,16 +2,11 @@ __all__ = "torrentFilterByKeyword", 'getDownloadContent', 'torrent_download_queu
 
 import asyncio
 import aiofiles
-from dataclasses import dataclass
-from api.lib.ToolKits.GeneralObject.StrProcess import *
-from api.lib.ToolKits.RequestsProcess import *
-from api.lib.ToolKits.CustomException import *
-from api.lib.ToolKits.CustomType import *
-from api.lib.ToolKits.Strategy.AsyncStrategy import *
-from api.lib.ToolKits.Proxy import *
-from api.lib.ToolKits.FileProcess import *
+from api.lib.ToolKits.generalutils.strutils import *
+from api.lib.ToolKits.requestplugin.RequestsProcess import *
+from api.lib.ToolKits.strategy.AsyncStrategy import *
+from api.lib.ToolKits.generalutils.fileutils import *
 from api.CrawlObject import *
-from api.lib.DomainCheck import *
 from api.lib.cfcheck import *
 from api.lib.brower import *
 torrent_download_queue = []
@@ -101,7 +96,7 @@ def torrent_download(torrent_info_list,strategy=torrent_browser_download_strateg
     return async_strategy(strategy(torrent_info_list))
 
 def queueDownload():
-    print("------Download------")
+    print("------downloadutils------")
     if torrent_download_queue != []:
         for torrent,download_path in torrent_download_queue:
             download_message = {

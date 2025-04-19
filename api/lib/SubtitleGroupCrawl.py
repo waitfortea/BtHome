@@ -1,12 +1,9 @@
 import asyncio
 from api.lib.brower import *
 from api.CrawlObject import *
-from api.lib.ToolKits.RequestsProcess import *
-from api.lib.ToolKits.ElementProcess import *
-from api.lib.ToolKits.DataStructure.ListProcess import *
-from api.lib.ToolKits.Strategy.AsyncStrategy import *
-from api.lib.ToolKits.GeneralObject.StrProcess import *
-from api.lib.ToolKits.Proxy import *
+from api.lib.ToolKits.parseutils.elementutils import *
+from api.lib.ToolKits.strategy.AsyncStrategy import *
+from api.lib.ToolKits.generalutils.strutils import *
 from api.http_process import *
 
 

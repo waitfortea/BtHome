@@ -1,0 +1,3 @@
+
+class LogObject():
+    def
