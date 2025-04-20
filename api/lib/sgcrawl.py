@@ -1,9 +1,9 @@
 import asyncio
 from api.lib.brower import *
-from api.CrawlObject import *
-from api.lib.ToolKits.parseutils.elementutils import *
-from api.lib.ToolKits.strategy.AsyncStrategy import *
-from api.lib.ToolKits.generalutils.strutils import *
+from api.crawlobject import *
+from api.lib.ToolKits.parse.elementutils import *
+from api.lib.ToolKits.coroutine.coroutineutils import *
+from api.lib.ToolKits.general.strutils import *
 from api.http_process import *
 
 
@@ -42,7 +42,7 @@ async def getSubtitleGroupFromComicGarden(torrentPage):
 
     tasks = [asyncio.create_task(getSubtitleGroupByOnePage(htmlText)) for htmlText in torrentPage.htmlText]
     result_List = all_complete(tasks)
-    torrentInfo_List=concatList(result_List)
+    torrentInfo_List = concatList(result_List)
 
 
     torrentURL_List = []

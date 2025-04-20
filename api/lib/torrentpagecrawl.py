@@ -2,15 +2,15 @@
 __all__='getTorrentPageFromBtHome','getTorrentPageFromComicGarden'
 
 from urllib.parse import quote
-from api.lib.ToolKits.parseutils.elementutils import *
-from api.lib.ToolKits.requestplugin.RequestsProcess import *
+from api.lib.ToolKits.parse.elementutils import *
+from api.lib.ToolKits.request.requestutils import *
 from api.lib.ToolKits.datastructure.listutils import *
-from api.lib.ToolKits.strategy.AsyncStrategy import *
-from api.lib.ToolKits.proxyplugin.proxyregister import *
-from api.CrawlObject import *
+from api.lib.ToolKits.coroutine.coroutineutils import *
+from api.lib.ToolKits.proxy.proxyregister import *
+from api.crawlobject import *
 import asyncio
 from api.lib.cfcheck import *
-from api.lib.ToolKits.generalutils.utils import *
+from api.lib.ToolKits.general.utils import *
 from api.lib.brower import *
 from api.http_process import *
 

@@ -1,4 +1,4 @@
-from api.lib.ToolKits.requestplugin.drissionpage_process import *
-from api.lib.Config import config
+from api.lib.ToolKits.request.drissionpageplugin import *
+from api.lib.config import config
 
 global_brower= DrissionBrower(config['edge_exe_path'])

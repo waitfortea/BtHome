@@ -1,5 +1,5 @@
-from api.lib.ToolKits.requestplugin.RequestsProcess import  *
-from api.lib.ToolKits.proxyplugin.proxyregister import *
+from api.lib.ToolKits.request.requestutils import  *
+from api.lib.ToolKits.proxy.proxyregister import *
 from api.lib.brower import *
 
 globalProxy.proxy_aiohttp = {'http': config['proxy']['proxy_aiohttp']}

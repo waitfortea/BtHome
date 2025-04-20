@@ -1,8 +1,8 @@
-from api.lib.ToolKits.parseutils.elementutils import *
-from api.lib.ToolKits.requestplugin.RequestsProcess import *
-from api.lib.ToolKits.generalutils.strutils import *
-from api.lib.DomainCheck import *
-from api.lib.ToolKits.proxyplugin.proxyregister import *
+from api.lib.ToolKits.parse.elementutils import *
+from api.lib.ToolKits.request.requestutils import *
+from api.lib.ToolKits.general.strutils import *
+from api.lib.domaincheck import *
+from api.lib.ToolKits.proxy.proxyregister import *
 
 async def comicTimelineCrawl():
     seasonalComic_DF = pd.DataFrame(columns=['season', 'seasonComic_DF'])

@@ -1,5 +1,5 @@
-from api.lib.ToolKits.logplugin.logregister import *
-from api.lib.ToolKits.eventplugin.eventregister import *
+from api.lib.ToolKits.log.logregister import *
+from api.lib.ToolKits.event.evenutils import *
 import os
 import sys
 netWorkLogger=LogProcessor(f"{os.path.dirname(sys.argv[0])}/log/networkLog.txt")

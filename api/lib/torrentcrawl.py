@@ -1,11 +1,11 @@
 import asyncio
-from api.CrawlObject import *
-from api.lib.ToolKits.parseutils.elementutils import *
-from api.lib.ToolKits.strategy.AsyncStrategy import *
-from api.lib.ToolKits.generalutils.strutils import *
+from api.crawlobject import *
+from api.lib.ToolKits.parse.elementutils import *
+from api.lib.ToolKits.coroutine.coroutineutils import *
+from api.lib.ToolKits.general.strutils import *
 from api.http_process import *
-from api.lib.ToolKits.generalutils.fileutils import *
-from api.lib.Config import *
+from api.lib.ToolKits.general.fileutils import *
+from api.lib.config import *
 
 async def getTorrentGroupFromBtHome(subtileGroup):
     torrent_List=[]

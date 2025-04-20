@@ -1,14 +1,14 @@
 from PyQt5 import uic
 from PyQt5.QtWidgets import QApplication,QWidget, QCheckBox,QHBoxLayout,QPushButton
 from PyQt5.QtCore import QThread,pyqtSignal,QObject,pyqtSlot
-from api.BtProcess import *
-from api.lib.Config import *
-from api.lib.TorrentDownload import *
+from api.btprocess import *
+from api.lib.config import *
+from api.lib.torrentdownload import *
 import os
 from threading import Thread
 from api.lib.ToolKits.downloadutils.qbtorrentutils import *
-from api.lib.ToolKits.parseutils.generalutils import *
-from api.lib.SubtitleGroupSubcribe import *
+from api.lib.ToolKits.parse.generalutils import *
+from api.lib.sgsubcribe import *
 
 class SearchWorker(QObject):
 

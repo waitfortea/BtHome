@@ -1,5 +1,5 @@
 from ui.BtDownloadWindow import *
-from api.lib.Log import *
+from api.lib.log import *
 from api.lib.cfcheck import *
 
 

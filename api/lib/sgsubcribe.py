@@ -2,9 +2,9 @@
 __all__ = "subscribe",'update','view_subscription'
 
 from threading import Thread
-from api.lib.ToolKits.generalutils.urlutils import *
-from api.BtProcess import *
-from api.lib.ToolKits.generalutils.utils import *
+from api.lib.ToolKits.general.urlutils import *
+from api.btprocess import *
+from api.lib.ToolKits.general.utils import *
 from api.lib.cfcheck import *
 
 def view_subscription(subscription :SubtitleSubscription,depth= 3):

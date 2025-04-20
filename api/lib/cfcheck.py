@@ -1,7 +1,7 @@
-from api.lib.ToolKits.eventplugin.eventregister import *
+from api.lib.ToolKits.event.evenutils import *
 from dataclasses import dataclass
-from api.lib.ToolKits.customexception import *
-from api.lib.Config import *
+from api.lib.ToolKits.customexc import *
+from api.lib.config import *
 
 
 @dataclass()
