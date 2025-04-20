@@ -19,7 +19,7 @@ def torrentFilterByKeyword(torrentGroup: TorrentGroup, word_List):
 
 def torrent_group_add(torrentGroup,download_path):
     global torrent_download_queue
-    download_dir = pathInit(download_path, flag="dir", make=True)
+    download_dir = pathinit(download_path, flag="dir", make=True)
     torrentName_List = [file.baseName for file in
                         download_dir.get_contain_files(['.torrent','.rar'],fitler_mode="extension")]
 
@@ -87,7 +87,7 @@ def torrent_browser_download_strategy(torrent_info_list):
     for torrent, download_path in torrent_info_list:
         download_task = tab.add_element_a(torrent.downloadURL,text=torrent.name).click.to_download(rename=os.path.splitext(torrent.name)[0],save_path=download_path)
         global_brower.browser.wait.downloads_done()
-        file = pathInit(download_task.final_path,flag='file')
+        file = pathinit(download_task.final_path,flag='file')
         file.rename(baseName=f'{os.path.splitext(torrent.name)[0]}',suffix = file.extension_type)
         torrent_add_path_list.append(file.absolutePath)
     return torrent_add_path_list
@@ -96,7 +96,7 @@ def torrent_download(torrent_info_list,strategy=torrent_browser_download_strateg
     return async_strategy(strategy(torrent_info_list))
 
 def queueDownload():
-    print("------downloadutils------")
+    print("------download------")
     if torrent_download_queue != []:
         for torrent,download_path in torrent_download_queue:
             download_message = {

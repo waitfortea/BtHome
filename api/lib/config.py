@@ -2,11 +2,11 @@ from api.lib.ToolKits.parse.serializeutils import *
 import os
 import sys
 print(sys.argv[0])
-configProcessor=YamlProcessor(f"{os.path.dirname(sys.argv[0])}/config/config.yaml")
-config=configProcessor.contentDict
+config = SerializeUtils.get_yamldict(f"{os.path.dirname(sys.argv[0])}/config/config.yaml")
+
 
 def relaodConfig():
     global config
-    config=configProcessor.contentDict
+    config = SerializeUtils.get_yamldict(f"{os.path.dirname(sys.argv[0])}/config/config.yaml")
 
 

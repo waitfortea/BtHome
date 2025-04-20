@@ -34,7 +34,7 @@ def view_subscription(subscription :SubtitleSubscription,depth= 3):
 
 
 def subscribe(torrentGroup,word_List,download_dir):
-    subscribe_dir = pathInit(f'{os.path.dirname(sys.argv[0])}/subscribe', make=True, flag="dir")
+    subscribe_dir = pathinit(f'{os.path.dirname(sys.argv[0])}/subscribe', make=True, flag="dir")
     subscription = SubtitleSubscription(index=torrentGroup.superObj.superObj.index
                                         , torrent_page_url=torrentGroup.superObj.superObj.url
                                         , subtitle_group_name=torrentGroup.superObj.name
@@ -80,7 +80,7 @@ async def update(word_List=None,contain_mode="any"):
 
     }
 
-    subscribe_dir = pathInit(f'{os.path.dirname(sys.argv[0])}/subscribe', make=True, flag="dir")
+    subscribe_dir = pathinit(f'{os.path.dirname(sys.argv[0])}/subscribe', make=True, flag="dir")
 
     if word_List is None:
         subscription_List = subscribe_dir.direct_files

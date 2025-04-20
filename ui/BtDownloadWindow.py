@@ -88,7 +88,7 @@ class StartWorker(QObject):
         download_dir = f"{download_dir}/{window.savePathlineEdit.text().strip()}"
 
         if window.downloadcheckBox.isChecked():
-            torrent_group_add(torrentGroup,pathInit(download_dir,flag='dir',make=True).absolutePath)
+            torrent_group_add(torrentGroup,pathinit(download_dir,flag='dir',make=True).absolutePath)
 
             try:
                 torrent_path_list=queueDownload()
