@@ -23,7 +23,7 @@ class Torrent:
 
 @dataclass
 class TorrentGroup:
-    torrentlist : list
+    torrent_list : list
     subtitlegroup : object
 
 

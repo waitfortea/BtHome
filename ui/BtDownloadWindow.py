@@ -8,7 +8,8 @@ from api.lib.ToolKits.download.qbtorrentutils import *
 from api.lib.ToolKits.parse.generalutils import *
 from api.lib.source.sgsubcribe import *
 from api.lib.config import *
-from api.lib.torrentdownload import *
+from api.lib.ToolKits.general.datetimeutils import *
+from api.lib.torrentmanager import *
 from api.bthomeutils import *
 
 
@@ -42,7 +43,7 @@ class TorrentPageClickWorker(QObject):
             点击种子页对应按钮执行的函数，接收种子页对象，返回字幕组列表对象
         """
 
-        subtitlegroup_list = BtHomeUtils.parse_subtitlegroup(source=config['sourceid'][sourceid], torrentpage=torrentpage)
+        subtitlegroup_list = BtHomeUtils.get_subtitlegroup(source=config['sourceid'][sourceid], torrentpage=torrentpage)
         self.result.emit(subtitlegroup_list)
 
 class SubtitleGroupClickWorker(QObject):
@@ -54,8 +55,8 @@ class SubtitleGroupClickWorker(QObject):
             点击种子页对应按钮执行的函数，接收种子页对象，返回字幕组列表对象
         """
 
-        torrentGroup = getTorrentGroup(subtitlegroup,sourceid)
-        self.result.emit(torrentGroup)
+        torrentgroup = BtHomeUtils.get_torrent(source=config['sourceid'][sourceid], subtitlegroup=subtitlegroup)
+        self.result.emit(torrentgroup)
 
 
 
@@ -74,36 +75,35 @@ class StartClickWorker(QObject):
     @pyqtSlot(object)
     def startclick(self,window):
 
-        if window.torrentGroup is None:
+        if window.current_torrentgroup is None:
             return
 
-        torrentGroup=window.torrentGroup
+        download_dir = config['download_dir'] if config[
+            'download_dir'] else f"{os.path.dirname(sys.argv[0])}/download"
+        download_dir = f"{download_dir}/{window.savePathlineEdit.text().strip()}"
+        download_dir = FileUtils.pathinit(download_dir, flag='dir', make=True).absolutePath
+
+
+        BtHomeUtils.add_torrent(window.current_torrentgroup.torrent_list)
 
         if window.filterlineEdit.text() is not None:
             word_list = window.filterlineEdit.text().strip().split(" ")
-            torrentGroup = torrentFilterByKeyword(torrentGroup,word_list)
-        else:
-            word_list = None
-
-        download_dir = config['download_dir'] if config[
-                                                     'download_dir'] is not None else f"{os.path.dirname(sys.argv[0])}/download"
-        download_dir = f"{download_dir}/{window.savePathlineEdit.text().strip()}"
+            torrent_list = TorrentManager.filtername(BtHomeUtils.list_torrent(),word_list)
+            torrent_list = TorrentManager.localtorrentcheck(torrent_list,download_dir)
+            BtHomeUtils.clear_torrent()
+            BtHomeUtils.add_torrent(torrent_list)
 
         if window.downloadcheckBox.isChecked():
-            torrent_group_add(torrentGroup,pathinit(download_dir,flag='dir',make=True).absolutePath)
+            trrentpath_list = BtHomeUtils.download(torrent_list,download_dir)
 
-            try:
-                torrent_path_list=queueDownload()
-                if window.addTorrentcheckBox.isChecked():
-                    addThread=Thread(target=addTorrentInBatch,args=(qbClient,torrent_path_list))
-                    addThread.start()
-                    addThread.join()
-            except Exception as e:
-                print(e)
-                raise e
+
+        if window.addTorrentcheckBox.isChecked():
+            addThread=Thread(target=BtHomeUtils.addtoqb,args=(trrentpath_list))
+            addThread.start()
+            addThread.join()
 
         # if window.keepUpdatecheckBox.isChecked():
-        #     subscribe(torrentGroup,word_list,download_dir)
+        #     subscribe(torrentgroup,word_list,download_dir)
 
 class BtWindow(QWidget):
 
@@ -159,7 +159,11 @@ class BtWindow(QWidget):
         self.updateBtn.clicked.connect(self.updateclick)
         
         #设置默认保存位置
-        self.savePathlineEdit.setText(config['sub_download_dir'])
+
+        if config['seasonal_mode']:
+            current_month = DatetimeUtils.to_now().month
+            month = [i for i in [1,4,7,10] if 0<=current_month-i<3]
+        self.savePathlineEdit.setText(f'{DatetimeUtils.to_now().replace(month=month).strftime("%Y.%m")}/'+config['sub_download_dir'])
         
         #设置复选框
         self.downloadcheckBox.setChecked(True)
@@ -239,12 +243,12 @@ class BtWindow(QWidget):
         print('------SUBTITLEGROUP------')
         print(subtitlegroup.name)
         self.removeitem(self.torrentverticalLayout)
-        self.sg_signal.emit(subtitlegroup,self.sourceid)
+        self.sg_signal.emit(subtitlegroup,self.crawlSourceComboBox.currentIndex)
 
 
 
-    def sgclick_callback(self,torrentGroup):
-        torrent_list = torrentGroup.torrent_list
+    def sgclick_callback(self,torrentgroup):
+        torrent_list = torrentgroup.torrent_list
 
         for i in range(len(torrent_list)):
             torrentBtn = QPushButton(torrent_list[i].name)
@@ -256,7 +260,7 @@ class BtWindow(QWidget):
             self.torrentverticalLayout.addLayout(HLayout)
         self.torrentverticalLayout.addStretch()
         print('------END------')
-        self.torrentGroup = torrentGroup
+        self.current_torrentgroup = torrentgroup
 
     def torrentclick(self,torrentDom):
         pass

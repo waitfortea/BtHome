@@ -8,8 +8,8 @@ from api.lib.config import *
 from api.bthomeutils import *
 
 
-@BtHomeUtils.register_sourceplugin('bthome_sgparse')
-def getSubtitleGroupFromBtHome(torrentpage):
+@BtHomeUtils.register_sourceplugin('bthome_sgget')
+def bthome_sgparse(torrentpage):
     subtitlegroup_list=[]
 
     htmltext = RequestUitls.get_html(name='drissionpage', url=torrentpage.url, type='get', headers={'user-agent':config['user_agent']}, cookies=None)
@@ -25,16 +25,15 @@ def getSubtitleGroupFromBtHome(torrentpage):
 
     return subtitlegroup_list
 
-@BtHomeUtils.register_sourceplugin('comicgarden_sgparse')
-async def getSubtitleGroupFromComicGarden(torrentpage):
+@BtHomeUtils.register_sourceplugin('comicgarden_sgget')
+async def comicgarden_sgparse(torrentpage):
     async def getSubtitleGroupByOnePage(htmltext):
-        pageElement = ElementProcessor(data=htmltext)
-        torrentLink__List = pageElement.xpath("//td[@class='title']/a")
+        torrentLink_List = ElementUtils.parse_html(data=htmltext).xpath("//td[@class='title']/a")
         result_List=[]
-        for torrentLink in torrentLink__List:
+        for torrentLink in torrentLink_List:
             torrentURL=torrentLink.attrib("href")
             subtileGroupElement = '其他' if torrentLink.xpath('./preceding-sibling::*[1]') == [] else torrentLink.xpath('./preceding-sibling::*[1]')[0]
-            sg_name= StrProcessor(subtileGroupElement.text()).toStrip if subtileGroupElement != '其他' else '其他'
+            sg_name= StrUtils.toStrip(subtileGroupElement.text()).toStrip if subtileGroupElement != '其他' else '其他'
             result_List.append((sg_name,torrentURL))
         return result_List
 

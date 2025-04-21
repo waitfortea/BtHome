@@ -3,6 +3,7 @@
 
 class BtHomeUtils:
     __source_plugin = {}
+    __torrent_list = []
 
     @classmethod
     def register_sourceplugin(cls,source):
@@ -20,18 +21,49 @@ class BtHomeUtils:
             raise ValueError(f"not found source {f'{source}_search'}")
 
     @classmethod
-    def parse_subtitlegroup(cls, source, torrentpage, *args, **kwargs):
-        if cls.__source_plugin.get(f'{source}_sgparse') is not None:
-            return cls.__source_plugin[f'{source}_sgparse'](torrentpage, *args, **kwargs)
+    def get_subtitlegroup(cls, source, torrentpage, *args, **kwargs):
+        if cls.__source_plugin.get(f'{source}_sgget') is not None:
+            return cls.__source_plugin[f'{source}_sgget'](torrentpage, *args, **kwargs)
         else:
-            raise ValueError(f"not found source {f'{source}_sgparse'}")
+            raise ValueError(f"not found source {f'{source}_sgget'}")
+
 
     @classmethod
-    def update(cls):
+    def get_torrent(cls, source, subtitlegroup, *args, **kwargs):
+        if cls.__source_plugin.get(f'{source}_tget') is not None:
+            return cls.__source_plugin[f'{source}_tget'](subtitlegroup, *args, **kwargs)
+        else:
+            raise ValueError(f"not found source {f'{source}_tget'}")
+
+    @classmethod
+    def add_torrent(cls, torrent_list):
+        cls.__torrent_list = torrent_list
+
+    @classmethod
+    def clear_torrent(cls):
+        cls.__torrent_list.clear()
+
+    @classmethod
+    def list_torrent(cls):
+        return cls.__torrent_list
+
+    @classmethod
+    def downloadtorrent(cls):
+        for torrent,download_path in torrent_download_queue:
+            download_message = {
+                '任务类型': '开始下载'
+                , '字幕组名称': torrent.subtitle_group.name
+                , '下载源': torrent.subtitle_group.torrent_page.url
+                , '下载目录': download_path
+                , '种子列表': f'{torrent.name}'
+            }
+
+    @classmethod
+    def update_torrent(cls):
         pass
 
     @classmethod
-    def download(cls):
+    def download_torrent(cls):
         pass
 
     def subscribe(torrentGroup, word_List, download_dir):

@@ -1,4 +1,4 @@
 from .searchsource import *
 from .sgsubcribe import *
-from .sgparsesource import *
-from .torrentcrawl import *
+from .sggetsource import *
+from .tgetsource import *

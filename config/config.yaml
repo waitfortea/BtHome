@@ -19,10 +19,12 @@ sql:
  password: myAprivilege7
  port:
 download_dir: "D:\\download\\BtHome下载"
+seasonal_mode: True
 sub_download_dir: '2024.7/BtHome/'
 logpath:
- network_log_name: networkLog.txt
- download_log_name: downloadLog.txt
+ network_log_name: networklog.txt
+ download_log_name: downloadlog.txt
+ info_log_name: infolog.txt
 qbittorrent:
  host: "localhost:8087"
  username: "admin"

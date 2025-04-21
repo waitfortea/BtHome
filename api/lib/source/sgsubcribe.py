@@ -3,13 +3,14 @@
 from threading import Thread
 from api.lib.ToolKits.general.utils import *
 from api.lib.ToolKits.request.cfcheck import *
+from api.crawlobject import *
 
-async def updateTorrentPageFromBtHome(subscription):
+async def bthome_update(subscription):
     count = counter()
     return TorrentPage(index = subscription.index, source = "BtHome", title = "更新" , url = subscription.torrent_page_url, htmlText=htmlText)
 
 
-async def updateTorrentPageFromComicGarden(subscription):
+async def comicgardenupdate(subscription):
     torrentPage_List = await getTorrentPageFromComicGarden(subscription.index)
     return torrentPage_List[0]
 
