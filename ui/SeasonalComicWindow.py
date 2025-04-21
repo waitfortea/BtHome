@@ -2,14 +2,12 @@ import pandas as pd
 import sys
 sys.path.append("..") # 将父目录放入系统路径中,不需要再base_dir中增加__init__.py脚本。
 # 备注：sys.path.append中的内容也可以是module1.py 所在文件夹的全局路径
-import Listen
-import Crawler as CL
+
 import sys
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 from PyQt5 import QtWidgets,uic,Qt,sip,QtCore
-from ToolKits.Strategy.GeneralStrategy import AsyncStrategy
 import random
 
 class SeasonalCrawlWorker(QObject):

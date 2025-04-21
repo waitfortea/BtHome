@@ -1,8 +1,5 @@
 from ui.BtDownloadWindow import *
-from api.lib.log import *
-from api.lib.cfcheck import *
-
-
+from api.lib.config import *
 
 if __name__=='__main__':
 
@@ -10,11 +7,13 @@ if __name__=='__main__':
     # setProxy()
 
     #开启日志
-    setup_log()
-    # setup_domainCheck()
-    # setup_cfcheck()
+    EventUtils.seton('downloadlog')
+    EventUtils.seton('networklog')
+    EventUtils.run('loadconfig')
+    EventUtils.run(eventname='loadbrowser', path=config['edge_exe_path'])
 
     app = QApplication(sys.argv)
     stackedWidget = BtWindow()
     stackedWidget.show()
     sys.exit(app.exec_())
+

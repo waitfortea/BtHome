@@ -1,76 +1,78 @@
 from PyQt5 import uic
 from PyQt5.QtWidgets import QApplication,QWidget, QCheckBox,QHBoxLayout,QPushButton
 from PyQt5.QtCore import QThread,pyqtSignal,QObject,pyqtSlot
-from api.btprocess import *
-from api.lib.config import *
-from api.lib.torrentdownload import *
 import os
 from threading import Thread
-from api.lib.ToolKits.downloadutils.qbtorrentutils import *
-from api.lib.ToolKits.parse.generalutils import *
-from api.lib.sgsubcribe import *
 
-class SearchWorker(QObject):
+from api.lib.ToolKits.download.qbtorrentutils import *
+from api.lib.ToolKits.parse.generalutils import *
+from api.lib.source.sgsubcribe import *
+from api.lib.config import *
+from api.lib.torrentdownload import *
+from api.bthomeutils import *
+
+
+class SearchClickWorker(QObject):
 
     search = pyqtSignal(object)
     result = pyqtSignal(object)
 
     @pyqtSlot(object,object)
-    def searchTorrentPage(self,keyword,torrengePageStrategy):
+    def search(self,searchlinetext, sourceid):
         """
             搜索按钮执行的函数，接收索引对象，返回种子页列表对象
 
         """
-        word=keyword.split(";")[0]
-        page=re.search("\d+-\d+", keyword)
-        page_List=pageParser(page.group()) if page is not None else 1
-        index=Index(keyword=word,page=page_List)
+        # word=searchlinetext.split(";")[0]
+        # page=re.search("\d+-\d+", searchlinetext)
+        # page_list=pageParser(page.group()) if page is not None else 1
+
         # 获取种子页列表
-        torrentPage_List=getTorrentPage(index,torrengePageStrategy)
+        torrentpage_list=BtHomeUtils.search(source=config['sourceid'][sourceid], keyword=searchlinetext)
 
-        self.result.emit(torrentPage_List)
+        self.result.emit(torrentpage_list)
 
 
-class TorrentPageWorker(QObject):
+class TorrentPageClickWorker(QObject):
     result = pyqtSignal(object)
 
     @pyqtSlot(object,object)
-    def torrentPageBtnFn(self,torrentPage,subtitleGroupStrategy):
+    def parse_subtitlegroup(self,torrentpage,sourceid):
         """
             点击种子页对应按钮执行的函数，接收种子页对象，返回字幕组列表对象
         """
 
-        subtitleGroup_List = getSubTitleGroups(torrentPage,subtitleGroupStrategy)
-        self.result.emit(subtitleGroup_List)
+        subtitlegroup_list = BtHomeUtils.parse_subtitlegroup(source=config['sourceid'][sourceid], torrentpage=torrentpage)
+        self.result.emit(subtitlegroup_list)
 
-class SubtitleGroupWorker(QObject):
+class SubtitleGroupClickWorker(QObject):
     result = pyqtSignal(object)
 
     @pyqtSlot(object,object)
-    def subtitleGroupBtn(self,subtitleGroup,torrentGroupStrategy):
+    def subtitlegroupBtn(self,subtitlegroup,sourceid):
         """
             点击种子页对应按钮执行的函数，接收种子页对象，返回字幕组列表对象
         """
 
-        torrentGroup = getTorrentGroup(subtitleGroup,torrentGroupStrategy)
+        torrentGroup = getTorrentGroup(subtitlegroup,sourceid)
         self.result.emit(torrentGroup)
 
 
 
-class UpdateWorker(QObject):
+class UpdateClickWorker(QObject):
 
     @pyqtSlot()
-    def updateBtnFn(self):
+    def update(self):
         """
         更新追踪种子的函数
         :return:
         """
-        async_strategy(update())
+        pass 
 
-class StartWorker(QObject):
+class StartClickWorker(QObject):
 
     @pyqtSlot(object)
-    def startBtnFn(self,window):
+    def startclick(self,window):
 
         if window.torrentGroup is None:
             return
@@ -78,10 +80,10 @@ class StartWorker(QObject):
         torrentGroup=window.torrentGroup
 
         if window.filterlineEdit.text() is not None:
-            word_List = window.filterlineEdit.text().strip().split(" ")
-            torrentGroup = torrentFilterByKeyword(torrentGroup,word_List)
+            word_list = window.filterlineEdit.text().strip().split(" ")
+            torrentGroup = torrentFilterByKeyword(torrentGroup,word_list)
         else:
-            word_List = None
+            word_list = None
 
         download_dir = config['download_dir'] if config[
                                                      'download_dir'] is not None else f"{os.path.dirname(sys.argv[0])}/download"
@@ -100,56 +102,65 @@ class StartWorker(QObject):
                 print(e)
                 raise e
 
-        if window.keepUpdatecheckBox.isChecked():
-            subscribe(torrentGroup,word_List,download_dir)
+        # if window.keepUpdatecheckBox.isChecked():
+        #     subscribe(torrentGroup,word_list,download_dir)
 
 class BtWindow(QWidget):
 
-    searchSignal = pyqtSignal(object,object)
-    torrentPageSignal = pyqtSignal(object,object)
-    subtitleGroupSignal = pyqtSignal(object,object)
-    startSignal = pyqtSignal(object)
-    updateSignal = pyqtSignal()
+    #设置ui信号
+    search_signal = pyqtSignal(object,object)
+    torrentpage_signal = pyqtSignal(object,object)
+    sg_signal = pyqtSignal(object,object)
+    start_signal = pyqtSignal(object)
+    update_signal = pyqtSignal()
 
     def __init__(self):
         super().__init__()
 
-        # 一个功能的页面配置一个session
-        self.searchWorker=SearchWorker()
-        self.searchSignal.connect(self.searchWorker.searchTorrentPage)
-        self.searchWorker.result.connect(self.getSearchInfo)
+        #点击搜索
+        self.searchclick_work=SearchClickWorker()
+        self.search_signal.connect(self.searchclick_work.search)
+        self.searchclick_work.result.connect(self.searchclick_callback)
 
-        self.torrentPageWorker=TorrentPageWorker()
-        self.torrentPageSignal.connect(self.torrentPageWorker.torrentPageBtnFn)
-        self.torrentPageWorker.result.connect(self.getSubtitleGroupInfo)
+        #点击torrentpage
+        self.torrentpageclick_worker=TorrentPageClickWorker()
+        self.torrentpage_signal.connect(self.torrentpageclick_worker.parse_subtitlegroup)
+        self.torrentpageclick_worker.result.connect(self.torentpageclick_callback)
 
-        self.subtitleGroupWorker= SubtitleGroupWorker()
-        self.subtitleGroupSignal.connect(self.subtitleGroupWorker.subtitleGroupBtn)
-        self.subtitleGroupWorker.result.connect(self.getTorrentGroupInfo)
+        #点击subtitlegroup
+        self.sgclick_worker= SubtitleGroupClickWorker()
+        self.sg_signal.connect(self.sgclick_worker.subtitlegroupBtn)
+        self.sgclick_worker.result.connect(self.sgclick_callback)
 
-        self.StartWorker = StartWorker()
-        self.startSignal.connect(self.StartWorker.startBtnFn)
+        #点击start
+        self.startclick_worker = StartClickWorker()
+        self.start_signal.connect(self.startclick_worker.startclick)
 
-        self.UpdateWorker = UpdateWorker()
-        self.updateSignal.connect(self.UpdateWorker.updateBtnFn)
+        # 点击update
+        self.updateclick_worker = UpdateClickWorker()
+        self.update_signal.connect(self.updateclick_worker.update)
 
+        # 点击start
         self.thread = QThread()
         self.thread.start()
-        self.initUI()
+        self.initui()
 
 
 
-    def initUI(self):
+    def initui(self):
 
         uic.loadUi(rf"{os.path.dirname(sys.argv[0])}\resource\BtWindowAdvance.ui",self)
 
         # self.setWindowTitle(f"BTHOME 当前域名为{domain}")
+        
         #绑定按钮
-        self.searchBtn.clicked.connect(self.searchBtnFn)
-        self.startBtn.clicked.connect(self.startBtnFn)
-        self.updateBtn.clicked.connect(self.UpdateBtnFn)
+        self.searchBtn.clicked.connect(self.searchclick)
+        self.startBtn.clicked.connect(self.startclick)
+        self.updateBtn.clicked.connect(self.updateclick)
+        
         #设置默认保存位置
         self.savePathlineEdit.setText(config['sub_download_dir'])
+        
         #设置复选框
         self.downloadcheckBox.setChecked(True)
         self.addTorrentcheckBox.setChecked(True)
@@ -158,61 +169,42 @@ class BtWindow(QWidget):
         self.crawlSourceComboBox.currentIndex = 0
         self.crawlSourceComboBox.currentIndexChanged.connect(self.changeCrawlSource)
 
-        self.strategy_Dict = {
-            0: {
-                'torrentPageStrategy': getTorrentPageFromBtHome
-                , 'subtitleGroupStrategy': getSubtitleGroupFromBtHome
-                , 'torrentGroupStrategy': getTorrentGroupFromBtHome
-            }
-            , 1: {
-                'torrentPageStrategy': getTorrentPageFromComicGarden
-                , 'subtitleGroupStrategy': getSubtitleGroupFromComicGarden
-                , 'torrentGroupStrategy': getTorrentGroupFromComicGarden
-            }
-
-        }
-
-        self.torrentPageStrategy = self.strategy_Dict[self.crawlSourceComboBox.currentIndex]['torrentPageStrategy']
-        self.subtitleGroupStrategy = self.strategy_Dict[self.crawlSourceComboBox.currentIndex]['subtitleGroupStrategy']
-        self.torrentGroupStrategy = self.strategy_Dict[self.crawlSourceComboBox.currentIndex]['torrentGroupStrategy']
 
         self.proxyCheckBox.checked = False
         self.proxyCheckBox.toggled.connect(self.proxCheck)
 
     def changeCrawlSource(self,index):
         self.crawlSourceComboBox.currentIndex=index
-        self.torrentPageStrategy = self.strategy_Dict[self.crawlSourceComboBox.currentIndex]['torrentPageStrategy']
-        self.subtitleGroupStrategy = self.strategy_Dict[self.crawlSourceComboBox.currentIndex]['subtitleGroupStrategy']
-        self.torrentGroupStrategy = self.strategy_Dict[self.crawlSourceComboBox.currentIndex]['torrentGroupStrategy']
         print(f"更改爬虫源为{self.crawlSourceComboBox.currentIndex}")
 
     def proxCheck(self,checked):
-        if checked:
-            print("开启代理")
-            setProxy()
-        else:
-            unsetProxy()
-            print("关闭代理")
+        pass
+        # if checked:
+        #     print("开启代理")
+        #     setProxy()
+        # else:
+        #     unsetProxy()
+        #     print("关闭代理")
 
 
-    def searchBtnFn(self):
+    def searchclick(self):
         print("===========开始搜索==============")
-        self.searchWorker.moveToThread(self.thread)
-        self.removeItem(self.torrentPageverticalLayout)
-        keyWords = self.searchKeyWordslineEdit.text()
-        self.searchSignal.emit(keyWords,self.torrentPageStrategy)
+        self.searchclick_work.moveToThread(self.thread)
+        self.removeitem(self.torrentPageverticalLayout)
+        searchlinetext = self.searchKeyWordslineEdit.text()
+        self.search_signal.emit(searchlinetext,self.crawlSourceComboBox.currentIndex)
 
-    def getSearchInfo(self,torrentPage_List):
-        if torrentPage_List !=[]:
-            title_List = [torrentPage.title for torrentPage in torrentPage_List]
-            print("\n".join(title_List))
-            for i in range(len(title_List)):
+    def searchclick_callback(self,torrentpage_list):
+        if torrentpage_list !=[]:
+            title_list = [torrentpage.title for torrentpage in torrentpage_list]
+            print("\n".join(title_list))
+            for i in range(len(title_list)):
                 HLayout = QHBoxLayout()
                 HLayout.addWidget(QCheckBox(f"{i + 1}"))
-                torrentPageBtn = QPushButton(title_List[i])
-                torrentPageBtn.clicked.connect(lambda state,torrePage=torrentPage_List[i]: self.torentPageBtnFn(torrePage))
+                torrentpageBtn = QPushButton(title_list[i])
+                torrentpageBtn.clicked.connect(lambda state,torrePage=torrentpage_list[i]: self.torentpageclick(torrePage))
 
-                HLayout.addWidget(torrentPageBtn)
+                HLayout.addWidget(torrentpageBtn)
                 HLayout.addStretch()
                 self.torrentPageverticalLayout.addLayout(HLayout)
             self.torrentPageverticalLayout.addStretch()
@@ -220,54 +212,56 @@ class BtWindow(QWidget):
             print("搜索结果为空")
         print("===========结束搜索==============")
 
-    def torentPageBtnFn(self,torrentPage):
-        self.torrentPageWorker.moveToThread(self.thread)
+    def torentpageclick(self,torrentpage):
+        self.torrentpageclick_worker.moveToThread(self.thread)
         print('------TORRENTPAGE--------')
-        print(torrentPage.title)
-        print(torrentPage.url)
-        self.removeItem(self.subtitleGroupverticalLayout)
-        self.torrentPageSignal.emit(torrentPage,self.subtitleGroupStrategy)
+        print(torrentpage.title)
+        print(torrentpage.url)
+        self.removeitem(self.subtitleGroupverticalLayout)
+        self.torrentpage_signal.emit(torrentpage,self.crawlSourceComboBox.currentIndex)
         print("===========搜索结束==============")
 
-    def getSubtitleGroupInfo(self,subtitleGroup_List):
-        for i in range(len(subtitleGroup_List)):
-            subtitleGroupBtn = QPushButton(subtitleGroup_List[i].name)
+    def torentpageclick_callback(self, subtitlegroup_list):
+        for i in range(len(subtitlegroup_list)):
+            subtitlegroupBtn = QPushButton(subtitlegroup_list[i].name)
             HLayout = QHBoxLayout()
             HLayout.addWidget(QCheckBox(f'{i + 1}'))
-            HLayout.addWidget(subtitleGroupBtn)
+            HLayout.addWidget(subtitlegroupBtn)
             HLayout.addStretch()
-            subtitleGroupBtn.clicked.connect(
-                lambda  state,subtitleGroup = subtitleGroup_List[i]: self.subtitleGroupBtnFn(subtitleGroup))
+            subtitlegroupBtn.clicked.connect(
+                lambda state, subtitlegroup=subtitlegroup_list[i]: self.sgclick(subtitlegroup))
             self.subtitleGroupverticalLayout.addLayout(HLayout)
         self.subtitleGroupverticalLayout.addStretch()
         print('------END--------')
 
-    def subtitleGroupBtnFn(self,subtitleGroup):
-        self.subtitleGroupWorker.moveToThread(self.thread)
+    def sgclick(self,subtitlegroup):
+        self.sgclick_worker.moveToThread(self.thread)
         print('------SUBTITLEGROUP------')
-        print(subtitleGroup.name)
-        self.removeItem(self.torrentverticalLayout)
-        self.subtitleGroupSignal.emit(subtitleGroup,self.torrentGroupStrategy)
+        print(subtitlegroup.name)
+        self.removeitem(self.torrentverticalLayout)
+        self.sg_signal.emit(subtitlegroup,self.sourceid)
 
-    def getTorrentGroupInfo(self,torrentGroup):
-        torrent_List = torrentGroup.torrent_List
 
-        for i in range(len(torrent_List)):
-            torrentBtn = QPushButton(torrent_List[i].name)
+
+    def sgclick_callback(self,torrentGroup):
+        torrent_list = torrentGroup.torrent_list
+
+        for i in range(len(torrent_list)):
+            torrentBtn = QPushButton(torrent_list[i].name)
             HLayout = QHBoxLayout()
             HLayout.addWidget(QCheckBox(f'{i + 1}'))
             HLayout.addWidget(torrentBtn)
             HLayout.addStretch()
-            # torrentBtn.clicked.connect(lambda  state,torrent = torrent_List[i]: self.torrentBtnFn(torrent))
+            # torrentBtn.clicked.connect(lambda  state,torrent = torrent_list[i]: self.torrentclick(torrent))
             self.torrentverticalLayout.addLayout(HLayout)
         self.torrentverticalLayout.addStretch()
         print('------END------')
         self.torrentGroup = torrentGroup
 
-    def torrentBtnFn(self,torrentDom):
+    def torrentclick(self,torrentDom):
         pass
 
-    def removeItem(self, layout):
+    def removeitem(self, layout):
         if layout is not None:
             while layout.count():
                 item = layout.takeAt(0)
@@ -275,15 +269,15 @@ class BtWindow(QWidget):
                 if widget is not None:
                     widget.deleteLater()
                 else:
-                    self.removeItem(item.layout())
+                    self.removeitem(item.layout())
 
-    def UpdateBtnFn(self):
-        self.UpdateWorker.moveToThread(self.thread)
-        self.updateSignal.emit()
+    def updateclick(self):
+        self.updateclick_worker.moveToThread(self.thread)
+        self.update_signal.emit()
 
-    def startBtnFn(self):
-        self.StartWorker.moveToThread(self.thread)
-        self.startSignal.emit(self)
+    def startclick(self):
+        self.startclick_worker.moveToThread(self.thread)
+        self.start_signal.emit(self)
 
 if __name__=='__main__':
     app = QApplication(sys.argv)

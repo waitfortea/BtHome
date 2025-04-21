@@ -1,14 +1,10 @@
 __all__ = "torrentFilterByKeyword", 'getDownloadContent', 'torrent_download_queue', 'queueDownload','torrent_group_add'
 
-import asyncio
 import aiofiles
-from api.lib.ToolKits.general.strutils import *
-from api.lib.ToolKits.request.requestutils import *
 from api.lib.ToolKits.coroutine.coroutineutils import *
-from api.lib.ToolKits.general.fileutils import *
 from api.crawlobject import *
-from api.lib.cfcheck import *
-from api.lib.brower import *
+from api.lib.ToolKits.request.cfcheck import *
+
 torrent_download_queue = []
 
 
