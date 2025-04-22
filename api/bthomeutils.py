@@ -49,15 +49,24 @@ class BtHomeUtils(QbUtils,RequestUitls):
         return cls.__torrent_list
 
     @classmethod
-    def download_torrent(cls):
+    def download_torrent(cls, savepath):
         for torrent in cls.__torrent_list:
-            file_path = cls.save_file(name='drissionpage', url=torrent.downloadurl, filename=torrent.name)
+            file_path = cls.save_file(name='drissionpage', url=torrent.downloadurl, filename=torrent.name, savepath=savepath)
             EventUtils.run('infolog', logdata=f'下载完成 字幕组:{torrent.subtitlegroup.name} 源网页:{torrent.subtitlegroup.torrentpage.url} 下载位置:{file_path}')
             cls.__torrentpath_list.append(file_path)
 
     @classmethod
-    def qb_add(cls):
+    def show_torrentpath_list(cls):
+        return cls.__torrentpath_list
+
+    @classmethod
+    def qb_add(cls, torrentpath_list=None):
+
+        if not cls.checkstatus():
+            EventUtils.run('loadqb',config['qbittorrent'])
+
         cls.addbatchtorrent(cls.__torrentpath_list)
+
 
     @classmethod
     def update_torrent(cls):
