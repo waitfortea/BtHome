@@ -83,22 +83,18 @@ class StartClickWorker(QObject):
         download_dir = f"{download_dir}/{window.savePathlineEdit.text().strip()}"
         download_dir = FileUtils.pathinit(download_dir, flag='dir', make=True).absolutepath
 
-
-        BtHomeUtils.add_torrent(window.current_torrentgroup.torrent_list)
+        torrent_list = window.current_torrentgroup.torrent_list
 
         if window.filterlineEdit.text() is not None:
             word_list = window.filterlineEdit.text().strip().split(" ")
-            torrent_list = TorrentManager.filtername(BtHomeUtils.list_torrent(),word_list)
-            torrent_list = TorrentManager.localtorrentcheck(torrent_list,download_dir)
-            BtHomeUtils.clear_torrent()
-            BtHomeUtils.add_torrent(torrent_list)
+            torrent_list = TorrentManager.filtername(torrent_list, word_list)
+            torrent_list = TorrentManager.localtorrentcheck(torrent_list, download_dir)
 
         if window.downloadcheckBox.isChecked():
-            trrentpath_list = BtHomeUtils.download(torrent_list,download_dir)
-
+            torrentpath_list = BtHomeUtils.download_torrent(torrent_list=torrent_list, savepath=download_dir)
 
         if window.addTorrentcheckBox.isChecked():
-            addThread=Thread(target=BtHomeUtils.addtoqb,args=(trrentpath_list))
+            addThread=Thread(target=BtHomeUtils.qb_add, args=(torrentpath_list,))
             addThread.start()
             addThread.join()
 

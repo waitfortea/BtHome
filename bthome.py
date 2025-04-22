@@ -12,8 +12,10 @@ if __name__=='__main__':
     EventUtils.seton('infolog')
     EventUtils.seton('loadconfig')
     EventUtils.seton('loadbrowser')
+    EventUtils.seton('loadqb')
 
     EventUtils.run('loadconfig')
+    EventUtils.run('loadqb',config['qbittorrent'])
     EventUtils.run(eventname='loadbrowser', path=config['edge_exe_path'])
 
     app = QApplication(sys.argv)
