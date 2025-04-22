@@ -1,0 +1,38 @@
+source:
+  bthome:
+    domain: "https://www.1lou.pro"
+    id: 0
+  comicgarden:
+   domain: "https://dmhy.org/"
+   id: 1
+sourceid:
+  0: 'bthome'
+  1: 'comicgarden'
+bthome_domain:
+edge_exe_path: 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe'
+sqlite3:
+ database_dir: "D:\\文档\\program\\python\\BtHome\\database"
+ database_name: "source"
+sql:
+ host: 127.0.0.1
+ user: root
+ password: root
+ port:
+download_dir: "D:\\download\\BtHome下载"
+seasonal_mode: True
+sub_download_dir: 'BtHome/'
+logpath:
+ network_log_name: networklog.txt
+ download_log_name: downloadlog.txt
+ info_log_name: infolog.txt
+qbittorrent:
+ host: "localhost:8087"
+ username: "admin"
+ password: 'admin'
+ is_sequential_download: True
+ is_first_last_piece_priority: True
+ is_paused: False
+proxy:
+ proxy_aiohttp: "http://127.0.0.1:10809"
+ proxy_request: "http://127.0.0.1:10809"
+user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0"
