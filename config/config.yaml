@@ -20,7 +20,7 @@ sql:
  port:
 download_dir: "D:\\download\\BtHome下载"
 seasonal_mode: True
-sub_download_dir: '2024.7/BtHome/'
+sub_download_dir: 'BtHome/'
 logpath:
  network_log_name: networklog.txt
  download_log_name: downloadlog.txt

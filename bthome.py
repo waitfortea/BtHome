@@ -6,9 +6,13 @@ if __name__=='__main__':
     #设置代理
     # setProxy()
 
-    #开启日志
+    #开启
     EventUtils.seton('downloadlog')
     EventUtils.seton('networklog')
+    EventUtils.seton('infolog')
+    EventUtils.seton('loadconfig')
+    EventUtils.seton('loadbrowser')
+
     EventUtils.run('loadconfig')
     EventUtils.run(eventname='loadbrowser', path=config['edge_exe_path'])
 

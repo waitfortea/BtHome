@@ -81,7 +81,7 @@ class StartClickWorker(QObject):
         download_dir = config['download_dir'] if config[
             'download_dir'] else f"{os.path.dirname(sys.argv[0])}/download"
         download_dir = f"{download_dir}/{window.savePathlineEdit.text().strip()}"
-        download_dir = FileUtils.pathinit(download_dir, flag='dir', make=True).absolutePath
+        download_dir = FileUtils.pathinit(download_dir, flag='dir', make=True).absolutepath
 
 
         BtHomeUtils.add_torrent(window.current_torrentgroup.torrent_list)
@@ -162,7 +162,7 @@ class BtWindow(QWidget):
 
         if config['seasonal_mode']:
             current_month = DatetimeUtils.to_now().month
-            month = [i for i in [1,4,7,10] if 0<=current_month-i<3]
+            month = [i for i in [1,4,7,10] if 0<=current_month-i<3][0]
         self.savePathlineEdit.setText(f'{DatetimeUtils.to_now().replace(month=month).strftime("%Y.%m")}/'+config['sub_download_dir'])
         
         #设置复选框

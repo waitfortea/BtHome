@@ -11,7 +11,7 @@ class TorrentManager(FileUtils):
     @classmethod
     def filtername(cls, torrent_list, word_list):
         result_list = [torrent for torrent in torrent_list if all(word in torrent.name for word in word_list)]
-        result_list = [setattr(torrent,'name', cls.verifyfilename(torrent.name)) for torrent in result_list]
+        [setattr(torrent,'name', cls.verifyfilename(torrent.name)) for torrent in result_list]
         return result_list
 
     @classmethod

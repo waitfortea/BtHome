@@ -1,9 +1,10 @@
 # 获取异步结果
-
-
-class BtHomeUtils:
+from api.lib.ToolKits.download.qbtorrentutils import *
+from api.lib.ToolKits.request.requestutils import *
+class BtHomeUtils(QbUtils,RequestUitls):
     __source_plugin = {}
     __torrent_list = []
+    __torrentpath_list = []
 
     @classmethod
     def register_sourceplugin(cls,source):
@@ -48,23 +49,20 @@ class BtHomeUtils:
         return cls.__torrent_list
 
     @classmethod
-    def downloadtorrent(cls):
-        for torrent,download_path in torrent_download_queue:
-            download_message = {
-                '任务类型': '开始下载'
-                , '字幕组名称': torrent.subtitle_group.name
-                , '下载源': torrent.subtitle_group.torrent_page.url
-                , '下载目录': download_path
-                , '种子列表': f'{torrent.name}'
-            }
+    def download_torrent(cls):
+        for torrent in cls.__torrent_list:
+            file_path = cls.save_file(name='drissionpage', url=torrent.downloadurl, filename=torrent.name)
+            EventUtils.run('infolog', logdata=f'下载完成 字幕组:{torrent.subtitlegroup.name} 源网页:{torrent.subtitlegroup.torrentpage.url} 下载位置:{file_path}')
+            cls.__torrentpath_list.append(file_path)
+
+    @classmethod
+    def qb_add(cls):
+        cls.addbatchtorrent(cls.__torrentpath_list)
 
     @classmethod
     def update_torrent(cls):
         pass
 
-    @classmethod
-    def download_torrent(cls):
-        pass
 
     def subscribe(torrentGroup, word_List, download_dir):
         # subscribe_dir = pathinit(f'{os.path.dirname(sys.argv[0])}/subscribe', make=True, flag="dir")
