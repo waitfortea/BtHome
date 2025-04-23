@@ -1,60 +1,45 @@
 
-
 from threading import Thread
 from api.lib.ToolKits.general.utils import *
-from api.lib.ToolKits.request.cfcheck import *
 from api.crawlobject import *
+from api.lib.sql.sqlutils import *
+from api.lib.config import *
+from api.lib.ToolKits.parse.serializeutils import *
+from api.lib.ToolKits.general.datetimeutils import *
+from api.bthomeutils import *
+from api.lib.log import *
+@BtHomeUtils.register_sourceplugin('bthome_subscribe')
+def subscribesql(info_dict, mysqlconfig=None, *args, **kwargs):
+    if mysqlconfig is None:
+        mysqlconfig = SerializeUtils.get_yamldict(f"{re.search(r'.*BtHome', os.path.dirname(sys.argv[0])).group()}/config/config.yaml")['mysql']
+    sqlsession = SqlUtils(mysqlconfig, logfun=infolog)
 
-async def bthome_update(subscription):
-    count = counter()
-    return TorrentPage(index = subscription.index, source = "BtHome", title = "更新" , url = subscription.torrent_page_url, htmlText=htmlText)
+
+    if not getattr(subscribesql, '_initialized', False):
+        sqlsession.sql('create database if not exists bthome character set utf8mb4 collate utf8mb4_general_ci')
+        sqlsession.sql('use bthome')
+        createtable_sql = (
+            'create table if not exists subscribe(id int auto_increment, create_time datetime, torrentpage_url varchar(100)'
+            ', subtitlegroup_name varchar(100), subtitlegroup_id int, filterword varchar(100)'
+            ', savepath varchar(100), in_use int'
+            ', primary key (id, torrentpage_url, subtitlegroup_name))'
+        )
+        sqlsession.sql(createtable_sql)
+
+        setattr(subscribesql, '_initialized', True)
+
+    sqlsession.sql('use bthome')
+    insert_sql = (f'insert ignore into subscribe(create_time, torrentpage_url, subtitlegroup_name, subtitlegroup_id'
+                 f', filterword, savepath, in_use) values("{DatetimeUtils.now_format()}", "{info_dict["torrentpage_url"]}"'
+                 f',"{info_dict["subtitlegroup_name"]}", "{info_dict["subtitlegroup_id"]}", "{info_dict["filterword"]}", {repr(info_dict["savepath"])}'
+                  f', 1)'
+                  )
+    sqlsession.sql(insert_sql)
+
+    sqlsession.commit()
+    loginfo = (f'已订阅 源网页:{info_dict["torrentpage_url"]} 字幕组:{info_dict["subtitlegroup_name"]}'
+              f' id:{info_dict["subtitlegroup_id"]} 筛选:{info_dict["filterword"]} 保存:{info_dict["savepath"]}')
+    EventUtils.run('infolog', logdata=loginfo)
 
 
-async def comicgardenupdate(subscription):
-    torrentPage_List = await getTorrentPageFromComicGarden(subscription.index)
-    return torrentPage_List[0]
-
-async def update(word_List=None,contain_mode="any"):
-
-
-    subscribe_dir = pathinit(f'{os.path.dirname(sys.argv[0])}/subscribe', make=True, flag="dir")
-
-    if word_List is None:
-        subscription_List = subscribe_dir.direct_files
-    else:
-        subscription_List = subscribe_dir.get_contain_files(word_List,contain_mode=contain_mode)
-
-    async def updateTask(file):
-
-        subscription = deserializeByPickle(file.absolutePath)
-
-        if "index" not in dir(subscription):
-            raise DictKeyError("index")
-
-        try:
-            torrentPage = await strategy_Dict[subscription.source]['torrentPageStrategy'](subscription)
-            subtileGroups = await strategy_Dict[subscription.source]['subtitleGroupStrategy'](torrentPage)
-            subtileGroup = [subtitle_group for subtitle_group in subtileGroups if subscription.subtitle_group_name == subtitle_group.name]
-            if subtileGroup == []:
-                raise ReportError(f"没有匹配目标 目标{subscription.subtitle_group_name} 抓取目标{[subtitle_group.name for subtitle_group in subtileGroups]}")
-            torrentGroup = await strategy_Dict[subscription.source]['torrentGroupStrategy'](subtileGroup[0])
-            torrentGroup = torrentGroup if subscription.word_List is  None else torrentFilterByKeyword(torrentGroup,subscription.word_List)
-            waitDownload(torrentGroup,subscription.download_dir)
-        except Exception as e:
-            print(f"{e}")
-            view_subscription(subscription)
-            raise e
-            return None
-
-    tasks = [asyncio.create_task(updateTask(file)) for file in subscription_List]
-    all_complete(tasks)
-
-    try:
-        torrentAddition_List = await queueDownload()
-        addThread = Thread(target=addTorrentInBatch, args=(qbClient, torrentAddition_List))
-        addThread.start()
-        addThread.join()
-    except Exception as e:
-        raise e
-        print(e)
 

@@ -1,12 +1,12 @@
-from api.lib.source.sgsubcribe import *
-from api.lib.data_sql import *
-# setup_cfcheck()
-setup_log()
-# setProxy()
-setup_bthome_sql()
-callEvent("bthome_sqlite_init")
-callEvent("cf_check",{})
+from ui.BtDownloadWindow import *
+from api.lib.config import *
+from api.bthomeutils import *
+if __name__ == "__main__":
+    EventUtils.seton('downloadlog')
+    EventUtils.seton('networklog')
+    EventUtils.seton('infolog')
 
-print("========开始更新:注意开启代理========")
-async_strategy(update())
-print("========更新结束:注意开启代理========")
+    config.loadconfig()
+    EventUtils.frun('loadqb', config['qbittorrent'])
+    EventUtils.frun(eventname='loadbrowser', path=config['edge_exe_path'])
+    BtHomeUtils.update_torrent(mode='drissionpage', mysqlconfig=config['mysql'])

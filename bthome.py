@@ -10,13 +10,10 @@ if __name__=='__main__':
     EventUtils.seton('downloadlog')
     EventUtils.seton('networklog')
     EventUtils.seton('infolog')
-    EventUtils.seton('loadconfig')
-    EventUtils.seton('loadbrowser')
-    EventUtils.seton('loadqb')
 
-    EventUtils.run('loadconfig')
-    EventUtils.run('loadqb',config['qbittorrent'])
-    EventUtils.run(eventname='loadbrowser', path=config['edge_exe_path'])
+    config.loadconfig(rf'{os.path.dirname(sys.argv[0])}\config\config.yaml')
+    EventUtils.frun('loadqb', config['qbittorrent'], infolog)
+    EventUtils.frun(eventname='loadbrowser', path=config['edge_exe_path'])
 
     app = QApplication(sys.argv)
     stackedWidget = BtWindow()

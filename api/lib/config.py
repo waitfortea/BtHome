@@ -5,7 +5,7 @@ import sys
 import json
 
 
-class Config:
+class Config(SerializeUtils):
     _instance = None
     _initialized = False
 
@@ -22,21 +22,18 @@ class Config:
     def __getitem__(self, item):
         return self.config_dict[item]
 
-    def loadconfg(self, config_dict):
-        self.config_dict = config_dict
+    def loadconfig(self, path=None):
+        if path is None:
+            path = f"{re.search(r'.*BtHome', os.path.dirname(sys.argv[0])).group()}/config/config.yaml"
+
+        self.config_dict = self.get_yamldict(path)
 
     def __str__(self):
         return json.dumps(self.config_dict)
-
-@EventUtils.register('loadconfig')
-def loadconfig(path=f"{re.search(r'.*BtHome',os.path.dirname(__file__)).group()}/config/config.yaml"):
-    global config
-    config = config.loadconfg(SerializeUtils.get_yamldict(path))
-
 
 
 config = Config()
 
 if __name__ == "__main__":
-    EventUtils.run('loadconfig')
+
     print(config)

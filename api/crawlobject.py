@@ -10,20 +10,21 @@ class TorrentPage:
 @dataclass
 class SubtitleGroup:
     name:str
-    torrentpage:object
+    id:int=None
+    torrentpage:object=None
     torrenturl_list:list=None
     torrentelement_list:list=None
 
 
 @dataclass
 class Torrent:
-    name:str
-    downloadurl:str
-    subtitlegroup:object
+    name:str=None
+    downloadurl:str=None
+    subtitlegroup:object=None
 
 @dataclass
 class TorrentGroup:
-    torrent_list : list
-    subtitlegroup : object
+    torrent_list : list=None
+    subtitlegroup : object=None
 
 

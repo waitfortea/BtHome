@@ -16,12 +16,12 @@ def bthome_sgparse(torrentpage):
     doc = ElementUtils.parse_html(htmltext)
     sgelement_list = doc.xpath('//fieldset[@class="fieldset"][.//a]')
 
-    for sgelement in sgelement_list:
+    for index,sgelement in enumerate(sgelement_list):
         torrentelement_list= sgelement.xpath('.//a')
         sg_name = " ".join([ElementUtils.get_text(p).replace("\t", "").replace("\n", "").strip()
                                       for p in sgelement.xpath('./preceding-sibling::p')]) \
                                       if sgelement.xpath('./ancestor::div[@class="message mt-1 break-all"]') else "主页"
-        subtitlegroup_list.append(SubtitleGroup(name=sg_name,torrentelement_list=torrentelement_list,torrentpage=torrentpage))
+        subtitlegroup_list.append(SubtitleGroup(name=sg_name, id=index, torrentelement_list=torrentelement_list, torrentpage=torrentpage))
 
     return subtitlegroup_list
 

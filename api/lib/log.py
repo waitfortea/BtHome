@@ -7,7 +7,7 @@ import sys
 @EventUtils.register('downloadlog')
 def downloadlog(logdata, path=None):
     if path is None:
-        path = f"{re.search(r'.*BtHome', os.path.dirname(__file__)).group()}/log/{config['logpath']['download_log_name']}"
+        path = f"{re.search(r'.*BtHome', os.path.dirname(sys.argv[0])).group()}/log/{config['logpath']['download_log_name']}"
     LogUtils.create(name='json').log(
         logpath=path
         , data=logdata)
@@ -15,7 +15,7 @@ def downloadlog(logdata, path=None):
 @EventUtils.register('networklog')
 def networklog(logdata, path=None):
     if path is None:
-        path = f"{re.search(r'.*BtHome', os.path.dirname(__file__)).group()}/log/{config['logpath']['network_log_name']}"
+        path = f"{re.search(r'.*BtHome', os.path.dirname(sys.argv[0])).group()}/log/{config['logpath']['network_log_name']}"
     LogUtils.create(name='json')().log(
         logpath=path
         , data=logdata)
@@ -23,10 +23,17 @@ def networklog(logdata, path=None):
 @EventUtils.register('infolog')
 def infolog(logdata, path=None):
     if path is None:
-        path = f"{re.search(r'.*BtHome', os.path.dirname(__file__)).group()}/log/{config['logpath']['info_log_name']}"
+        try:
+            path = f"{re.search(r'.*BtHome', os.path.dirname(sys.argv[0])).group()}/log/{config['logpath']['info_log_name']}"
+        except Exception as e:
+            print(os.path.dirname(subscribe))
+            raise e
     LogUtils.create(name='info')().log(
         logpath=path
         , data=logdata)
+
+
+
 
 
 if __name__ == "__main__":

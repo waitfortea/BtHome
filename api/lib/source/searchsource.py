@@ -13,27 +13,18 @@ def bthome_searchplugin(keyword):
         'user-agent': config['user_agent'],
     }
     url = config['source']['bthome']['domain']+ f"/search-{quote(keyword).replace('%', '_')}.htm"
-    print(url)
 
     htmlText = RequestUitls.get_html(name='drissionpage', type='get', url=url, headers=headers, cookies=None)
-    print("torrentPageHtml获取")
 
     doc = ElementUtils.parse_html(htmlText)
 
-    # element_List = doc.xpath('//td[@class="subject"]//a[contains(@href,"thread-index") and @class="subject_link thread-old"]')
     element_List = doc.xpath('//div[@class="media-body"]//a[contains(@href,"thread")]')
-    print(element_List)
+
     if not element_List:
-        print('搜索结果为空')
-        return []
+        EventUtils.run('infolog',logdata='搜索结果为空')
 
     result_list = [TorrentPage(url=config['source']['bthome']['domain']+"/"+element.attrib['href']
                                , title=ElementUtils.get_text(element)) for element in element_List]
-
-    # callEvent('bthome_insert_table_torrentpage',{
-    #             "field_name":['url','title']
-    #             ,"rows":[[torrent_page.url,torrent_page.title] for torrent_page in result_List]
-    #             })
     return result_list
 
 
