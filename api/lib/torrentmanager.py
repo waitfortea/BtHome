@@ -9,7 +9,7 @@ from api.lib.log import *
 class TorrentManager(FileUtils):
 
     @classmethod
-    def filtername(cls, torrent_list, word_list):
+    def filtername(cls, torrent_list, word_list=None):
         result_list = [torrent for torrent in torrent_list if all(word in torrent.name for word in word_list)]
         [setattr(torrent,'name', cls.simplestrip(cls.verifyfilename(torrent.name))) for torrent in result_list]
         return result_list

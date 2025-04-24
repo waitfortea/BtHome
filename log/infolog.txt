@@ -407,3 +407,48 @@
 [INFO]2025-4-24 01:32:11  忽略种子[桜都字幕组] Summer Pockets _ Summer Pockets [01][1080p][简体内嵌].torrent
 [INFO]2025-4-24 01:32:11  忽略种子[桜都字幕组] Summer Pockets _ Summer Pockets [02][1080p][简体内嵌].torrent
 [INFO]2025-4-24 01:32:50  忽略种子【喵萌Production】★04月新番★[前桥魔女 _ Maebashi Witches][01][1080p][简日双语].torrent
+[INFO]2025-4-24 13:12:20  use bthome
+[INFO]2025-4-24 13:12:20  查询完毕
+[INFO]2025-4-24 13:12:20  select torrentpage_url, subtitlegroup_id, filterword, savepath, subtitlegroup_name from subscribe where in_use = 1
+[INFO]2025-4-24 13:12:20  查询完毕
+[INFO]2025-4-24 13:12:20  返回数据 [{"torrentpage_url": "https://www.1lou.pro/thread-719256.htm", "subtitlegroup_id": 9, "filterword": "\u7b80\u4f53", "savepath": "D:\\download\\BtHome\u4e0b\u8f7d\\2025.04\\BtHome\\\u590f\u65e5\u53e3\u888b", "subtitlegroup_name": "\u6a31\u90fd\u5b57\u5e55\u7ec4 MP4 1080P\u7b80\u4e2d/\u7e41\u4e2d"}, {"torrentpage_url": "https://www.1lou.pro/thread-719078.htm", "subtitlegroup_id": 2, "filterword": "\u7b80", "savepath": "D:\\download\\BtHome\u4e0b\u8f7d\\2025.04\\BtHome\\\u524d\u6865\u9b54\u5973", "subtitlegroup_name": "\u55b5\u840cProduction MP4 1080P\u7b80\u65e5\u4e2d/\u7e41\u65e5\u4e2d"}, {"torrentpage_url": "https://www.1lou.pro/thread-719097.htm", "subtitlegroup_id": 5, "filterword": "\u7b80", "savepath": "D:\\download\\BtHome\u4e0b\u8f7d\\2025.04\\BtHome\\\u8d5b\u9a6c\u5a18 \u82a6\u6bdb\u7070\u59d1\u5a18", "subtitlegroup_name": "\u6a31\u90fd\u5b57\u5e55\u7ec4 MP4 1080P\u7b80\u4e2d/\u7e41\u4e2d"}, {"torrentpage_url": "https://www.1lou.pro/thread-719949.htm", "subtitlegroup_id": 4, "filterword": "\u7b80", "savepath": "D:\\download\\BtHome\u4e0b\u8f7d\\2025.04\\BtHome\\UC0085 \u673a\u52a8\u6218\u58eb\u9ad8\u8fbeGQuuuuuuX", "subtitlegroup_name": "SweetSub MP4 1080P\u7b80\u65e5\u4e2d/\u7e41\u65e5\u4e2d"}]
+[INFO]2025-4-24 13:12:24  忽略种子[桜都字幕组] Summer Pockets _ Summer Pockets [01][1080p][简体内嵌].torrent
+[INFO]2025-4-24 13:12:24  忽略种子[桜都字幕组] Summer Pockets _ Summer Pockets [02][1080p][简体内嵌].torrent
+[INFO]2025-4-24 13:12:24  忽略种子【喵萌Production】★04月新番★[前桥魔女 _ Maebashi Witches][01][1080p][简日双语].torrent
+[INFO]2025-4-24 13:12:26  下载完成 字幕组:喵萌Production MP4 1080P简日中/繁日中 源网页:https://www.1lou.pro/thread-719078.htm 下载位置:D:\download\BtHome下载\2025.04\BtHome\前桥魔女\【喵萌Production】★04月新番★[前桥魔女 _ Maebashi Witches][02][1080p][简日双语].torrent
+[INFO]2025-4-24 13:12:26  忽略种子[桜都字幕组] 赛马娘 芦毛灰姑娘 _ Uma Musume Cinderella Gray [02][1080p][简体内嵌].torrent
+[INFO]2025-4-24 13:12:26  忽略种子[桜都字幕组] 赛马娘 芦毛灰姑娘 _ Uma Musume Cinderella Gray [01v2][1080p][简体内嵌].torrent
+[INFO]2025-4-24 13:12:27  忽略种子[SweetSub][机动战士高达 GQuuuuuuX][Mobile Suit Gundam GQuuuuuuX][02][WebRip][1080P][AVC 8bit][简日双语][v2].torrent
+[INFO]2025-4-24 13:12:27  忽略种子[SweetSub][机动战士高达 GQuuuuuuX][Mobile Suit Gundam GQuuuuuuX][01][WebRip][1080P][AVC 8bit][简日双语].torrent
+[INFO]2025-4-24 13:12:28  下载完成 字幕组:SweetSub MP4 1080P简日中/繁日中 源网页:https://www.1lou.pro/thread-719949.htm 下载位置:D:\download\BtHome下载\2025.04\BtHome\UC0085 机动战士高达GQuuuuuuX\[SweetSub][机动战士高达 GQuuuuuuX][Mobile Suit Gundam GQuuuuuuX][03][WebRip][1080P][AVC 8bit][简日双语].torrent
+[INFO]2025-4-24 14:07:46  click [BT下载][刀剑神域外传.暴风之铳][第11集][WEB-MP4/0.46G][中文字幕][1080P][流媒体][ZeroTV] https://www.1lou.pro/thread-627808.htm
+[INFO]2025-4-24 14:08:12  click [BT下载][刀剑神域外传 Gun Gale Online 第2季][全12集][日语中字][MKV][1080P][多版] https://www.1lou.pro/thread-560922.htm
+[INFO]2025-4-24 14:08:27  click [BT下载][刀剑神域外传 Gun Gale Online 第1季][全12集][粤日双语中字][BD-MKV][1080P][BD多版] https://www.1lou.pro/thread-560919.htm
+[INFO]2025-4-24 14:08:29  click [BT下载][刀剑神域外传 Gun Gale Online 第2季][全12集][日语中字][MKV][1080P][多版] https://www.1lou.pro/thread-560922.htm
+[INFO]2025-4-24 14:08:53  click [BT下载][刀剑神域外传 Gun Gale Online 第2季][全12集][日语中字][MKV][1080P][多版] https://www.1lou.pro/thread-560922.htm
+[INFO]2025-4-24 14:09:02  click LoliHouse MKV 1080P简繁中
+[INFO]2025-4-24 14:14:28  click [BT下载][刀剑神域外传 Gun Gale Online 第2季][全12集][日语中字][MKV][1080P][多版] https://www.1lou.pro/thread-560922.htm
+[INFO]2025-4-24 14:14:30  click LoliHouse MKV 1080P简繁中
+[INFO]2025-4-25 04:11:26  click [BT下载][刀剑神域外传 Gun Gale Online 第2季][全12集][日语中字][MKV][1080P][多版] https://www.1lou.pro/thread-560922.htm
+[INFO]2025-4-25 04:11:29  click LoliHouse MKV 1080P简繁中
+[INFO]2025-4-25 04:40:46  下载完成 字幕组:LoliHouse MKV 1080P简繁中 源网页:https://www.1lou.pro/thread-560922.htm 下载位置:D:\download\BtHome下载\2025.04\BtHome\GGO 2\[LoliHouse] 刀剑神域外传 Gun Gale Online II _ Sword Art Online Alternative_ Gun Gale Online II - 01 [WebRip 1080p HEVC-10bit A.torrent
+[INFO]2025-4-25 04:40:48  下载完成 字幕组:LoliHouse MKV 1080P简繁中 源网页:https://www.1lou.pro/thread-560922.htm 下载位置:D:\download\BtHome下载\2025.04\BtHome\GGO 2\[LoliHouse] 刀剑神域外传 Gun Gale Online II _ Sword Art Online Alternative_ Gun Gale Online II - 02 [WebRip 1080p HEVC-10bit A.torrent
+[INFO]2025-4-25 04:40:49  下载完成 字幕组:LoliHouse MKV 1080P简繁中 源网页:https://www.1lou.pro/thread-560922.htm 下载位置:D:\download\BtHome下载\2025.04\BtHome\GGO 2\[LoliHouse] 刀剑神域外传 Gun Gale Online II _ Sword Art Online Alternative_ Gun Gale Online II - 03 [WebRip 1080p HEVC-10bit A.torrent
+[INFO]2025-4-25 04:40:50  下载完成 字幕组:LoliHouse MKV 1080P简繁中 源网页:https://www.1lou.pro/thread-560922.htm 下载位置:D:\download\BtHome下载\2025.04\BtHome\GGO 2\[LoliHouse] 刀剑神域外传 Gun Gale Online II _ Sword Art Online Alternative_ Gun Gale Online II - 04 [WebRip 1080p HEVC-10bit A.torrent
+[INFO]2025-4-25 04:40:51  下载完成 字幕组:LoliHouse MKV 1080P简繁中 源网页:https://www.1lou.pro/thread-560922.htm 下载位置:D:\download\BtHome下载\2025.04\BtHome\GGO 2\[LoliHouse] 刀剑神域外传 Gun Gale Online II _ Sword Art Online Alternative_ Gun Gale Online II - 05 [WebRip 1080p HEVC-10bit A.torrent
+[INFO]2025-4-25 04:40:52  下载完成 字幕组:LoliHouse MKV 1080P简繁中 源网页:https://www.1lou.pro/thread-560922.htm 下载位置:D:\download\BtHome下载\2025.04\BtHome\GGO 2\[LoliHouse] 刀剑神域外传 Gun Gale Online II _ Sword Art Online Alternative_ Gun Gale Online II - 06 [WebRip 1080p HEVC-10bit A.torrent
+[INFO]2025-4-25 04:40:53  下载完成 字幕组:LoliHouse MKV 1080P简繁中 源网页:https://www.1lou.pro/thread-560922.htm 下载位置:D:\download\BtHome下载\2025.04\BtHome\GGO 2\[LoliHouse] 刀剑神域外传 Gun Gale Online II _ Sword Art Online Alternative_ Gun Gale Online II - 07 [WebRip 1080p HEVC-10bit A.torrent
+[INFO]2025-4-25 04:40:55  下载完成 字幕组:LoliHouse MKV 1080P简繁中 源网页:https://www.1lou.pro/thread-560922.htm 下载位置:D:\download\BtHome下载\2025.04\BtHome\GGO 2\[LoliHouse] 刀剑神域外传 Gun Gale Online II _ Sword Art Online Alternative_ Gun Gale Online II - 08 [WebRip 1080p HEVC-10bit A.torrent
+[INFO]2025-4-25 04:40:56  下载完成 字幕组:LoliHouse MKV 1080P简繁中 源网页:https://www.1lou.pro/thread-560922.htm 下载位置:D:\download\BtHome下载\2025.04\BtHome\GGO 2\[LoliHouse] 刀剑神域外传 Gun Gale Online II _ Sword Art Online Alternative_ Gun Gale Online II - 09 [WebRip 1080p HEVC-10bit A.torrent
+[INFO]2025-4-25 04:40:57  下载完成 字幕组:LoliHouse MKV 1080P简繁中 源网页:https://www.1lou.pro/thread-560922.htm 下载位置:D:\download\BtHome下载\2025.04\BtHome\GGO 2\[LoliHouse] 刀剑神域外传 Gun Gale Online II _ Sword Art Online Alternative_ Gun Gale Online II - 10 [WebRip 1080p HEVC-10bit A.torrent
+[INFO]2025-4-25 04:40:58  下载完成 字幕组:LoliHouse MKV 1080P简繁中 源网页:https://www.1lou.pro/thread-560922.htm 下载位置:D:\download\BtHome下载\2025.04\BtHome\GGO 2\[LoliHouse] 刀剑神域外传 Gun Gale Online II _ Sword Art Online Alternative_ Gun Gale Online II - 11 [WebRip 1080p HEVC-10bit A.torrent
+[INFO]2025-4-25 04:40:59  下载完成 字幕组:LoliHouse MKV 1080P简繁中 源网页:https://www.1lou.pro/thread-560922.htm 下载位置:D:\download\BtHome下载\2025.04\BtHome\GGO 2\[LoliHouse] 刀剑神域外传 Gun Gale Online II _ Sword Art Online Alternative_ Gun Gale Online II - 12 [WebRip 1080p HEVC-10bit A.torrent
+[INFO]2025-4-25 04:41:01  下载完成 字幕组:LoliHouse MKV 1080P简繁中 源网页:https://www.1lou.pro/thread-560922.htm 下载位置:D:\download\BtHome下载\2025.04\BtHome\GGO 2\[LoliHouse] 刀剑神域外传 Gun Gale Online II _ Sword Art Online Alternative_ Gun Gale Online II [01-12 合集][WebRip 1080p HEVC-10.torrent
+[INFO]2025-4-25 04:45:16  click [BT下载][刀剑神域外传 Gun Gale Online 第2季][全12集][日语中字][MKV][1080P][多版] https://www.1lou.pro/thread-560922.htm
+[INFO]2025-4-25 04:45:18  click LoliHouse MKV 1080P简繁中
+[INFO]2025-4-25 04:49:13  click [BT下载][刀剑神域外传 Gun Gale Online 第2季][全12集][日语中字][MKV][1080P][多版] https://www.1lou.pro/thread-560922.htm
+[INFO]2025-4-25 04:49:14  click LoliHouse MKV 1080P简繁中
+[INFO]2025-4-25 04:49:43  下载完成 字幕组:LoliHouse MKV 1080P简繁中 源网页:https://www.1lou.pro/thread-560922.htm 下载位置:D:\download\BtHome下载\2025.04\BtHome\[LoliHouse] 刀剑神域外传 Gun Gale Online II _ Sword Art Online Alternative_ Gun Gale Online II [01-12 合集][WebRip 1080p HEVC-10.torrent
+[INFO]2025-4-25 04:50:41  qbtorrent add D:\download\BtHome下载\2025.04\BtHome\[LoliHouse] 刀剑神域外传 Gun Gale Online II _ Sword Art Online Alternative_ Gun Gale Online II [01-12 合集][WebRip 1080p HEVC-10.torrent 保存路径为:D:\download\BtHome下载\2025.04\BtHome
+[INFO]2025-4-25 04:51:35  下载完成 字幕组:LoliHouse MKV 1080P简繁中 源网页:https://www.1lou.pro/thread-560922.htm 下载位置:D:\download\BtHome下载\2025.04\BtHome\刀剑神域外传 Gun Gale Online 第2季\[LoliHouse] 刀剑神域外传 Gun Gale Online II _ Sword Art Online Alternative_ Gun Gale Online II - 02 [WebRip 1080p HEVC-10bit A.torrent
+[INFO]2025-4-25 04:51:35  qbtorrent add D:\download\BtHome下载\2025.04\BtHome\刀剑神域外传 Gun Gale Online 第2季\[LoliHouse] 刀剑神域外传 Gun Gale Online II _ Sword Art Online Alternative_ Gun Gale Online II - 02 [WebRip 1080p HEVC-10bit A.torrent 保存路径为:D:\download\BtHome下载\2025.04\BtHome\刀剑神域外传 Gun Gale Online 第2季

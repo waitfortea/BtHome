@@ -23,11 +23,11 @@ def networklog(logdata, path=None):
 @EventUtils.register('infolog')
 def infolog(logdata, path=None):
     if path is None:
-        try:
-            path = f"{re.search(r'.*BtHome', os.path.dirname(sys.argv[0])).group()}/log/{config['logpath']['info_log_name']}"
-        except Exception as e:
-            print(os.path.dirname(subscribe))
-            raise e
+            if (temp:=re.search(r'.*BtHome', os.path.dirname(sys.argv[0]))) is not None:
+                path = f"{temp.group()}/log/{config['logpath']['info_log_name']}"
+            else:
+                path = f"{re.search(r'.*BtHome', os.path.dirname(__file__)).group()}/log/{config['logpath']['info_log_name']}"
+
     LogUtils.create(name='info')().log(
         logpath=path
         , data=logdata)
