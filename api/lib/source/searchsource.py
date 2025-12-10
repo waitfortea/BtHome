@@ -6,13 +6,14 @@ from api.lib.ToolKits.parse.elementutils import *
 from api.lib.ToolKits.datastructure.listutils import *
 from api.crawlobject import *
 from api.bthomeutils import *
+from api.lib.ToolKits.coroutine import *
 
 @BtHomeUtils.register_sourceplugin('bthome_search')
-def bthome_searchplugin(keyword):
+def bthome_searchplugin(keyword, page=1):
     headers = {
         'user-agent': config['user_agent'],
     }
-    url = config['source']['bthome']['domain']+ f"/search-{quote(keyword).replace('%', '_')}.htm"
+    url = config['source']['bthome']['domain']+ f"/search-{quote(keyword).replace('%', '_')}-1-{page}.htm"
 
     htmlText = RequestUitls.get_html(name='drissionpage', type='get', url=url, headers=headers, cookies=None)
 
@@ -26,6 +27,20 @@ def bthome_searchplugin(keyword):
     result_list = [TorrentPage(url=config['source']['bthome']['domain']+"/"+element.attrib['href']
                                , title=ElementUtils.get_text(element)) for element in element_List]
     return result_list
+
+@BtHomeUtils.register_sourceplugin('bthome_expand_search')
+def bthome_batch_searchplugin(keyword,page_range):
+    result_list = []
+    for page in range(1, page_range + 1):
+        torrentpage_list = bthome_searchplugin(keyword, page)
+        result_list.extend(torrentpage_list)
+    return result_list
+
+
+
+
+
+    return result_List
 
 
 @BtHomeUtils.register_sourceplugin('comicgarden_search')
@@ -58,4 +73,4 @@ if __name__=="__main__":
     EventUtils.run(eventname='loadconfig')
     EventUtils.run(eventname='loadbrowser', path=config['edge_exe_path'])
     #
-    bthome_searchplugin(Index(keyword='进击'))
+    bthome_expand_searchplugin(keyword='喜人奇妙夜2', page_range= 5)
