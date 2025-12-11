@@ -32,28 +32,29 @@ def bthome_searchplugin(keyword, page=1):
 def bthome_batch_searchplugin(keyword,page_range):
 
     async def search(keyword, page):
-        headers = {
-            'user-agent': config['user_agent'],
-        }
-        url = config['source']['bthome']['domain'] + f"/search-{quote(keyword).replace('%', '_')}-1-{page}.htm"
-
-        htmlText = RequestUitls.get_html(name='drissionpage', type='get', url=url, headers=headers, cookies=None)
-
-        doc = ElementUtils.parse_html(htmlText)
-
-        element_List = doc.xpath('//div[@class="media-body"]//a[contains(@href,"thread")]')
-
-        if not element_List:
-            EventUtils.run('infolog', logdata='搜索结果为空')
-
-        result_list = [TorrentPage(url=config['source']['bthome']['domain'] + "/" + element.attrib['href']
-                                   , title=ElementUtils.get_text(element)) for element in element_List]
-        return result_list
+        # headers = {
+        #     'user-agent': config['user_agent'],
+        # }
+        # url = config['source']['bthome']['domain'] + f"/search-{quote(keyword).replace('%', '_')}-1-{page}.htm"
+        #
+        # htmlText = RequestUitls.get_html(name='drissionpage', type='get', url=url, headers=headers, cookies=None)
+        #
+        # doc = ElementUtils.parse_html(htmlText)
+        #
+        # element_List = doc.xpath('//div[@class="media-body"]//a[contains(@href,"thread")]')
+        #
+        # if not element_List:
+        #     EventUtils.run('infolog', logdata='搜索结果为空')
+        #
+        # result_list = [TorrentPage(url=config['source']['bthome']['domain'] + "/" + element.attrib['href']
+        #                            , title=ElementUtils.get_text(element)) for element in element_List]
+        # return result_list
 
         result_list = bthome_searchplugin(keyword, page)
         return result_list
 
-    result_list = CoroutineUtils.run(name = "group_compelte", task_list = [search(keyword, page) for page in range(1,page_range+1)])
+    task_list = [search(keyword, page) for page in range(1, page_range + 1)]
+    result_list = CoroutineUtils.run(name = "group_compelte", task_list = task_list)
     page_list = [page for page_list in result_list for page in page_list]
     return page_list
 
