@@ -73,7 +73,7 @@ class BtHomeUtilsPlugin(RequestUitls):
         torrentpath_list = []
 
         for torrent in torrent_list:
-            file_path = RequestUitls.save_file(name='drissionpage', url=torrent.downloadurl, filename=torrent.name,
+            file_path = RequestUitls.save_file(name='dp_one_tab', url=torrent.downloadurl, filename=torrent.name,
                                       savepath=savepath)
 
             EventUtils.run('infolog',

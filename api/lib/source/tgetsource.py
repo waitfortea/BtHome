@@ -8,6 +8,8 @@ from api.lib.ToolKits.request.requestutils import *
 from api.lib.config import *
 from api.bthomeutils import *
 
+
+@BtHomeUtils.register_sourceplugin('bthome_batch_tget')
 @BtHomeUtils.register_sourceplugin('bthome_tget')
 def bthome_gettorrent(subtilegroup):
     torrent_list=[]
@@ -18,6 +20,7 @@ def bthome_gettorrent(subtilegroup):
         torrent_list.append(torrent)
 
     return TorrentGroup(torrent_list=torrent_list, subtitlegroup=subtilegroup)
+
 
 
 @BtHomeUtils.register_sourceplugin('comicgarden_tget')
