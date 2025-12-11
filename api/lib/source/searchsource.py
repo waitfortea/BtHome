@@ -7,15 +7,16 @@ from api.lib.ToolKits.datastructure.listutils import *
 from api.crawlobject import *
 from api.bthomeutils import *
 from api.lib.ToolKits.coroutine import *
+import itertools
 
 @BtHomeUtils.register_sourceplugin('bthome_search')
-def bthome_searchplugin(keyword, page=1):
+def bthome_searchplugin(keyword, page=1,*args, **kwargs):
     headers = {
         'user-agent': config['user_agent'],
     }
     url = config['source']['bthome']['domain']+ f"/search-{quote(keyword).replace('%', '_')}-1-{page}.htm"
 
-    htmlText = RequestUitls.get_html(name='dp_one_tab', type='get', url=url, headers=headers, cookies=None)
+    htmlText = RequestUitls.get_html(name='dp_one_tab', type='get', url=url)
 
     doc = ElementUtils.parse_html(htmlText)
 
@@ -29,7 +30,7 @@ def bthome_searchplugin(keyword, page=1):
     return result_list
 
 @BtHomeUtils.register_sourceplugin('bthome_batch_search')
-def bthome_batch_searchplugin(keyword,page_range):
+def bthome_batch_searchplugin(keyword,page_range,*args, **kwargs):
     headers = {
         'user-agent': config['user_agent'],
     }
@@ -38,7 +39,7 @@ def bthome_batch_searchplugin(keyword,page_range):
         url  = config['source']['bthome']['domain'] + f"/search-{quote(keyword).replace('%', '_')}-1-{page}.htm"
         url_list.append(url)
 
-    html_list= RequestUitls.get_html(name='dp_multi_tab', type='get', url_list=url_list, headers=headers, cookies=None)
+    html_list= RequestUitls.get_html(name='dp_multi_tab', type='get', url=url_list)
 
     torrentpage_list = []
     for htmltext in html_list:
@@ -51,7 +52,7 @@ def bthome_batch_searchplugin(keyword,page_range):
 
         result_list = [TorrentPage(url=config['source']['bthome']['domain'] + "/" + element.attrib['href']
                                    , title=ElementUtils.get_text(element)) for element in element_List]
-        torrentpage_list.append(result_list)
+        torrentpage_list = list(itertools.chain(result_list))
     return torrentpage_list
 
 
@@ -72,12 +73,14 @@ async def commicgarden_searchplugin(keyword):
                               , proxy=globalProxy.proxy_aiohttp,retry=3).response()
 
         return htmltext
+
     page_list = {}
     tasks=[asyncio.create_task(search(keyword, page)) for page in page_list]
     result_List=await asyncio.gather(tasks, return_exceptions=True)
     result_List=[result for result in result_List if result is not None]
     TorrentPage_List=[TorrentPage(index=index, title=index.keyword, url=f'https://dmhy.org/topics/list/page',
                        htmlText=result_List, source= "ComicGarden")]
+
     return TorrentPage_List
 
 if __name__=="__main__":

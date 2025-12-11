@@ -25,6 +25,28 @@ def bthome_sgparse(torrentpage):
 
     return subtitlegroup_list
 
+@BtHomeUtils.register_sourceplugin('bthome_batch_sgget')
+def bthome_batch_sgparse(torrentpage_list):
+    subtitlegroup_list=[]
+
+    pageurl_list = [torrentpage.url for torrentpage in torrentpage_list]
+    html_list = RequestUitls.get_html(name='dp_multi_tab', url=pageurl_list, type='get')
+
+    torrentelement_list = []
+    for html in html_list:
+        doc = ElementUtils.parse_html(html)
+        sgelement_list = doc.xpath('//fieldset[@class="fieldset"][.//a]')
+
+        for index,sgelement in enumerate(sgelement_list):
+            torrentelement_list.extend(sgelement.xpath('.//a'))
+
+    sg_name = "主页"
+    subtitlegroup_list.append(SubtitleGroup(name=sg_name, id=1, torrentelement_list=torrentelement_list, torrentpage=torrentpage_list))
+
+    return subtitlegroup_list
+
+
+
 @BtHomeUtils.register_sourceplugin('comicgarden_sgget')
 async def comicgarden_sgparse(torrentpage):
     async def getSubtitleGroupByOnePage(htmltext):

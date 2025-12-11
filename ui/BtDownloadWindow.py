@@ -15,11 +15,11 @@ from api.bthomeutils import *
 
 class SearchClickWorker(QObject):
 
-    search = pyqtSignal(object)
+    # search = pyqtSignal(object)
     result = pyqtSignal(object)
 
-    @pyqtSlot(object,object)
-    def search(self,searchlinetext, sourceid):
+    @pyqtSlot(object,object,object)
+    def search(self,searchlinetext, sourceid, page_range):
         """
             搜索按钮执行的函数，接收索引对象，返回种子页列表对象
 
@@ -29,7 +29,7 @@ class SearchClickWorker(QObject):
         # page_list=pageParser(page.group()) if page is not None else 1
 
         # 获取种子页列表
-        torrentpage_list=BtHomeUtils.search(source=config['sourceid'][sourceid], keyword=searchlinetext)
+        torrentpage_list=BtHomeUtils.search(source=config['sourceid'][sourceid], keyword=searchlinetext, page_range = page_range)
 
         self.result.emit(torrentpage_list)
 
@@ -46,6 +46,18 @@ class TorrentPageClickWorker(QObject):
         subtitlegroup_list = BtHomeUtils.get_subtitlegroup(source=config['sourceid'][sourceid], torrentpage=torrentpage)
         self.result.emit(subtitlegroup_list)
 
+class BatchGetTorrentClickWorker(QObject):
+    result = pyqtSignal(object)
+
+    @pyqtSlot(object, object)
+    def parse_torrentpage_list(self, torrentpage_list, sourceid):
+        """
+            点击种子页对应按钮执行的函数，接收种子页对象，返回字幕组列表对象
+        """
+
+        subtitlegroup_list = BtHomeUtils.get_subtitlegroup(source=config['sourceid'][sourceid], torrentpage=torrentpage_list)
+        self.result.emit(subtitlegroup_list)
+
 class SubtitleGroupClickWorker(QObject):
     result = pyqtSignal(object)
 
@@ -57,7 +69,6 @@ class SubtitleGroupClickWorker(QObject):
 
         torrentgroup = BtHomeUtils.get_torrent(source=config['sourceid'][sourceid], subtitlegroup=subtitlegroup)
         self.result.emit(torrentgroup)
-
 
 
 class UpdateClickWorker(QObject):
@@ -113,9 +124,10 @@ class StartClickWorker(QObject):
 class BtWindow(QWidget):
 
     #设置ui信号
-    search_signal = pyqtSignal(object,object)
+    search_signal = pyqtSignal(object,object,object)
     torrentpage_signal = pyqtSignal(object,object)
     sg_signal = pyqtSignal(object,object)
+    batchtorrent_signal = pyqtSignal(object,object)
     start_signal = pyqtSignal(object, object)
     update_signal = pyqtSignal()
 
@@ -136,6 +148,13 @@ class BtWindow(QWidget):
         self.sgclick_worker= SubtitleGroupClickWorker()
         self.sg_signal.connect(self.sgclick_worker.subtitlegroupBtn)
         self.sgclick_worker.result.connect(self.sgclick_callback)
+
+        #点击批处理
+        self.batch_gettorrent_click_worker = BatchGetTorrentClickWorker()
+        self.batchtorrent_signal.connect(self.batch_gettorrent_click_worker.parse_torrentpage_list)
+        self.batch_gettorrent_click_worker.result.connect(self.sgclick_callback)
+        self.batchGetTorrentpushButton.clicked.connect(lambda state, torrePage=torrentpage_list[i]: self.torentpageclick(torrePage))
+
 
         #点击start
         self.startclick_worker = StartClickWorker()
@@ -183,6 +202,15 @@ class BtWindow(QWidget):
         self.proxyCheckBox.checked = False
         self.proxyCheckBox.toggled.connect(self.proxCheck)
 
+
+        #管理 BTHOME OBJECT
+        self.global_torrentpage_list = []
+        self.global_subtitlegroup_list = []
+        # self.global_torrentpage
+        # 测试
+        self.searchKeyWordslineEdit.setText("喜人奇妙夜2")
+        self.pageRangelineEdit.setText('5')
+
     def changeCrawlSource(self,index):
         self.crawlSourceComboBox.currentIndex=index
         EventUtils.run('infolog', f"更改爬虫源为{self.crawlSourceComboBox.currentIndex}")
@@ -196,9 +224,11 @@ class BtWindow(QWidget):
         self.searchclick_work.moveToThread(self.thread)
         self.removeitem(self.torrentPageverticalLayout)
         searchlinetext = self.searchKeyWordslineEdit.text()
-        self.search_signal.emit(searchlinetext,self.crawlSourceComboBox.currentIndex)
+        pagerangelinetext = self.pageRangelineEdit.text()
+        self.search_signal.emit(searchlinetext,self.crawlSourceComboBox.currentIndex, int(pagerangelinetext))
 
     def searchclick_callback(self,torrentpage_list):
+        self.global_torrentpage_list = torrentpage_list
         if torrentpage_list:
             title_list = [torrentpage.title for torrentpage in torrentpage_list]
             for i in range(len(title_list)):
@@ -206,17 +236,19 @@ class BtWindow(QWidget):
                 HLayout.addWidget(QCheckBox(f"{i + 1}"))
                 torrentpageBtn = QPushButton(title_list[i])
                 torrentpageBtn.clicked.connect(lambda state,torrePage=torrentpage_list[i]: self.torentpageclick(torrePage))
+                #绑定每个新生成的种子页按纽的点击函数
 
                 HLayout.addWidget(torrentpageBtn)
                 HLayout.addStretch()
                 self.torrentPageverticalLayout.addLayout(HLayout)
             self.torrentPageverticalLayout.addStretch()
 
-    def torentpageclick(self,torrentpage):
-        self.torrentpageclick_worker.moveToThread(self.thread)
-        EventUtils.run('infolog', " ".join(['click', torrentpage.title, torrentpage.url]))
+
+    def torentpageclick(self):
+        self.batch_gettorrent_click_worker.moveToThread(self.thread)
+        EventUtils.run('infolog', 'batch_click')
         self.removeitem(self.subtitleGroupverticalLayout)
-        self.torrentpage_signal.emit(torrentpage,self.crawlSourceComboBox.currentIndex)
+        self.batchtorrent_signal.emit(self.global_torrentpage_list,self.crawlSourceComboBox.currentIndex)
 
     def torentpageclick_callback(self, subtitlegroup_list):
         for i in range(len(subtitlegroup_list)):
@@ -229,6 +261,25 @@ class BtWindow(QWidget):
                 lambda state, subtitlegroup=subtitlegroup_list[i]: self.sgclick(subtitlegroup))
             self.subtitleGroupverticalLayout.addLayout(HLayout)
         self.subtitleGroupverticalLayout.addStretch()
+
+    def batch_gettorrent_click(self, torrentpage):
+        self.torrentpageclick_worker.moveToThread(self.thread)
+        EventUtils.run('infolog', " ".join(['click', torrentpage.title, torrentpage.url]))
+        self.removeitem(self.subtitleGroupverticalLayout)
+        self.torrentpage_signal.emit(torrentpage, self.crawlSourceComboBox.currentIndex)
+
+    def torentpageclick_callback(self, subtitlegroup_list):
+        for i in range(len(subtitlegroup_list)):
+            subtitlegroupBtn = QPushButton(subtitlegroup_list[i].name)
+            HLayout = QHBoxLayout()
+            HLayout.addWidget(QCheckBox(f'{i + 1}'))
+            HLayout.addWidget(subtitlegroupBtn)
+            HLayout.addStretch()
+            subtitlegroupBtn.clicked.connect(
+                lambda state, subtitlegroup=subtitlegroup_list[i]: self.sgclick(subtitlegroup))
+            self.subtitleGroupverticalLayout.addLayout(HLayout)
+        self.subtitleGroupverticalLayout.addStretch()
+
 
     def sgclick(self,subtitlegroup):
         self.sgclick_worker.moveToThread(self.thread)

@@ -1667,3 +1667,6 @@
 [INFO]2025-9-19 00:07:18  qbtorrent add D:\download\BtHome下载\2025.07\BtHome\光逝去的夏天\The.Summer.Hikaru.Died.S01E09.Old.Man.Takeda.1080p.NF.WEB-DL.JPN.DDP5.1.H.264.MSubs-ToonsHub.mkv.torrent 保存路径为:D:\download\BtHome下载\2025.07\BtHome\光逝去的夏天
 [INFO]2025-9-19 00:07:18  qbtorrent add D:\download\BtHome下载\2025.07\BtHome\光逝去的夏天\The.Summer.Hikaru.Died.S01E10.Truth.1080p.NF.WEB-DL.JPN.DDP5.1.H.264.MSubs-ToonsHub.mkv.torrent 保存路径为:D:\download\BtHome下载\2025.07\BtHome\光逝去的夏天
 [INFO]2025-12-10 02:32:36  搜索结果为空
+[INFO]2025-12-12 01:39:41  更改爬虫源为2
+[INFO]2025-12-12 02:18:55  更改爬虫源为2
+[INFO]2025-12-12 02:23:02  更改爬虫源为2

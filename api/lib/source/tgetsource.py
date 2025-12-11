@@ -19,6 +19,7 @@ def bthome_gettorrent(subtilegroup):
 
     return TorrentGroup(torrent_list=torrent_list, subtitlegroup=subtilegroup)
 
+
 @BtHomeUtils.register_sourceplugin('comicgarden_tget')
 async def comicgarden_gettorrent(subtitleGroup:SubtitleGroup):
     torrent_list = []

@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1120</width>
-    <height>815</height>
+    <height>583</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -42,6 +42,35 @@
       <widget class="LineEdit" name="searchKeyWordslineEdit"/>
      </item>
      <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>最大页数</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="pageRangelineEdit">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>50</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>50</width>
+         <height>16777215</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
       <widget class="QCheckBox" name="proxyCheckBox">
        <property name="text">
         <string>开启代理</string>
@@ -67,6 +96,11 @@
        <item>
         <property name="text">
          <string>ComicGarden</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BtHomeBatch</string>
         </property>
        </item>
       </widget>
@@ -100,7 +134,7 @@
         <x>0</x>
         <y>0</y>
         <width>1102</width>
-        <height>640</height>
+        <height>375</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout">
@@ -152,6 +186,27 @@
     </widget>
    </item>
    <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_7">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>种子页筛选</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="torrentPageSlectorlineEdit"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="batchGetTorrentpushButton">
+       <property name="text">
+        <string>批处理获取种子</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
     <layout class="QHBoxLayout" name="horizontalLayout_5">
      <property name="spacing">
       <number>6</number>
@@ -161,8 +216,26 @@
      </property>
      <item>
       <widget class="BodyLabel" name="label_4">
+       <property name="minimumSize">
+        <size>
+         <width>64</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>64</width>
+         <height>16777215</height>
+        </size>
+       </property>
        <property name="text">
         <string>种子筛选</string>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::PlainText</enum>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
        </property>
        <property name="margin">
         <number>0</number>
@@ -181,8 +254,23 @@
     <layout class="QHBoxLayout" name="horizontalLayout_2">
      <item>
       <widget class="BodyLabel" name="label_11">
+       <property name="minimumSize">
+        <size>
+         <width>64</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>64</width>
+         <height>16777215</height>
+        </size>
+       </property>
        <property name="text">
         <string>保存位置</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
        </property>
        <property name="indent">
         <number>1</number>
