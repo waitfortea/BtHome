@@ -1,6 +1,6 @@
 git add .
 git commit -m "%date% %time%"
-git push bthome master
+git push origin master
 cd api/lib/ToolKits
 git add .
 git commit -m "%date% %time%"
