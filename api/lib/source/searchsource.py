@@ -15,7 +15,7 @@ def bthome_searchplugin(keyword, page=1):
     }
     url = config['source']['bthome']['domain']+ f"/search-{quote(keyword).replace('%', '_')}-1-{page}.htm"
 
-    htmlText = RequestUitls.get_html(name='drissionpage', type='get', url=url, headers=headers, cookies=None)
+    htmlText = RequestUitls.get_html(name='dp_one_tab', type='get', url=url, headers=headers, cookies=None)
 
     doc = ElementUtils.parse_html(htmlText)
 
@@ -30,35 +30,29 @@ def bthome_searchplugin(keyword, page=1):
 
 @BtHomeUtils.register_sourceplugin('bthome_batch_search')
 def bthome_batch_searchplugin(keyword,page_range):
+    headers = {
+        'user-agent': config['user_agent'],
+    }
+    url_list = []
+    for page in range(1,page_range+1):
+        url  = config['source']['bthome']['domain'] + f"/search-{quote(keyword).replace('%', '_')}-1-{page}.htm"
+        url_list.append(url)
 
-    async def search(keyword, page):
-        # headers = {
-        #     'user-agent': config['user_agent'],
-        # }
-        # url = config['source']['bthome']['domain'] + f"/search-{quote(keyword).replace('%', '_')}-1-{page}.htm"
-        #
-        # htmlText = RequestUitls.get_html(name='drissionpage', type='get', url=url, headers=headers, cookies=None)
-        #
-        # doc = ElementUtils.parse_html(htmlText)
-        #
-        # element_List = doc.xpath('//div[@class="media-body"]//a[contains(@href,"thread")]')
-        #
-        # if not element_List:
-        #     EventUtils.run('infolog', logdata='搜索结果为空')
-        #
-        # result_list = [TorrentPage(url=config['source']['bthome']['domain'] + "/" + element.attrib['href']
-        #                            , title=ElementUtils.get_text(element)) for element in element_List]
-        # return result_list
+    html_list= RequestUitls.get_html(name='dp_multi_tab', type='get', url_list=url_list, headers=headers, cookies=None)
 
-        result_list = bthome_searchplugin(keyword, page)
-        return result_list
+    torrentpage_list = []
+    for htmltext in html_list:
+        doc = ElementUtils.parse_html(htmltext)
 
-    task_list = [search(keyword, page) for page in range(1, page_range + 1)]
-    result_list = CoroutineUtils.run(name = "group_compelte", task_list = task_list)
-    page_list = [page for page_list in result_list for page in page_list]
-    return page_list
+        element_List = doc.xpath('//div[@class="media-body"]//a[contains(@href,"thread")]')
 
-    return result_List
+        if not element_List:
+            EventUtils.run('infolog', logdata='搜索结果为空')
+
+        result_list = [TorrentPage(url=config['source']['bthome']['domain'] + "/" + element.attrib['href']
+                                   , title=ElementUtils.get_text(element)) for element in element_List]
+        torrentpage_list.append(result_list)
+    return torrentpage_list
 
 
 @BtHomeUtils.register_sourceplugin('comicgarden_search')
