@@ -2,6 +2,7 @@
 from api.lib.ToolKits.download.qbtorrentutils import *
 from api.lib.ToolKits.request.requestutils import *
 import inspect
+import json
 class BtHomeUtils(QbUtils,RequestUitls):
     __source_plugin = {}
 
@@ -75,9 +76,9 @@ class BtHomeUtilsPlugin(RequestUitls):
         for torrent in torrent_list:
             file_path = RequestUitls.save_file(name='dp_one_tab', url=torrent.downloadurl, filename=torrent.name,
                                       savepath=savepath)
-
+            url = torrent.subtitlegroup.torrentpage.url if not isinstance(torrent.subtitlegroup.torrentpage,list) else [torrent.url for torrent in torrent.subtitlegroup.torrentpage]
             EventUtils.run('infolog',
-                           logdata=f'下载完成 字幕组:{torrent.subtitlegroup.name} 源网页:{torrent.subtitlegroup.torrentpage.url} 下载位置:{file_path}')
+                           logdata=f'下载完成 字幕组:{torrent.subtitlegroup.name} 源网页:{url if not isinstance(url,list) else json.dumps(url)} 下载位置:{file_path}')
             torrentpath_list.append(file_path)
         return torrentpath_list
 

@@ -12,7 +12,7 @@ from api.bthomeutils import *
 def bthome_sgparse(torrentpage):
     subtitlegroup_list=[]
 
-    htmltext = RequestUitls.get_html(name='drissionpage', url=torrentpage.url, type='get', headers={'user-agent':config['user_agent']}, cookies=None)
+    htmltext = RequestUitls.get_html(name='dp_one_tab', url=torrentpage.url, type='get')
     doc = ElementUtils.parse_html(htmltext)
     sgelement_list = doc.xpath('//fieldset[@class="fieldset"][.//a]')
 

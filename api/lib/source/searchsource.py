@@ -1,4 +1,4 @@
-
+from typing import Any, List
 from urllib.parse import quote
 from api.lib.ToolKits.request import *
 from api.lib.config import *
@@ -30,7 +30,7 @@ def bthome_searchplugin(keyword, page=1,*args, **kwargs):
     return result_list
 
 @BtHomeUtils.register_sourceplugin('bthome_batch_search')
-def bthome_batch_searchplugin(keyword,page_range,*args, **kwargs):
+def bthome_batch_searchplugin(keyword: object, page_range: object, *args: object, **kwargs: object) -> List[Any]:
     headers = {
         'user-agent': config['user_agent'],
     }
@@ -52,7 +52,8 @@ def bthome_batch_searchplugin(keyword,page_range,*args, **kwargs):
 
         result_list = [TorrentPage(url=config['source']['bthome']['domain'] + "/" + element.attrib['href']
                                    , title=ElementUtils.get_text(element)) for element in element_List]
-        torrentpage_list = list(itertools.chain(result_list))
+        torrentpage_list.extend(result_list)
+
     return torrentpage_list
 
 
@@ -85,7 +86,8 @@ async def commicgarden_searchplugin(keyword):
 
 if __name__=="__main__":
     # print(globalProxy.proxy_aiohttp)
-    EventUtils.run(eventname='loadconfig')
+    config.loadconfig(rf'{re.search(".*BtHome", os.path.dirname(__file__)).group()}\config\config.yaml')
     EventUtils.run(eventname='loadbrowser', path=config['edge_exe_path'])
     #
-    bthome_expand_searchplugin(keyword='喜人奇妙夜2', page_range= 5)
+    torrentpage_list = BtHomeUtils.search(keyword='喜人奇妙夜2', page_range= 5)
+    print(len(torrentpage_list))
