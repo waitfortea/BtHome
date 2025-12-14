@@ -6,6 +6,8 @@ from api.lib.ToolKits.general.strutils import *
 from api.lib.ToolKits.general.fileutils import *
 from api.lib.log import *
 
+
+
 class TorrentManager(FileUtils):
 
     @classmethod
@@ -13,6 +15,7 @@ class TorrentManager(FileUtils):
         result_list = [torrent for torrent in torrent_list if all(word in torrent.name for word in word_list)]
         [setattr(torrent,'name', cls.simplestrip(cls.verifyfilename(torrent.name))) for torrent in result_list]
         return result_list
+
 
     @classmethod
     def localtorrentcheck(cls, torrent_list, check_path):
