@@ -2262,3 +2262,11 @@
 [INFO]2025-12-23 21:21:21  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\东岛\[沸班亚马制作组] 东岛丹三郎想成为假面骑士 - 01 [CR WebRip AI2160p HEVC-10bit OPUS][简繁内封字幕].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\东岛
 [INFO]2025-12-23 21:21:21  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\东岛\[沸班亚马制作组] 东岛丹三郎想成为假面骑士 - 01 [CR WebRip 1080p HEVC-10bit OPUS][简繁内封字幕].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\东岛
 [INFO]2025-12-23 21:21:21  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\东岛\[沸班亚马制作组] 东岛丹三郎想成为假面骑士 - 01 [BILIBILI WebRip 2160p HEVC-10bit OPUS][简繁内封字幕].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\东岛
+[INFO]2025-12-23 21:31:34  更改爬虫源为1
+[INFO]2025-12-23 21:31:36  更改爬虫源为3
+[INFO]2025-12-23 21:34:54  更改爬虫源为3
+[INFO]2025-12-23 21:44:57  更改爬虫源为3
+[INFO]2025-12-23 21:45:00  搜索结果为空
+[INFO]2025-12-23 21:46:20  click [BT下载][差点在迷宫深处被信任的伙伴杀掉.但靠着天赐技能“无限扭蛋”...][更新至07集][日语中字][MKV][1080P][多版] https://www.1lou.pro/thread-856612.htm
+[INFO]2025-12-23 21:46:24  click 沸班亚马制作组 MKV 1080P简繁中
+[INFO]2025-12-23 21:59:04  更改爬虫源为3
