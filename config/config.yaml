@@ -7,11 +7,15 @@ source:
    id: 1
   bthome_batch:
    domain: "https://www.1lou.pro"
-   id: 2
+   id: 2WWW
+  bthome_multi:
+    domain: "https://www.1lou.info/forum-17-1.htm?tagids=0_0_895_0"
+    id: 3
 sourceid:
   0: 'bthome'
   1: 'comicgarden'
   2: "bthome_batch"
+  3: "bthome_multi"
 bthome_domain:
 edge_exe_path: 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe'
 sqlite3:

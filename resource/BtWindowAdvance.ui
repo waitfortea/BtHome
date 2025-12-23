@@ -103,6 +103,11 @@
          <string>BtHomeBatch</string>
         </property>
        </item>
+       <item>
+        <property name="text">
+         <string>BtHomeMulti</string>
+        </property>
+       </item>
       </widget>
      </item>
      <item>

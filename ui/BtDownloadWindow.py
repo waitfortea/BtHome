@@ -11,7 +11,7 @@ from api.lib.config import *
 from api.lib.ToolKits.general.datetimeutils import *
 from api.lib.torrentmanager import *
 from api.bthomeutils import *
-
+from api.lib.ToolKits.request import *
 
 class SearchClickWorker(QObject):
 
@@ -215,7 +215,7 @@ class BtWindow(QWidget):
         self.global_subtitlegroup_list = []
         # self.global_torrentpage
         # 测试
-        self.searchKeyWordslineEdit.setText("喜人奇妙夜2")
+        self.searchKeyWordslineEdit.setText("东岛")
         self.pageRangelineEdit.setText('2')
 
     def changeCrawlSource(self,index):
@@ -343,6 +343,15 @@ class BtWindow(QWidget):
     def startclick(self):
         self.startclick_worker.moveToThread(self.thread)
         self.start_signal.emit(self, self.crawlSourceComboBox.currentIndex)
+
+    # 重写closeEvent方法，设置关闭时触发的回调函数
+    def closeEvent(self, event):
+
+        # 执行任何你想要的操作后再关闭窗口
+        RequestUitls.quit(name="dp_one_tab")
+
+        # 默认的关闭操作
+        event.accept()
 
 if __name__=='__main__':
     app = QApplication(sys.argv)

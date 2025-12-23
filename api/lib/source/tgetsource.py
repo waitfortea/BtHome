@@ -8,7 +8,7 @@ from api.lib.ToolKits.request.requestutils import *
 from api.lib.config import *
 from api.bthomeutils import *
 
-
+@BtHomeUtils.register_sourceplugin('bthome_multi_tget')
 @BtHomeUtils.register_sourceplugin('bthome_batch_tget')
 @BtHomeUtils.register_sourceplugin('bthome_tget')
 def bthome_gettorrent(subtilegroup):
@@ -22,21 +22,15 @@ def bthome_gettorrent(subtilegroup):
     return TorrentGroup(torrent_list=torrent_list, subtitlegroup=subtilegroup)
 
 
-
 @BtHomeUtils.register_sourceplugin('comicgarden_tget')
-async def comicgarden_gettorrent(subtitleGroup:SubtitleGroup):
+def comicgarden_gettorrent(subtitlegroup:SubtitleGroup):
+    url_list = [config['source']['comicgarden']['domain'] + url for url in subtitlegroup.torrenturl_list]
     torrent_list = []
-    async def getTorrent(url):
-        htmlText=RequestUitls.get_html(name='aiohttp', url="https://dmhy.org"+url, type='get')
-        torrent_list=ElementUtils.parse_html(htmlText).xpath("//a[contains(@href,'.torrent')]")
-        return torrent_list
+    html_list = RequestUitls.get_html(name='dp_multi_tab', type='get', url=url_list)
+    torrentele_list=[ElementUtils.parse_html(torrent_html).xpath("//a[contains(@href,'.torrent')]")[0] for torrent_html in html_list]
 
-
-    tasks=[asyncio.create_task(getTorrent(url)) for url in subtitleGroup.torrenturl_List]
-    result_List=await asyncio.gather(*tasks)
-    torrentelement_list=ListUtils.join(result_List)
-    for torrentelement in torrentelement_list:
-        torrentname=FileUtils.verifyfilename(torrentelement.text())
-        downloadURL="https:"+torrentelement.attrib('href')
-        torrent_list.append(Torrent(name=torrentname,downloadURL=downloadURL))
-    return TorrentGroup(torrent_list=torrent_list, subtitlegroup=subtilegroup)
+    for torrentelement in torrentele_list:
+        torrentname=FileUtils.verifyfilename(ElementUtils.get_text(torrentelement))
+        downloadURL="https:"+torrentelement.attrib['href']
+        torrent_list.append(Torrent(name=torrentname,downloadurl=downloadURL,subtitlegroup=subtitlegroup))
+    return TorrentGroup(torrent_list=torrent_list, subtitlegroup=subtitlegroup)

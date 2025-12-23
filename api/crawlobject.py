@@ -6,6 +6,7 @@ from dataclasses import dataclass
 class TorrentPage:
     title: str="TorrentPage"
     url: str=None
+    htmltext: str=None
 
 @dataclass
 class SubtitleGroup:

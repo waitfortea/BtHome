@@ -67,6 +67,13 @@ class BtHomeUtils(QbUtils,RequestUitls):
         else:
             raise ValueError(f"not found source {mode}_update")
 
+    @classmethod
+    def quit(cls, mode, *args, **kwargs):
+        if cls.__source_plugin.get(f'{mode}_quit') is not None:
+            return cls.__source_plugin[f'{mode}_quit'](*args, **kwargs)
+        else:
+            raise ValueError(f"not found source {mode}_quit")
+
 class BtHomeUtilsPlugin(RequestUitls):
     @staticmethod
     @BtHomeUtils.register_sourceplugin('drissionpage_download')

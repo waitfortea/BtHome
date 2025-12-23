@@ -1979,3 +1979,286 @@
 [INFO]2025-12-14 09:49:43  click 主页
 [INFO]2025-12-14 09:49:48  下载完成 字幕组:主页 源网页:https://www.1lou.pro/thread-890719.htm 下载位置:D:\download\BtHome下载\2025.10\BtHome\唐朝诡事录之长安\唐朝诡事录之长安[60帧率版本][全40集][国语配音+中文字幕].2025.2160p.WEB-DL.H265.HDR.60fps.DDP5.1-BlackTV 78.79GB[1lou.me].torrent
 [INFO]2025-12-14 09:49:48  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\唐朝诡事录之长安\唐朝诡事录之长安[60帧率版本][全40集][国语配音+中文字幕].2025.2160p.WEB-DL.H265.HDR.60fps.DDP5.1-BlackTV 78.79GB[1lou.me].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\唐朝诡事录之长安
+[INFO]2025-12-14 10:36:23  更改爬虫源为2
+[INFO]2025-12-14 10:36:24  搜索结果为空
+[INFO]2025-12-14 10:36:46  搜索结果为空
+[INFO]2025-12-14 10:36:46  搜索结果为空
+[INFO]2025-12-14 10:40:41  搜索结果为空
+[INFO]2025-12-14 10:40:44  click [BT下载][罪恶之渊 Guilty Hole][更新至04集][日语中字][MKV][1080P][多版] https://www.1lou.pro/thread-860812.htm
+[INFO]2025-12-14 10:40:47  click [BT下载][罪恶之渊 Guilty Hole][更新至04集][日语中字][MKV][1080P][多版] https://www.1lou.pro/thread-860812.htm
+[INFO]2025-12-14 10:40:48  click [BT下载][罪恶之渊 Guilty Hole][更新至04集][日语中字][MKV][1080P][多版] https://www.1lou.pro/thread-860812.htm
+[INFO]2025-12-14 10:40:51  click [BT下载][罪恶之渊 Guilty Hole][更新至04集][日语中字][MKV][1080P][多版] https://www.1lou.pro/thread-860812.htm
+[INFO]2025-12-14 10:40:51  click [BT下载][罪恶之渊 Guilty Hole][更新至04集][日语中字][MKV][1080P][多版] https://www.1lou.pro/thread-860812.htm
+[INFO]2025-12-14 10:41:00  batch_click
+[INFO]2025-12-14 10:41:00  batch_click
+[INFO]2025-12-14 10:41:00  batch_click
+[INFO]2025-12-14 10:41:00  batch_click
+[INFO]2025-12-14 10:41:12  click 主页
+[INFO]2025-12-14 10:41:23  click 主页
+[INFO]2025-12-14 10:41:24  click 主页
+[INFO]2025-12-14 10:42:34  batch_click
+[INFO]2025-12-14 10:42:34  batch_click
+[INFO]2025-12-14 10:42:34  batch_click
+[INFO]2025-12-14 10:42:34  batch_click
+[INFO]2025-12-14 10:42:43  click 主页
+[INFO]2025-12-14 10:42:46  下载完成 字幕组:主页 源网页:["https://www.1lou.pro/thread-860812.htm", "https://www.1lou.pro/thread-850452.htm", "https://www.1lou.pro/thread-476647.htm"] 下载位置:D:\download\BtHome下载\2025.10\BtHome\罪恶之渊\[桜都字幕组] 罪恶之渊 _ Guilty Hole [01][1080p][简体内嵌].torrent
+[INFO]2025-12-14 10:42:46  下载完成 字幕组:主页 源网页:["https://www.1lou.pro/thread-860812.htm", "https://www.1lou.pro/thread-850452.htm", "https://www.1lou.pro/thread-476647.htm"] 下载位置:D:\download\BtHome下载\2025.10\BtHome\罪恶之渊\[桜都字幕组] 罪恶之渊 _ Guilty Hole [02][1080p][简体内嵌].torrent
+[INFO]2025-12-14 10:42:47  下载完成 字幕组:主页 源网页:["https://www.1lou.pro/thread-860812.htm", "https://www.1lou.pro/thread-850452.htm", "https://www.1lou.pro/thread-476647.htm"] 下载位置:D:\download\BtHome下载\2025.10\BtHome\罪恶之渊\[桜都字幕组] 罪恶之渊 _ Guilty Hole [03][1080p][简体内嵌].torrent
+[INFO]2025-12-14 10:42:47  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\罪恶之渊\[桜都字幕组] 罪恶之渊 _ Guilty Hole [01][1080p][简体内嵌].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\罪恶之渊
+[INFO]2025-12-14 10:42:47  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\罪恶之渊\[桜都字幕组] 罪恶之渊 _ Guilty Hole [02][1080p][简体内嵌].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\罪恶之渊
+[INFO]2025-12-14 10:42:47  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\罪恶之渊\[桜都字幕组] 罪恶之渊 _ Guilty Hole [03][1080p][简体内嵌].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\罪恶之渊
+[INFO]2025-12-14 10:45:21  更改爬虫源为0
+[INFO]2025-12-14 10:45:22  搜索结果为空
+[INFO]2025-12-14 10:45:30  搜索结果为空
+[INFO]2025-12-14 10:45:53  搜索结果为空
+[INFO]2025-12-14 10:46:13  搜索结果为空
+[INFO]2025-12-14 10:46:18  搜索结果为空
+[INFO]2025-12-14 10:46:36  搜索结果为空
+[INFO]2025-12-14 10:47:10  click [BT下载][笨拙之极的前辈][更新至07集][日语中字][MKV][1080P][多版] https://www.1lou.pro/thread-856804.htm
+[INFO]2025-12-14 10:47:17  click LoliHouse MKV 1080P简繁中
+[INFO]2025-12-14 10:55:06  batch_click
+[INFO]2025-12-14 10:55:06  batch_click
+[INFO]2025-12-14 10:55:06  batch_click
+[INFO]2025-12-14 10:55:06  batch_click
+[INFO]2025-12-14 10:55:06  batch_click
+[INFO]2025-12-14 10:55:06  batch_click
+[INFO]2025-12-14 10:55:06  batch_click
+[INFO]2025-12-14 10:55:06  batch_click
+[INFO]2025-12-14 10:55:06  batch_click
+[INFO]2025-12-14 10:55:06  batch_click
+[INFO]2025-12-14 10:55:06  batch_click
+[INFO]2025-12-14 10:55:06  batch_click
+[INFO]2025-12-14 10:55:06  batch_click
+[INFO]2025-12-14 10:55:25  click [BT下载][笨拙之极的前辈][更新至07集][日语中字][MKV][1080P][多版] https://www.1lou.pro/thread-856804.htm
+[INFO]2025-12-14 10:55:28  click LoliHouse MKV 1080P简繁中
+[INFO]2025-12-14 10:55:33  下载完成 字幕组:LoliHouse MKV 1080P简繁中 源网页:https://www.1lou.pro/thread-856804.htm 下载位置:D:\download\BtHome下载\2025.10\BtHome\不中用的前辈\[LoliHouse] 笨拙至极的前辈。_ 不中用的前辈。 _ Bukiyou na Senpai. - 01 [WebRip 1080p HEVC-10bit AAC][简繁内封字幕].torrent
+[INFO]2025-12-14 10:55:34  下载完成 字幕组:LoliHouse MKV 1080P简繁中 源网页:https://www.1lou.pro/thread-856804.htm 下载位置:D:\download\BtHome下载\2025.10\BtHome\不中用的前辈\[LoliHouse] 笨拙至极的前辈。_ 不中用的前辈。 _ Bukiyou na Senpai. - 02 [WebRip 1080p HEVC-10bit AAC][简繁内封字幕].torrent
+[INFO]2025-12-14 10:55:34  下载完成 字幕组:LoliHouse MKV 1080P简繁中 源网页:https://www.1lou.pro/thread-856804.htm 下载位置:D:\download\BtHome下载\2025.10\BtHome\不中用的前辈\[LoliHouse] 笨拙至极的前辈。_ 不中用的前辈。 _ Bukiyou na Senpai. - 03 [WebRip 1080p HEVC-10bit AAC][简繁内封字幕].torrent
+[INFO]2025-12-14 10:55:35  下载完成 字幕组:LoliHouse MKV 1080P简繁中 源网页:https://www.1lou.pro/thread-856804.htm 下载位置:D:\download\BtHome下载\2025.10\BtHome\不中用的前辈\[LoliHouse] 笨拙至极的前辈。_ 不中用的前辈。 _ Bukiyou na Senpai. - 04 [WebRip 1080p HEVC-10bit AAC][简繁内封字幕].torrent
+[INFO]2025-12-14 10:55:36  下载完成 字幕组:LoliHouse MKV 1080P简繁中 源网页:https://www.1lou.pro/thread-856804.htm 下载位置:D:\download\BtHome下载\2025.10\BtHome\不中用的前辈\[LoliHouse] 笨拙至极的前辈。_ 不中用的前辈。 _ Bukiyou na Senpai. - 05 [WebRip 1080p HEVC-10bit AAC][简繁内封字幕].torrent
+[INFO]2025-12-14 10:55:37  下载完成 字幕组:LoliHouse MKV 1080P简繁中 源网页:https://www.1lou.pro/thread-856804.htm 下载位置:D:\download\BtHome下载\2025.10\BtHome\不中用的前辈\[LoliHouse] 笨拙至极的前辈。_ 不中用的前辈。 _ Bukiyou na Senpai. - 06 [WebRip 1080p HEVC-10bit AAC][简繁内封字幕].torrent
+[INFO]2025-12-14 10:55:38  下载完成 字幕组:LoliHouse MKV 1080P简繁中 源网页:https://www.1lou.pro/thread-856804.htm 下载位置:D:\download\BtHome下载\2025.10\BtHome\不中用的前辈\[LoliHouse] 笨拙至极的前辈。_ 不中用的前辈。 _ Bukiyou na Senpai. - 07 [WebRip 1080p HEVC-10bit AAC][简繁内封字幕].torrent
+[INFO]2025-12-14 10:55:38  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\不中用的前辈\[LoliHouse] 笨拙至极的前辈。_ 不中用的前辈。 _ Bukiyou na Senpai. - 01 [WebRip 1080p HEVC-10bit AAC][简繁内封字幕].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\不中用的前辈
+[INFO]2025-12-14 10:55:38  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\不中用的前辈\[LoliHouse] 笨拙至极的前辈。_ 不中用的前辈。 _ Bukiyou na Senpai. - 02 [WebRip 1080p HEVC-10bit AAC][简繁内封字幕].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\不中用的前辈
+[INFO]2025-12-14 10:55:38  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\不中用的前辈\[LoliHouse] 笨拙至极的前辈。_ 不中用的前辈。 _ Bukiyou na Senpai. - 03 [WebRip 1080p HEVC-10bit AAC][简繁内封字幕].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\不中用的前辈
+[INFO]2025-12-14 10:55:38  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\不中用的前辈\[LoliHouse] 笨拙至极的前辈。_ 不中用的前辈。 _ Bukiyou na Senpai. - 04 [WebRip 1080p HEVC-10bit AAC][简繁内封字幕].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\不中用的前辈
+[INFO]2025-12-14 10:55:38  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\不中用的前辈\[LoliHouse] 笨拙至极的前辈。_ 不中用的前辈。 _ Bukiyou na Senpai. - 05 [WebRip 1080p HEVC-10bit AAC][简繁内封字幕].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\不中用的前辈
+[INFO]2025-12-14 10:55:38  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\不中用的前辈\[LoliHouse] 笨拙至极的前辈。_ 不中用的前辈。 _ Bukiyou na Senpai. - 06 [WebRip 1080p HEVC-10bit AAC][简繁内封字幕].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\不中用的前辈
+[INFO]2025-12-14 10:55:38  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\不中用的前辈\[LoliHouse] 笨拙至极的前辈。_ 不中用的前辈。 _ Bukiyou na Senpai. - 07 [WebRip 1080p HEVC-10bit AAC][简繁内封字幕].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\不中用的前辈
+[INFO]2025-12-18 00:03:46  搜索结果为空
+[INFO]2025-12-18 00:03:55  更改爬虫源为2
+[INFO]2025-12-18 00:04:45  搜索结果为空
+[INFO]2025-12-18 00:04:45  搜索结果为空
+[INFO]2025-12-18 00:04:45  搜索结果为空
+[INFO]2025-12-18 00:04:45  搜索结果为空
+[INFO]2025-12-18 00:06:10  batch_click
+[INFO]2025-12-18 00:06:10  batch_click
+[INFO]2025-12-18 00:06:10  batch_click
+[INFO]2025-12-18 00:06:10  batch_click
+[INFO]2025-12-18 00:06:35  click 主页
+[INFO]2025-12-18 00:12:12  更改爬虫源为2
+[INFO]2025-12-18 00:12:21  搜索结果为空
+[INFO]2025-12-18 00:12:21  搜索结果为空
+[INFO]2025-12-18 00:12:21  搜索结果为空
+[INFO]2025-12-18 00:12:21  搜索结果为空
+[INFO]2025-12-18 00:12:21  搜索结果为空
+[INFO]2025-12-18 00:12:21  搜索结果为空
+[INFO]2025-12-18 00:12:21  搜索结果为空
+[INFO]2025-12-18 00:12:23  更改爬虫源为0
+[INFO]2025-12-18 00:12:26  搜索结果为空
+[INFO]2025-12-18 00:12:52  更改爬虫源为2
+[INFO]2025-12-18 00:12:55  搜索结果为空
+[INFO]2025-12-18 00:12:55  搜索结果为空
+[INFO]2025-12-18 00:12:55  搜索结果为空
+[INFO]2025-12-18 00:12:55  搜索结果为空
+[INFO]2025-12-18 00:13:06  batch_click
+[INFO]2025-12-18 00:13:06  batch_click
+[INFO]2025-12-18 00:13:06  batch_click
+[INFO]2025-12-18 00:14:10  click 主页
+[INFO]2025-12-18 00:14:22  下载完成 字幕组:主页 源网页:["https://www.1lou.pro/thread-121644.htm", "https://www.1lou.pro/thread-121641.htm", "https://www.1lou.pro/thread-121638.htm", "https://www.1lou.pro/thread-120067.htm", "https://www.1lou.pro/thread-120065.htm", "https://www.1lou.pro/thread-120062.htm", "https://www.1lou.pro/thread-119791.htm", "https://www.1lou.pro/thread-893070.htm"] 下载位置:D:\download\BtHome下载\2025.10\BtHome\怪奇物语\怪奇物语.第五季[第01-04集][简繁英字幕].Stranger.Things.S05.1080p.NF.WEB-DL.DDP.5.1.Atmos.H.264-BlackTV 12.18GB[1lou.me].torrent
+[INFO]2025-12-18 00:14:23  下载完成 字幕组:主页 源网页:["https://www.1lou.pro/thread-121644.htm", "https://www.1lou.pro/thread-121641.htm", "https://www.1lou.pro/thread-121638.htm", "https://www.1lou.pro/thread-120067.htm", "https://www.1lou.pro/thread-120065.htm", "https://www.1lou.pro/thread-120062.htm", "https://www.1lou.pro/thread-119791.htm", "https://www.1lou.pro/thread-893070.htm"] 下载位置:D:\download\BtHome下载\2025.10\BtHome\怪奇物语\Stranger.Things.S03.2160p.NF.WEB-DL.DDP.5.1.HDR10.H.265-BlackTV[BTBTT].torrent
+[INFO]2025-12-18 00:14:24  下载完成 字幕组:主页 源网页:["https://www.1lou.pro/thread-121644.htm", "https://www.1lou.pro/thread-121641.htm", "https://www.1lou.pro/thread-121638.htm", "https://www.1lou.pro/thread-120067.htm", "https://www.1lou.pro/thread-120065.htm", "https://www.1lou.pro/thread-120062.htm", "https://www.1lou.pro/thread-119791.htm", "https://www.1lou.pro/thread-893070.htm"] 下载位置:D:\download\BtHome下载\2025.10\BtHome\怪奇物语\Stranger.Things.S01.2160p.NF.WEB-DL.DDP.5.1.H.265-BlackTV[BTBTT].torrent
+[INFO]2025-12-18 00:14:26  下载完成 字幕组:主页 源网页:["https://www.1lou.pro/thread-121644.htm", "https://www.1lou.pro/thread-121641.htm", "https://www.1lou.pro/thread-121638.htm", "https://www.1lou.pro/thread-120067.htm", "https://www.1lou.pro/thread-120065.htm", "https://www.1lou.pro/thread-120062.htm", "https://www.1lou.pro/thread-119791.htm", "https://www.1lou.pro/thread-893070.htm"] 下载位置:D:\download\BtHome下载\2025.10\BtHome\怪奇物语\Stranger.Things.S03.2160p.NF.WEB-DL.DDP.5.1.H.265-BlackTV[BTBTT].torrent
+[INFO]2025-12-18 00:14:27  下载完成 字幕组:主页 源网页:["https://www.1lou.pro/thread-121644.htm", "https://www.1lou.pro/thread-121641.htm", "https://www.1lou.pro/thread-121638.htm", "https://www.1lou.pro/thread-120067.htm", "https://www.1lou.pro/thread-120065.htm", "https://www.1lou.pro/thread-120062.htm", "https://www.1lou.pro/thread-119791.htm", "https://www.1lou.pro/thread-893070.htm"] 下载位置:D:\download\BtHome下载\2025.10\BtHome\怪奇物语\Stranger.Things.S04.2160p.NF.WEB-DL.DDP.5.1.Atmos.H.265-BlackTV[BTBTT].torrent
+[INFO]2025-12-18 00:14:29  下载完成 字幕组:主页 源网页:["https://www.1lou.pro/thread-121644.htm", "https://www.1lou.pro/thread-121641.htm", "https://www.1lou.pro/thread-121638.htm", "https://www.1lou.pro/thread-120067.htm", "https://www.1lou.pro/thread-120065.htm", "https://www.1lou.pro/thread-120062.htm", "https://www.1lou.pro/thread-119791.htm", "https://www.1lou.pro/thread-893070.htm"] 下载位置:D:\download\BtHome下载\2025.10\BtHome\怪奇物语\Stranger.Things.S02.2160p.NF.WEB-DL.DDP.5.1.H.265-BlackTV[BTBTT].torrent
+[INFO]2025-12-18 00:14:31  下载完成 字幕组:主页 源网页:["https://www.1lou.pro/thread-121644.htm", "https://www.1lou.pro/thread-121641.htm", "https://www.1lou.pro/thread-121638.htm", "https://www.1lou.pro/thread-120067.htm", "https://www.1lou.pro/thread-120065.htm", "https://www.1lou.pro/thread-120062.htm", "https://www.1lou.pro/thread-119791.htm", "https://www.1lou.pro/thread-893070.htm"] 下载位置:D:\download\BtHome下载\2025.10\BtHome\怪奇物语\Stranger.Things.S02.2160p.NF.WEB-DL.DDP.5.1.HDR10.H.265-BlackTV[BTBTT].torrent
+[INFO]2025-12-18 00:14:33  下载完成 字幕组:主页 源网页:["https://www.1lou.pro/thread-121644.htm", "https://www.1lou.pro/thread-121641.htm", "https://www.1lou.pro/thread-121638.htm", "https://www.1lou.pro/thread-120067.htm", "https://www.1lou.pro/thread-120065.htm", "https://www.1lou.pro/thread-120062.htm", "https://www.1lou.pro/thread-119791.htm", "https://www.1lou.pro/thread-893070.htm"] 下载位置:D:\download\BtHome下载\2025.10\BtHome\怪奇物语\Stranger.Things.S04.2160p.NF.WEB-DL.DDP.5.1.Atmos.HDR10.H.265-BlackTV[BTBTT].torrent
+[INFO]2025-12-18 00:14:33  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\怪奇物语\怪奇物语.第五季[第01-04集][简繁英字幕].Stranger.Things.S05.1080p.NF.WEB-DL.DDP.5.1.Atmos.H.264-BlackTV 12.18GB[1lou.me].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\怪奇物语
+[INFO]2025-12-18 00:14:33  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\怪奇物语\Stranger.Things.S03.2160p.NF.WEB-DL.DDP.5.1.HDR10.H.265-BlackTV[BTBTT].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\怪奇物语
+[INFO]2025-12-18 00:14:33  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\怪奇物语\Stranger.Things.S01.2160p.NF.WEB-DL.DDP.5.1.H.265-BlackTV[BTBTT].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\怪奇物语
+[INFO]2025-12-18 00:14:33  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\怪奇物语\Stranger.Things.S03.2160p.NF.WEB-DL.DDP.5.1.H.265-BlackTV[BTBTT].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\怪奇物语
+[INFO]2025-12-18 00:14:33  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\怪奇物语\Stranger.Things.S04.2160p.NF.WEB-DL.DDP.5.1.Atmos.H.265-BlackTV[BTBTT].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\怪奇物语
+[INFO]2025-12-18 00:14:33  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\怪奇物语\Stranger.Things.S02.2160p.NF.WEB-DL.DDP.5.1.H.265-BlackTV[BTBTT].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\怪奇物语
+[INFO]2025-12-18 00:14:33  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\怪奇物语\Stranger.Things.S02.2160p.NF.WEB-DL.DDP.5.1.HDR10.H.265-BlackTV[BTBTT].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\怪奇物语
+[INFO]2025-12-18 00:14:33  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\怪奇物语\Stranger.Things.S04.2160p.NF.WEB-DL.DDP.5.1.Atmos.HDR10.H.265-BlackTV[BTBTT].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\怪奇物语
+[INFO]2025-12-18 18:20:35  更改爬虫源为2
+[INFO]2025-12-18 18:20:41  搜索结果为空
+[INFO]2025-12-18 18:20:41  搜索结果为空
+[INFO]2025-12-18 18:20:41  搜索结果为空
+[INFO]2025-12-18 18:20:41  搜索结果为空
+[INFO]2025-12-18 18:21:11  batch_click
+[INFO]2025-12-18 18:22:11  click 主页
+[INFO]2025-12-18 18:22:32  搜索结果为空
+[INFO]2025-12-18 18:22:32  搜索结果为空
+[INFO]2025-12-18 18:22:32  搜索结果为空
+[INFO]2025-12-18 18:22:32  搜索结果为空
+[INFO]2025-12-18 18:22:32  搜索结果为空
+[INFO]2025-12-18 18:22:32  搜索结果为空
+[INFO]2025-12-18 18:22:32  搜索结果为空
+[INFO]2025-12-21 15:44:06  搜索结果为空
+[INFO]2025-12-21 15:47:23  搜索结果为空
+[INFO]2025-12-21 15:47:28  搜索结果为空
+[INFO]2025-12-21 15:47:32  搜索结果为空
+[INFO]2025-12-21 15:47:51  更改爬虫源为2
+[INFO]2025-12-21 15:49:00  搜索结果为空
+[INFO]2025-12-21 15:49:00  搜索结果为空
+[INFO]2025-12-21 15:49:00  搜索结果为空
+[INFO]2025-12-21 15:49:09  搜索结果为空
+[INFO]2025-12-21 15:49:09  搜索结果为空
+[INFO]2025-12-21 15:49:09  搜索结果为空
+[INFO]2025-12-21 15:49:11  更改爬虫源为0
+[INFO]2025-12-21 15:49:12  搜索结果为空
+[INFO]2025-12-21 15:49:14  搜索结果为空
+[INFO]2025-12-21 15:49:16  搜索结果为空
+[INFO]2025-12-21 17:14:49  更改爬虫源为3
+[INFO]2025-12-21 17:17:54  更改爬虫源为3
+[INFO]2025-12-21 17:19:10  更改爬虫源为3
+[INFO]2025-12-21 17:21:30  更改爬虫源为3
+[INFO]2025-12-21 17:21:50  click [BT下载][东岛丹三郎想成为假面骑士][更新至07集][日语中字][MKV][1080P][多版] https://www.1lou.pro/thread-856956.htm
+[INFO]2025-12-21 17:26:27  更改爬虫源为3
+[INFO]2025-12-21 17:26:30  click [BT下载][妖怪旅馆营业中 第2季][更新至07集][日语中字][MKV][1080P][多版] https://www.1lou.pro/thread-856548.htm
+[INFO]2025-12-21 17:30:36  click LoliHouse MKV 1080P简繁中
+[INFO]2025-12-21 17:34:12  更改爬虫源为3
+[INFO]2025-12-21 17:34:40  click [BT下载][东岛丹三郎想成为假面骑士][更新至07集][日语中字][MKV][1080P][多版] https://www.1lou.pro/thread-856956.htm
+[INFO]2025-12-21 17:45:16  更改爬虫源为3
+[INFO]2025-12-21 17:45:34  click [BT下载][东岛丹三郎想成为假面骑士][更新至07集][日语中字][MKV][1080P][多版] https://www.1lou.pro/thread-856956.htm
+[INFO]2025-12-21 17:45:41  click 萌番组 MP4 1080P简日中
+[INFO]2025-12-21 17:46:25  下载完成 字幕组:萌番组 MP4 1080P简日中 源网页:https://www.1lou.pro/thread-856956.htm 下载位置:D:\download\BtHome下载\2025.10\BtHome\东岛\东岛丹三郎想成为假面骑士 _ Tojima Tanzaburo wa Kamen Rider ni Naritai [01-02][1080P][Bilibili][WEB-DL][AVC AAC][简日双语].torrent
+[INFO]2025-12-21 17:46:26  下载完成 字幕组:萌番组 MP4 1080P简日中 源网页:https://www.1lou.pro/thread-856956.htm 下载位置:D:\download\BtHome下载\2025.10\BtHome\东岛\东岛丹三郎想成为假面骑士 _ Toujima Tanzaburou wa Kamen Rider ni Naritai - 03 [1080P][Bilibili][WEB-DL][AVC AAC][简日双语].torrent
+[INFO]2025-12-21 17:46:26  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\东岛\东岛丹三郎想成为假面骑士 _ Tojima Tanzaburo wa Kamen Rider ni Naritai [01-02][1080P][Bilibili][WEB-DL][AVC AAC][简日双语].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\东岛
+[INFO]2025-12-21 17:46:26  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\东岛\东岛丹三郎想成为假面骑士 _ Toujima Tanzaburou wa Kamen Rider ni Naritai - 03 [1080P][Bilibili][WEB-DL][AVC AAC][简日双语].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\东岛
+[INFO]2025-12-21 17:47:21  click LoliHouse MKV 1080P简繁中
+[INFO]2025-12-21 17:47:33  click XK SPIRITS MP4 1080P简日中/繁日中
+[INFO]2025-12-23 19:14:01  搜索结果为空
+[INFO]2025-12-23 19:14:04  更改爬虫源为3
+[INFO]2025-12-23 19:14:28  click [BT下载][弹珠汽水瓶里的千岁同学][更新至05集][日语中字][MKV][1080P][多版] https://www.1lou.pro/thread-859433.htm
+[INFO]2025-12-23 19:14:41  click 樱都字幕组 MP4 1080P简中/繁中
+[INFO]2025-12-23 19:16:12  下载完成 字幕组:樱都字幕组 MP4 1080P简中/繁中 源网页:https://www.1lou.pro/thread-859433.htm 下载位置:D:\download\BtHome下载\2025.10\BtHome\弹珠汽水瓶里的千岁同学\[桜都字幕组] 弹珠汽水瓶里的千岁同学 _ Chitose-kun wa Ramune Bin no Naka [01][1080p][简体内嵌].torrent
+[INFO]2025-12-23 19:16:13  下载完成 字幕组:樱都字幕组 MP4 1080P简中/繁中 源网页:https://www.1lou.pro/thread-859433.htm 下载位置:D:\download\BtHome下载\2025.10\BtHome\弹珠汽水瓶里的千岁同学\[桜都字幕組] 彈珠汽水瓶裡的千歲同學 _ Chitose-kun wa Ramune Bin no Naka [01][1080p][繁體內嵌].torrent
+[INFO]2025-12-23 19:16:13  下载完成 字幕组:樱都字幕组 MP4 1080P简中/繁中 源网页:https://www.1lou.pro/thread-859433.htm 下载位置:D:\download\BtHome下载\2025.10\BtHome\弹珠汽水瓶里的千岁同学\[桜都字幕组] 弹珠汽水瓶里的千岁同学 _ Chitose-kun wa Ramune Bin no Naka [02][1080p][简体内嵌].torrent
+[INFO]2025-12-23 19:16:14  下载完成 字幕组:樱都字幕组 MP4 1080P简中/繁中 源网页:https://www.1lou.pro/thread-859433.htm 下载位置:D:\download\BtHome下载\2025.10\BtHome\弹珠汽水瓶里的千岁同学\[桜都字幕組] 彈珠汽水瓶裡的千歲同學 _ Chitose-kun wa Ramune Bin no Naka [02][1080p][繁體內嵌].torrent
+[INFO]2025-12-23 19:16:14  下载完成 字幕组:樱都字幕组 MP4 1080P简中/繁中 源网页:https://www.1lou.pro/thread-859433.htm 下载位置:D:\download\BtHome下载\2025.10\BtHome\弹珠汽水瓶里的千岁同学\[桜都字幕组] 弹珠汽水瓶里的千岁同学 _ Chitose-kun wa Ramune Bin no Naka [03][1080p][简体内嵌].torrent
+[INFO]2025-12-23 19:16:15  下载完成 字幕组:樱都字幕组 MP4 1080P简中/繁中 源网页:https://www.1lou.pro/thread-859433.htm 下载位置:D:\download\BtHome下载\2025.10\BtHome\弹珠汽水瓶里的千岁同学\[桜都字幕組] 彈珠汽水瓶裡的千歲同學 _ Chitose-kun wa Ramune Bin no Naka [03][1080p][繁體內嵌].torrent
+[INFO]2025-12-23 19:16:15  下载完成 字幕组:樱都字幕组 MP4 1080P简中/繁中 源网页:https://www.1lou.pro/thread-859433.htm 下载位置:D:\download\BtHome下载\2025.10\BtHome\弹珠汽水瓶里的千岁同学\[桜都字幕组] 弹珠汽水瓶里的千岁同学 _ Chitose-kun wa Ramune Bin no Naka [04][1080p][简体内嵌].torrent
+[INFO]2025-12-23 19:16:15  下载完成 字幕组:樱都字幕组 MP4 1080P简中/繁中 源网页:https://www.1lou.pro/thread-859433.htm 下载位置:D:\download\BtHome下载\2025.10\BtHome\弹珠汽水瓶里的千岁同学\[桜都字幕組] 彈珠汽水瓶裡的千歲同學 _ Chitose-kun wa Ramune Bin no Naka [04][1080p][繁體內嵌].torrent
+[INFO]2025-12-23 19:16:16  下载完成 字幕组:樱都字幕组 MP4 1080P简中/繁中 源网页:https://www.1lou.pro/thread-859433.htm 下载位置:D:\download\BtHome下载\2025.10\BtHome\弹珠汽水瓶里的千岁同学\[桜都字幕组] 弹珠汽水瓶里的千岁同学 _ Chitose-kun wa Ramune Bin no Naka [05][1080p][简体内嵌].torrent
+[INFO]2025-12-23 19:16:16  下载完成 字幕组:樱都字幕组 MP4 1080P简中/繁中 源网页:https://www.1lou.pro/thread-859433.htm 下载位置:D:\download\BtHome下载\2025.10\BtHome\弹珠汽水瓶里的千岁同学\[桜都字幕組] 彈珠汽水瓶裡的千歲同學 _ Chitose-kun wa Ramune Bin no Naka [05][1080p][繁體內嵌].torrent
+[INFO]2025-12-23 19:16:16  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\弹珠汽水瓶里的千岁同学\[桜都字幕组] 弹珠汽水瓶里的千岁同学 _ Chitose-kun wa Ramune Bin no Naka [01][1080p][简体内嵌].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\弹珠汽水瓶里的千岁同学
+[INFO]2025-12-23 19:16:16  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\弹珠汽水瓶里的千岁同学\[桜都字幕組] 彈珠汽水瓶裡的千歲同學 _ Chitose-kun wa Ramune Bin no Naka [01][1080p][繁體內嵌].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\弹珠汽水瓶里的千岁同学
+[INFO]2025-12-23 19:16:16  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\弹珠汽水瓶里的千岁同学\[桜都字幕组] 弹珠汽水瓶里的千岁同学 _ Chitose-kun wa Ramune Bin no Naka [02][1080p][简体内嵌].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\弹珠汽水瓶里的千岁同学
+[INFO]2025-12-23 19:16:16  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\弹珠汽水瓶里的千岁同学\[桜都字幕組] 彈珠汽水瓶裡的千歲同學 _ Chitose-kun wa Ramune Bin no Naka [02][1080p][繁體內嵌].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\弹珠汽水瓶里的千岁同学
+[INFO]2025-12-23 19:16:16  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\弹珠汽水瓶里的千岁同学\[桜都字幕组] 弹珠汽水瓶里的千岁同学 _ Chitose-kun wa Ramune Bin no Naka [03][1080p][简体内嵌].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\弹珠汽水瓶里的千岁同学
+[INFO]2025-12-23 19:16:16  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\弹珠汽水瓶里的千岁同学\[桜都字幕組] 彈珠汽水瓶裡的千歲同學 _ Chitose-kun wa Ramune Bin no Naka [03][1080p][繁體內嵌].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\弹珠汽水瓶里的千岁同学
+[INFO]2025-12-23 19:16:17  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\弹珠汽水瓶里的千岁同学\[桜都字幕组] 弹珠汽水瓶里的千岁同学 _ Chitose-kun wa Ramune Bin no Naka [04][1080p][简体内嵌].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\弹珠汽水瓶里的千岁同学
+[INFO]2025-12-23 19:16:17  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\弹珠汽水瓶里的千岁同学\[桜都字幕組] 彈珠汽水瓶裡的千歲同學 _ Chitose-kun wa Ramune Bin no Naka [04][1080p][繁體內嵌].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\弹珠汽水瓶里的千岁同学
+[INFO]2025-12-23 19:16:17  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\弹珠汽水瓶里的千岁同学\[桜都字幕组] 弹珠汽水瓶里的千岁同学 _ Chitose-kun wa Ramune Bin no Naka [05][1080p][简体内嵌].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\弹珠汽水瓶里的千岁同学
+[INFO]2025-12-23 19:16:17  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\弹珠汽水瓶里的千岁同学\[桜都字幕組] 彈珠汽水瓶裡的千歲同學 _ Chitose-kun wa Ramune Bin no Naka [05][1080p][繁體內嵌].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\弹珠汽水瓶里的千岁同学
+[INFO]2025-12-23 19:16:37  click 喵萌奶茶屋 MKV 1080P简繁日中
+[INFO]2025-12-23 19:16:41  click 悠哈璃羽字幕社 MP4 1080P简中/繁中
+[INFO]2025-12-23 19:16:49  click 绿茶字幕组 MKV 1080P简繁日中
+[INFO]2025-12-23 20:07:25  更改爬虫源为1
+[INFO]2025-12-23 20:08:16  搜索结果为空
+[INFO]2025-12-23 20:08:18  更改爬虫源为1
+[INFO]2025-12-23 20:16:38  更改爬虫源为1
+[INFO]2025-12-23 20:19:26  更改爬虫源为1
+[INFO]2025-12-23 20:25:42  更改爬虫源为1
+[INFO]2025-12-23 20:26:15  更改爬虫源为1
+[INFO]2025-12-23 20:26:20  click 东岛_2 https://dmhy.org/topics/list/page
+[INFO]2025-12-23 20:27:09  搜索结果为空
+[INFO]2025-12-23 20:27:10  更改爬虫源为1
+[INFO]2025-12-23 20:27:14  click 东岛_2 https://dmhy.org/topics/list/page
+[INFO]2025-12-23 20:28:44  更改爬虫源为1
+[INFO]2025-12-23 20:28:47  click 东岛_2 https://dmhy.org/topics/list/page
+[INFO]2025-12-23 20:32:37  更改爬虫源为1
+[INFO]2025-12-23 20:32:41  click 东岛_2 https://dmhy.org/topics/list/page
+[INFO]2025-12-23 20:33:21  更改爬虫源为1
+[INFO]2025-12-23 20:33:24  click 东岛_2 https://dmhy.org/topics/list/page
+[INFO]2025-12-23 20:40:45  更改爬虫源为1
+[INFO]2025-12-23 20:40:48  click 东岛_2 https://dmhy.org/topics/list/page
+[INFO]2025-12-23 20:41:15  更改爬虫源为1
+[INFO]2025-12-23 20:41:21  click 东岛_2 https://dmhy.org/topics/list/page
+[INFO]2025-12-23 20:43:14  更改爬虫源为1
+[INFO]2025-12-23 20:43:14  搜索结果为空
+[INFO]2025-12-23 20:43:19  click 东岛_2 https://dmhy.org/topics/list/page
+[INFO]2025-12-23 20:44:14  更改爬虫源为1
+[INFO]2025-12-23 20:44:17  click 东岛_2 https://dmhy.org/topics/list/page
+[INFO]2025-12-23 20:46:39  更改爬虫源为1
+[INFO]2025-12-23 20:46:41  click 东岛_2 https://dmhy.org/topics/list/page
+[INFO]2025-12-23 20:47:39  更改爬虫源为1
+[INFO]2025-12-23 20:47:43  click 东岛_2 https://dmhy.org/topics/list/page
+[INFO]2025-12-23 20:47:52  click 芝士动物朋友
+[INFO]2025-12-23 20:48:53  更改爬虫源为1
+[INFO]2025-12-23 20:48:56  click 东岛_2 https://dmhy.org/topics/list/page
+[INFO]2025-12-23 20:48:57  click LoliHouse
+[INFO]2025-12-23 20:51:18  更改爬虫源为1
+[INFO]2025-12-23 20:51:21  click 东岛_2 https://dmhy.org/topics/list/page
+[INFO]2025-12-23 20:51:22  click DBD制作组
+[INFO]2025-12-23 20:51:36  click 魔星字幕团
+[INFO]2025-12-23 20:52:15  更改爬虫源为2
+[INFO]2025-12-23 20:52:16  更改爬虫源为1
+[INFO]2025-12-23 20:52:19  click 东岛_2 https://dmhy.org/topics/list/page
+[INFO]2025-12-23 20:52:20  click DBD制作组
+[INFO]2025-12-23 20:53:38  更改爬虫源为1
+[INFO]2025-12-23 20:53:41  click 东岛_2 https://dmhy.org/topics/list/page
+[INFO]2025-12-23 20:53:42  click DBD制作组
+[INFO]2025-12-23 20:54:00  更改爬虫源为1
+[INFO]2025-12-23 20:54:03  click 东岛_2 https://dmhy.org/topics/list/page
+[INFO]2025-12-23 20:54:07  click DBD制作组
+[INFO]2025-12-23 20:56:29  更改爬虫源为1
+[INFO]2025-12-23 20:56:31  click 东岛_2 https://dmhy.org/topics/list/page
+[INFO]2025-12-23 20:56:32  click DBD制作组
+[INFO]2025-12-23 20:56:54  更改爬虫源为1
+[INFO]2025-12-23 20:56:59  click 东岛_2 https://dmhy.org/topics/list/page
+[INFO]2025-12-23 20:57:06  click 银色子弹字幕组
+[INFO]2025-12-23 20:57:22  click 魔星字幕团
+[INFO]2025-12-23 21:01:21  更改爬虫源为1
+[INFO]2025-12-23 21:02:30  更改爬虫源为1
+[INFO]2025-12-23 21:02:40  click 东岛_2 https://dmhy.org/topics/list/page
+[INFO]2025-12-23 21:02:43  click 东岛_2 https://dmhy.org/topics/list/page
+[INFO]2025-12-23 21:02:58  click 东岛_2 https://dmhy.org/topics/list/page
+[INFO]2025-12-23 21:05:13  更改爬虫源为1
+[INFO]2025-12-23 21:05:17  click 东岛_2 https://dmhy.org/topics/list/page
+[INFO]2025-12-23 21:05:20  click 沸班亚马制作组
+[INFO]2025-12-23 21:05:37  click 星空字幕组
+[INFO]2025-12-23 21:06:28  click LoliHouse
+[INFO]2025-12-23 21:07:59  更改爬虫源为1
+[INFO]2025-12-23 21:08:01  click 东岛_2 https://dmhy.org/topics/list/page
+[INFO]2025-12-23 21:08:04  click 星空字幕组
+[INFO]2025-12-23 21:13:14  更改爬虫源为1
+[INFO]2025-12-23 21:13:17  click 东岛_2 https://dmhy.org/topics/list/page
+[INFO]2025-12-23 21:13:18  click 亿次研同好会
+[INFO]2025-12-23 21:13:54  更改爬虫源为2
+[INFO]2025-12-23 21:13:55  更改爬虫源为1
+[INFO]2025-12-23 21:13:59  click 东岛_2 https://dmhy.org/topics/list/page
+[INFO]2025-12-23 21:14:01  click 亿次研同好会
+[INFO]2025-12-23 21:20:34  更改爬虫源为1
+[INFO]2025-12-23 21:20:37  click 东岛_2 https://dmhy.org/topics/list/page
+[INFO]2025-12-23 21:20:40  click 沸班亚马制作组
+[INFO]2025-12-23 21:21:02  下载完成 字幕组:沸班亚马制作组 源网页:https://dmhy.org/topics/list/page 下载位置:D:\download\BtHome下载\2025.10\BtHome\东岛\[沸班亚马制作组] 东岛丹三郎想成为假面骑士 - 03 [CR WebRip AI2160p HEVC-10bit OPUS][简繁内封字幕].torrent
+[INFO]2025-12-23 21:21:04  下载完成 字幕组:沸班亚马制作组 源网页:https://dmhy.org/topics/list/page 下载位置:D:\download\BtHome下载\2025.10\BtHome\东岛\[沸班亚马制作组] 东岛丹三郎想成为假面骑士 - 03 [BILIBILI WebRip 2160p HEVC-10bit OPUS][简繁内封字幕].torrent
+[INFO]2025-12-23 21:21:05  下载完成 字幕组:沸班亚马制作组 源网页:https://dmhy.org/topics/list/page 下载位置:D:\download\BtHome下载\2025.10\BtHome\东岛\[沸班亚马制作组] 东岛丹三郎想成为假面骑士 - 03 [CR WebRip 1080p HEVC-10bit OPUS][简繁内封字幕].torrent
+[INFO]2025-12-23 21:21:06  下载完成 字幕组:沸班亚马制作组 源网页:https://dmhy.org/topics/list/page 下载位置:D:\download\BtHome下载\2025.10\BtHome\东岛\[沸班亚马制作组] 东岛丹三郎想成为假面骑士 - 02 [CR WebRip AI2160p HEVC-10bit OPUS][简繁内封字幕].torrent
+[INFO]2025-12-23 21:21:08  下载完成 字幕组:沸班亚马制作组 源网页:https://dmhy.org/topics/list/page 下载位置:D:\download\BtHome下载\2025.10\BtHome\东岛\[沸班亚马制作组] 东岛丹三郎想成为假面骑士 - 02 [CR WebRip 1080p HEVC-10bit OPUS][简繁内封字幕].torrent
+[INFO]2025-12-23 21:21:09  下载完成 字幕组:沸班亚马制作组 源网页:https://dmhy.org/topics/list/page 下载位置:D:\download\BtHome下载\2025.10\BtHome\东岛\[沸班亚马制作组] 东岛丹三郎想成为假面骑士 - 02 [BILIBILI WebRip 2160p HEVC-10bit OPUS][简繁内封字幕].torrent
+[INFO]2025-12-23 21:21:10  下载完成 字幕组:沸班亚马制作组 源网页:https://dmhy.org/topics/list/page 下载位置:D:\download\BtHome下载\2025.10\BtHome\东岛\[沸班亚马制作组] 东岛丹三郎想成为假面骑士 - 01 [CR WebRip AI2160p HEVC-10bit OPUS][简繁内封字幕].torrent
+[INFO]2025-12-23 21:21:11  下载完成 字幕组:沸班亚马制作组 源网页:https://dmhy.org/topics/list/page 下载位置:D:\download\BtHome下载\2025.10\BtHome\东岛\[沸班亚马制作组] 东岛丹三郎想成为假面骑士 - 01 [CR WebRip 1080p HEVC-10bit OPUS][简繁内封字幕].torrent
+[INFO]2025-12-23 21:21:12  下载完成 字幕组:沸班亚马制作组 源网页:https://dmhy.org/topics/list/page 下载位置:D:\download\BtHome下载\2025.10\BtHome\东岛\[沸班亚马制作组] 东岛丹三郎想成为假面骑士 - 01 [BILIBILI WebRip 2160p HEVC-10bit OPUS][简繁内封字幕].torrent
+[INFO]2025-12-23 21:21:21  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\东岛\[沸班亚马制作组] 东岛丹三郎想成为假面骑士 - 03 [CR WebRip AI2160p HEVC-10bit OPUS][简繁内封字幕].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\东岛
+[INFO]2025-12-23 21:21:21  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\东岛\[沸班亚马制作组] 东岛丹三郎想成为假面骑士 - 03 [BILIBILI WebRip 2160p HEVC-10bit OPUS][简繁内封字幕].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\东岛
+[INFO]2025-12-23 21:21:21  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\东岛\[沸班亚马制作组] 东岛丹三郎想成为假面骑士 - 03 [CR WebRip 1080p HEVC-10bit OPUS][简繁内封字幕].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\东岛
+[INFO]2025-12-23 21:21:21  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\东岛\[沸班亚马制作组] 东岛丹三郎想成为假面骑士 - 02 [CR WebRip AI2160p HEVC-10bit OPUS][简繁内封字幕].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\东岛
+[INFO]2025-12-23 21:21:21  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\东岛\[沸班亚马制作组] 东岛丹三郎想成为假面骑士 - 02 [CR WebRip 1080p HEVC-10bit OPUS][简繁内封字幕].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\东岛
+[INFO]2025-12-23 21:21:21  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\东岛\[沸班亚马制作组] 东岛丹三郎想成为假面骑士 - 02 [BILIBILI WebRip 2160p HEVC-10bit OPUS][简繁内封字幕].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\东岛
+[INFO]2025-12-23 21:21:21  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\东岛\[沸班亚马制作组] 东岛丹三郎想成为假面骑士 - 01 [CR WebRip AI2160p HEVC-10bit OPUS][简繁内封字幕].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\东岛
+[INFO]2025-12-23 21:21:21  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\东岛\[沸班亚马制作组] 东岛丹三郎想成为假面骑士 - 01 [CR WebRip 1080p HEVC-10bit OPUS][简繁内封字幕].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\东岛
+[INFO]2025-12-23 21:21:21  qbtorrent add D:\download\BtHome下载\2025.10\BtHome\东岛\[沸班亚马制作组] 东岛丹三郎想成为假面骑士 - 01 [BILIBILI WebRip 2160p HEVC-10bit OPUS][简繁内封字幕].torrent 保存路径为:D:\download\BtHome下载\2025.10\BtHome\东岛
